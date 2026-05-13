@@ -1,0 +1,100 @@
+
+% PAGE LAYOUT
+%
+%%pagewidth	21.6000cm
+%%pageheight	27.9000cm
+%%scale		0.750000
+%%staffsep	1.600000cm
+%%sysstaffsep	0.00000cm
+%%exprabove	false
+%%measurebox	false
+%%header "22		OPENING SONGS"
+%%footer Jn 6:67-68, 8:31-32, Heb 4:12, Jn 1:1-5, 8:12, 1Cor 2:14		7 8 7 8 8 8
+%OHSCRIP Jn 6:67-68, 8:31-32, Heb 4:12, Jn 1:1-5, 8:12, 1Cor 2:14
+%OHTOPICS {Church on Earth (Church Militant)}, {Consolation [4]}, {Darkness, Spiritual [2]}, {Education [2]}, {Father [4]}, {Guidance}, {Holiness}, {Holy Spirit [2-4]}, {Invitation (Faithful's to God)}, {Invitation (God's to Us)}, {Jesus [1,4]}, {Knowledge [2]}, {Light [2,3]}, {Love}, {Opening Songs}, {Presence}, {Trinity}
+%OHCATEGORY OPENING SONGS
+%OHMETRICAL 7 8 7 8 8 8
+%OHCOMPLEXITY 2
+%OHCOMPOSER Ahle, Johann Rudolph (1625-1673)
+%OHARRANGER Layriz, Fridrich (1808-1859)
+%OHAUTHOR Clausnitzer, Tobias (1619-1684)
+%OHTRANSLATOR Winkworth, Catherine (1827-1878)
+%%postscript /st { moveto -8 0 rmoveto 0 8 rlineto 4 0 rlineto stroke } def
+%%postscript /nd { moveto -8 0 rmoveto 0 8 rlineto -4 0 rlineto stroke } def
+%%deco sintro 6 st 6 0 0 
+%%deco eintro 6 nd 6 0 0 
+
+X: 239
+T: Happy the Man Who Feareth God
+%%combinevoices 1
+T: (also known as Happy Who in God's Fear Doth Stay)
+C: Words: Martin Luther, 1524.  Translated by Richard Massie, 1854. 
+C: Music: 'Wo Gott Zum Haus' Klug's Geistliche Lieder, Wittenberg, 1533. 
+C: Setting: "Evangelical Lutheran Hymn-Book", 1931.
+C: copyright: public domain.  This score is a part of the Open Hymnal Project, 2006 Revision.
+M: 4/4 % time signature
+L: 1/4 % default length
+%%staves (S1V1 S1V2) | (S2V1 S2V2) 
+V: S1V1 clef=treble 
+%%MIDI beat 127 125 110 1
+V: S1V2 
+%%MIDI beat 127 125 110 1
+V: S2V1 clef=bass 
+%%MIDI beat 127 125 110 1
+V: S2V2 
+%%MIDI beat 127 125 110 1
+K: Eb % key signature
+%
+%%MIDI program 1 0 % Piano 1
+%%MIDI program 2 0 % Piano 1
+%%MIDI program 3 0 % Piano 1
+%%MIDI program 4 0 % Piano 1
+%
+% 1
+[V: S1V1] [Q:1/4=100] E2 B B | G F G =A | B3/2 B/ G B | A B G F | E3/2
+w: 1.~Hap- py the man who fear- eth God, Whose feet His ho- ly ways have trod; 
+w: 2.~Thy wife shall, like a fruit- ful vine, Fill all thy house with clus- ters fine; 
+w: 3.~Lo! to the man these bless- ings cleave Who in God's ho- ly fear doth live; 
+w: 4.~Out of Mount Zi- on God shall send, And crown with joy thy lat- ter end; 
+w: 5.~He shall be with thee in thy ways, And give thee health and length of days 
+[V: S1V2]  B,2 E F | E D B, C | D3/2 E/ E F | F F E D | E3/2
+[V: S2V1]  G,2 G, F, | B, B, G, E, | F,3/2 G,/ B, D | C B, B, B, | G,3/2
+[V: S2V2]  E,2 E, D, | E, B,, E, C, | B,,3/2 E,/ E, B,, | F, D, E, B,, | E,3/2
+% 5
+[V: S1V1]  B/ c c | G B A A | G3/2 !sintro!_e/ d c | B c A/G/ F | E4 !eintro!|]
+w: Thine own good hand shall nour- ish thee, And well and hap- py shalt * thou be. 
+w: Thy child- ren all be fresh and sound, Like ol- ive\- plants thy ta- * ble round. 
+w: From him the an- cient curse hath fled By A- dam's race in- her- * it- ed. 
+w: That thou Je- ru- sa- lem mayst see, In fa- vor and pros- per- * it- y. 
+w: Yea, thou shalt child- ren's child- ren see, And peace on Is- ra- el * shall be. 
+[V: S1V2]  E/ E E | E F F F | =E3/2 _E/ G E | E E C D | E4 |]
+[V: S2V1]  G,/ A, A, | B, D C C | C3/2 G,/ B, A, | G, G, A, B, | G,4 |]
+[V: S2V2]  E,/ A,, C, | E, B,, F, F,, | C,3/2 C,/ G,, A,, | E, C, F, B,, | E,4 |]
+% 11
+
+%%newpage
+
+% PAGE LAYOUT
+%
+%%pagewidth	21.6000cm
+%%pageheight	27.9000cm
+%%scale		0.750000
+%%staffsep	1.60000cm
+%%exprabove	false
+%%measurebox	false
+%%header "240		NEW OBEDIENCE"
+%%footer Jn 12:26, 1Pt 2:19-24, 3:12-16, Heb 11		11 11 12 11
+%OHSCRIP Jn 12:26, 1Pt 2:19-24, 3:12-16, Heb 11
+%OHTOPICS {Anticipation [3]}, {Aspiration}, {Christian Life}, {Commitment}, {Courage in Affliction}, {Discipleship}, {Eternal Life [3]}, {Faithfulness}, {Following Jesus, In Faith}, {Following Jesus, In Action}, {Following Jesus, Sanctification}, {Holy Spirit [3]}, {Loyalty}, {Sacrifice}, {Victory [3]}, {Zeal}
+%OHCATEGORY NEW OBEDIENCE
+%OHMETRICAL 11 11 12 11
+%OHCOMPLEXITY 3
+%OHCOMPOSER English
+%OHARRANGER Williams, Ralph Vaughan (1872-1958)
+%OHAUTHOR Bunyan, John (1628-1688);Dearmer, Percy (1867-1936)
+%OHTRANSLATOR none
+%%postscript /st { moveto -8 0 rmoveto 0 8 rlineto 4 0 rlineto stroke } def
+%%postscript /nd { moveto -8 0 rmoveto 0 8 rlineto -4 0 rlineto stroke } def
+%%deco sintro 6 st 6 0 0 
+%%deco eintro 6 nd 6 0 0 
+

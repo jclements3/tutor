@@ -1,0 +1,110 @@
+
+% PAGE LAYOUT
+%
+%%pagewidth	21.6000cm
+%%pageheight	27.9000cm
+%%scale		0.750000
+%%staffsep	1.600000cm
+%%sysstaffsep	0.00000cm
+%%exprabove	false
+%%measurebox	false
+%%header "22		OPENING SONGS"
+%%footer Jn 6:67-68, 8:31-32, Heb 4:12, Jn 1:1-5, 8:12, 1Cor 2:14		7 8 7 8 8 8
+%OHSCRIP Jn 6:67-68, 8:31-32, Heb 4:12, Jn 1:1-5, 8:12, 1Cor 2:14
+%OHTOPICS {Church on Earth (Church Militant)}, {Consolation [4]}, {Darkness, Spiritual [2]}, {Education [2]}, {Father [4]}, {Guidance}, {Holiness}, {Holy Spirit [2-4]}, {Invitation (Faithful's to God)}, {Invitation (God's to Us)}, {Jesus [1,4]}, {Knowledge [2]}, {Light [2,3]}, {Love}, {Opening Songs}, {Presence}, {Trinity}
+%OHCATEGORY OPENING SONGS
+%OHMETRICAL 7 8 7 8 8 8
+%OHCOMPLEXITY 2
+%OHCOMPOSER Ahle, Johann Rudolph (1625-1673)
+%OHARRANGER Layriz, Fridrich (1808-1859)
+%OHAUTHOR Clausnitzer, Tobias (1619-1684)
+%OHTRANSLATOR Winkworth, Catherine (1827-1878)
+%%postscript /st { moveto -8 0 rmoveto 0 8 rlineto 4 0 rlineto stroke } def
+%%postscript /nd { moveto -8 0 rmoveto 0 8 rlineto -4 0 rlineto stroke } def
+%%deco sintro 6 st 6 0 0 
+%%deco eintro 6 nd 6 0 0 
+
+X: 186
+T: My Neighbor
+%%combinevoices 1
+C: Words: John G. Fleischmann, 2007.
+C: Music: 'Tallis` Canon' Thomas Tallis, circa 1567.  Setting: "A Hymnal" (Episcopal), 1916.
+C: copyright: Words: Copyright 2007, John G. Fleischmann. These lyrics may be freely reproduced or published for  
+C: Christian worship, provided they are not altered, and this notice is on each copy. All other rights reserved.
+C: Music and Setting: public domain.  This score is a part of the Open Hymnal Project, 2011 Revision.
+S: Music source: Episcopal Hymnal, 1916 Hymn 25.
+M: 4/4 % time signature
+L: 1/4 % default length
+%%staves (S1V1 S1V2) | (S2V1 S2V2) 
+V: S1V1 clef=treble 
+%%MIDI beat 127 125 110 1
+V: S1V2 
+%%MIDI beat 127 125 110 1
+V: S2V1 clef=bass 
+%%MIDI beat 127 125 110 1
+V: S2V2 
+%%MIDI beat 127 125 110 1
+K: G % key signature
+%
+%%MIDI program 1 0 % Piano 1
+%%MIDI program 2 0 % Piano 1
+%%MIDI program 3 0 % Piano 1
+%%MIDI program 4 0 % Piano 1
+%
+% 1
+[V: S1V1] [Q:1/4=100] G | G F G G | A A B G | c c B B | A A G
+w: 1.~Un- clean and bat- tered, torn by sin, By things I do, my thoughts with- in,
+w: 2.~A- cross that road the world passed by turn- ing a deaf ear to my cry,
+w: 3.~And, what of me, when I saw need?  Did I my Sa- vior's bid- ding heed?
+w: 4.~Sin bleeds from me and stops my breath, in A- dam all I know is death;
+w: 5.~But in my need my Sa- vior died, Not pas- sing on the o- ther side.
+[V: S1V2]  D | D D B, D | E D D G | E F G D | E D D
+[V: S2V1]  B, | A, A, G, G, | G, F, G, G, | A, A, B, G, | C C B,
+[V: S2V2]  G, | D, D, E, B,, | C, D, G,, B,, | A,, A,, G,, G, | G, F, G,
+% 6
+[V: S1V1]  d | c A B B | A A G !sintro!D | E F G B | A A G !eintro!|]
+w: I lie there blood- ied on life's road with death and sin my on- ly load.
+w: No help to give, they could not save and so they left me for my grave.
+w: Too of- ten on the o- ther side I've walked a- way be- cause of pride.
+w: My works are rags, my off- erings vain, From dust I came in dust re- main.
+w: Re- breathed His Spir- it in my dust, bound up my wounds, de- clared me just.
+[V: S1V2]  G | E D D D | E F G G, | E D B, D | C A, B, |]
+[V: S2V1]  B, | A, A, G, D | C A, B, B, | A, A, G, D, | E, F, G, |]
+[V: S2V2]  G, | A, F, G, G,, | C, D, G,, B,, | C, D, E, B,, | C, D, G,, |]
+% 11
+W: 6. Now safe within His Church I'm free; Blood, Water, Spirit plead for me,
+W: The Ark of God, the Inn of Grace Where I behold my Father's face.
+W:
+W: 7. May I in Christ my neighbor know Binding his wounds serves Christ below.
+W: Your love for him make plain through me, that he may, too, your Glory see.
+W:
+W: 8. You loved me when I could not love, For my sin barred me from above.
+W: In Christ my love is now set free, O praise and bless the Trinity.
+
+%%newpage
+
+% PAGE LAYOUT
+%
+%%pagewidth	21.6000cm
+%%pageheight	27.9000cm
+%%scale		0.750000
+%%staffsep	1.600000cm
+%%sysstaffsep	0.00000cm
+%%exprabove	false
+%%measurebox	false
+%%header "JUSTIFICATION		187"
+%%footer Eph 3:14-21, 1Jn 4:7-10, Rom 8:38-39, 1Pt 5:6-7		8 8 8 8
+%OHSCRIP Eph 3:14-21, 1Jn 4:7-10, Rom 8:38-39, 1Pt 5:6-7
+%OHTOPICS {Angels [2]}, {Atonement}, {Baptism [4]}, {Cross [6]}, {Easter [7]}, {Easter Week / Passion [6]}, {Example, Christ's}, {Faithfulness}, {Father [8]}, {Forgiveness}, {God, Care of}, {God, Faithfulness of}, {God, Goodness of}, {God, Love of}, {God, Mercy of}, {Gospel}, {Grace}, {Gratitude}, {Holy Spirit [8]}, {Jesus}, {Kindness, God's}, {Prayer [5]}, {Presence}, {Resurrection [7]}, {Sacrifice}, {Salvation}, {Service}, {Trinity [8]}
+%OHCATEGORY JUSTIFICATION
+%OHMETRICAL 8 8 8 8
+%OHCOMPLEXITY 4
+%OHCOMPOSER English
+%OHARRANGER Douglas, Charles Winfred (1867-1944)
+%OHAUTHOR unknown
+%OHTRANSLATOR Webb, Benjamin (1819-1885)
+%%postscript /st { moveto -8 0 rmoveto 0 8 rlineto 4 0 rlineto stroke } def
+%%postscript /nd { moveto -8 0 rmoveto 0 8 rlineto -4 0 rlineto stroke } def
+%%deco sintro 6 st 6 0 0
+%%deco eintro 6 nd 6 0 0
+

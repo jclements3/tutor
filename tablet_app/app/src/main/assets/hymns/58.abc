@@ -1,0 +1,145 @@
+
+% PAGE LAYOUT
+%
+%%pagewidth	21.6000cm
+%%pageheight	27.9000cm
+%%scale		0.750000
+%%staffsep	1.600000cm
+%%sysstaffsep	0.00000cm
+%%exprabove	false
+%%measurebox	false
+%%header "22		OPENING SONGS"
+%%footer Jn 6:67-68, 8:31-32, Heb 4:12, Jn 1:1-5, 8:12, 1Cor 2:14		7 8 7 8 8 8
+%OHSCRIP Jn 6:67-68, 8:31-32, Heb 4:12, Jn 1:1-5, 8:12, 1Cor 2:14
+%OHTOPICS {Church on Earth (Church Militant)}, {Consolation [4]}, {Darkness, Spiritual [2]}, {Education [2]}, {Father [4]}, {Guidance}, {Holiness}, {Holy Spirit [2-4]}, {Invitation (Faithful's to God)}, {Invitation (God's to Us)}, {Jesus [1,4]}, {Knowledge [2]}, {Light [2,3]}, {Love}, {Opening Songs}, {Presence}, {Trinity}
+%OHCATEGORY OPENING SONGS
+%OHMETRICAL 7 8 7 8 8 8
+%OHCOMPLEXITY 2
+%OHCOMPOSER Ahle, Johann Rudolph (1625-1673)
+%OHARRANGER Layriz, Fridrich (1808-1859)
+%OHAUTHOR Clausnitzer, Tobias (1619-1684)
+%OHTRANSLATOR Winkworth, Catherine (1827-1878)
+%%postscript /st { moveto -8 0 rmoveto 0 8 rlineto 4 0 rlineto stroke } def
+%%postscript /nd { moveto -8 0 rmoveto 0 8 rlineto -4 0 rlineto stroke } def
+%%deco sintro 6 st 6 0 0 
+%%deco eintro 6 nd 6 0 0 
+
+X: 80
+T: To Jordan Came Our Lord, The Christ
+%%combinevoices 1
+C: Words: Martin Luther, 1541. Translated by Richard Massie, 1854.  
+C: Music: 'Christ, Unser Herr' Johann Walter, 1524. 
+C: Setting: composite from "Kern des Deutschen Kirchengesangs", 1855 and "Mehrstimmiges ChoralBuch", 1906.
+C: copyright: public domain.  This score is a part of the Open Hymnal Project, 2006 Revision.
+S: Music source: 'Evangelical Lutheran Hymn Book' Edition of 1931 Hymn 401.
+S: Arrangement composite from "Kern des Deutschen Kirchengesangs", 1855 ed. Dr. Fridrich Layriz hymn 18 and "Mehrstimmiges ChoralBuch", 1906 Hymn #31, page 22 Ed. Karl Brauer.
+M: 4/4 % time signature
+L: 1/4 % default length
+%%staves (S1V1 S1V2) | (S2V1 S2V2) 
+%%staffsep 0.62cm
+V: S1V1 clef=treble 
+%%MIDI beat 127 125 110 1
+V: S1V2 
+%%MIDI beat 127 125 110 1
+V: S2V1 clef=bass 
+%%MIDI beat 127 125 110 1
+V: S2V2 
+%%MIDI beat 127 125 110 1
+K: C % key signature
+%
+%%MIDI program 1 0 % Piano 1
+%%MIDI program 2 0 % Piano 1
+%%MIDI program 3 0 % Piano 1
+%%MIDI program 4 0 % Piano 1
+%
+% 1
+[V: S1V1] [Q:1/4=120] D2 F G | A G c B | A3 A | c B A G | (F E) D2 | D2
+w: 1.~To Jor- dan came our Lord the Christ, To do God's plea- sure will- * ing, And 
+w: 2.~So hear ye all, and well per- ceive What God doth call bap- ti- * sm, And 
+w: 3.~To show us this, He hath His Word With signs and sym- bols gi- * ven; On 
+w: 4.~In ten- der man- hood Je- sus straight To ho- ly Jor- dan wend- * eth; The 
+w: 5.~Thus Je- sus His dis- ci- ples sent: Go teach ye e- very na- * tion, That 
+[V: S1V2]  D2 D D | E E E E | C3 D | E G F E | (D3/2 ^C/) D2 | D2
+[V: S2V1]  F,2 A, B, | C B, A, ^G, | A,3 F, | G, G, C C | A,2 F,2 | F,2
+[V: S2V2]  D,2 D, B,, | A,, E, C,/D,/ E, | A,,3 D, | C, E, F, C, | (D, A,,) D,2 | D,2
+% 5
+[V: S1V1]  F G | A G c B | A3 A | c B A G | (F E) D2 | z D G G |
+w: there was by Saint John bap- tized, All right- eous- ness ful- fill- * ing; There did He 
+w: what a Christ- ian should be- lieve Who er- ror shuns and schi- * sm: That we should 
+w: Jor- dan's banks was plain- ly heard The Fa- ther's voice from Hea- * ven: "This is My 
+w: Ho- ly Ghost from Hea- ven's gate In dove- like shape de- scen- * deth; That thus the 
+w: lost in sin they must re- pent; And flee from con- dem- na- * tion: He that be- 
+[V: S1V2]  D D | E E E E | C3 D | E G F E | (D3/2 ^C/) D2 | x D E D |
+[V: S2V1]  A, B, | C B, A, ^G, | A,3 F, | G, G, C C | A,2 F,2 | z F, G, G, |
+[V: S2V2]  D, B,, | A,, E, C,/D,/ E, | A,,3 D, | C, E, F, C, | (D, A,,) D,2 | x D, C, B,, |
+% 13
+[V: S1V1]  E A A G | A3 A | d d e3/2 c/ | (d/ c/ B) A2 | z A c B | A G A 
+w: con- se- crate a bath To wash a- way trans- gres- * * sion, And quench the bit- ter- ness 
+w: wa- ter use, the Lord De- clar- eth it His plea- * * sure; Not sim- ple wa- ter, but 
+w: well\- be- lo- ved Son, In whom My soul de- light- * * eth; Hear Him." Yea, hear Him e- 
+w: truth be not de- nied, Nor should our faith e'er wa- * * ver, That the Three Per- sons all 
+w: lieves and is bap- tized, Ob- tains a might- y bless- * * ing; A new- born man, no more 
+[V: S1V2]  C E F E | C3 E | G A ^G3/2 A/ | (F/ A ^G/) A2 | x C E G | F E E 
+[V: S2V1]  G, C D B, | A,3 C | B, A, B,3/2 A,/ | (A, E) C2 | z A, G, G, | C C C 
+[V: S2V2]  C, A,, D, E, | A,,3 A, | G, F, E,3/2 F,/ | (D, E,) A,,2 | x F, C, E, | F, C, A,, 
+% 17
+[V: S1V1]  F | E3 D | F G A3/2 F/ | (G/F/ E) D2 | z !sintro!d d d | e d (c B) | A4 !eintro!|]
+w: of death By His own blood and pas- * * sion; He would a new life give * us. 
+w: the Word And Spi- rit with- out mea- * * sure; He is the true Bap- ti- * zer. 
+w: very one Whom He Him- self in- vi- * * teth, Hear and o- bey His teach- * ing. 
+w: pre- side, At bap- tism's ho- ly la- * * ver, And dwell with the be- lie- * ver. 
+w: he dies, E- ter- nal life pos- ses- * * sing, A joy- ful heir of Hea- * ven. 
+[V: S1V2]  D | ^C3 A, | D3/2 E/ F3/2 D/ | (D3/2 ^C/) D2 | x F D G | G F E2 | ^C4 |]
+[V: S2V1]  A, | A,3 F, | _B, B, C3/2 B,/ | (_B,/A,/ A,) F,2 | z A, A, B, | C A, (A, ^G,) | A,4 |]
+[V: S2V2]  D, | A,,3 D, | _B,, G,, F,,3/2 _B,,/ | (G,,/D,/ A,,) D,2 | x D, F, G, | C, D, (A,, E,) | A,,4 |]
+% 25
+%%multicol start
+%%rightmargin 12cm
+%%textfont Times-Roman 12.0
+%%begintext obeylines justify
+%% 6.\tWho in this mercy hath not faith, Nor aught therein discerneth,
+%% \t\t\t\tIs yet in sin, condemned to death, And fire that ever burneth;
+%% \t\t\t\tHis holiness avails him not, Nor aught which he is doing;
+%% \t\t\t\tHis inborn sin brings all to naught, And maketh sure his ruin;
+%% \t\t\t\tHimself he cannot succor.
+%%endtext
+%%multicol new
+%%leftmargin 10.5cm
+%%rightmargin 2cm
+%%textfont Times-Roman 12.0
+%%begintext obeylines justify
+%% 7.\tThe eye of sense alone is dim, And nothing sees but water;
+%% \t\t\t\tFaith sees Christ Jesus, and in Him The Lamb ordained for slaughter;
+%% \t\t\t\tShe sees the cleansing fountain red With the dear blood of Jesus,
+%% \t\t\t\tWhich from the sins inherited From fallen Adam frees us,
+%% \t\t\t\tAnd from our own misdoings.
+%%endtext
+%%multicol end
+
+%%newpage
+
+% PAGE LAYOUT
+%
+%%pagewidth	21.6000cm
+%%pageheight	27.9000cm
+%%scale		0.750000
+%%staffsep	1.600000cm
+%%sysstaffsep	0.00000cm
+%%exprabove	false
+%%measurebox	false
+%%header "81		EPIPHANY"
+%%footer Lk 2:41-51, Mal 3:1, Jn 2:17, 1Tim 3:16, 1Cor 2:9		6 6 8 6
+%OHSCRIP Lk 2:41-51, Mal 3:1, Jn 2:17, 1Tim 3:16, 1Cor 2:9
+%OHTOPICS {Cloud [6]}, {Consecration [5-7]}, {Day [6]}, {Eternal Life [6]}, {Holiness}, {Jesus}, {Presence}
+%OHCATEGORY EPIPHANY
+%OHMETRICAL 6 6 8 6
+%OHCOMPLEXITY 1
+%OHCOMPOSER König, Johann Balthasar (1691-1758)
+%OHARRANGER Havergal, William Henry (1793-1870)
+%OHAUTHOR Woodford, James Russell (1820-1885)
+%OHTRANSLATOR none
+%%postscript /st { moveto -8 0 rmoveto 0 8 rlineto 4 0 rlineto stroke } def
+%%postscript /nd { moveto -8 0 rmoveto 0 8 rlineto -4 0 rlineto stroke } def
+%%deco sintro 6 st 6 0 0 
+%%deco eintro 6 nd 6 0 0 
+

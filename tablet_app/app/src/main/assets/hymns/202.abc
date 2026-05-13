@@ -1,0 +1,119 @@
+
+% PAGE LAYOUT
+%
+%%pagewidth	21.6000cm
+%%pageheight	27.9000cm
+%%scale		0.750000
+%%staffsep	1.600000cm
+%%sysstaffsep	0.00000cm
+%%exprabove	false
+%%measurebox	false
+%%header "22		OPENING SONGS"
+%%footer Jn 6:67-68, 8:31-32, Heb 4:12, Jn 1:1-5, 8:12, 1Cor 2:14		7 8 7 8 8 8
+%OHSCRIP Jn 6:67-68, 8:31-32, Heb 4:12, Jn 1:1-5, 8:12, 1Cor 2:14
+%OHTOPICS {Church on Earth (Church Militant)}, {Consolation [4]}, {Darkness, Spiritual [2]}, {Education [2]}, {Father [4]}, {Guidance}, {Holiness}, {Holy Spirit [2-4]}, {Invitation (Faithful's to God)}, {Invitation (God's to Us)}, {Jesus [1,4]}, {Knowledge [2]}, {Light [2,3]}, {Love}, {Opening Songs}, {Presence}, {Trinity}
+%OHCATEGORY OPENING SONGS
+%OHMETRICAL 7 8 7 8 8 8
+%OHCOMPLEXITY 2
+%OHCOMPOSER Ahle, Johann Rudolph (1625-1673)
+%OHARRANGER Layriz, Fridrich (1808-1859)
+%OHAUTHOR Clausnitzer, Tobias (1619-1684)
+%OHTRANSLATOR Winkworth, Catherine (1827-1878)
+%%postscript /st { moveto -8 0 rmoveto 0 8 rlineto 4 0 rlineto stroke } def
+%%postscript /nd { moveto -8 0 rmoveto 0 8 rlineto -4 0 rlineto stroke } def
+%%deco sintro 6 st 6 0 0 
+%%deco eintro 6 nd 6 0 0 
+
+X: 225
+T: Guide Me, O Thou Great Jehovah
+%%combinevoices 1
+C: Words: William Williams, 1745.  Translated by Peter Williams, 1771.  
+C: Music: 'Cwm Rhondda' John Hughes, 1907.  Setting: "The Methodist Hymnbook" (UK), 1933.
+C: copyright: public domain.  This score is a part of the Open Hymnal Project, 2007 Revision.
+S: Music source: http://www.MutopiaProject.org/ placed by Peter Chubb, 2005/01/18
+M: 4/4 % time signature
+L: 1/4 % default length
+%%staves (S1V1 S1V2) | (S2V1 S2V2) 
+V: S1V1 clef=treble 
+%%MIDI beat 127 125 110 1
+V: S1V2 
+%%MIDI beat 127 125 110 1
+V: S2V1 clef=bass 
+%%MIDI beat 127 125 110 1
+V: S2V2 
+%%MIDI beat 127 125 110 1
+K: G % key signature
+%
+%%MIDI program 1 0 % Piano 1
+%%MIDI program 2 0 % Piano 1
+%%MIDI program 3 0 % Piano 1
+%%MIDI program 4 0 % Piano 1
+%
+% 1
+[V: S1V1] [Q:1/4=120] D E D3/2 G/ | G/F/ G/A/ B A | B G E c |
+w: 1.~Guide me, O Thou great * Je- * ho- vah, Pil- grim through this 
+w: 2.~O- pen now the crys- * tal * foun- tain, Whence the heal- ing 
+w: 3.~Lord, I trust Thy migh- * ty * po- wer, Won- drous are Thy 
+w: 4.~When I tread the verge * of * Jor- dan, Bid my an- xious 
+w: 5.~Mu- sing on my ha- * bi- * ta- tion, Mu- sing on my 
+[V: S1V2]  B, C D3/2 D/ | D D/E/ D D | D C E E |
+[V: S2V1]  G, G, G,3/2 B,/ | B,/A,/ G, G, F, | G, G, G, G, |
+[V: S2V2]  G,, C, B,, A,, | G,,/A,,/ B,,/C,/ D, D, | G, E, C, A,, |
+% 5
+[V: S1V1]  B A G2 | D E D3/2 G/ | G/F/ G/A/ B A | B c d c/A/ |
+w: bar- ren land. I am weak, but Thou * art * might- y; Hold me with Thy * 
+w: stream doth flow; Let the fire and clou- * dy * pil- lar Lead me all my * 
+w: works of old; Thou de- liv- er'st Thine * from * thrall- dom, Who for naught them- * 
+w: fears sub- side; Death of deaths, and hell's * de- * struc- tion, Land me safe on * 
+w: heav'n- ly home, Fills my soul with ho- * ly * long- ings: Come, my Je- sus, * 
+[V: S1V2]  D C B,2 | B, C D3/2 D/ | D D/E/ D D | D E D E |
+[V: S2V1]  G, F, G,2 | G, G, G,3/2 B,/ | B,/A,/ G, G, F, | G, G, G, G,/C/ |
+[V: S2V2]  D, D, G,,2 | G,, C, B,, A,, | G,,/A,,/ B,,/C,/ D, D, | G, E, B,, C, |
+% 9
+[V: S1V1]  G F G2 | A3/2 B/ c A | B3/2 c/ .(d B) | d3/2 d/
+w: pow'r- ful hand. Bread of Hea- ven, Bread of Hea- ven, Feed me 
+w: jour- ney through. Strong De- liv'r- er, strong De- liv'r- er, Be Thou 
+w: selves had sold: Thou didst con- quer, Thou didst con- quer, Sin, and 
+w: Ca- naan's side. Songs of prai- ses, songs of prai- ses, I will 
+w: quick- ly come; Va- ni- ty is all I see; * Lord, I 
+[V: S1V2]  D D D2 | F3/2 G/ A D | G3/2 A/ .(B/A/ G) | G3/2 G/
+[V: S2V1]  B, A, B,2 | C3/2 B,/ A,/G,/ F,/A,/ | D3/2 C/ .(B, D) | D3/2 D/
+[V: S2V2]  D, D, G,,2 | D,3/2 D,/ D,/E,/ F, | G,3/2 D,/ .(G,/A,/ B,) | B,3/2 B,/
+% 13
+[V: S1V1]  d/d/ d/d/ | d4 | !sintro!d3/2 c/ B/d/ c/A/ | G F G2 !eintro!|]
+w: till I want no more; Feed me till * I * want no more. 
+w: still my Strength and Shield; Be Thou still * my * Strength and Shield. 
+w: Sa- tan and the grave, Sin, and Sa- * tan * and the grave. 
+w: ev- er give to Thee; I will ev- * er * give to Thee. 
+w: long to be with Thee! Lord, I long * to * be with Thee! 
+[V: S1V2]  F/G/ D/G/ | (F D/F/ A2) | G3/2 F/ G E | D D D2 |]
+[V: S2V1]  C/B,/ A,/G,/ | D4 | D3/2 D/ D/B,/ A,/C/ | B, A,/C/ B,2 |]
+[V: S2V2]  A,/G,/ F,/E,/ | (D, F,/A,/ C2) | B,3/2 A,/ G, C, | D, D, G,2 |]
+% 16
+
+%%newpage
+
+% PAGE LAYOUT
+%
+%%pagewidth	21.6000cm
+%%pageheight	27.9000cm
+%%scale		0.730000
+%%staffsep	1.60000cm
+%%exprabove	false
+%%measurebox	false
+%%header "CONSECRATION		226"
+%%footer Ps 23:1-3, 31:3, Jn 16:13, Mt 6:13, Mk 1:16-20, Jn 1:43-51		8 8 8 8 8 8 8 8
+%OHSCRIP Ps 23:1-3, 31:3, Jn 16:13, Mt 6:13, Mk 1:16-20, Jn 1:43-51
+%OHTOPICS {Anticipation [4]}, {Calmness}, {Christian Life}, {Comfort}, {Consecration}, {Courage in Affliction [1-2]}, {Discipleship}, {Eternal Life [4]}, {Faithfulness}, {Following Jesus, In Faith}, {Following Jesus, Sanctification}, {God, Care of}, {God, Faithfulness of}, {God, Providence of}, {Guidance}, {Leadership}, {Submission (see also Following Jesus, God - Providence of, Trust)}, {Trust}
+%OHCATEGORY CONSECRATION
+%OHMETRICAL 8 8 8 8 8 8 8 8
+%OHCOMPLEXITY 1
+%OHCOMPOSER Bradbury, William Batchelder (1816-1868)
+%OHARRANGER Bradbury, William Batchelder (1816-1868)
+%OHAUTHOR Gilmore, Joseph Henry (1834-1918)
+%OHTRANSLATOR none
+%%postscript /st { moveto -8 0 rmoveto 0 8 rlineto 4 0 rlineto stroke } def
+%%postscript /nd { moveto -8 0 rmoveto 0 8 rlineto -4 0 rlineto stroke } def
+%%deco sintro 6 st 6 0 0 
+%%deco eintro 6 nd 6 0 0 
+

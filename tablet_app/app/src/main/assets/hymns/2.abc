@@ -1,0 +1,165 @@
+
+% PAGE LAYOUT
+%
+%%pagewidth	21.6000cm
+%%pageheight	27.9000cm
+%%scale		0.750000
+%%staffsep	1.600000cm
+%%sysstaffsep	0.00000cm
+%%exprabove	false
+%%measurebox	false
+%%header "22		OPENING SONGS"
+%%footer Jn 6:67-68, 8:31-32, Heb 4:12, Jn 1:1-5, 8:12, 1Cor 2:14		7 8 7 8 8 8
+%OHSCRIP Jn 6:67-68, 8:31-32, Heb 4:12, Jn 1:1-5, 8:12, 1Cor 2:14
+%OHTOPICS {Church on Earth (Church Militant)}, {Consolation [4]}, {Darkness, Spiritual [2]}, {Education [2]}, {Father [4]}, {Guidance}, {Holiness}, {Holy Spirit [2-4]}, {Invitation (Faithful's to God)}, {Invitation (God's to Us)}, {Jesus [1,4]}, {Knowledge [2]}, {Light [2,3]}, {Love}, {Opening Songs}, {Presence}, {Trinity}
+%OHCATEGORY OPENING SONGS
+%OHMETRICAL 7 8 7 8 8 8
+%OHCOMPLEXITY 2
+%OHCOMPOSER Ahle, Johann Rudolph (1625-1673)
+%OHARRANGER Layriz, Fridrich (1808-1859)
+%OHAUTHOR Clausnitzer, Tobias (1619-1684)
+%OHTRANSLATOR Winkworth, Catherine (1827-1878)
+%%postscript /st { moveto -8 0 rmoveto 0 8 rlineto 4 0 rlineto stroke } def
+%%postscript /nd { moveto -8 0 rmoveto 0 8 rlineto -4 0 rlineto stroke } def
+%%deco sintro 6 st 6 0 0 
+%%deco eintro 6 nd 6 0 0 
+
+X: 24
+T: O Holy Spirit, Enter In
+%%combinevoices 1
+C: Words: Michael Schirmer, 1650 except verse 2 by unknown author circa 1660.  
+C: Verses 1, 4, 6-8 translated by by Catherine Winkworth, 1863.  Remaining verses unknown translator before 1931.
+C: Music: 'Wie Schön Leuchtet' Phillipp Nicolai, 1599.  Setting: "Mehrstimmiges ChoralBuch", 1906.
+C: copyright: public domain.  This score is a part of the Open Hymnal Project, 2012 Revision.
+S: Music source: "Mehrstimmiges ChoralBuch", 1906 Hymn #184, page 145 Ed. Karl Brauer.
+S: Text source "Evangelical Lutheran Hymn-Book", 1931.
+M: 4/4 % time signature
+L: 1/4 % default length
+%%staves (S1V1 S1V2) | (S2V1 S2V2) 
+V: S1V1 clef=treble 
+%%MIDI beat 127 125 110 1
+V: S1V2 
+%%MIDI beat 127 125 110 1
+V: S2V1 clef=bass 
+%%MIDI beat 127 125 110 1
+V: S2V2 
+%%MIDI beat 127 125 110 1
+K: Eb % key signature
+%
+%%MIDI program 1 0 % Piano 1
+%%MIDI program 2 0 % Piano 1
+%%MIDI program 3 0 % Piano 1
+%%MIDI program 4 0 % Piano 1
+%
+% 1
+[V: S1V1] [Q:1/4=150] z2 E2 | B2 G2 | E2 B2 | c c B2 | z B c d | e d
+w: 1.~O Ho- ly Spir- it, en- ter in, And in our hearts Thy 
+w: 2.~Give to Thy Word im- press- ive pow'r That in our hearts, from 
+w: 3.~Thou foun- tain whence all wis- dom flows Which God on pi- ous 
+w: 4.~Left to our- selves, we shall but stray; O lead us on the 
+w: 5.~Thy heav'n- ly strength sus- tain our heart That we may act the 
+[V: S1V2] x2 B,2 | F2 B,2 | C2 F2 | G F D2 | x E E F | G F
+[V: S2V1] z2 G,2 | F,2 G,2 | G,2 B, B,- | B, =A, B,2 | z G, G, B, | B, B,
+[V: S2V2] x2 E,2 | D,2 E,2 | C,2 D,2 | E, F, B,,2 | x E, C, B,, | E, B,,
+% 6
+[V: S1V1] c c | B2 z B | c2 B2 | A G F2 | E4 | z2 E2 | B2 G2 |
+w: work be- gin Thy Tem- ple deign to make us; Sun of the 
+w: this good hour, As fire it may be glow- ing; That we con- 
+w: hearts be- stows, Grant us Thy con- so- la- tion. That in our 
+w: nar- row way, With wis- est coun- sel guide us; And give us 
+w: val- iant part With Thee as our Re- li- ance; Be Thou our 
+[V: S1V2] F E | D2 x E | E2 E2 | C B, B,2 | B,4 | x2 B,2 | F2 B,2 |
+[V: S2V1] B, =A, | B,2 z G, | A,2 B,2 | E, E,2 D, | G,4 | z2 G,2 | F,2 G,2 |
+[V: S2V2] F, F,, | B,,2 x E, | A,,2 G,,2 | A,, E,, B,,2 | E,,4 | x2 E,2 | D,2 E,2 |
+% 13
+[V: S1V1] E2 B2 | c c B2 | z B c d | e d c c | B2 z B | c2 B2 |
+w: soul, Thou Light di- vine, A- round and in us bright- ly shine, To joy and 
+w: fess the Fa- ther, Son, And Thee, the Spir- it, Three in One, Thy glo- ry 
+w: pure faith's un- i- ty We faith- ful wit- ness- es may be Of grace that 
+w: stead- fast- ness, that we May ev- er faith- ful prove to Thee, What- ev- er 
+w: Re- fuge and our Shield That we may nev- er quit the field, But stand in 
+[V: S1V2] C2 F2 | G F D2 | x E E F | G F F E | D2 x E | E2 E2 |
+[V: S2V1] G,2 B, B,- | B, =A, B,2 | z G, G, B, | B, B, B, =A, | B,2 z G, | A,2 B,2 |
+[V: S2V2] C,2 D,2 | E, F, B,,2 | x E, C, B,, | E, B,, F, F,, | B,,2 x E, | A,,2 G,,2 |
+% 19
+[V: S1V1] A G F2 | E4 | B2 G2 | B2 G2 | G G F F | G G F F |
+w: glad- ness wake us. That we to Thee Tru- ly liv- ing, To Thee giv- ing 
+w: ev- er show- ing. Stay Thou, guide now Our souls ev- er that they nev- er 
+w: brings sal- va- tion. Hear us, cheer us, By Thy teach- ing; let our preach- ing, 
+w: woes be- tide us; Lord now Heal Thou All hearts bro- ken, And be- to- ken 
+w: bold de- fi- ance. De- scend, de- fend From all err- ors And earth's ter- rors 
+[V: S1V2] C B, B,2 | B,4 | D2 E2 | D2 E2 | B, E E D | B, E E D |
+[V: S2V1] E, E,2 D, | G,4 | B,2 B,2 | B,2 B,2 | E, B, B, F, | E, B, B, F, |
+[V: S2V2] A,, E,, B,,2 | E,,4 | G,2 E,2 | G,2 E,2 | E, E,, B,, B,, | E, E,, B,, B,, |
+% 25
+%%newpage
+%%header "OPENING SONGS		24(2)"
+[V: S1V1]  G G F !fermata!E | !sintro!e2 B2 | c2 B2 | A G F2 | E4 !eintro!|]
+w: Prayer un- ceas- ing May in love be still in- creas- ing.
+w: May for- sake Thee. But by faith their re- fuge make Thee.
+w: And our la- bor Praise Thee, Lord, and serve our neigh- bor. 
+w: Thou art near us, Whom we trust to light and cheer us. 
+w: Thy sal- va- tion Be our con- stant con- so- la- tion. 
+[V: S1V2]  B, E D E | G2 E2 | E2 E2 | C B, B,2 | G,4 |]
+[V: S2V1]  E, B, B, !invertedfermata!G, | C2 G,2 | A,2 B,2 | E, E,2 D, | E,4 |]
+[V: S2V2]  E,, G,, B,, E,, | C,2 E,2 | A,,2 G,,2 | A,, E,, B,,2 | E,,4 |]
+%% vskip 1.0in
+W: 6. O mighty Rock, O Source of life,
+W: Let Thy dear Word 'mid doubt and strife
+W: Be so within us burning,
+W: That we be faithful unto death,
+W: In Thy pure love and holy faith,
+W: From Thee true wisdom learning!
+W: Thy grace And peace 
+W: On us shower; By Thy power 
+W: Christ confessing,
+W: Let us win our Savior's blessing.
+W: 
+W: 7. O gentle Dew, from Heav'n now fall
+W: With pow'r upon the hearts of all,
+W: Thy tender love instilling,
+W: That heart to heart more closely bound,
+W: Fruitful in kindly deeds be found,
+W: The law of love fulfilling;
+W: The Lord, Discord 
+W: Shall not grieve Thee; We recieve Thee;
+W: Where Thou livest.
+W: Peace, and love, and joy Thou givest.
+W: 
+W: 8. Grant that our days, while life shall last,
+W: In purest holiness be passed,
+W: Be Thou our Strength forever;
+W: Grant that our hearts henceforth be free
+W: From sinful lust and vanity
+W: Which us from Thee must sever.
+W: Keep Thou pure Now
+W: From offenses Heart and senses.
+W: Blessed Spirit!
+W: Let us heavenly life inherit.
+
+%%newpage
+
+% PAGE LAYOUT
+%
+%%pagewidth	21.6000cm
+%%pageheight	27.9000cm
+%%scale		0.720000
+%%staffsep	1.60000cm
+%%exprabove	false
+%%measurebox	false
+%%header "25		OPENING SONGS"
+%%footer Ps 100:1-5, Ps 118:19-26, Is 26:1-4, 1Cor 3:16-17, Lk 8:4-15		8 7 8 7 7 7
+%OHSCRIP Ps 100:1-5, Ps 118:19-26, Is 26:1-4, 1Cor 3:16-17, Lk 8:4-15
+%OHTOPICS {Anticipation [1]}, {Discipleship}, {Faith [4]}, {Harvest [3]}, {Heaven [2]}, {Joy}, {Light [1]}, {Presence}, {Sowing &amp; Reaping [3]}, {Temptation [4]}, {Worship}
+%OHCATEGORY OPENING SONGS
+%OHMETRICAL 8 7 8 7 7 7
+%OHCOMPLEXITY 2
+%OHCOMPOSER Neander, Joachim (1650-1680)
+%OHARRANGER unknown
+%OHAUTHOR Schmolck, Benjamin (1672-1737)
+%OHTRANSLATOR Winkworth, Catherine (1827-1878)
+%%postscript /st { moveto -8 0 rmoveto 0 8 rlineto 4 0 rlineto stroke } def
+%%postscript /nd { moveto -8 0 rmoveto 0 8 rlineto -4 0 rlineto stroke } def
+%%deco sintro 6 st 6 0 0 
+%%deco eintro 6 nd 6 0 0 
+

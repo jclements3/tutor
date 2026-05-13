@@ -1,0 +1,22 @@
+# Android / Gradle build outputs
+tablet_app/.gradle/
+tablet_app/app/build/
+tablet_app/app/.cxx/
+tablet_app/local.properties
+
+# IDE / OS
+.idea/
+*.iml
+.DS_Store
+
+# Built reference docs (regenerated from sources)
+harp-drill-book-full.html
+harp-drill-book-full.pdf
+
+# Orphaned Rust/Slint scaffolding from an earlier approach we no longer use.
+# Anchor to repo root so the patterns don't match nested src/ inside tablet_app.
+/Cargo.toml
+/build.rs
+/ui/
+/target/
+/src/

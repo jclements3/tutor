@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="ic_launcher_background">#7B2B2B</color>
+
+    <!-- HarpHymnal Numpad Keyboard palette -->
+    <color name="kbd_panel_bg">#282A36</color>
+    <color name="kbd_key_bg">#44475A</color>
+    <color name="kbd_key_border">#6272A4</color>
+    <color name="kbd_key_text">#F8F8F2</color>
+    <color name="kbd_key_pressed">#BD93F9</color>
+    <color name="kbd_mod_bg">#21222C</color>
+    <color name="kbd_mod_border">#44475A</color>
+    <color name="kbd_separator">#1E1F29</color>
+
+    <!-- Harp string anchors: traditional pedal-harp string colors. -->
+    <color name="harp_C">#FF5555</color>
+    <color name="harp_F">#5599FF</color>
+</resources>

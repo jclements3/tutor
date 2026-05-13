@@ -1,0 +1,112 @@
+
+% PAGE LAYOUT
+%
+%%pagewidth	21.6000cm
+%%pageheight	27.9000cm
+%%scale		0.750000
+%%staffsep	1.600000cm
+%%sysstaffsep	0.00000cm
+%%exprabove	false
+%%measurebox	false
+%%header "22		OPENING SONGS"
+%%footer Jn 6:67-68, 8:31-32, Heb 4:12, Jn 1:1-5, 8:12, 1Cor 2:14		7 8 7 8 8 8
+%OHSCRIP Jn 6:67-68, 8:31-32, Heb 4:12, Jn 1:1-5, 8:12, 1Cor 2:14
+%OHTOPICS {Church on Earth (Church Militant)}, {Consolation [4]}, {Darkness, Spiritual [2]}, {Education [2]}, {Father [4]}, {Guidance}, {Holiness}, {Holy Spirit [2-4]}, {Invitation (Faithful's to God)}, {Invitation (God's to Us)}, {Jesus [1,4]}, {Knowledge [2]}, {Light [2,3]}, {Love}, {Opening Songs}, {Presence}, {Trinity}
+%OHCATEGORY OPENING SONGS
+%OHMETRICAL 7 8 7 8 8 8
+%OHCOMPLEXITY 2
+%OHCOMPOSER Ahle, Johann Rudolph (1625-1673)
+%OHARRANGER Layriz, Fridrich (1808-1859)
+%OHAUTHOR Clausnitzer, Tobias (1619-1684)
+%OHTRANSLATOR Winkworth, Catherine (1827-1878)
+%%postscript /st { moveto -8 0 rmoveto 0 8 rlineto 4 0 rlineto stroke } def
+%%postscript /nd { moveto -8 0 rmoveto 0 8 rlineto -4 0 rlineto stroke } def
+%%deco sintro 6 st 6 0 0 
+%%deco eintro 6 nd 6 0 0 
+
+X: 93
+T: All Glory, Laud, and Honor
+%%combinevoices 1
+C: Words: Theodulf of Orleans, circa 820. Translated by John Mason Neale, 1851.  
+C: Music: 'Valet Will Ich Dir Geben' or 'St. Theodulph' Melchior Teschner, 1615. 
+C: Setting: Presbyterian Hymnal, 1911.
+C: copyright: public domain.  This score is a part of the Open Hymnal Project, 2006 Revision.
+S: Music source: Presbyterian Hymnal, Revised, 1911 Hymn 216.
+M: 4/4 % time signature
+L: 1/4 % default length
+%%staves (S1V1 S1V2) | (S2V1 S2V2) 
+V: S1V1 clef=treble 
+%%MIDI beat 127 125 110 1
+V: S1V2 
+%%MIDI beat 127 125 110 1
+V: S2V1 clef=bass 
+%%MIDI beat 127 125 110 1
+V: S2V2 
+%%MIDI beat 127 125 110 1
+K: C % key signature
+%
+%%MIDI program 1 1 % Piano 2
+%%MIDI program 2 1 % Piano 2
+%%MIDI program 3 1 % Piano 2
+%%MIDI program 4 1 % Piano 2
+%
+% 1
+[V: S1V1] [Q:1/4=140] "^Refrain" C | G G A B | c2 c e | d c A B | c3
+w: All glo- ry, laud and hon- or, To Thee, Re- deem- er, King, 
+[V: S1V2]  C | C/D/ E C F | (F E/D/) E G | G G F D | E3
+[V: S2V1]  E, | E,/F,/ G, F, G, | G,2 G, C | B, C A, G, | G,3
+[V: S2V2]  C, | C, C, F, D, | C,2 C, C, | G, E, F, G, | C,3
+% 5
+[V: S1V1]  C | G G A B | c2 c e | d c A B | c3 |]
+w: To Whom the lips of child- ren Made sweet ho- san- nas ring. 
+[V: S1V2]  C | C/D/ E C F | (F E/D/) E G | G G F D | E3 |]
+[V: S2V1]  E, | E,/F,/ G, F, G, | G,2 G, C | B, C A, G, | G,3 |]
+[V: S2V2]  C, | C, C, F, D, | C,2 C, C, | G, E, F, G, | C,3 |]
+% 9
+[V: S1V1]  "^Verse" c | e e d c | B2 B B | c B A A | G3
+w: 1.~Thou art the King of Is- rael, Thou Da- vid's ro- yal Son, 
+w: 2.~The com- pa- ny of an- gels Are prais- ing Thee on High, 
+w: 3.~The peo- ple of the He- brews With palms be- fore Thee went; 
+w: 4.~To Thee, be- fore Thy pa- ssion, They sang their hymns of praise; 
+w: 5.~Thou didst ac- cept their prais- es; Ac- cept the prayers we bring, 
+[V: S1V2]  F | E E G G | (^F A) G G | E G E ^F | G3
+[V: S2V1]  A, | C C D G, | (A, D) D E | E D A,/B,/ C | B,3
+[V: S2V2]  F, | C, A,, B,, E, | (D, ^F,) G, E, | A,, B,, C, D, | G,,3
+% 13
+[V: S1V1]  G | E G A G | (G F) E !sintro!G | F E D D | "^To Refrain" C3 !eintro!||
+w: Who in the Lord's Name com-  * est, The King and Bless- ed One. 
+w: And mor- tal men and all  * things Cre- at- ed make re- ply. 
+w: Our prayer and praise and an- * thems Be- fore Thee we pre- sent. 
+w: To Thee, now high ex- alt-  * ed, Our me- lo- dy we raise. 
+w: Who in all good de- light-  * est, Thou good and gra- cious King.
+[V: S1V2]  D | C B, A, C | (D B,) C C | C C C B, | C3 ||
+[V: S2V1]  G, | G, G, C G, | G,2 G, G, | A, G, G,3/2 F,/ | E,3 ||
+[V: S2V2]  B,, | C, E, F, E, | (B,, G,,) C, E, | F, C, G,, G,, | C,3 ||
+% 18
+
+%%newpage
+
+% PAGE LAYOUT
+%
+%%pagewidth	21.6000cm
+%%pageheight	27.9000cm
+%%scale		0.750000
+%%staffsep	1.60000cm
+%%exprabove	false
+%%measurebox	false
+%%header "94		PALM SUNDAY"
+%%footer Mt 21:15, Jn 12:12-13		7 6 7 6 7 6 7 6
+%OHSCRIP Mt 21:15, Jn 12:12-13
+%OHTOPICS {Children (see also God's Children - the Faithful) [1,2]}, {Easter Week / Passion}, {Eternal Life [3]}, {God, As King [3]}, {God, Love of [1]}, {Heaven [3]}, {Jesus}, {Kindness, God's [1,2]}, {Praise, Son}, {Presence}, {Victory [2]}, {Worship}
+%OHCATEGORY PALM SUNDAY
+%OHMETRICAL 7 6 7 6 7 6 7 6
+%OHCOMPLEXITY 2
+%OHCOMPOSER from Gesangbuch der Herzogl. Hofkapelle, Wurttemberg, 1784
+%OHARRANGER unknown
+%OHAUTHOR Threlfall, Jeanette (1821-1880)
+%OHTRANSLATOR none
+%%postscript /st { moveto -8 0 rmoveto 0 8 rlineto 4 0 rlineto stroke } def
+%%postscript /nd { moveto -8 0 rmoveto 0 8 rlineto -4 0 rlineto stroke } def
+%%deco sintro 6 st 6 0 0 
+%%deco eintro 6 nd 6 0 0 
+

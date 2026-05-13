@@ -1,0 +1,10 @@
+X:1
+T:7.1 Wide arpeggio
+M:4/4
+L:1/8
+K:C
+%%score (RH) (LH)
+V:RH clef=treble
+V:LH clef=bass
+[V:RH] zzge' zzge' | zzac" zzac" | zzBd' zzBd' | zzge' zzge' |
+[V:LH] "C" C,e zz C,e zz | "F" F,a zz F,a zz | "G" G,,d zz G,,d zz | "C" C,e zz C,e zz |

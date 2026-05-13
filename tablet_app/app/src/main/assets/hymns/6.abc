@@ -1,0 +1,106 @@
+
+% PAGE LAYOUT
+%
+%%pagewidth	21.6000cm
+%%pageheight	27.9000cm
+%%scale		0.750000
+%%staffsep	1.600000cm
+%%sysstaffsep	0.00000cm
+%%exprabove	false
+%%measurebox	false
+%%header "22		OPENING SONGS"
+%%footer Jn 6:67-68, 8:31-32, Heb 4:12, Jn 1:1-5, 8:12, 1Cor 2:14		7 8 7 8 8 8
+%OHSCRIP Jn 6:67-68, 8:31-32, Heb 4:12, Jn 1:1-5, 8:12, 1Cor 2:14
+%OHTOPICS {Church on Earth (Church Militant)}, {Consolation [4]}, {Darkness, Spiritual [2]}, {Education [2]}, {Father [4]}, {Guidance}, {Holiness}, {Holy Spirit [2-4]}, {Invitation (Faithful's to God)}, {Invitation (God's to Us)}, {Jesus [1,4]}, {Knowledge [2]}, {Light [2,3]}, {Love}, {Opening Songs}, {Presence}, {Trinity}
+%OHCATEGORY OPENING SONGS
+%OHMETRICAL 7 8 7 8 8 8
+%OHCOMPLEXITY 2
+%OHCOMPOSER Ahle, Johann Rudolph (1625-1673)
+%OHARRANGER Layriz, Fridrich (1808-1859)
+%OHAUTHOR Clausnitzer, Tobias (1619-1684)
+%OHTRANSLATOR Winkworth, Catherine (1827-1878)
+%%postscript /st { moveto -8 0 rmoveto 0 8 rlineto 4 0 rlineto stroke } def
+%%postscript /nd { moveto -8 0 rmoveto 0 8 rlineto -4 0 rlineto stroke } def
+%%deco sintro 6 st 6 0 0 
+%%deco eintro 6 nd 6 0 0 
+
+X: 28
+T: In Peace and Joy I Now Depart 
+%%combinevoices 1
+T: (also known as The Song of Simeon: Nunc Dimitis)
+C: Words: Martin Luther, 1524.  Translated by Leonard Woolsey Bacon, 1884, alt.
+C: Music: 'Mit Fried und Freud ich Far Dahin' from Walter's Geistliche Gesangbüchlein, 1524.
+C: Setting: Michael Praetorius, 1610.
+C: copyright: public domain.  This score is a part of the Open Hymnal Project, 2009 Revision.
+M: 4/4 % time signature
+L: 1/4 % default length
+%%staves (S1V1 S1V2) | (S2V1 S2V2) 
+V: S1V1 clef=treble 
+%%MIDI beat 127 125 110 1
+V: S1V2 
+%%MIDI beat 127 125 110 1
+V: S2V1 clef=bass 
+%%MIDI beat 127 125 110 1
+V: S2V2 
+%%MIDI beat 127 125 110 1
+K: C % key signature
+%
+%%MIDI program 1 0 % Piano 1
+%%MIDI program 2 0 % Piano 1
+%%MIDI program 3 0 % Piano 1
+%%MIDI program 4 0 % Piano 1
+%
+% 1
+[V: S1V1] [Q:1/4=120] D2 A A | G d c B | A2 c2 | A c (B/A/ B) | A
+w: 1.~In peace and joy I now de- part At God's dis- pos- * * ing; 
+w: 2.~'Tis Christ that wrought this work for me, My faith- ful Sa- * * vior, 
+w: 3.~Him Thou hast un- to all set forth Their great Sal- va- * * tion 
+w: 4.~He is the Hope and sa- ving Light Of lands be- night- * * ed; 
+[V: S1V2]  A,2 A, D | B, B, E E | C2 E2 | F G (F//G// A ^G/) | A
+[V: S2V1]  F,2 E, F, | G, G,3/2 A, ^G,/ | A,2 C2 | C E (D B,) | C
+[V: S2V2]  D,2 ^C, D, | E, B,, C, E, | A,,2 A,2 | F, C, (D,/E,/ E,) | A,
+% 5
+[V: S1V1]  z/ A/ c3/2 B/ | c A/ (G F/) E | D2 A3/2 G/ | (F D) C2 |
+w: For full of com- fort is * my heart, Soft re- pos- * ing. 
+w: Whom Thou hast made mine eyes * to see By Thy fa- * vor. 
+w: And to His king- dom called * the earth, Ev- ery na- * tion, 
+w: By Him are they who dwelt * in night Fed and light- * ed. 
+[V: S1V2]  x/ F/ =G G | G F/ D3/2 ^C | D2 F3/2 E/ | (D/C/ B,) C2 |
+[V: S2V1]  z/ D/ E3/2 D/ | C3/2 B, A, A,/ | A,2 A,2 | A, G, E, z |
+[V: S2V2]  x/ D,/ C,3/2 G,/ | E, F,/ (G, D,/A,/) A,,/ | D,2 D,3/2 E,/ | (F, G,) C, x |
+% 9
+[V: S1V1]  (A3/2 G/) F c- | c/_B/ A G/F/ G | A z/ !sintro!G/ F D | C F (E/D/ E) | D4 !eintro!|]
+w: So * the Lord  * * hath pro- * mised me, And death is but a slum- * * ber. 
+w: Now * I know  * * He is * my Life, My Help in need and dy- * * ing. 
+w: By * Thy dear  * * and whole- * some Word, In ev- ery place re- sound- * * ing.
+w: He * is Is-  * * rael's Praise * and Bliss, Their Joy, Re- ward, and Glor- * * y. 
+[V: S1V2]  C2 D C | D2 D D | ^C x/ B,/ (D/ =C) B,/ | A,/G,/ D (^C/ D ^C/) | A,4 |]
+[V: S2V1]  (F,/G,/ A,2) A, | D, F, G, D, | E, z/ G,/ A, G, | E, A, A,/F,/A,/G,/ | ^F,4 |]
+[V: S2V2]  (F,3/2 E,/) (D, A,,) | G,, D, _B,, _B,, | A,, x/ E,/ F, G, | C, D, (A,,/_B,,/ A,,) | D,4 |]
+% 15
+
+%%newpage
+% PAGE LAYOUT
+%
+%%pagewidth	21.6000cm
+%%pageheight	27.9000cm
+%%scale		0.750000
+%%staffsep	1.60000cm
+%%exprabove	false
+%%measurebox	false
+%%header "29		CLOSING SONGS"
+%%footer Num 6:22-27, 1Cor 15:54-57, Heb 9:15, Is 63:9		8 7 8 7 8 7
+%OHSCRIP Num 6:22-27, 1Cor 15:54-57, Heb 9:15, Is 63:9
+%OHTOPICS {Assurance}, {Brevity of Life}, {Christian Life}, {Closing Songs}, {Day [3]}, {Gospel [2]}, {Grace [1]}, {Joy [1]}, {Peace [1]}, {Victory}
+%OHCATEGORY CLOSING SONGS
+%OHMETRICAL 8 7 8 7 8 7
+%OHCOMPLEXITY 2
+%OHCOMPOSER Smart, Henry Thomas (1813-1879)
+%OHARRANGER unknown
+%OHAUTHOR Fawcett, John (1740-1817);Thring, Godfrey (1823-1903)
+%OHTRANSLATOR none
+%%postscript /st { moveto -8 0 rmoveto 0 8 rlineto 4 0 rlineto stroke } def
+%%postscript /nd { moveto -8 0 rmoveto 0 8 rlineto -4 0 rlineto stroke } def
+%%deco sintro 6 st 6 0 0 
+%%deco eintro 6 nd 6 0 0 
+

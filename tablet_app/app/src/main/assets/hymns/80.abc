@@ -1,0 +1,121 @@
+
+% PAGE LAYOUT
+%
+%%pagewidth	21.6000cm
+%%pageheight	27.9000cm
+%%scale		0.750000
+%%staffsep	1.600000cm
+%%sysstaffsep	0.00000cm
+%%exprabove	false
+%%measurebox	false
+%%header "22		OPENING SONGS"
+%%footer Jn 6:67-68, 8:31-32, Heb 4:12, Jn 1:1-5, 8:12, 1Cor 2:14		7 8 7 8 8 8
+%OHSCRIP Jn 6:67-68, 8:31-32, Heb 4:12, Jn 1:1-5, 8:12, 1Cor 2:14
+%OHTOPICS {Church on Earth (Church Militant)}, {Consolation [4]}, {Darkness, Spiritual [2]}, {Education [2]}, {Father [4]}, {Guidance}, {Holiness}, {Holy Spirit [2-4]}, {Invitation (Faithful's to God)}, {Invitation (God's to Us)}, {Jesus [1,4]}, {Knowledge [2]}, {Light [2,3]}, {Love}, {Opening Songs}, {Presence}, {Trinity}
+%OHCATEGORY OPENING SONGS
+%OHMETRICAL 7 8 7 8 8 8
+%OHCOMPLEXITY 2
+%OHCOMPOSER Ahle, Johann Rudolph (1625-1673)
+%OHARRANGER Layriz, Fridrich (1808-1859)
+%OHAUTHOR Clausnitzer, Tobias (1619-1684)
+%OHTRANSLATOR Winkworth, Catherine (1827-1878)
+%%postscript /st { moveto -8 0 rmoveto 0 8 rlineto 4 0 rlineto stroke } def
+%%postscript /nd { moveto -8 0 rmoveto 0 8 rlineto -4 0 rlineto stroke } def
+%%deco sintro 6 st 6 0 0 
+%%deco eintro 6 nd 6 0 0 
+
+X: 102
+T: Were You There?
+%%combinevoices 1
+C: Words: African-American Spiritual, before 1899. 
+C: Music: 'Were You There' African-American Spiritual, before 1899.  Setting: attr. Charles Winfred Douglas, 1940.
+C: copyright: public domain.  This score is a part of the Open Hymnal Project, 2013 Revision.
+S: Music source: The Hymnal (Episcopal), 1940 hymn 80 listed without copyright.  Although the setting is usually attributed to Douglas,
+S: who as on the 1940 hymnal committee, no credit or copyright is called out in the hymnal as it is onother hymns. 
+S: The 1940 copyright on this hymnal was never renewed.
+M: none % time signature
+L: 1/4 % default length
+%%staves (S1V1 S1V2) | (S2V1 S2V2) 
+V: S1V1 clef=treble 
+%%MIDI beat 127 125 110 1
+V: S1V2 
+%%MIDI beat 127 125 110 1
+V: S2V1 clef=bass 
+%%MIDI beat 127 125 110 1
+V: S2V2 
+%%MIDI beat 127 125 110 1
+K: E % key signature
+%
+%%MIDI program 1 0 % Piano 1
+%%MIDI program 2 0 % Piano 1
+%%MIDI program 3 0 % Piano 1
+%%MIDI program 4 0 % Piano 1
+%
+% 1
+[V: S1V1] [Q:1/4=100] B, E | G2 G G | F E G3/2 F/ | !fermata!E2 E G |
+w: 1.~Were you there when they cru- ci- fied my Lord? Were you 
+w: 2.~Were you there when they nailed Him to the tree? Were you 
+w: 3.~Were you there when they pierced Him in the side? Were you 
+w: 4.~Were you there when the sun re- fused to shine? Were you 
+w: 5.~Were you there when they laid Him in the tomb? Were you 
+[V: S1V2] B, B, | E2 E E | D C D3/2 D/ | E2 B, E |
+[V: S2V1] B, B, | B,2 B, B, | B, G, B,3/2 A,/ | !invertedfermata!G,2 G, B, |
+[V: S2V2] B, G, | E,2 E, E, | B,, C, B,,3/2 B,,/ | E,2 E, E, |
+% 2
+[V: S1V1] B2 B B | c B B3/2 G/ | F4 | (B2 e3/2 c/ | B4) |
+w: there when they cru- ci- fied my Lord? * * * * 
+w: there when they nailed Him to the tree? * * * * 
+w: there when they pierced Him in the side? Oh!  * * * 
+w: there when the sun re- fused to shine? * * * * 
+w: there when they laid Him in the tomb? * * * * 
+[V: S1V2] D2 E F | E F G3/2 E/ | D4 | (E D E A | G F E2) |
+[V: S2V1] (B, A,) G, F, | G, B, B,3/2 B,/ | B,4 | (B, A, B, C | D2 E =D) |
+[V: S2V2] (G, F,) E, D, | C, D, E,3/2 G,/ | B,4 | (G, F, G, A, | B, A, G,2) |
+% 2
+[V: S1V1] c B2 G| G3/2 F/ E E | F !fermata!E2 | E !fermata!E2 | B, B,3 |
+w: Some- times it caus- es me to trem- ble, trem- ble, trem- ble. 
+[V: S1V2] E E2 D | D3/2 D/ D C | C =C2 |=C B,2 | A, F,3 |
+[V: S2V1] C G,2 B, | A,3/2 A,/ G, G,  | A, !invertedfermata!A,2 | E, !invertedfermata!E,2 | E, D,3 |
+[V: S2V2] A, E,2 B,, | ^B,,3/2 B,,/ C, C,/=B,,/ | A,, A,,2 | A,, G,,2 | A,, B,,3 |
+% 2
+[V: S1V1] E A | G2 !sintro!G G | F E G3/2 F/ | E4 !eintro!|]
+w: Were you there when they cru- ci- fied my Lord?
+w: Were you there when they nailed Him to the tree?
+w: Were you there when they pierced Him in the side? 
+w: Were you there when the sun re- fused to shine? 
+w: Were you there when they laid Him in the tomb?
+[V: S1V2] A, C | (B, E) E D | D E D3/2 D/ | B,4 |]
+[V: S2V1] E, E, | (E, G,) C  B, | A, G, B,3/2 A,/ | [G,4E,4] |]
+[V: S2V2] C, A,, | B,,2 B,, B,, | B,, C, G,,3/2 B,,/ | [B,,4E,,4] |]
+W: 6.Were you there when God raised Him from the tomb?
+W: Were you there when God raised Him from the tomb?
+W: Oh! Sometimes it causes me to tremble, tremble, tremble.
+W: Were you there when God raised Him from the tomb?
+
+%%newpage
+
+% PAGE LAYOUT
+%
+%%pagewidth	21.6000cm
+%%pageheight	27.9000cm
+%%scale		0.70000
+%%staffsep	0.600000cm
+%%sysstaffsep	0.00000cm
+%%exprabove	false
+%%measurebox	false
+%%header "103		EASTER"
+%%footer Col 2:13-15, 1Cor 15:42-58, Rom 6:1-11, 1Pt 1:3-9, Is 41:1-20, Rom 8:35-39, Rev 20:1-3		7 6 7 6 6 6 6 6
+%OHSCRIP Col 2:13-15, 1Cor 15:42-58, Rom 6:1-11, 1Pt 1:3-9, Is 41:1-20, Rom 8:35-39, Rev 20:1-3
+%OHTOPICS {Assurance}, {Atonement}, {Brevity of Life}, {Comfort}, {Day}, {Easter}, {Eternal Life}, {Following Jesus, In Faith}, {Heaven}, {Jesus}, {Joy}, {Miracles}, {Praise, Son}, {Resurrection}, {Scripture [9]}, {Victory}
+%OHCATEGORY EASTER
+%OHMETRICAL 7 6 7 6 6 6 6 6
+%OHCOMPLEXITY 3
+%OHCOMPOSER Crüger, Johann (1598-1662)
+%OHARRANGER unknown
+%OHAUTHOR Gerhardt, Paul (1607-1676)
+%OHTRANSLATOR Kelly, John (1833-1890)
+%%postscript /st { moveto -8 0 rmoveto 0 8 rlineto 4 0 rlineto stroke } def
+%%postscript /nd { moveto -8 0 rmoveto 0 8 rlineto -4 0 rlineto stroke } def
+%%deco sintro 6 st 6 0 0 
+%%deco eintro 6 nd 6 0 0 
+

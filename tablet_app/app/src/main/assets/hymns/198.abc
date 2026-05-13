@@ -1,0 +1,116 @@
+
+% PAGE LAYOUT
+%
+%%pagewidth	21.6000cm
+%%pageheight	27.9000cm
+%%scale		0.750000
+%%staffsep	1.600000cm
+%%sysstaffsep	0.00000cm
+%%exprabove	false
+%%measurebox	false
+%%header "22		OPENING SONGS"
+%%footer Jn 6:67-68, 8:31-32, Heb 4:12, Jn 1:1-5, 8:12, 1Cor 2:14		7 8 7 8 8 8
+%OHSCRIP Jn 6:67-68, 8:31-32, Heb 4:12, Jn 1:1-5, 8:12, 1Cor 2:14
+%OHTOPICS {Church on Earth (Church Militant)}, {Consolation [4]}, {Darkness, Spiritual [2]}, {Education [2]}, {Father [4]}, {Guidance}, {Holiness}, {Holy Spirit [2-4]}, {Invitation (Faithful's to God)}, {Invitation (God's to Us)}, {Jesus [1,4]}, {Knowledge [2]}, {Light [2,3]}, {Love}, {Opening Songs}, {Presence}, {Trinity}
+%OHCATEGORY OPENING SONGS
+%OHMETRICAL 7 8 7 8 8 8
+%OHCOMPLEXITY 2
+%OHCOMPOSER Ahle, Johann Rudolph (1625-1673)
+%OHARRANGER Layriz, Fridrich (1808-1859)
+%OHAUTHOR Clausnitzer, Tobias (1619-1684)
+%OHTRANSLATOR Winkworth, Catherine (1827-1878)
+%%postscript /st { moveto -8 0 rmoveto 0 8 rlineto 4 0 rlineto stroke } def
+%%postscript /nd { moveto -8 0 rmoveto 0 8 rlineto -4 0 rlineto stroke } def
+%%deco sintro 6 st 6 0 0 
+%%deco eintro 6 nd 6 0 0 
+
+X: 221
+T: Through the Night of Doubt and Sorrow
+%%combinevoices 1
+C: Words: Bernhardt S. Ingemann, 1826. Translated by Sabine Baring-Gould, 1867.
+C: Music: 'Rex Gloriae' Henry Thomas Smart, 1868. 
+C: Setting: "Appendix to Hymns Ancient and Modern", 1869.
+C: copyright: public domain.  This score is a part of the Open Hymnal Project, 2011 Revision.
+S: Music source: "Appendix to Hymns Ancient and Modern", 1869 Hymn 293.  Text is the same as "Concordia Hymnal" 1916.
+M: 4/4 % time signature
+L: 1/4 % default length
+%%staves (S1V1 S1V2) | (S2V1 S2V2) 
+V: S1V1 clef=treble 
+%%MIDI beat 127 125 110 1
+V: S1V2 
+%%MIDI beat 127 125 110 1
+V: S2V1 clef=bass 
+%%MIDI beat 127 125 110 1
+V: S2V2 
+%%MIDI beat 127 125 110 1
+K: A % key signature
+%
+%%MIDI program 1 0 % Piano 1
+%%MIDI program 2 0 % Piano 1
+%%MIDI program 3 0 % Piano 1
+%%MIDI program 4 0 % Piano 1
+%
+% 1
+[V: S1V1] [Q:1/4=120] A E A B | c3/2 d/ c B | e A B c/d/ | c B c2 |
+w: 1.~Through the night of doubt and sor- row On- ward goes the * pil- grim band, 
+w: 2.~One the light of God's own pres- ence, O'er His ran- somed * peo- ple shed, 
+w: 3.~One the strain that lips of thou- sands Lift as from the * heart of one;
+w: 4.~On- ward, there- fore, pil- grim bro- thers, On- ward, with the * cross our aid!
+[V: S1V2] E B, C E | E E E E | E C F F | E E E2 |
+[V: S2V1] C B, A, G, | A,3/2 B,/ A, G, | A, A, A, A, | A, G, A,2 |
+[V: S2V2] A, G, F, E,/D,/ |C, A,, E, E, | C, F, D, C,/B,,/ | E, E, A,,2 |
+% 5
+[V: S1V1] c B c e | A G G F | B B e G | F F E2 |
+w: Sing- ing songs of ex- pec- ta- tion, March- ing to the Pro- mised Land.
+w: Cha- sing far the gloom and ter- ror, Bright- 'ning all the path we tread: 
+w: One the con- flict, one the per- il One the march in God be- gun:
+w: Bear its shame, and fight its bat- tle, Till we rest be- neath its shade.
+[V: S1V2] E E E E | C/^D/ E E D | F G/F/ E E | E ^D E2 |
+[V: S2V1] A, G, A, B, | C B, B, B, | A, B,/A,/ G, B, | C B,/A,/ G,2 |
+[V: S2V2] A, E, A, G, | F, G,/A,/ B, B,, | ^D, B,, C, B,, | B,, B,, E,2 |
+% 9
+[V: S1V1] E3/2 F/ G B | A G F E | A B c/d/ e | d c B2 |
+w: Clear be- fore us through the dark- ness Gleams and burns * the gui- ding light: 
+w: One the ob- ject of our jour- ney, One the faith * which nev- er tires, 
+w: One the glad- ness of re- joi- cing On the far * e- ter- nal shore,
+w: Soon shall come the great a- wak- ing, Soon the rend- * ing of the tomb;
+[V: S1V2] E3/2 E/ E F | E E D C | C E E E | E E E2 |
+[V: S2V1] G,3/2 A,/ B, =D | C B, A,/B,/ C | A, G, A,/B,/ C | G, A, G,2 |
+[V: S2V2] E,3/2 E,/ E, B,, | C,/D,/ E, F,/G,/ A, | F, E, A, C, | B,, A,, (E, D,) |
+% 13
+[V: S1V1] A E A B | c3/2 d/ c B | !sintro!e A d c | B B A2 !eintro!|]
+w: Bro- ther clasps the hand of bro- ther, Step- ping fear- less through the night.
+w: One the earn- est look- ing for- ward, One the hope our God in- spires.
+w: Where the One Al- might- y Fa- ther Reigns in love for ev- er- more.
+w: Then the scatt- 'ring of all sha- dows, And the end of toil and gloom.
+[V: S1V2] E E E E | E A E E | E C F E | E3/2 D/ C2 |]
+[V: S2V1] A, G, A, G, | A,3/2 B,/ A, G, | A, A, A, A, | A, G, A,2 |]
+[V: S2V2] C, E,/D,/ C, B,, | A,, F, E,3/2 D,/ | C, F, D, A,, | E, E, A,,2 |]
+
+%%newpage
+
+% PAGE LAYOUT
+%
+%%pagewidth	21.6000cm
+%%pageheight	27.9000cm
+%%scale		0.680000
+%%staffsep	0.600000cm
+%%sysstaffsep	0.00000cm
+%%exprabove	false
+%%measurebox	false
+%%header "COMMUNION OF SAINTS		222"
+%%footer Dan 12:1-3, Rev 20:12-15, 21:26-27, 1Thess 4:13-17		15 11 15 11 8 8 8 11
+%OHSCRIP Dan 12:1-3, Rev 20:12-15, 21:26-27, 1Thess 4:13-17
+%OHTOPICS {Activity [3]}, {Anticipation}, {Assurance}, {Church in Heaven (Church Victorious/Church Triumphant)}, {Comfort}, {Eternal Life}, {Faith}, {God's Children - the Faithful (see also Saints, People of the World)}, {Heaven}, {Hope}, {Jesus [2]}, {Resurrection}, {Saints (all Faithful)}, {Second Coming}, {Trust}
+%OHCATEGORY COMMUNION OF SAINTS
+%OHMETRICAL 15 11 15 11 8 8 8 11
+%OHCOMPLEXITY 3
+%OHCOMPOSER Black, James Milton (1856-1938)
+%OHARRANGER Gabriel, Charles Hutchinson (1856-1932)
+%OHAUTHOR Black, James Milton (1856-1938)
+%OHTRANSLATOR none
+%%postscript /st { moveto -8 0 rmoveto 0 8 rlineto 4 0 rlineto stroke } def
+%%postscript /nd { moveto -8 0 rmoveto 0 8 rlineto -4 0 rlineto stroke } def
+%%deco sintro 6 st 6 0 0 
+%%deco eintro 6 nd 6 0 0 
+

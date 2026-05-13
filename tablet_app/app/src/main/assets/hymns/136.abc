@@ -1,0 +1,103 @@
+
+% PAGE LAYOUT
+%
+%%pagewidth	21.6000cm
+%%pageheight	27.9000cm
+%%scale		0.750000
+%%staffsep	1.600000cm
+%%sysstaffsep	0.00000cm
+%%exprabove	false
+%%measurebox	false
+%%header "22		OPENING SONGS"
+%%footer Jn 6:67-68, 8:31-32, Heb 4:12, Jn 1:1-5, 8:12, 1Cor 2:14		7 8 7 8 8 8
+%OHSCRIP Jn 6:67-68, 8:31-32, Heb 4:12, Jn 1:1-5, 8:12, 1Cor 2:14
+%OHTOPICS {Church on Earth (Church Militant)}, {Consolation [4]}, {Darkness, Spiritual [2]}, {Education [2]}, {Father [4]}, {Guidance}, {Holiness}, {Holy Spirit [2-4]}, {Invitation (Faithful's to God)}, {Invitation (God's to Us)}, {Jesus [1,4]}, {Knowledge [2]}, {Light [2,3]}, {Love}, {Opening Songs}, {Presence}, {Trinity}
+%OHCATEGORY OPENING SONGS
+%OHMETRICAL 7 8 7 8 8 8
+%OHCOMPLEXITY 2
+%OHCOMPOSER Ahle, Johann Rudolph (1625-1673)
+%OHARRANGER Layriz, Fridrich (1808-1859)
+%OHAUTHOR Clausnitzer, Tobias (1619-1684)
+%OHTRANSLATOR Winkworth, Catherine (1827-1878)
+%%postscript /st { moveto -8 0 rmoveto 0 8 rlineto 4 0 rlineto stroke } def
+%%postscript /nd { moveto -8 0 rmoveto 0 8 rlineto -4 0 rlineto stroke } def
+%%deco sintro 6 st 6 0 0 
+%%deco eintro 6 nd 6 0 0 
+
+X: 159
+T: The Law Of God Is Good And Wise
+%%combinevoices 1
+C: Words: Matthias Loy, 1863.  Music: 'Erhalt Uns, Herr, bei deinem Wort' from Klug's Geistliche Lieder, 1543.
+C: Setting: "Concordia Kinderchöre", 1908.
+C: copyright: public domain.  This score is a part of the Open Hymnal Project, 2006 Revision.
+S: Music Souce: Music source: Concordia Kinderchöre, 1908 Hymn 117 page 141.
+M: 4/4 % time signature
+L: 1/4 % default length
+%%staves S1 | (S2V1 S2V2) 
+V: S1 clef=treble 
+%%MIDI beat 127 125 110 1
+V: S2V1 clef=bass 
+%%MIDI beat 127 125 110 1
+V: S2V2 
+%%MIDI beat 127 125 110 1
+K: G % key signature
+%
+%%MIDI program 1 0 % Piano 1
+%%MIDI program 2 0 % Piano 1
+%%MIDI program 3 0 % Piano 1
+%
+% 1
+[V: S1] [Q:1/4=120] [B,2E2] [B,G] [A,E] | [B,D] [CE] [EG] [^DF] | [B,2E2] [E2G2] | [EA]
+w: 1.~The law of God is good and wise, And sets
+w: 2.~Its light of ho- li- ness im- parts The  know- 
+w: 3.~To those who help in Christ have found And would 
+w: 4.~When men the off- ered help dis- dain And will- 
+w: 5.~The law is good, but since the fall Its ho- 
+[V: S2V1]  G,2 E, E, | F, A, B, B, | G,2 C2 | C
+[V: S2V2]  E,2 E, C, | B,, A,, G,,/A,,/ B,, | E,,2 C,2 | A,,
+% 
+[V: S1]  [FA] [GB] [EG] | [EA] [FA] [G2B2] | [D2B2] [Ec] [DB] | [Fd] [GB] [EA]
+w: His will be- fore our eyes, Shows us the way of right- 
+w: ledge of our sin- ful hearts, That we may see our lost 
+w: in works of love a- bound It shows what deeds are His 
+w: ful- ly in sin re- main, Its ter- ror in their ear 
+w: li- ness con- demns us all; It dooms us for our sin 
+[V: S2V1]  D D C | C D D2 | G,2 G, G, | A, G, C
+[V: S2V2]  D, G,, C, | A,, D, G,,2 | G,,2 C, G,, | D, E, C,
+% 5
+[V: S1]  [FA] | [D2G2] !sintro![D2B2] | [EG] [EA] [DG] [DF] | [B,E] [B,^D] [B,2E2] !eintro!|]
+w: eous- ness, And dooms to death when we trans- gress.
+w: e- state And seek de- liv- 'rance ere too late. 
+w: de- light And should be done as good and right. 
+w: re- sounds And keeps their wick- ed- ness in bounds. 
+w: to die And has no pow'r to jus- ti- fy. 
+[V: S2V1]  A, | B,2 G,2 | G, C B, A, | G, F, G,2 |]
+[V: S2V2]  D, | G,,2 G,,2 | C, A,, B,, D, | E, B,, E,,2 |]
+% 12
+
+%%newpage
+
+% PAGE LAYOUT
+%
+%%pagewidth	21.6000cm
+%%pageheight	27.9000cm
+%%scale		0.7500000
+%%staffsep	1.60000cm
+%%exprabove	false
+%%measurebox	false
+%%header "WORD OF GOD		160"
+%%footer Ex 20:1-17, Deut 5:6-21, Ps 90:1 		8 8 8 7 4
+%OHSCRIP Ex 20:1-17, Deut 5:6-21, Ps 90:1 
+%OHTOPICS {Duty (see also Law)}, {Fear of the Lord}, {God, Justness of}, {Integrity}, {Law}, {Leadership [2]}, {Morality (see also Law)}, {Obedience}, {Presence [1]}, {Temperance &amp; Moral Reform (see also Law)}, {Trust}
+%OHCATEGORY WORD OF GOD
+%OHMETRICAL 8 8 8 7 4
+%OHCOMPLEXITY 3
+%OHCOMPOSER Luther, Martin (1483-1546)
+%OHARRANGER Schein, Johann Hermann (1586-1630)
+%OHAUTHOR Luther, Martin (1483-1546)
+%OHTRANSLATOR Massie, Richard (1800-1887)
+%%postscript /st { moveto -8 0 rmoveto 0 8 rlineto 4 0 rlineto stroke } def
+%%postscript /nd { moveto -8 0 rmoveto 0 8 rlineto -4 0 rlineto stroke } def
+%%deco sintro 6 st 6 0 0 
+%%deco eintro 6 nd 6 0 0 
+

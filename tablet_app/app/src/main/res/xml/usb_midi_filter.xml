@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Auto-launch Music Tutor when any class-compliant USB MIDI device is
+     plugged in. USB class 1 (audio) + subclass 3 (MIDI streaming) covers
+     every vendor-neutral MIDI keyboard, including the SMK-37 PRO. -->
+<resources>
+    <usb-device class="1" subclass="3" />
+</resources>

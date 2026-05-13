@@ -1,0 +1,117 @@
+
+% PAGE LAYOUT
+%
+%%pagewidth	21.6000cm
+%%pageheight	27.9000cm
+%%scale		0.750000
+%%staffsep	1.600000cm
+%%sysstaffsep	0.00000cm
+%%exprabove	false
+%%measurebox	false
+%%header "22		OPENING SONGS"
+%%footer Jn 6:67-68, 8:31-32, Heb 4:12, Jn 1:1-5, 8:12, 1Cor 2:14		7 8 7 8 8 8
+%OHSCRIP Jn 6:67-68, 8:31-32, Heb 4:12, Jn 1:1-5, 8:12, 1Cor 2:14
+%OHTOPICS {Church on Earth (Church Militant)}, {Consolation [4]}, {Darkness, Spiritual [2]}, {Education [2]}, {Father [4]}, {Guidance}, {Holiness}, {Holy Spirit [2-4]}, {Invitation (Faithful's to God)}, {Invitation (God's to Us)}, {Jesus [1,4]}, {Knowledge [2]}, {Light [2,3]}, {Love}, {Opening Songs}, {Presence}, {Trinity}
+%OHCATEGORY OPENING SONGS
+%OHMETRICAL 7 8 7 8 8 8
+%OHCOMPLEXITY 2
+%OHCOMPOSER Ahle, Johann Rudolph (1625-1673)
+%OHARRANGER Layriz, Fridrich (1808-1859)
+%OHAUTHOR Clausnitzer, Tobias (1619-1684)
+%OHTRANSLATOR Winkworth, Catherine (1827-1878)
+%%postscript /st { moveto -8 0 rmoveto 0 8 rlineto 4 0 rlineto stroke } def
+%%postscript /nd { moveto -8 0 rmoveto 0 8 rlineto -4 0 rlineto stroke } def
+%%deco sintro 6 st 6 0 0 
+%%deco eintro 6 nd 6 0 0 
+
+X: 101
+T: Stricken, Smitten, and Afflicted
+%%combinevoices 1
+C: Words: Thomas Kelly, 1804. 
+C: Music: 'O Mein Jesu, Ich Muss Sterben' or 'Wo Ist Jesus, Mein Verlangen'  from Geistliches Volkslied, 1850. 
+C: Setting: "Evangelical Lutheran Hymn-Book", 1931.
+C: copyright: public domain.  This score is a part of the Open Hymnal Project, 2008 Revision.
+S: Music source: Evangelical Lutheran Hymn-Book, 1931 Hymn 209.
+M: 6/4 % time signature
+L: 1/4 % default length
+%%staves (S1V1 S1V2) | (S2V1 S2V2) 
+V: S1V1 clef=treble 
+%%MIDI beat 127 125 110 1
+V: S1V2 
+%%MIDI beat 127 125 110 1
+V: S2V1 clef=bass 
+%%MIDI beat 127 125 110 1
+V: S2V2 
+%%MIDI beat 127 125 110 1
+K: Bb % key signature
+%
+%%MIDI program 1 0 % Piano 1
+%%MIDI program 2 0 % Piano 1
+%%MIDI program 3 0 % Piano 1
+%%MIDI program 4 0 % Piano 1
+%
+% 1
+[V: S1V1] [Q:1/4=180] G A | B2 B2 c B | A2 A2 B A | G2 A2 G ^F | G4
+w: 1.~Strick- en, smitt- en, and a- fflic- ted, See Him dy- ing on the tree! 
+w: 2.~Tell me, ye who hear Him groan- ing, Was there e- ver grief like His? 
+w: 3.~Ye who think of sin but light- ly, Nor sup- pose the ev- il great, 
+w: 4.~Here we have a firm foun- da- tion, Here the re- fuge of the lost. 
+[V: S1V2]  D D | D2 E2 E D | D2 D2 D D | B,2 E2 D D | D4
+[V: S2V1]  B, A, | G,2 G,2 G, G, | G,2 ^F,2 G, ^F, | G,2 C2 B, A, | B,4
+[V: S2V2]  G, ^F, | G,2 E,2 C, G,, | D,2 D,2 G, D, | E,2 C,2 D, D, | G,,4
+% 5
+[V: S1V1]  G A | B2 B2 c B | A2 A2 B A | G2 A2 G ^F | G4
+w: 'Tis the Christ by man re- ject- ed; Yes, my soul, 'tis He, 'tis He! 
+w: Friends through fear His cause dis- own- ing, Foes in- sul- ting his dis- tress: 
+w: Here may view its na- ture right- ly, Here its guilt may est- i- mate. 
+w: Christ the Rock of our sal- va- tion, Christ the Name of which we boast. 
+[V: S1V2]  D D | D2 E2 E D | D2 D2 D D | B,2 E2 D D | D4
+[V: S2V1]  B, A, | G,2 G,2 G, G, | G,2 ^F,2 G, ^F, | G,2 C2 B, A, | B,4
+[V: S2V2]  G, ^F, | G,2 E,2 C, G,, | D,2 D,2 G, D, | E,2 C,2 D, D, | G,,4
+% 9
+[V: S1V1]  B c | d2 d2 e d | c2 c2 d c | B2 B2 c B | A4
+w: 'Tis the long ex- pec- ted pro- phet, Da- vid's Son, yet Da- vid's Lord; 
+w: Man- y hands were raised to wound Him, None would in- ter- pose to save; 
+w: Mark the Sac- ri- fice ap- point- ed! See Who bears the aw- ful load! 
+w: Lamb of God for sin- ners wound- ed! Sac- ri- fice to can- cel guilt! 
+[V: S1V2]  D F | F2 G2 G F | F2 F2 F F | D2 E2 E D | D4
+[V: S2V1]  G, A, | B,2 B,2 B, B, | B,2 A,2 B, A, | G,2 G,2 G, G, | ^F,4
+[V: S2V2]  G, F, | B,2 G,2 E, B,, | F,2 F,2 B, F, | G,2 E,2 C, G,, | D,4
+% 13
+[V: S1V1]  G ^F | G2 B2 A G | A2 A2 !sintro!B A | G2 A2 G ^F | G4 !eintro!|]
+w: Proofs I see su- ffic- ient of it: 'Tis a true and faith- ful Word. 
+w: But the deep- est stroke that pierced Him Was the stroke that Jus- tice gave. 
+w: 'Tis the Word, the Lord's A- noint- ed, Son of Man, and Son of God. 
+w: None shall ev- er be con- found- ed Who on Him their hope have built. 
+[V: S1V2]  D D | D2 D2 D B, | D2 D2 D D | E2 E2 D D | D4 |]
+[V: S2V1]  G, A, | B,2 G,2 ^F, G, | G,2 ^F,2 G, A, | B,2 C2 B, A, | B,4 |]
+[V: S2V2]  B,, D, | G,2 G,2 D, E, | D,2 D,2 G, =F, | E,2 C,2 D, D, | G,,4 |]
+% 19
+
+%%newpage
+
+% PAGE LAYOUT
+%
+%%pagewidth	21.6000cm
+%%pageheight	27.9000cm
+%%scale		0.750000
+%%staffsep	0.600000cm
+%%sysstaffsep	0.00000cm
+%%exprabove	false
+%%measurebox	false
+%%header "GOOD FRIDAY		102"
+%%footer Mt 27:55-56, Jn 19:34, Lk 23:44-45, 23:55, Mt 28:1-7		10 10 14 10
+%OHSCRIP Mt 27:55-56, Jn 19:34, Lk 23:44-45, 23:55, Mt 28:1-7
+%OHTOPICS {Atonement}, {Contrition}, {Cross}, {Fear of the Lord}, {Gratitude}, {Jesus}, {Miracles [6]}, {Presence}, {Resurrection [6]}, {Sacrifice}, {Testimony}, {Truth}
+%OHCATEGORY GOOD FRIDAY
+%OHMETRICAL 10 10 14 10
+%OHCOMPLEXITY 2
+%OHCOMPOSER African-American
+%OHARRANGER Douglas, Charles Winfred (1867-1944)
+%OHAUTHOR African-American
+%OHTRANSLATOR none
+%%postscript /st { moveto -8 0 rmoveto 0 8 rlineto 4 0 rlineto stroke } def
+%%postscript /nd { moveto -8 0 rmoveto 0 8 rlineto -4 0 rlineto stroke } def
+%%deco sintro 6 st 6 0 0 
+%%deco eintro 6 nd 6 0 0 
+

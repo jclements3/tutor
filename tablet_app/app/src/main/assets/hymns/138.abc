@@ -1,0 +1,120 @@
+
+% PAGE LAYOUT
+%
+%%pagewidth	21.6000cm
+%%pageheight	27.9000cm
+%%scale		0.750000
+%%staffsep	1.600000cm
+%%sysstaffsep	0.00000cm
+%%exprabove	false
+%%measurebox	false
+%%header "22		OPENING SONGS"
+%%footer Jn 6:67-68, 8:31-32, Heb 4:12, Jn 1:1-5, 8:12, 1Cor 2:14		7 8 7 8 8 8
+%OHSCRIP Jn 6:67-68, 8:31-32, Heb 4:12, Jn 1:1-5, 8:12, 1Cor 2:14
+%OHTOPICS {Church on Earth (Church Militant)}, {Consolation [4]}, {Darkness, Spiritual [2]}, {Education [2]}, {Father [4]}, {Guidance}, {Holiness}, {Holy Spirit [2-4]}, {Invitation (Faithful's to God)}, {Invitation (God's to Us)}, {Jesus [1,4]}, {Knowledge [2]}, {Light [2,3]}, {Love}, {Opening Songs}, {Presence}, {Trinity}
+%OHCATEGORY OPENING SONGS
+%OHMETRICAL 7 8 7 8 8 8
+%OHCOMPLEXITY 2
+%OHCOMPOSER Ahle, Johann Rudolph (1625-1673)
+%OHARRANGER Layriz, Fridrich (1808-1859)
+%OHAUTHOR Clausnitzer, Tobias (1619-1684)
+%OHTRANSLATOR Winkworth, Catherine (1827-1878)
+%%postscript /st { moveto -8 0 rmoveto 0 8 rlineto 4 0 rlineto stroke } def
+%%postscript /nd { moveto -8 0 rmoveto 0 8 rlineto -4 0 rlineto stroke } def
+%%deco sintro 6 st 6 0 0 
+%%deco eintro 6 nd 6 0 0 
+
+X: 161
+T: All Hail The Power Of Jesus' Name
+%%combinevoices 1
+C: Words: Edward Perronet, 1780.  Music: 'Coronation' Oliver Holden, 1793.  
+C: Setting: "The Church Hymnal, Revised and Enlarged" (Episcopal), 1896, alt.
+C: copyright: public domain.  This score is a part of the Open Hymnal Project, 2007 Revision.
+S: Music source: The Church Hymnal, Revised and Enlarged (Episcopal), 1896 Hymn 450, alt in parts of the Tenor to match "Hymnal of the Presbyterian Church" 1867 Hymn 29.
+M: 4/4 % time signature
+L: 1/4 % default length
+%%staves (S1V1 S1V2) | (S2V1 S2V2) 
+V: S1V1 clef=treble 
+%%MIDI beat 127 125 110 1
+V: S1V2 
+%%MIDI beat 127 125 110 1
+V: S2V1 clef=bass 
+%%MIDI beat 127 125 110 1
+V: S2V2 
+%%MIDI beat 127 125 110 1
+K: G % key signature
+%
+%%MIDI program 1 0 % Piano 1
+%%MIDI program 2 0 % Piano 1
+%%MIDI program 3 0 % Piano 1
+%%MIDI program 4 0 % Piano 1
+%
+% 1
+[V: S1V1] [Q:1/4=120] D | G G B B | A G A B | A G B A | G3
+w: 1.~All hail the pow'r of Je- sus' Name! Let an- gels pros- trate fall; 
+w: 2.~Let high- born ser- aphs tune the lyre, and as they tune it, fall 
+w: 3.~Crown Him, ye morn- ing stars of light, who fixed this float- ing ball; 
+w: 4.~Crown Him, ye mar- tyrs of your God, who from His al- tar call; 
+w: 5.~Ye seed of Is- rael's cho- sen race, ye ran- somed from the fall, 
+[V: S1V2]  D | B, D G G | F E F G | F G G F | G3
+[V: S2V1]  D, | G, B, D D | D B, D D | C B, D C | B,3
+[V: S2V2]  D, | G, G, G, G, | D, E, D, B,, | D, E, D, D, | G,,3
+% 5
+[V: S1V1]  A | B A G B | d/c/ B/A/ B d | d2 d2 | e2 (d ^c) | d3
+w: Bring forth the ro- yal di- * a- * dem, and crown Him Lord of * all. 
+w: Be- fore His face Who tunes * their * choir, and crown Him Lord of * all. 
+w: Now hail the strength of Is- * rael's * might, and crown Him Lord of * all. 
+w: Ex- tol the Stem of Je- * sse's * Rod, and crown Him Lord of * all. 
+w: Hail Him Who saves you by * His * grace, and crown Him Lord of * all. 
+[V: S1V2]  D | G D B, G | B/A/ G/F/ G F | G2 A2 | G2 (F E) | F3
+[V: S2V1]  A, | B, A, G, B, | D/C/ B,/A,/ B, A, | B,2 A,2 | B,2 A,2 | A,3
+[V: S2V2]  D, | G, D, B,, G, | B,/A,/ G,/F,/ G, D, | G,2 F,2 | E,2 A,,2 | D,3
+% 9
+[V: S1V1]  B | d B G B | A/G/ A/B/ A G | !sintro!d2 c2 | (B3/2 c/ A) A | G3 !eintro!|]
+w: Bring forth the ro- yal di- * a- * dem, and crown Him Lord * * of all. 
+w: Be- fore His face Who tunes * their * choir, and crown Him Lord * * of all. 
+w: Now hail the strength of Is- * rael's * might, and crown Him Lord * * of all. 
+w: Ex- tol the Stem of Je- * sse's * Rod, and crown Him Lord * * of all. 
+w: Hail Him Who saves you by * His * grace, and crown Him Lord * * of all. 
+[V: S1V2]  D | D D D G | F/E/ F/G/ F G | G2 G2 | G3 F | G3 |]
+[V: S2V1]  G, | B, G, G, D | C/B,/ C/D/ C B, | G,2 G,2 | (G,3/2 A,/ F,/A,/) C | B,3 |]
+[V: S2V2]  G, | G, G,, B,, G,, | D, D, D, E, | B,,2 C,2 | D,3 D, | G,,3 |]
+% 17
+W:6.Hail Him, ye heirs of David's line, whom David Lord did call,
+W:The God incarnate, Man divine, and crown Him Lord of all,
+W:The God incarnate, Man divine, and crown Him Lord of all.
+W:
+W:7.Sinners, whose love can ne'er forget the wormwood and the gall,
+W:Go spread your trophies at His feet, and crown Him Lord of all.
+W:Go spread your trophies at His feet, and crown Him Lord of all.
+W:
+W:8.Let every tribe and every tongue before Him prostrate fall
+W:And shout in universal song the crownèd Lord of all.
+W:And shout in universal song the crownèd Lord of all.
+
+%%newpage
+
+% PAGE LAYOUT
+%
+%%pagewidth	21.6000cm
+%%pageheight	27.9000cm
+%%scale		0.740000
+%%staffsep	1.60000cm
+%%exprabove	false
+%%measurebox	false
+%%header "REDEEMER		162"
+%%footer Is 66:1, Rom 15:9, Jas 5:13, Rev 14:2-3		8 7 8 7 8 7 8 7
+%OHSCRIP Is 66:1, Rom 15:9, Jas 5:13, Rev 14:2-3
+%OHTOPICS {Atonement [1,3]}, {Blood [1]}, {Bread (of Life/Daily Bread) [3]}, {Cloud [2]}, {Easter}, {Friendship [2,3]}, {God, As King [1,4]}, {God, Faithfulness of [1,2,3]}, {God, Love of}, {Gospel}, {Gratitude}, {Jesus}, {Lord's Supper [3,4]}, {Praise, Son}, {Priest/Priestly Roles [4]}, {Promises (see also Gospel) [1,2,3]}, {Sacrifice [1,4]}, {Salvation}, {Sinners [1,3]}, {Solitude (with God even when alone) [2]}, {Throne (also see God - As King) [1,4]}, {Victory [1,4]}, {Worship}
+%OHCATEGORY REDEEMER
+%OHMETRICAL 8 7 8 7 8 7 8 7
+%OHCOMPLEXITY 3
+%OHCOMPOSER Prichard, Rowland H. (1811-1887)
+%OHARRANGER unknown
+%OHAUTHOR Dix, William Chatterton (1837-1865)
+%OHTRANSLATOR none
+%%postscript /st { moveto -8 0 rmoveto 0 8 rlineto 4 0 rlineto stroke } def
+%%postscript /nd { moveto -8 0 rmoveto 0 8 rlineto -4 0 rlineto stroke } def
+%%deco sintro 6 st 6 0 0 
+%%deco eintro 6 nd 6 0 0 
+

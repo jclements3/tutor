@@ -1,0 +1,10 @@
+X:1
+T:5.7 Outward roll
+M:4/4
+L:1/8
+K:C
+%%score (RH) (LH)
+V:RH clef=treble
+V:LH clef=bass
+[V:RH] eg z6 | df z6 | eg z6 | eg z6 |
+[V:LH] "C" "C" C,G,, z6 | "G" "G" G,,B,,, z6 | "C" "C" C,G,, z6 | "C" "C" C,G,, z6 |

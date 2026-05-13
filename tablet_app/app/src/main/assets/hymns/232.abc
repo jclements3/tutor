@@ -1,0 +1,117 @@
+
+% PAGE LAYOUT
+%
+%%pagewidth	21.6000cm
+%%pageheight	27.9000cm
+%%scale		0.750000
+%%staffsep	1.600000cm
+%%sysstaffsep	0.00000cm
+%%exprabove	false
+%%measurebox	false
+%%header "22		OPENING SONGS"
+%%footer Jn 6:67-68, 8:31-32, Heb 4:12, Jn 1:1-5, 8:12, 1Cor 2:14		7 8 7 8 8 8
+%OHSCRIP Jn 6:67-68, 8:31-32, Heb 4:12, Jn 1:1-5, 8:12, 1Cor 2:14
+%OHTOPICS {Church on Earth (Church Militant)}, {Consolation [4]}, {Darkness, Spiritual [2]}, {Education [2]}, {Father [4]}, {Guidance}, {Holiness}, {Holy Spirit [2-4]}, {Invitation (Faithful's to God)}, {Invitation (God's to Us)}, {Jesus [1,4]}, {Knowledge [2]}, {Light [2,3]}, {Love}, {Opening Songs}, {Presence}, {Trinity}
+%OHCATEGORY OPENING SONGS
+%OHMETRICAL 7 8 7 8 8 8
+%OHCOMPLEXITY 2
+%OHCOMPOSER Ahle, Johann Rudolph (1625-1673)
+%OHARRANGER Layriz, Fridrich (1808-1859)
+%OHAUTHOR Clausnitzer, Tobias (1619-1684)
+%OHTRANSLATOR Winkworth, Catherine (1827-1878)
+%%postscript /st { moveto -8 0 rmoveto 0 8 rlineto 4 0 rlineto stroke } def
+%%postscript /nd { moveto -8 0 rmoveto 0 8 rlineto -4 0 rlineto stroke } def
+%%deco sintro 6 st 6 0 0 
+%%deco eintro 6 nd 6 0 0 
+
+X: 255
+T: Joyful, Joyful, We Adore Thee
+%%combinevoices 1
+C: Words: Henry J. van Dyke, 1907. 
+C: Music: 'Ode to Joy' Ludwig van Beethoven; Adapted by Edward Hodges, 1824. 
+C: Setting: "The Methodist Hymnal", 1905.
+C: copyright: public domain.  This score is a part of the Open Hymnal Project, 2005 Revision.
+S: Music source: The Methodist Hymnal, 1905 Hymn 160.
+M: 4/4 % time signature
+L: 1/4 % default length
+%%staves (S1V1 S1V2) | (S2V1 S2V2) 
+V: S1V1 clef=treble 
+%%MIDI beat 127 125 110 1
+V: S1V2 
+%%MIDI beat 127 125 110 1
+V: S2V1 clef=bass 
+%%MIDI beat 127 125 110 1
+V: S2V2 
+%%MIDI beat 127 125 110 1
+K: G % key signature
+%
+%%MIDI program 1 0 % Piano 1
+%%MIDI program 2 0 % Piano 1
+%%MIDI program 3 0 % Piano 1
+%%MIDI program 4 0 % Piano 1
+%
+% 1
+[V: S1V1] [Q:1/4=115] B B c d | d c B A | G G A B | B3/2 A/ A2 |
+w: 1.~Joy- ful, joy- ful, we a- dore Thee, God of glor- y, Lord of love; 
+w: 2.~All Thy works with joy sur- round Thee, earth and heaven re- flect Thy rays, 
+w: 3.~Thou art giv- ing and for- giv- ing, ev- er bless- ing, ev- er blessed, 
+w: 4.~Mor- tals, join the ha- ppy chor- us, which the morn- ing stars be- gan; 
+[V: S1V2]  D D D D | D E/F/ G D | D D F G | G3/2 F/ F2 |
+[V: S2V1]  G, G, A, B, | B, A, G, F, | G, B, C D | D3/2 D/ D2 |
+[V: S2V2]  G, G, G, G, | D, D, D, C, | B,, B,, A,, G,, | D,3/2 D,/ D,2 |
+% 5
+[V: S1V1]  B B c d | d c B A | G G A B | A3/2 G/ G2 |
+w: Hearts un- fold like flowers be- fore Thee, o- pening to the sun a- bove. 
+w: Stars and an- gels sing a- round Thee, cen- ter of un- bro- ken praise. 
+w: Well- spring of the joy of liv- ing, o- cean depth of hap- py rest! 
+w: Fa- ther love is reign- ing o'er us, bro- ther love binds man to man. 
+[V: S1V2]  G D E =F | =F E D E | D D F G | F3/2 G/ G2 |
+[V: S2V1]  D D C B, | G, A, B, C | B, B, C D | C3/2 B,/ B,2 |
+[V: S2V2]  G, G, G, G, | C, C, C, C, | D, D, D, D, | D,3/2 G,/ G,2 |
+% 9
+[V: S1V1]  A A B G | A B/c/ B G | A B/c/ B A | G A D2 |
+w: Melt the clouds of sin and * sad- ness; drive the * dark of doubt a- way; 
+w: Field and for- est, vale and * moun- tain, flow- ery * mea- dow, flash- ing sea, 
+w: Thou our Fa- ther, Christ our * Bro- ther, all who * live in love are Thine; 
+w: E- ver sing- ing, march we * on- ward, vic- tors * in the midst of strife, 
+[V: S1V2]  F D D G | F G/F/ G G | F F F ^D | E/=D/ ^C D2 |
+[V: S2V1]  D F, G, B, | C B,/A,/ G, B, | C B,/A,/ B, B, | B, A,/G,/ F,2 |
+[V: S2V2]  D, D, D, D, | D, D, D, D, | D, D, ^D, B,, | E, A,, D,2 |
+% 13
+[V: S1V1]  B B c d | d c B A | !sintro!G G A B | A3/2 G/ G2 !eintro!|]
+w: Giv- er of im- mor- tal glad- ness, fill us with the light of day! 
+w: Sing- ing bird and flow- ing foun- tain call us to re- joice in Thee. 
+w: Teach us how to love each o- ther, lift us to the joy div- ine. 
+w: Joy- ful mu- sic leads us Sun- ward in the tri- umph song of life. 
+[V: S1V2]  D D E =F | =F E D E | D D F G | F3/2 G/ G2 |]
+[V: S2V1]  G, D C B, | G, A, B, C | B, B, C D | C3/2 B,/ B,2 |]
+[V: S2V2]  G, G, G, G, | C, C, C, C, | D, D, D, D, | D,3/2 G,/ G,2 |]
+% 18
+
+%%newpage
+
+% PAGE LAYOUT
+%
+%%pagewidth	21.6000cm
+%%pageheight	27.9000cm
+%%scale		0.750000
+%%staffsep	1.600000cm
+%%sysstaffsep	0.00000cm
+%%exprabove	false
+%%measurebox	false
+%%header "256		PRAISE"
+%%footer Ps 103:1-22, 146:1-2, Mk 12:30, 2:1-12, 1Pt 1:24-25		7 8 7 8 7 6 7 6 7 6 7 6
+%OHSCRIP Ps 103:1-22, 146:1-2, Mk 12:30, 2:1-12, 1Pt 1:24-25
+%OHTOPICS {Angels [4]}, {Assurance [4]}, {Atonement}, {Brevity of Life [3]}, {Children (see also God's Children - the Faithful) [3,4]}, {Father [3]}, {Fear of the Lord [3]}, {God, Goodness of}, {God, Mercy of}, {God's Children - the Faithful (see also Saints, People of the World) [3,4]}, {Gratitude}, {Healing [1]}, {Joy}, {Kindness, God's}, {Patience [1,2]}, {Praise, Father}, {Sinners}, {Worship}
+%OHCATEGORY PRAISE
+%OHMETRICAL 7 8 7 8 7 6 7 6 7 6 7 6
+%OHCOMPLEXITY 4
+%OHCOMPOSER from Johannes Kugelmann's Concentus Novi, Augsburg, 1540
+%OHARRANGER unknown
+%OHAUTHOR Graumann, Johann (1487-1541)
+%OHTRANSLATOR Winkworth, Catherine (1827-1878)
+%%postscript /st { moveto -8 0 rmoveto 0 8 rlineto 4 0 rlineto stroke } def
+%%postscript /nd { moveto -8 0 rmoveto 0 8 rlineto -4 0 rlineto stroke } def
+%%deco sintro 6 st 6 0 0 
+%%deco eintro 6 nd 6 0 0 
+

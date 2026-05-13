@@ -1,0 +1,118 @@
+
+% PAGE LAYOUT
+%
+%%pagewidth	21.6000cm
+%%pageheight	27.9000cm
+%%scale		0.750000
+%%staffsep	1.600000cm
+%%sysstaffsep	0.00000cm
+%%exprabove	false
+%%measurebox	false
+%%header "22		OPENING SONGS"
+%%footer Jn 6:67-68, 8:31-32, Heb 4:12, Jn 1:1-5, 8:12, 1Cor 2:14		7 8 7 8 8 8
+%OHSCRIP Jn 6:67-68, 8:31-32, Heb 4:12, Jn 1:1-5, 8:12, 1Cor 2:14
+%OHTOPICS {Church on Earth (Church Militant)}, {Consolation [4]}, {Darkness, Spiritual [2]}, {Education [2]}, {Father [4]}, {Guidance}, {Holiness}, {Holy Spirit [2-4]}, {Invitation (Faithful's to God)}, {Invitation (God's to Us)}, {Jesus [1,4]}, {Knowledge [2]}, {Light [2,3]}, {Love}, {Opening Songs}, {Presence}, {Trinity}
+%OHCATEGORY OPENING SONGS
+%OHMETRICAL 7 8 7 8 8 8
+%OHCOMPLEXITY 2
+%OHCOMPOSER Ahle, Johann Rudolph (1625-1673)
+%OHARRANGER Layriz, Fridrich (1808-1859)
+%OHAUTHOR Clausnitzer, Tobias (1619-1684)
+%OHTRANSLATOR Winkworth, Catherine (1827-1878)
+%%postscript /st { moveto -8 0 rmoveto 0 8 rlineto 4 0 rlineto stroke } def
+%%postscript /nd { moveto -8 0 rmoveto 0 8 rlineto -4 0 rlineto stroke } def
+%%deco sintro 6 st 6 0 0 
+%%deco eintro 6 nd 6 0 0 
+
+X:1
+T: When I Survey the Wondrous Cross
+%%combinevoices 1
+C: Words: Isaac Watts, 1707.
+C: Music: 'Duke Street' John Hatton, 1793.  Setting: "Finest of the Wheat No. 3" Hymnal, 1904.
+C: copyright: public domain.  This score is a part of the Open Hymnal Project, 2014 Revision.
+S: Music source: "Finest of the Wheat No. 3" Hymnal, 1904 Hymn 257.  ABC file contributed to the Open Hymnal by Tobin Strong, 20 Dec 2013.
+S: composite from "The Anglican hymn Book", 1871 hymn 127 and "Hymns Ancient and Modern", 1869 Hymn 101.
+M: 4/4
+L: 1/4
+%%staves (S1V1 S1V2) | (S2V1 S2V2) 
+V: S1V1 clef=treble 
+%%MIDI beat 127 125 110 1
+V: S1V2 
+%%MIDI beat 127 125 110 1
+V: S2V1 clef=bass 
+%%MIDI beat 127 125 110 1
+V: S2V2 
+%%MIDI beat 127 125 110 1
+K: Eb % key signature
+%
+%%MIDI program 1 0 % Piano 1
+%%MIDI program 2 0 % Piano 1
+%%MIDI program 3 0 % Piano 1
+%%MIDI program 4 0 % Piano 1
+%
+% 1
+[V: S1V1] [Q:1/4=130] E2 G A | B2 (c d) | e2 (d c) | B4 | 
+w: 1.~When I sur- vey the * won- drous * cross 
+w: 2.~For- bid it, Lord, that * I should * boast, 
+w: 3.~See from His head, His * hands, His * feet, 
+w: 4.~His dy- ing crim- son, * like a * robe, 
+w: 5.~Were the whole realm of * na- ture * mine, 
+[V: S1V2] E2 E D | E2 (E F) | G2 (F E) | D4 | 
+[V: S2V1] G,2 B, B, | B,2 A,2 | (G, B,) (B, =A,) | B,4 |
+[V: S2V2] E,2 E, F, | G,2 (A, F,) | E,2 F,2 | B,,4 |
+% 5
+[V: S1V1] B2 B B | c2 B2 | A2 G2 | F4 | 
+w: On which the Prince of Glo- ry died, 
+w: Save in the death of Christ my God! 
+w: Sor- row and love flow min- gled down! 
+w: Spreads o'er His bo- dy on the tree; 
+w: That were a pre- sent far too small; 
+[V: S1V2] E2 E E | E2 (E B,) | (C D) E2 | D4 | 
+[V: S2V1] G,2 G, B, | A,2 (B, G,) | A,2 B,2 | B,4 | 
+[V: S2V2] E,2 E, G, | A,2 G,2 | F,2 E,2 | B,,4 | 
+% 9
+[V: S1V1] G2 G F | (E G) (B e) | (c B) (A G) | F4 | 
+w: My rich-est gain * I * count * but * loss, 
+w: All the vain things * that * charm * me * most, 
+w: Did e'er such love * and * sor- * row * meet, 
+w: Then I am dead * to * all * the * globe, 
+w: Love so a- ma- * zing, * so * di- * vine, 
+[V: S1V2] E2 E B, | (B, E) E2 | E2 (D E) | D4 | 
+[V: S2V1] B,2 B, B, | (G, B,) B,2 | (C E) B,2 | B,4 | 
+[V: S2V2] E,2 E, D, | E,2 G,2 | (A, G,) (F, E,) | B,,4 | 
+% 13
+[V: S1V1] !sintro!B2 cd | e3 A | G2 F2 | E4 !eintro!|]
+w: And pour con- tempt on all my pride.
+w: I sac- ri- fice them to His blood. 
+w: Or thorns com- pose so rich a crown? 
+w: And all the globe is dead to me. 
+w: De- mands my soul, my life, my all. 
+[V: S1V2] E2 E F | (G> F E) F | E2 D2 | E4 |]
+[V: S2V1] B,2 A, A, | (G,> A, B,) C | B,2 A,2 | G,4 |]
+[V: S2V2] G,2 A, F, | (E,> F, G,) A, | B,2 B,,2 | E,4 |]
+
+%%newpage
+% PAGE LAYOUT
+%
+%%pagewidth	21.6000cm
+%%pageheight	27.9000cm
+%%scale		0.750000
+%%staffsep	1.60000cm
+%%exprabove	false
+%%measurebox	false
+%%header "90		LENT"
+%%footer Gal 6:14, Rom 7:24		8 8 8 8
+%OHSCRIP Gal 6:14, Rom 7:24
+%OHTOPICS {Atonement}, {Blood [2,4]}, {Conscience}, {Contrition}, {Cross}, {Crown [3]}, {Easter Week / Passion}, {Gratitude}, {Inner Life}, {Jesus}, {Pride (see also Humility) [1]}, {Repentance}, {Reverence}, {Sacrifice}, {Submission (see also Following Jesus, God - Providence of, Trust)}
+%OHCATEGORY LENT
+%OHMETRICAL 8 8 8 8
+%OHCOMPLEXITY 2
+%OHCOMPOSER Mason, Lowell (1792-1872)
+%OHARRANGER unknown
+%OHAUTHOR Watts, Isaac (1674-1748)
+%OHTRANSLATOR none
+%%postscript /st { moveto -8 0 rmoveto 0 8 rlineto 4 0 rlineto stroke } def
+%%postscript /nd { moveto -8 0 rmoveto 0 8 rlineto -4 0 rlineto stroke } def
+%%deco sintro 6 st 6 0 0 
+%%deco eintro 6 nd 6 0 0 
+

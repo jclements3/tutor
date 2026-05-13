@@ -1,0 +1,117 @@
+
+% PAGE LAYOUT
+%
+%%pagewidth	21.6000cm
+%%pageheight	27.9000cm
+%%scale		0.750000
+%%staffsep	1.600000cm
+%%sysstaffsep	0.00000cm
+%%exprabove	false
+%%measurebox	false
+%%header "22		OPENING SONGS"
+%%footer Jn 6:67-68, 8:31-32, Heb 4:12, Jn 1:1-5, 8:12, 1Cor 2:14		7 8 7 8 8 8
+%OHSCRIP Jn 6:67-68, 8:31-32, Heb 4:12, Jn 1:1-5, 8:12, 1Cor 2:14
+%OHTOPICS {Church on Earth (Church Militant)}, {Consolation [4]}, {Darkness, Spiritual [2]}, {Education [2]}, {Father [4]}, {Guidance}, {Holiness}, {Holy Spirit [2-4]}, {Invitation (Faithful's to God)}, {Invitation (God's to Us)}, {Jesus [1,4]}, {Knowledge [2]}, {Light [2,3]}, {Love}, {Opening Songs}, {Presence}, {Trinity}
+%OHCATEGORY OPENING SONGS
+%OHMETRICAL 7 8 7 8 8 8
+%OHCOMPLEXITY 2
+%OHCOMPOSER Ahle, Johann Rudolph (1625-1673)
+%OHARRANGER Layriz, Fridrich (1808-1859)
+%OHAUTHOR Clausnitzer, Tobias (1619-1684)
+%OHTRANSLATOR Winkworth, Catherine (1827-1878)
+%%postscript /st { moveto -8 0 rmoveto 0 8 rlineto 4 0 rlineto stroke } def
+%%postscript /nd { moveto -8 0 rmoveto 0 8 rlineto -4 0 rlineto stroke } def
+%%deco sintro 6 st 6 0 0 
+%%deco eintro 6 nd 6 0 0 
+
+X: 98
+T: 'Twas On That Dark, That Doleful Night
+%%combinevoices 1
+C: Words: Isaac Watts, 1709.  
+C: Music: 'St. Cross' John Bacchus Dykes, 1861. Setting: "Hymns Ancient and Modern", 1869.
+C: copyright: public domain.  This score is a part of the Open Hymnal Project, 2011 Revision.
+S: Music source:  "Hymns Ancient and Modern", 1869 Hymn 100, composed for this hymnal.  Words found in "An arrangement of the Psalms, Hymns and spiritual songs of Issac Watts", 1820
+M: 4/4 % time signature
+L: 1/4 % default length
+%%staves (S1V1 S1V2) | (S2V1 S2V2) 
+V: S1V1 clef=treble 
+%%MIDI beat 127 125 110 1
+V: S1V2 
+%%MIDI beat 127 125 110 1
+V: S2V1 clef=bass 
+%%MIDI beat 127 125 110 1
+V: S2V2 
+%%MIDI beat 127 125 110 1
+K: F % key signature
+%
+%%MIDI program 1 0 % Piano 1
+%%MIDI program 2 0 % Piano 1
+%%MIDI program 3 0 % Piano 1
+%%MIDI program 4 0 % Piano 1
+%
+% 1
+[V: S1V1] [Q:1/4=140] F2 F G | A3 d | c2 B2 | A4 | A2 A B |
+w: 1.~'Twas on that dark, that dole- ful night When pow'rs of 
+w: 2.~Be- fore the mourn- ful scene be- gan, He took the 
+w: 3.~"This is My bo- dy, broke for sin; Re- ceive and 
+w: 4.~For us His flesh with nails was torn, He bore the 
+w: 5.~For us His vi- tal blood was spilt, To buy the 
+[V: S1V2] D2 D E | F3 F | (F C) (D E) | F4 | F2 E D |
+[V: S2V1] A,2 A, C | C3 B, | A,3 G, | A,4 | F,2 F, F, |
+[V: S2V2] D,2 D, C, | F,3 B,, | C,2 C,2 | F,4 | D,2 C, B,, |
+% 1
+[V: S1V1] c2 F2 | A2 G2 | F3 A | F3 A | G2 A2 |
+w: earth and hell a- rose A- gainst the Son of 
+w: bread, and blessed, and brake: What love through all His 
+w: eat the liv- ing food:" Then took the cup, and 
+w: scourge, He felt the thorn; And jus- tice poured up- 
+w: par- don of our guilt, When, for black crimes of 
+[V: S1V2] C2 F2 | F2 E2 | F3 C | C3 D | D2 ^C2 |
+[V: S2V1] (F, G,) (A, B,) | C3 B, | A,3 A, | A,3 A, | B,2 A,2 |
+[V: S2V2] A,,2 D,2 | C,2 C,2 | F,3 F, | F,3 F, | E,2 A,,2 |
+% 1
+[V: S1V1] F2 G2 | E4 | !sintro!D2 D D |  A3 G | F2 ^E2 | D4 !eintro!|]
+w: God's de- light, And friends be- trayed Him to His foes: 
+w: ac- tions ran! What won- drous words of grace He spake! 
+w: blessed the wine; "'Tis the new cov- 'nant in My blood." 
+w: on His head Its hea- vy ven- geance in our stead. 
+w: big- gest size, He gave His soul a sac- ri- fice. 
+[V: S1V2] D2 (E D) | ^C4 | D2 D D | A3 D | D2 C2 | D4 |]
+[V: S2V1] A,2 B,2 | A,4 | D,2 D, D, | A,3 B, | A,2 G,2 | F,4 |]
+[V: S2V2] D,2 G,,2 | A,,4 | D,2 D, D, | A,3 G,, | A,,2 A,,2 D,4 |]
+W: 6."Do this," He cried, "till time shall end,
+W: In memory of your dying friend;
+W: Meet at My table, and record
+W: The love of your departed Lord."
+W: 
+W: 7.Jesus, Thy feast we celebrate,
+W: We show Thy death, we sing Thy name,
+W: Till Thou return, and we shall eat
+W: The marriage supper of the Lamb.
+
+%%newpage
+
+% PAGE LAYOUT
+%
+%%pagewidth	21.6000cm
+%%pageheight	27.9000cm
+%%scale		0.740000
+%%staffsep	0.60000cm
+%%exprabove	false
+%%measurebox	false
+%%header "GOOD FRIDAY		99"
+%%footer Lk 23:34, Lk 23:43, Jn 19:26-27, Mt 27:46, Jn 19:28, Jn 19:30, Lk 23:46		7 7 7 6
+%OHSCRIP Lk 23:34, Lk 23:43, Jn 19:26-27, Mt 27:46, Jn 19:28, Jn 19:30, Lk 23:46
+%OHTOPICS {Atonement}, {Blood [1]}, {Commitment}, {Easter Week / Passion}, {Example, Christ's}, {God, Love of}, {Gratitude}, {Humility}, {Jesus}, {Kindness, God's}, {Love}, {Priest/Priestly Roles}, {Sacrifice}, {Sinners}
+%OHCATEGORY GOOD FRIDAY
+%OHMETRICAL 7 7 7 6
+%OHCOMPLEXITY 1
+%OHCOMPOSER Monk, William Henry (1823-1889)
+%OHARRANGER unknown
+%OHAUTHOR Pollock, Thomas Benson (1836-1896)
+%OHTRANSLATOR none
+%%postscript /st { moveto -8 0 rmoveto 0 8 rlineto 4 0 rlineto stroke } def
+%%postscript /nd { moveto -8 0 rmoveto 0 8 rlineto -4 0 rlineto stroke } def
+%%deco sintro 6 st 6 0 0 
+%%deco eintro 6 nd 6 0 0 
+

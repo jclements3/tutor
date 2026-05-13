@@ -1,0 +1,113 @@
+
+% PAGE LAYOUT
+%
+%%pagewidth	21.6000cm
+%%pageheight	27.9000cm
+%%scale		0.750000
+%%staffsep	1.600000cm
+%%sysstaffsep	0.00000cm
+%%exprabove	false
+%%measurebox	false
+%%header "22		OPENING SONGS"
+%%footer Jn 6:67-68, 8:31-32, Heb 4:12, Jn 1:1-5, 8:12, 1Cor 2:14		7 8 7 8 8 8
+%OHSCRIP Jn 6:67-68, 8:31-32, Heb 4:12, Jn 1:1-5, 8:12, 1Cor 2:14
+%OHTOPICS {Church on Earth (Church Militant)}, {Consolation [4]}, {Darkness, Spiritual [2]}, {Education [2]}, {Father [4]}, {Guidance}, {Holiness}, {Holy Spirit [2-4]}, {Invitation (Faithful's to God)}, {Invitation (God's to Us)}, {Jesus [1,4]}, {Knowledge [2]}, {Light [2,3]}, {Love}, {Opening Songs}, {Presence}, {Trinity}
+%OHCATEGORY OPENING SONGS
+%OHMETRICAL 7 8 7 8 8 8
+%OHCOMPLEXITY 2
+%OHCOMPOSER Ahle, Johann Rudolph (1625-1673)
+%OHARRANGER Layriz, Fridrich (1808-1859)
+%OHAUTHOR Clausnitzer, Tobias (1619-1684)
+%OHTRANSLATOR Winkworth, Catherine (1827-1878)
+%%postscript /st { moveto -8 0 rmoveto 0 8 rlineto 4 0 rlineto stroke } def
+%%postscript /nd { moveto -8 0 rmoveto 0 8 rlineto -4 0 rlineto stroke } def
+%%deco sintro 6 st 6 0 0 
+%%deco eintro 6 nd 6 0 0 
+
+X: 129
+T: If God Had Not Been on Our Side
+%%combinevoices 1
+T: (also known as Had God not Come, May Israel Say or Were God Not With Us At This Time)
+C: Words: Martin Luther, 1524.  Translation composite. 
+C: Music: 'Wär Gott nicht mit uns diese Zeit (1524)' from Walter's Geistliche Gesangbüchlein, 1524. 
+C: Setting: Michael Praetorius, 1610.
+C: copyright: public domain.  This score is a part of the Open Hymnal Project, 2009 Revision.
+S: Translation is public domain per Project Wittenberg: http://www.iclnet.org/pub/resources/text/wittenberg/hymns/ourside.txt
+M: 4/4 % time signature
+L: 1/4 % default length
+%%staves (S1V1 S1V2) | (S2V1 S2V2) 
+V: S1V1 clef=treble 
+%%MIDI beat 127 125 110 1
+V: S1V2 
+%%MIDI beat 127 125 110 1
+V: S2V1 clef=bass 
+%%MIDI beat 127 125 110 1
+V: S2V2 
+%%MIDI beat 127 125 110 1
+K: A % key signature
+%
+%%MIDI program 1 0 % Piano 1
+%%MIDI program 2 0 % Piano 1
+%%MIDI program 3 0 % Piano 1
+%%MIDI program 4 0 % Piano 1
+%
+% 1
+[V: S1V1] [Q:1/4=120] F2 A A | B c B ^A | B2 z B | A F B c | (B/A/ B) A2 |
+w: 1.~If God had not been on our side And had not come to aid * * us, 
+w: 2.~Their fur- ious wrath, did God per- mit, Would sure- ly have con- sumed * * us 
+w: 3.~Blest be the Lord, who foiled their threat That they could not de- vour * * us; 
+[V: S1V2]  C2 F F | F F D/E/ F | F2 x F | E D F A | (E/F/ G) E2 |
+[V: S2V1]  A,2 C D | D A, B, C | D2 z D | A, A, D A, | (B,/C/ D) C2 |
+[V: S2V2]  F,2 F, D, | B,, F, =G, F, | B,,2 x B,, | C, D, B,, F, | (G,/A,/ E,) A,,2 |
+% 5
+[V: S1V1]  F2 A A | B c B ^A | B2 z B | A F B c | (B/A/ B) A2 |
+w: The foes with all their pow'r and pride Would sure- ly have dis- mayed * * us; 
+w: And as a deep and yawn- ing pit With life and limb en- tombed * * us. 
+w: Our souls, like birds, es- caped their net, They could not ov- er- pow'r * * us. 
+[V: S1V2]  C2 F F | F F D/E/ F | F2 x F | E D F A | (E/F/ G) E2 |
+[V: S2V1]  A,2 C D | D A, B, C | D2 z D | A, A, D A, | (B,/C/ D) C2 |
+[V: S2V2]  F,2 F, D, | B,, F, =G, F, | B,,2 x B,, | C, D, B,, F, | (G,/A,/ E,) A,,2 |
+% 9
+[V: S1V1]  z B c B | G A B A | F2 z F | B A B c |
+w: For we, His flock, would have to fear The threat of men both 
+w: Like men o'er whom dark wa- ters roll Their wrath would have en- 
+w: The snare is bro- ken we are free! Our help is ev- er, 
+[V: S1V2]  x G A F | E C F E | D2 x C | E E D E |
+[V: S2V1]  z E E D | B, F D C | A,2 z A, | G, E, F, A, |
+[V: S2V2]  x E, A, B, | E, F, B,, C, | D,2 x F, | E, C, B,, A,, |
+% 17
+[V: S1V1]  A G E2 | z !sintro!F A B | c A (G/F/ G) | F4 !eintro!|]
+w: far and near Who rise in might a- gainst * * us. 
+w: gulfed our soul And, like a flood, o'er- whelmed * * us. 
+w: Lord, in Thee, Who mad- est earth and hea- * * ven. 
+[V: S1V2]  F E C2 | x C F3/2 D/ | E F (E/F/ ^E) | F4 |]
+[V: S2V1]  F, B, A,2 | z A, C D | C C (C/A,/ C) | ^A,4 |]
+[V: S2V2]  D, E, A,,2 | x F, F, B, | A, F, (C,/D,/ C,) | F,4 |]
+% 20
+
+%%newpage
+
+% PAGE LAYOUT
+%
+%%pagewidth	21.6000cm
+%%pageheight	27.9000cm
+%%scale		0.7500000
+%%staffsep	1.60000cm
+%%exprabove	false
+%%measurebox	false
+%%header "REFORMATION		130"
+%%footer Ps 124:1-8, Rom 8:31-39		8 7 8 7 8 8 7
+%OHSCRIP Ps 124:1-8, Rom 8:31-39
+%OHTOPICS {Christian Life}, {Courage in Affliction}, {Faithfulness}, {God, Care of}, {God, Creator [3]}, {Gratitude}, {Loyalty}, {Security}, {Trust}, {Victory}
+%OHCATEGORY REFORMATION
+%OHMETRICAL 8 7 8 7 8 8 7
+%OHCOMPLEXITY 2
+%OHCOMPOSER from Walter's Hymnal, 1537
+%OHARRANGER unknown
+%OHAUTHOR Luther, Martin (1483-1546)
+%OHTRANSLATOR composite
+%%postscript /st { moveto -8 0 rmoveto 0 8 rlineto 4 0 rlineto stroke } def
+%%postscript /nd { moveto -8 0 rmoveto 0 8 rlineto -4 0 rlineto stroke } def
+%%deco sintro 6 st 6 0 0 
+%%deco eintro 6 nd 6 0 0 
+

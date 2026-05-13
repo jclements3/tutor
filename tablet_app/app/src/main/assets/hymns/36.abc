@@ -1,0 +1,121 @@
+
+% PAGE LAYOUT
+%
+%%pagewidth	21.6000cm
+%%pageheight	27.9000cm
+%%scale		0.750000
+%%staffsep	1.600000cm
+%%sysstaffsep	0.00000cm
+%%exprabove	false
+%%measurebox	false
+%%header "22		OPENING SONGS"
+%%footer Jn 6:67-68, 8:31-32, Heb 4:12, Jn 1:1-5, 8:12, 1Cor 2:14		7 8 7 8 8 8
+%OHSCRIP Jn 6:67-68, 8:31-32, Heb 4:12, Jn 1:1-5, 8:12, 1Cor 2:14
+%OHTOPICS {Church on Earth (Church Militant)}, {Consolation [4]}, {Darkness, Spiritual [2]}, {Education [2]}, {Father [4]}, {Guidance}, {Holiness}, {Holy Spirit [2-4]}, {Invitation (Faithful's to God)}, {Invitation (God's to Us)}, {Jesus [1,4]}, {Knowledge [2]}, {Light [2,3]}, {Love}, {Opening Songs}, {Presence}, {Trinity}
+%OHCATEGORY OPENING SONGS
+%OHMETRICAL 7 8 7 8 8 8
+%OHCOMPLEXITY 2
+%OHCOMPOSER Ahle, Johann Rudolph (1625-1673)
+%OHARRANGER Layriz, Fridrich (1808-1859)
+%OHAUTHOR Clausnitzer, Tobias (1619-1684)
+%OHTRANSLATOR Winkworth, Catherine (1827-1878)
+%%postscript /st { moveto -8 0 rmoveto 0 8 rlineto 4 0 rlineto stroke } def
+%%postscript /nd { moveto -8 0 rmoveto 0 8 rlineto -4 0 rlineto stroke } def
+%%deco sintro 6 st 6 0 0 
+%%deco eintro 6 nd 6 0 0 
+
+X: 58
+T: I Heard The Bells On Christmas Day
+%%combinevoices 1
+C: Words: Henry Wadsworth Longfellow, 1864. 
+C: Music: 'Waltham (Calkin)' John B. Calkin, 1872.  Setting: "The Book of Common Praise", 1885.
+C: copyright: public domain.  This score is a part of the Open Hymnal Project, 2006 Revision.
+S: Music source: "The Book of Common Praise", 1885 Hymn 466.
+M: 4/4 % time signature
+L: 1/4 % default length
+%%staves (S1V1 S1V2) | (S2V1 S2V2) 
+V: S1V1 clef=treble 
+%%MIDI beat 127 125 110 1
+V: S1V2 
+%%MIDI beat 127 125 110 1
+V: S2V1 clef=bass 
+%%MIDI beat 127 125 110 1
+V: S2V2 
+%%MIDI beat 127 125 110 1
+K: Eb % key signature
+%
+%%MIDI program 1 0 % Piano 1
+%%MIDI program 2 0 % Piano 1
+%%MIDI program 3 0 % Piano 1
+%%MIDI program 4 0 % Piano 1
+%
+% 1
+[V: S1V1] [Q:1/4=100] E  | G3/2 ^F/ G G | A3/2 G/ A =A |
+w: 1.~I heard the bells on Christ- mas day Their 
+w: 2.~And thought how, as the day had come, The 
+w: 3.~Till ring- ing, sing- ing on its way The 
+w: 4.~And in des- pair I bowed my head "There 
+w: 5.~Then pealed the bells more loud and deep: "God 
+[V: S1V2] E | E3/2 E/ E _D | =D3/2 D/ D E |
+[V: S2V1]  G, | B,3/2 B,/ B, B, | B,3/2 B,/ B, C |
+[V: S2V2]  E, | E, B,, E, =E, | F, B,, F, ^F, |
+% 5
+[V: S1V1]  B e d c | c3/2 B/ B B | B3/2 A/ G 
+w: old fa- mil- iar car- ols play, And wild and sweet 
+w: bel- fries of all Christ- en- dom Had rolled a- long 
+w: world re- volved from night to day, A voice, a chime, 
+w: is no peace on earth," I said, "For hate is strong 
+w: is not dead, nor doth He sleep; The wrong shall fail, 
+[V: S1V2]  E G G E | F3/2 F/ F E | E3/2 E/ E 
+[V: S2V1]  B, B, B, E | D3/2 D/ D E | C3/2 C/ B, 
+[V: S2V2]  G, B,, E, G, | A,3/2 A,/ A, G, | A,3/2 A,/ E, 
+% 11
+[V: S1V1] A | G3/2 F/ E !sintro!F | G A B c | D3/2 F/ !fermata!E !eintro!|]
+w: the words re- peat Of peace on earth, good will to men. 
+w: th'un- bro- ken song Of peace on earth, good will to men. 
+w: a chant sub- lime Of peace on earth, good will to men. 
+w: and mocks the song Of peace on earth, good will to men." 
+w: the right pre- vail With peace on earth, good will to men." 
+[V: S1V2] B | =B,3/2 B,/ C E | E E E E | D3/2 D/ E |]
+[V: S2V1]  E, | G,3/2 G,/ G, A, | B, C B, F, | F,3/2 A,/ !invertedfermata!G, |]
+[V: S2V2]  E, | D,3/2 D,/ C, F,, | B,, A,, G,, A,, | B,,3/2 B,,/ E, |]
+% 11
+
+%%newpage
+% PAGE LAYOUT
+%
+%%pagewidth	21.6000cm
+%%pageheight	27.9000cm
+%%scale		0.720000
+%%staffsep	1.10000cm
+%%sysstaffsep	0.00000cm
+%%exprabove	false
+%%measurebox	false
+%%combinevoices 0
+%%header "59		CHRISTMAS"
+%%footer Lv 26:18-19, Job 38:29-30, Ps 147:16-20, Is 59:11-14, 1Kgs 8:27, Lk 2:7-14, Ez 36:25-28, Pr 23:26, Deut 30:6		Irregular
+%OHSCRIP Lv 26:18-19, Job 38:29-30, Ps 147:16-20, Is 59:11-14, 1Kgs 8:27, Lk 2:7-14, Ez 36:25-28, Pr 23:26, Deut 30:6
+%OHTOPICS {Angels [3,4]}, {Christmas/Advent}, {God, As King}, {God, Eternity of}, {God, Love of}, {God, Majesty &amp; Power of}, {Grace}, {Following Jesus, In Faith [5]}, {Following Jesus, Sanctification [5]}, {Humility}, {Jesus}, {Law [1]}, {Praise, Son}, {Presence}, {Sinners [1]}, 
+%OHCATEGORY CHRISTMAS
+%OHMETRICAL Irregular
+%OHCOMPLEXITY 5
+%OHCOMPOSER Holst, Gustav Theodore (1874-1934)
+%OHARRANGER Holst, Gustav Theodore (1874-1934)
+%OHAUTHOR Rossetti, Christina Georgina (1830-1894)
+%OHTRANSLATOR none
+%%postscript /st { moveto -8 0 rmoveto 0 8 rlineto 4 0 rlineto stroke } def
+%%postscript /nd { moveto -8 0 rmoveto 0 8 rlineto -4 0 rlineto stroke } def
+%%deco sintro 6 st 6 0 0 
+%%deco eintro 6 nd 6 0 0 
+%%beginps
+% -- draw parenthesis around a note
+/opnot{		% usage: x y opnot
+	M -11 -3 RM /Times-Roman 36 selectfont(\( \))show}!
+% -- same, but inside a chord (x is not the same)
+/opchnot{	% usage: x y opchnot
+	M -10.5 -3 RM /Times-Roman 24 selectfont(\(   \))show}!
+%%endps
+
+% -- optional note
+%%deco () 1 opnot 0 0 0
+

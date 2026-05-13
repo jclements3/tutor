@@ -1,0 +1,115 @@
+
+% PAGE LAYOUT
+%
+%%pagewidth	21.6000cm
+%%pageheight	27.9000cm
+%%scale		0.750000
+%%staffsep	1.600000cm
+%%sysstaffsep	0.00000cm
+%%exprabove	false
+%%measurebox	false
+%%header "22		OPENING SONGS"
+%%footer Jn 6:67-68, 8:31-32, Heb 4:12, Jn 1:1-5, 8:12, 1Cor 2:14		7 8 7 8 8 8
+%OHSCRIP Jn 6:67-68, 8:31-32, Heb 4:12, Jn 1:1-5, 8:12, 1Cor 2:14
+%OHTOPICS {Church on Earth (Church Militant)}, {Consolation [4]}, {Darkness, Spiritual [2]}, {Education [2]}, {Father [4]}, {Guidance}, {Holiness}, {Holy Spirit [2-4]}, {Invitation (Faithful's to God)}, {Invitation (God's to Us)}, {Jesus [1,4]}, {Knowledge [2]}, {Light [2,3]}, {Love}, {Opening Songs}, {Presence}, {Trinity}
+%OHCATEGORY OPENING SONGS
+%OHMETRICAL 7 8 7 8 8 8
+%OHCOMPLEXITY 2
+%OHCOMPOSER Ahle, Johann Rudolph (1625-1673)
+%OHARRANGER Layriz, Fridrich (1808-1859)
+%OHAUTHOR Clausnitzer, Tobias (1619-1684)
+%OHTRANSLATOR Winkworth, Catherine (1827-1878)
+%%postscript /st { moveto -8 0 rmoveto 0 8 rlineto 4 0 rlineto stroke } def
+%%postscript /nd { moveto -8 0 rmoveto 0 8 rlineto -4 0 rlineto stroke } def
+%%deco sintro 6 st 6 0 0 
+%%deco eintro 6 nd 6 0 0 
+
+X: 249
+T: What A Friend We Have In Jesus
+%%combinevoices 1
+C: Words: Joseph M. Scriven, 1855. 
+C: Music: 'untitled' Charles C. Converse, 1868.  Setting: "Book of hymns and tunes", 1874.
+C: copyright: public domain.  This score is a part of the Open Hymnal Project, 2005 Revision.
+S: Music source: "Book of hymns and tunes", 1874 (Presbyterian USA) Hymn 369
+M: 4/4 % time signature
+L: 1/4 % default length
+%%staves (S1V1 S1V2) | (S2V1 S2V2) 
+V: S1V1 clef=treble 
+%%MIDI beat 127 125 110 1
+V: S1V2 
+%%MIDI beat 127 125 110 1
+V: S2V1 clef=bass 
+%%MIDI beat 127 125 110 1
+V: S2V2 
+%%MIDI beat 127 125 110 1
+K: F % key signature
+%
+%%MIDI program 1 0 % Piano 1
+%%MIDI program 2 0 % Piano 1
+%%MIDI program 3 0 % Piano 1
+%%MIDI program 4 0 % Piano 1
+%
+% 1
+[V: S1V1] [Q:1/4=100]  c3/2 c/ d/c/ A/F/ | F2 D2 | C3/2 F/ A/F/ c/A/ | G3 z |
+w: 1.~What a Friend we have in Je- sus, all our sins and griefs to bear! 
+w: 2.~Have we tri- als and temp- ta- tions? Is there trou- ble a- ny- where? 
+w: 3.~Are we weak and hea- vy la- den, cum- bered with a load of care? 
+w: 4.~Bless- ed Sa- vior, Thou hast pro- mised Thou wilt all our bur- dens bear 
+[V: S1V2]  F3/2 F/ F/F/ F/C/ | D2 B,2 | C3/2 C/ C/C/ F/F/ | E3 x |
+[V: S2V1]  A,3/2 A,/ B,/A,/ C/A,/ | B,2 F,2 | A,3/2 A,/ A,/A,/ A,/C/ | C3 z |
+[V: S2V2]  F,3/2 F,/ F,/F,/ F,/F,/ | B,,2 B,,2 | F,3/2 F,/ F,/F,/ F,/F,/ | C,3 x |
+% 5
+[V: S1V1]  c3/2 c/ d/c/ A/F/ | F2 D2 | C3/2 F/ A/G/ F/E/ | F3 z |
+w: What a priv- i- lege to car- ry ev- ery- thing to God in prayer! 
+w: We should ne- ver be dis- cour- aged; take it to the Lord in prayer. 
+w: Pre- cious Sa- vior, still our re- fuge, take it to the Lord in prayer. 
+w: May we ev- er, Lord, be bring- ing all to Thee in earn- est prayer. 
+[V: S1V2]  F3/2 F/ F/F/ F/C/ | D2 B,2 | A,3/2 C/ F/C/ C/C/ | C3 x |
+[V: S2V1]  A,3/2 A,/ B,/A,/ C/A,/ | B,2 F,2 | F,3/2 A,/ C/B,/ A,/G,/ | A,3 z |
+[V: S2V2]  F,3/2 F,/ F,/F,/ F,/F,/ | B,,2 B,,2 | C,3/2 C,/ C,/C,/ C,/C,/ | F,3 x |
+% 9
+[V: S1V1]  G3/2 ^F/ G/A/ B/G/ | A2 c2 | d3/2 d/ c/A/ B/A/ | G3 z |
+w: O what peace we of- ten for- feit, O what need- less pain we bear, 
+w: Can we find a friend so faith- ful who will all our sor- rows share? 
+w: Do your friends des- pise, for- sake you? Take it to the Lord in prayer! 
+w: Soon in glo- ry bright un- cloud- ed there will be no need for prayer 
+[V: S1V2]  E3/2 ^D/ E/=F/ G/E/ | F2 F2 | F3/2 F/ F/F/ G/F/ | E3 x |
+[V: S2V1]  C3/2 C/ C/C/ C/C/ | C2 A,2 | B,3/2 B,/ C/C/ C/C/ | C3 z |
+[V: S2V2]  C,3/2 C,/ C,/C,/ C,/C,/ | F,2 F,2 | B,3/2 B,/ A,/F,/ E,/F,/ | C3 x |
+% 13
+[V: S1V1]  c3/2 c/ d/c/ A/F/ | F2 D2 | !sintro!C3/2 F/ A/G/ F/E/ | F3 z !eintro!|]
+w: All be- cause we do not ca- rry ev- ery- thing to God in prayer. 
+w: Je- sus knows our ev- ery weak- ness; take it to the Lord in prayer. 
+w: In His arms He'll take and shield you; you will find a so- lace there. 
+w: Rap- ture, praise and end- less wor- ship will be our sweet por- tion there. 
+[V: S1V2]  F3/2 F/ F/F/ F/C/ | D2 B,2 | A,3/2 C/ F/C/ C/C/ | C3 x |]
+[V: S2V1]  A,3/2 A,/ B,/A,/ C/A,/ | B,2 F,2 | F,3/2 A,/ C/B,/ A,/G,/ | A,3 z |]
+[V: S2V2]  F,3/2 F,/ F,/F,/ F,/F,/ | B,,2 B,,2 | C,3/2 C,/ C,/C,/ C,/C,/ | F,3 x |]
+% 18
+
+%%newpage
+
+% PAGE LAYOUT
+%
+%%pagewidth	21.6000cm
+%%pageheight	27.9000cm
+%%scale		0.710000
+%%staffsep	1.60000cm
+%%exprabove	false
+%%measurebox	false
+%%header "250		PRAISE"
+%%footer Ps 69:34, Ps 148		8 8 8 8 8 8 with Alleluias
+%OHSCRIP Ps 69:34, Ps 148
+%OHTOPICS {Brevity of Life [6]}, {Cloud [2]}, {Eternal Life [6]}, {Father}, {Fellowship}, {God, As King}, {God, Creator}, {Humility [7]}, {Judging [5]}, {Nature [1-4,7]}, {Praise, Father}, {Praise, Son}, {Praise, Holy Spirit [7]}, {Reverence [7]}, {Trinity}, {Worship}
+%OHCATEGORY PRAISE
+%OHMETRICAL 8 8 8 8 8 8 with Alleluias
+%OHCOMPLEXITY 4
+%OHCOMPOSER from Geistliche Kirchengesäng, Köln, 1623
+%OHARRANGER Williams, Ralph Vaughan (1872-1958)
+%OHAUTHOR Francis of Assisi (1181/1182-1226)
+%OHTRANSLATOR Draper, William Henry (1855-1933)
+%%postscript /st { moveto -8 0 rmoveto 0 8 rlineto 4 0 rlineto stroke } def
+%%postscript /nd { moveto -8 0 rmoveto 0 8 rlineto -4 0 rlineto stroke } def
+%%deco sintro 6 st 6 0 0 
+%%deco eintro 6 nd 6 0 0 
+

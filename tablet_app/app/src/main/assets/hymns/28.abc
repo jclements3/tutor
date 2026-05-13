@@ -1,0 +1,109 @@
+
+% PAGE LAYOUT
+%
+%%pagewidth	21.6000cm
+%%pageheight	27.9000cm
+%%scale		0.750000
+%%staffsep	1.600000cm
+%%sysstaffsep	0.00000cm
+%%exprabove	false
+%%measurebox	false
+%%header "22		OPENING SONGS"
+%%footer Jn 6:67-68, 8:31-32, Heb 4:12, Jn 1:1-5, 8:12, 1Cor 2:14		7 8 7 8 8 8
+%OHSCRIP Jn 6:67-68, 8:31-32, Heb 4:12, Jn 1:1-5, 8:12, 1Cor 2:14
+%OHTOPICS {Church on Earth (Church Militant)}, {Consolation [4]}, {Darkness, Spiritual [2]}, {Education [2]}, {Father [4]}, {Guidance}, {Holiness}, {Holy Spirit [2-4]}, {Invitation (Faithful's to God)}, {Invitation (God's to Us)}, {Jesus [1,4]}, {Knowledge [2]}, {Light [2,3]}, {Love}, {Opening Songs}, {Presence}, {Trinity}
+%OHCATEGORY OPENING SONGS
+%OHMETRICAL 7 8 7 8 8 8
+%OHCOMPLEXITY 2
+%OHCOMPOSER Ahle, Johann Rudolph (1625-1673)
+%OHARRANGER Layriz, Fridrich (1808-1859)
+%OHAUTHOR Clausnitzer, Tobias (1619-1684)
+%OHTRANSLATOR Winkworth, Catherine (1827-1878)
+%%postscript /st { moveto -8 0 rmoveto 0 8 rlineto 4 0 rlineto stroke } def
+%%postscript /nd { moveto -8 0 rmoveto 0 8 rlineto -4 0 rlineto stroke } def
+%%deco sintro 6 st 6 0 0 
+%%deco eintro 6 nd 6 0 0 
+
+X: 50
+T: Angels We Have Heard On High
+%%combinevoices 1
+C: Words: French Carol; Translated by James Chadwick, 1862. 
+C: Music: 'Gloria' French carol melody.  Setting: Edward (or Edwin) S. Barnes, before 1916.
+C: copyright: public domain.  This score is a part of the Open Hymnal Project, 2005 Revision.
+S: Music source: 'Lutheran Worship' Hymnal, 1982 Hymn 55. "Carols Old And Carols New", 1916 Carol 181.
+M: 4/4 % time signature
+L: 1/4 % default length
+%%staves (S1V1 S1V2) | (S2V1 S2V2) 
+V: S1V1 clef=treble 
+%%MIDI beat 127 125 110 1
+V: S1V2 
+%%MIDI beat 127 125 110 1
+V: S2V1 clef=bass 
+%%MIDI beat 127 125 110 1
+V: S2V2 
+%%MIDI beat 127 125 110 1
+K: F % key signature
+%
+%%MIDI program 1 0 % Piano 1
+%%MIDI program 2 0 % Piano 1
+%%MIDI program 3 0 % Piano 1
+%%MIDI program 4 0 % Piano 1
+%
+% 1
+[V: S1V1] [Q:1/4=130] A A A c | c3/2 B/ A2 | A G A c | A3/2 G/ F2 |
+w: 1.~An- gels we have heard on high Sweet- ly sing- ing o'er the plains, 
+w: 2.~Shep- herds, why this ju- bi- lee? Why your joy- ous strains pro- long? 
+w: 3.~Come to Beth- le- hem and see Christ Whose birth the an- gels sing; 
+w: 4.~See Him in a man- ger laid, Whom the choirs of an- gels praise; 
+[V: S1V2]  F F E E | G E F2 | F E F F | F E F2 |
+[V: S2V1]  C C C C | D C C2 | C C C C | C3/2 B,/ A,2 |
+[V: S2V2]  F, F, A, A, | G, C, F,2 | F, C, F, A, | C C, F,2 |
+% 5
+[V: S1V1]  A A A c | c3/2 B/ A2 | A G A c | A3/2 G/ F2 |
+w: And the moun- tains in re- ply E- cho- ing their joy- ous strains. 
+w: What the glad- some ti- dings be Which in- spire your heav'n- ly song? 
+w: Come, a- dore on bend- ed knee, Christ the Lord, the new- born King. 
+w: Ma- ry, Jo- seph, lend your aid, While our hearts in love we raise. 
+[V: S1V2]  F F E E | G E F2 | F E F F | F E F2 |
+[V: S2V1]  C C C C | D C C2 | C C C C | C3/2 B,/ A,2 |
+[V: S2V2]  F, F, A, A, | D, E, F,2 | F, C, F, A,, | C, C, F,2 |
+% 9
+[V: S1V1]  (c2 d/c/B/A/ | B2 c/B/A/G/ | A2 B/A/G/F/ | G3/2) C/ C2 | F G A B | A2 G z |
+w: Glo- * * * * * * * * * * * * * * * ri- a, in ex- cel- sis De- o!
+[V: S1V2]  (F A/G/ F2 | F G/F/ E2 | E F/E/ D2 | C3/2) C/ C2 | C E F F | F2 E x |
+[V: S2V1]  (A,2 D2 | D2 C2 | C2 B,2 | G,) F, E,2 | F, C C D | C2 C z |
+[V: S2V2]  (F,2 D, F, | G,2 C, E, | F,2 B,, D, | E,) D, (C, B,,) | A,, C, F, B,, | C,2 C, x |
+% 13
+[V: S1V1]  (c2 d/c/B/A/ | B2 c/B/A/G/ | A2 B/A/G/F/ | G3/2) C/ C2 | !sintro!F G A B | (A2 G2) | F4 !eintro!|]
+w:  Glo- * * * * * * * * * * * * * * * ri- a, in ex- cel- sis De- * o! 
+[V: S1V2]  (F A/G/ F2 | F G/F/ E2 | E F/E/ D2 | C3/2) C/ C2 | C E F F | (F2 E2) | C4 |]
+[V: S2V1]  (A,2 D2 | D2 C2 | C2 B,2 | G,) F, E,2 | F, C C D | (C3 B,) | A,4 |]
+[V: S2V2]  (F,2 D, F, | G,2 C, E, | F,2 B,, D, | E,) D, (C, B,,) | A,, C, F, B,, | C,4 | F,4 |]
+% 23
+
+%%newpage
+
+% PAGE LAYOUT
+%
+%%pagewidth	21.6000cm
+%%pageheight	27.9000cm
+%%scale		0.750000
+%%staffsep	1.60000cm
+%%exprabove	false
+%%measurebox	false
+%%header "51		CHRISTMAS"
+%%footer Lk 2:7, Lk 18:15-17		11 11 11 11
+%OHSCRIP Lk 2:7, Lk 18:15-17
+%OHTOPICS {Christmas/Advent}, {Invitation (Faithful's to God) [2,3]}, {Jesus}
+%OHCATEGORY CHRISTMAS
+%OHMETRICAL 11 11 11 11
+%OHCOMPLEXITY 2
+%OHCOMPOSER Murray, James Ramsey (1841-1905)
+%OHARRANGER unknown
+%OHAUTHOR anonymous;MacFarland, John T. (1851-1913)
+%OHTRANSLATOR none
+%%postscript /st { moveto -8 0 rmoveto 0 8 rlineto 4 0 rlineto stroke } def
+%%postscript /nd { moveto -8 0 rmoveto 0 8 rlineto -4 0 rlineto stroke } def
+%%deco sintro 6 st 6 0 0 
+%%deco eintro 6 nd 6 0 0 
+

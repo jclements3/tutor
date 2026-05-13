@@ -1,0 +1,114 @@
+
+% PAGE LAYOUT
+%
+%%pagewidth	21.6000cm
+%%pageheight	27.9000cm
+%%scale		0.750000
+%%staffsep	1.600000cm
+%%sysstaffsep	0.00000cm
+%%exprabove	false
+%%measurebox	false
+%%header "22		OPENING SONGS"
+%%footer Jn 6:67-68, 8:31-32, Heb 4:12, Jn 1:1-5, 8:12, 1Cor 2:14		7 8 7 8 8 8
+%OHSCRIP Jn 6:67-68, 8:31-32, Heb 4:12, Jn 1:1-5, 8:12, 1Cor 2:14
+%OHTOPICS {Church on Earth (Church Militant)}, {Consolation [4]}, {Darkness, Spiritual [2]}, {Education [2]}, {Father [4]}, {Guidance}, {Holiness}, {Holy Spirit [2-4]}, {Invitation (Faithful's to God)}, {Invitation (God's to Us)}, {Jesus [1,4]}, {Knowledge [2]}, {Light [2,3]}, {Love}, {Opening Songs}, {Presence}, {Trinity}
+%OHCATEGORY OPENING SONGS
+%OHMETRICAL 7 8 7 8 8 8
+%OHCOMPLEXITY 2
+%OHCOMPOSER Ahle, Johann Rudolph (1625-1673)
+%OHARRANGER Layriz, Fridrich (1808-1859)
+%OHAUTHOR Clausnitzer, Tobias (1619-1684)
+%OHTRANSLATOR Winkworth, Catherine (1827-1878)
+%%postscript /st { moveto -8 0 rmoveto 0 8 rlineto 4 0 rlineto stroke } def
+%%postscript /nd { moveto -8 0 rmoveto 0 8 rlineto -4 0 rlineto stroke } def
+%%deco sintro 6 st 6 0 0 
+%%deco eintro 6 nd 6 0 0 
+
+X: 34
+T: Hark the Glad Sound
+%%combinevoices 1
+C: Words: Philip Doddridge, 1735.
+C: Music: 'Chesterfield' or 'Richmond (Haweis)' or 'Spa Fields Chapel' Thomas Haweis, 1792. 
+C: Setting: "The Church Hymnal, Revised and Enlarged" (Episcopal), 1896.
+C: copyright: public domain.  This score is a part of the Open Hymnal Project, 2011 Revision.
+S: Music source: "The Church Hymnal, Revised and Enlarged" (Episcopal), 1896  Ed. Charles Hutchins Hymn 31 first tune.
+S: text from "Hymns founded on various texts in the Holy Scriptures" Philip Doddridge, 1766 Hymn 203 p.180
+M: 3/4 % time signature
+L: 1/4 % default length
+%%staves (S1V1 S1V2) | (S2V1 S2V2 S2V3) 
+V: S1V1 clef=treble 
+%%MIDI beat 127 125 110 1
+V: S1V2 
+%%MIDI beat 127 125 110 1
+V: S2V1 clef=bass 
+%%MIDI beat 127 125 110 1
+V: S2V2 stem=down
+%%MIDI beat 127 125 110 1
+V: S2V3 
+%%MIDI beat 127 125 110 1
+K: G % key signature
+%
+%%MIDI program 1 0 % Piano 1
+%%MIDI program 2 0 % Piano 1
+%%MIDI program 3 0 % Piano 1
+%%MIDI program 4 0 % Piano 1
+%%MIDI program 5 0 % Piano 1
+%
+% 1
+[V: S1V1] [Q:1/4=130] D G B | d2 c | (B c) A | G2 B | (A d) G | (F G) E | D2
+w: 1.~Hark, the glad sound! the Sa- * vior comes! The Sa-*  vior pro- * mised long;
+w: 2.~On Him the Spi- rit, large- * ly poured, Ex- erts*  its sac- * red Fire;
+w: 3.~He comes the pris- 'ners to * re- lease, In Sa-*  tan's bon- * dage held;
+w: 4.~He comes from thick- est films * of vice To clear*  the men- * tal ray,
+w: 5.~He comes the bro- ken heart * to bind, The bleed-*  ing soul * to cure;
+[V: S1V2] B, D D | D2 F | (G E) D/C/ | B,2 D | D2 E | (D E) ^C | D2
+[V: S2V1] G, B, G, | A,2 A, | (G, A,) F, | G,2 G, | A,2 A, | (A, B,) G, | F,2
+[V: S2V2] G,, G, G, | F,2 D, | (E, C,) D, | G,,2 G, | (F, B,,) ^C, | (D, G,,) A,, | D,2
+[V: S2V3] x3 | x3 | x3 | x3 | x3 | x3 | x2
+% 2
+[V: S1V1] A | (B A) G | (c B) A | (d c) B | e2 !sintro!G | (E c) B | (A G) F | G3 !eintro!|]
+w: Let ev- * ery heart * pre- pare * a throne, And ev- * ery voice * a song.
+w: Wis- dom * and might, * and zeal * and love, His ho- * ly Breast * in- spire.
+w: The gates * of brass * be- fore * Him burst, The ir- * on fet- * ters yield.
+w: And on * the eye- * balls of * the blind To pour * ce- les- * tial day.
+w: And with * the trea- * sures of * His grace T'en- rich * the hum- * ble poor.
+[V: S1V2] D | (D E) D | (E/F/ G) F | G/D/E/F/ G/=F/ | E2 D | (E ^F) G | (E D) C | B,3 |]
+[V: S2V1] F, | (G, C) B, | (A, D) D | D2 D | C2 G | (C/B,/ A,) G, | (C B,) A, | G,3 |]
+[V: S2V2] D, | D,2 D, | D,2 C | (B, A,) G, | C,2 B,, | (C, D,) E, | (C, D,) D, | G,,3 |]
+[V: S2V3] x | D,,3- | D,,3- | D,,2 G,, | C,,2 x | x3 | x3 | x3 |]
+W: 6. His silver trumpets publish loud 
+W: The jub'lee of the Lord
+W: Our debts are all remitted now 
+W: Our heritage restored.
+W: 
+W: 7. Our glad hosannas, Prince of Peace,
+W: Thy welcome shall proclaim;
+W: And Heav'n's eternal arches ring
+W: With Thy belovèd name.
+
+%%newpage
+
+% PAGE LAYOUT
+%
+%%pagewidth	21.6000cm
+%%pageheight	27.9000cm
+%%scale		0.750000
+%%staffsep	1.60000cm
+%%exprabove	false
+%%measurebox	false
+%%header "35		ADVENT"
+%%footer Mk 13:26, Zech 9:9, Lk 2:14, Jn 14:18, Mt 25:31-34		8 7 8 7 8 7
+%OHSCRIP Mk 13:26, Zech 9:9, Lk 2:14, Jn 14:18, Mt 25:31-34
+%OHTOPICS {Atonement}, {Christmas/Advent}, {Cloud [5]}, {Comfort [2,4]}, {Courage in Affliction}, {Forgiveness [3]}, {God, Love of}, {Heaven}, {Humility [1]}, {Jesus}, {Joy [3-5]}, {Salvation [1]}, {Second Coming [5]}
+%OHCATEGORY ADVENT
+%OHMETRICAL 8 7 8 7 8 7
+%OHCOMPLEXITY 2
+%OHCOMPOSER from Geistreiches Gesangbuch Darmstadt, 1698
+%OHARRANGER unknown
+%OHAUTHOR Thring, Godfrey (1823-1903)
+%OHTRANSLATOR none
+%%postscript /st { moveto -8 0 rmoveto 0 8 rlineto 4 0 rlineto stroke } def
+%%postscript /nd { moveto -8 0 rmoveto 0 8 rlineto -4 0 rlineto stroke } def
+%%deco sintro 6 st 6 0 0 
+%%deco eintro 6 nd 6 0 0 
+

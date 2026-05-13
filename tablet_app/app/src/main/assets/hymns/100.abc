@@ -1,0 +1,119 @@
+
+% PAGE LAYOUT
+%
+%%pagewidth	21.6000cm
+%%pageheight	27.9000cm
+%%scale		0.750000
+%%staffsep	1.600000cm
+%%sysstaffsep	0.00000cm
+%%exprabove	false
+%%measurebox	false
+%%header "22		OPENING SONGS"
+%%footer Jn 6:67-68, 8:31-32, Heb 4:12, Jn 1:1-5, 8:12, 1Cor 2:14		7 8 7 8 8 8
+%OHSCRIP Jn 6:67-68, 8:31-32, Heb 4:12, Jn 1:1-5, 8:12, 1Cor 2:14
+%OHTOPICS {Church on Earth (Church Militant)}, {Consolation [4]}, {Darkness, Spiritual [2]}, {Education [2]}, {Father [4]}, {Guidance}, {Holiness}, {Holy Spirit [2-4]}, {Invitation (Faithful's to God)}, {Invitation (God's to Us)}, {Jesus [1,4]}, {Knowledge [2]}, {Light [2,3]}, {Love}, {Opening Songs}, {Presence}, {Trinity}
+%OHCATEGORY OPENING SONGS
+%OHMETRICAL 7 8 7 8 8 8
+%OHCOMPLEXITY 2
+%OHCOMPOSER Ahle, Johann Rudolph (1625-1673)
+%OHARRANGER Layriz, Fridrich (1808-1859)
+%OHAUTHOR Clausnitzer, Tobias (1619-1684)
+%OHTRANSLATOR Winkworth, Catherine (1827-1878)
+%%postscript /st { moveto -8 0 rmoveto 0 8 rlineto 4 0 rlineto stroke } def
+%%postscript /nd { moveto -8 0 rmoveto 0 8 rlineto -4 0 rlineto stroke } def
+%%deco sintro 6 st 6 0 0 
+%%deco eintro 6 nd 6 0 0 
+
+X: 122
+T: God the Father Be Our Stay
+%%combinevoices 1
+T: (also known as God the Father With Us Stay or God the Father With Us Be)
+C: Words: 15th Century Litany, adapted by Martin Luther, 1524.  Translated by Richard Massie, 1854, alt. 
+C: Music: 'Gott Der Vater, Wohn Uns Bei' from Walter's Geistliche Gesangbüchlein, 1524.
+C: Setting: composite from Landgraf Moritz, 1612 and "Evangelical Lutheran Hymn-Book", 1931.
+C: copyright: public domain.  This score is a part of the Open Hymnal Project, 2009 Revision.
+L: 1/4 % default length
+%%staves (S1V1 S1V2) | (S2V1 S2V2) 
+V: S1V1 clef=treble 
+%%MIDI beat 127 125 110 1
+V: S1V2 
+%%MIDI beat 127 125 110 1
+V: S2V1 clef=bass 
+%%MIDI beat 127 125 110 1
+V: S2V2 
+%%MIDI beat 127 125 110 1
+K: D % key signature
+M: none
+%
+%%MIDI program 1 0 % Piano 1
+%%MIDI program 2 0 % Piano 1
+%%MIDI program 3 0 % Piano 1
+%%MIDI program 4 0 % Piano 1
+%
+% 1
+[V: S1V1] [Q:1/4=100] A A B c | d d c B | d A F G | (F E) D2 |
+w: 1.~God the Fa- ther, be our Stay, When hell's dread pow'rs as- sail * us; 
+w: 2.~Je- sus Christ be Thou our Stay,  *  *  *  *  * *  *  * 
+w: 3.~Ho- ly Ghost, be Thou our Stay,  *  *  *  *  * *  *  * 
+w: 1(alt).~Tri- une God, be Thou our Stay,  *  *  *  *  * *  *  * 
+[V: S1V2]  F F F A | D B, C E | F F D D | (D C) D2 |
+[V: S2V1]  D D D C | B, F, A, G, | F, F, A, B, | A,2 F,2 |
+[V: S2V2]  D, D, B,, A,, | G,, B,, A,, E, | B,, D, D, G,, | A,,2 D,2 |
+% 5
+[V: S1V1]  A A B c | d d c B | d A F G | (F E) D2 | D E F F |
+w: Cleanse us from our sins, we pray, Nor in our last hour fail * us. Keep us from the 
+[V: S1V2]  F F F A | D B, C E | F F D D | (D C) D2 | A, A, A, B, |
+[V: S2V1]  D D D C | B, F, A, G, | F, F, A, B, | A,2 F,2 | F, E, D, D, |
+[V: S2V2]  D, D, B,, A,, | G,, B,, A,, E, | B,, D, D, G,, | A,,2 D,2 | D, C, D, B,, |
+% 9
+[V: S1V1]  D E F3/2 d/ c d | e3/2 d/ (c B) A3/2 D/ | A d c A | (B3/4A// G) F3/2
+w: E- vil One; Firm in the faith a- bid- * ing, In Christ our Sa- vior hid- * * ing, 
+[V: S1V2]  B, C D3/2 F/ A A | G3/2 D/ E2 C3/2 A,/ | D F F C | E2 ^D3/2
+[V: S2V1]  F, A, A,3/2 D/ E F | B, B, (A, ^G,) A,3/2 F,/ | F, B, A, F, | B,2 B,3/2
+[V: S2V2]  B,, A,, D,3/2 D,/ A, F, | E,3/2 B,,/ (C, E,) A,,3/2 D,/ | D, B,, F, F, | E,2 B,,3/2
+% 13
+[V: S1V1]  E/ F F | A3/2 G/ (F E) | D2 z | D E F F | D E F3/2 d/ c d | e3/2 d/
+w: And heart- i- ly con- fid- * ing. Let us put God's ar- mor on: With all true Christ- ians 
+[V: S1V2]  B,/ =D D | C3/2 E/ (D C) | A,2 x | B, B, D A, | B, B, D3/2 A/ A F | G3/4A// B
+[V: S2V1]  G,/ A, B, | E,3/2 G,/ (B, E,) | F,2 z | F, G, A, F, | F, G, A,3/2 F/ E D | B, B,
+[V: S2V2]  E,/ D, B,, | A,,3/2 E,/ (B,, C,) | D,2 x | B,, E, D, D, | B,, E, D,3/2 D,/ A, B, | E,3/2 G,/
+% 17
+[V: S1V1]  (c B) A3/2 D/ | A d c A | (B3/4A// G) F3/2 E/ F F | A3/2 G/ (F E) | D2
+w: run- * ning Our heav'n- ly race and shun- * * ning The de- vil's wiles and cun- * ning. 
+[V: S1V2]  (A3/2 ^G/) E3/2 D/ | F D A, D | (E C) D3/2 C/ D D | C A, A,2 | A,2
+[V: S2V1]  C2 C3/2 F,/ | A, B, C D | (B, E) A,3/2 A,/ A, B, | A, D2 C | D2
+[V: S2V2]  (A, E,) A,,3/2 D,/ | D, B,, F, F, | E,2 D,3/2 A,,/ D, B,, | F,,3/2 G,,/ A,,2 | D,2
+% 25
+[V: S1V1]  z | D E F F | D E F3/2 !sintro!G/ A3/2 G/ | F G (F E) | D4 !eintro!|]
+w: A- men, A- men, this be done, So sing we, Hal- le- lu- * jah! 
+[V: S1V2]  x | A, A, A, B, | B, C D3/2 B,/ A, A, | A, B, (A, A,) | A,4 |]
+[V: S2V1]  z | F, A, F, D, | F, A, A,3/2 E/ C C | D D (D C) | F,4 |]
+[V: S2V2]  x | D, C, D, B,, | B,, A,, D,3/2 E,/ F,3/2 E,/ | D, G,, (D, A,,) | D,4 |]
+% 28
+
+%%newpage
+
+% PAGE LAYOUT
+%
+%%pagewidth	21.6000cm
+%%pageheight	27.9000cm
+%%scale		0.750000
+%%staffsep	1.60000cm
+%%exprabove	false
+%%measurebox	false
+%%header "123		TRINITY"
+%%footer Ps 103:3, Heb 13:15, Rev 4-6		7 8 7 8 7 7
+%OHSCRIP Ps 103:3, Heb 13:15, Rev 4-6
+%OHTOPICS {Anticipation}, {Church in Heaven (Church Victorious/Church Triumphant) [3]}, {God, Eternity of [1]}, {God, Majesty &amp; Power of}, {Heaven [1-3]}, {Holiness}, {Martyrs [3]}, {Praise, Father}, {Praise, Son}, {Praise, Holy Spirit}, {Trinity [4]}, {Worship}
+%OHCATEGORY TRINITY
+%OHMETRICAL 7 8 7 8 7 7
+%OHCOMPLEXITY 3
+%OHCOMPOSER from Katholisches Gesangbuch, Maria Theresa, 1774
+%OHARRANGER unknown
+%OHAUTHOR Franz, Ignaz (1719-1790)
+%OHTRANSLATOR Walworth, Clarence Alphonsus (1820-1900)
+%%postscript /st { moveto -8 0 rmoveto 0 8 rlineto 4 0 rlineto stroke } def
+%%postscript /nd { moveto -8 0 rmoveto 0 8 rlineto -4 0 rlineto stroke } def
+%%deco sintro 6 st 6 0 0 
+%%deco eintro 6 nd 6 0 0 
+

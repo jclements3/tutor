@@ -1,0 +1,10 @@
+X:1
+T:9.4 Two-hand glissando
+M:4/4
+L:1/8
+K:C
+%%score (RH) (LH)
+V:RH clef=treble
+V:LH clef=bass
+[V:RH] cdefgabc'd'e'f' z4 |
+[V:LH] "C" CB,A,G,F,E,D,C,B,,A,,G,,F,, z4 |

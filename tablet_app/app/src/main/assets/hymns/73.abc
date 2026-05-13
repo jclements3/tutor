@@ -1,0 +1,106 @@
+
+% PAGE LAYOUT
+%
+%%pagewidth	21.6000cm
+%%pageheight	27.9000cm
+%%scale		0.750000
+%%staffsep	1.600000cm
+%%sysstaffsep	0.00000cm
+%%exprabove	false
+%%measurebox	false
+%%header "22		OPENING SONGS"
+%%footer Jn 6:67-68, 8:31-32, Heb 4:12, Jn 1:1-5, 8:12, 1Cor 2:14		7 8 7 8 8 8
+%OHSCRIP Jn 6:67-68, 8:31-32, Heb 4:12, Jn 1:1-5, 8:12, 1Cor 2:14
+%OHTOPICS {Church on Earth (Church Militant)}, {Consolation [4]}, {Darkness, Spiritual [2]}, {Education [2]}, {Father [4]}, {Guidance}, {Holiness}, {Holy Spirit [2-4]}, {Invitation (Faithful's to God)}, {Invitation (God's to Us)}, {Jesus [1,4]}, {Knowledge [2]}, {Light [2,3]}, {Love}, {Opening Songs}, {Presence}, {Trinity}
+%OHCATEGORY OPENING SONGS
+%OHMETRICAL 7 8 7 8 8 8
+%OHCOMPLEXITY 2
+%OHCOMPOSER Ahle, Johann Rudolph (1625-1673)
+%OHARRANGER Layriz, Fridrich (1808-1859)
+%OHAUTHOR Clausnitzer, Tobias (1619-1684)
+%OHTRANSLATOR Winkworth, Catherine (1827-1878)
+%%postscript /st { moveto -8 0 rmoveto 0 8 rlineto 4 0 rlineto stroke } def
+%%postscript /nd { moveto -8 0 rmoveto 0 8 rlineto -4 0 rlineto stroke } def
+%%deco sintro 6 st 6 0 0 
+%%deco eintro 6 nd 6 0 0 
+
+X: 95
+T: Go To Dark Gethsemane
+%%combinevoices 1
+C: Words: James Montgomery, 1820. Music: 'Gethsemane' or 'Petra' Richard Redhead, 1853. 
+C: Setting: "The Church Hymnal, Revised and Enlarged" (Episcopal), 1896.
+C: copyright: public domain.  This score is a part of the Open Hymnal Project, 2011 Revision.
+S: Music source: "The Church Hymnal, Revised and Enlarged" (Episcopal), 1896  Ed. Charles Hutchins Hymn 93. 
+M: 4/4 % time signature
+L: 1/4 % default length
+%%staves (S1V1 S1V2) | (S2V1 S2V2) 
+V: S1V1 clef=treble 
+%%MIDI beat 127 125 110 1
+V: S1V2 
+%%MIDI beat 127 125 110 1
+V: S2V1 clef=bass 
+%%MIDI beat 127 125 110 1
+V: S2V2 
+%%MIDI beat 127 125 110 1
+K: Eb % key signature
+%
+%%MIDI program 1 0 % Piano 1
+%%MIDI program 2 0 % Piano 1
+%%MIDI program 3 0 % Piano 1
+%%MIDI program 4 0 % Piano 1
+%
+% 1
+[V: S1V1] [Q:1/4=90] E E F G | A3/2 A/ G2 | E E F G | F F E2 |
+w: 1.~Go to dark Geth- se- ma- ne, ye that feel the temp- ter's pow'r; 
+w: 2.~Fol- low to the judg- ment hall, view the Lord of Life ar- raigned; 
+w: 3.~Cal- v'ry's mourn- ful moun- tain climb; there, a- dor- ing at His feet, 
+w: 4.~Ear- ly hast- en to the tomb where they laid His breath- less clay; 
+[V: S1V2] B, B, D E | E3/2 E/ E2 | B, C D E | E D E2 |
+[V: S2V1] G, G, B, B, | C3/2 C/ B,2 | G, G, B, B, | C B, G,2 |
+[V: S2V2] E, E, B,, E, | A,,3/2 A,,/ E,2 | E, C, B,, E, | A,, B,, E,2 |
+% 5
+[V: S1V1] E G B B | c c B2 | E G B B | c c B2 |
+w: Your Re- deem- er's con- flict see, watch with Him one bit- ter hour, 
+w: O the worm- wood and the gall! O the pangs His soul sus- tained! 
+w: Mark that mir- a- cle of time, God's own sac- ri- fice com- plete. 
+w: All is sol- i- tude and gloom. Who has tak- en Him a- way? 
+[V: S1V2] E E F G | E F G2 | E E F D | G F/E/ D2 |
+[V: S2V1] G, C D E | C D E2 | B, B, B, B, | B, =A, B,2 |
+[V: S2V2] E, C, B,, E, | A, A, E,2 | G, E, D, G, | E, F, B,,2 |
+% 9
+[V: S1V1] E E F G | A3/2 A/ G2 | !sintro!E F G F | E D E2 !eintro!|]
+w: Turn not from His griefs a- way; learn from Je- sus Christ to pray. 
+w: Shun not suf- f'ring, shame, or loss; learn from Christ to bear the cross. 
+w: "It is fin- ished!" hear Him cry; learn from Je- sus Christ to die. 
+w: Christ is ris'n! He meets our eyes; Sa- vior, teach us so to rise. 
+[V: S1V2] E E D E | E3/2 E/ E2 | E D E C | B, B, B,2 |]
+[V: S2V1] B, B, A, B, | C3/2 C/ B,2 | B, A, B, A, | G, F, G,2 |]
+[V: S2V2] G, G, F, E, | A,,3/2 A,,/ E,2 | G, F, E, A,, | B,, B,, E,2 |]
+
+%%newpage
+
+% PAGE LAYOUT
+%
+%%pagewidth	21.6000cm
+%%pageheight	27.9000cm
+%%scale		0.740000
+%%staffsep	0.600000cm
+%%sysstaffsep	0.00000cm
+%%exprabove	false
+%%measurebox	false
+%%header "96		GOOD THURSDAY"
+%%footer Jn 18:1, Lk 22:39-46, Mk 14:32-42, Mt 26:36-46, 2Sam 15:13-23		8 7 8 7 7 7 8 8
+%OHSCRIP Jn 18:1, Lk 22:39-46, Mk 14:32-42, Mt 26:36-46, 2Sam 15:13-23
+%OHTOPICS {Angels [3]}, {Atonement}, {Blood [4,5]}, {Comfort [6]}, {Darkness, Spiritual [2,4]}, {Easter Week / Passion}, {Father [3]}, {God, Faithfulness of}, {God, Love of}, {God, Mercy of}, {Gospel}, {Grace}, {Gratitude}, {Heaven [5,6]}, {Jesus}, {Judgment}, {Obedience}, {Sacrifice}, {Salvation}, {Submission (see also Following Jesus, God - Providence of, Trust)}
+%OHCATEGORY GOOD THURSDAY
+%OHMETRICAL 8 7 8 7 7 7 8 8
+%OHCOMPLEXITY 4
+%OHCOMPOSER Lindeman, Ludvig Mathias (1812-1887)
+%OHARRANGER unknown
+%OHAUTHOR Kingo, Thomas Hansen (1634-1703)
+%OHTRANSLATOR Jeffrey, J. (19th Century)
+%%postscript /st { moveto -8 0 rmoveto 0 8 rlineto 4 0 rlineto stroke } def
+%%postscript /nd { moveto -8 0 rmoveto 0 8 rlineto -4 0 rlineto stroke } def
+%%deco sintro 6 st 6 0 0 
+%%deco eintro 6 nd 6 0 0 
+

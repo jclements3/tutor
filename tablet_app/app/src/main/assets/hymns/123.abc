@@ -1,0 +1,120 @@
+
+% PAGE LAYOUT
+%
+%%pagewidth	21.6000cm
+%%pageheight	27.9000cm
+%%scale		0.750000
+%%staffsep	1.600000cm
+%%sysstaffsep	0.00000cm
+%%exprabove	false
+%%measurebox	false
+%%header "22		OPENING SONGS"
+%%footer Jn 6:67-68, 8:31-32, Heb 4:12, Jn 1:1-5, 8:12, 1Cor 2:14		7 8 7 8 8 8
+%OHSCRIP Jn 6:67-68, 8:31-32, Heb 4:12, Jn 1:1-5, 8:12, 1Cor 2:14
+%OHTOPICS {Church on Earth (Church Militant)}, {Consolation [4]}, {Darkness, Spiritual [2]}, {Education [2]}, {Father [4]}, {Guidance}, {Holiness}, {Holy Spirit [2-4]}, {Invitation (Faithful's to God)}, {Invitation (God's to Us)}, {Jesus [1,4]}, {Knowledge [2]}, {Light [2,3]}, {Love}, {Opening Songs}, {Presence}, {Trinity}
+%OHCATEGORY OPENING SONGS
+%OHMETRICAL 7 8 7 8 8 8
+%OHCOMPLEXITY 2
+%OHCOMPOSER Ahle, Johann Rudolph (1625-1673)
+%OHARRANGER Layriz, Fridrich (1808-1859)
+%OHAUTHOR Clausnitzer, Tobias (1619-1684)
+%OHTRANSLATOR Winkworth, Catherine (1827-1878)
+%%postscript /st { moveto -8 0 rmoveto 0 8 rlineto 4 0 rlineto stroke } def
+%%postscript /nd { moveto -8 0 rmoveto 0 8 rlineto -4 0 rlineto stroke } def
+%%deco sintro 6 st 6 0 0 
+%%deco eintro 6 nd 6 0 0 
+
+X: 146
+T: At The Lamb's High Feast
+%%combinevoices 1
+C: Words: Latin, circa 6th Century. Translated by Robert Campbell, 1849. 
+C: Music: 'Sonne der Gerechtigkeit' Czech, Kirchengeseng, 1566.  Setting: Brian J. Dumont, 31 Dec 2009.
+C: copyright: Words and Music, public domain.  Setting: Copyright 2009 Brian J. Dumont. This setting 
+C: may be freely reproduced or published for Christian worship, provided it is not altered, and this notice is 
+C: on each copy. All other rights reserved.   This score is a part of the Open Hymnal Project, 2010 Revision.
+S: Music source: tune found in many places, arrangement by BJD
+M: 4/4 % time signature
+L: 1/4 % default length
+%%staves S0 | {(S1V1 S1V2) | (S2V1 S2V2)}
+V: S0 clef=treble 
+%%MIDI beat 127 125 110 1
+V: S1V1 clef=treble 
+%%MIDI beat 127 125 110 1
+V: S1V2 
+%%MIDI beat 127 125 110 1
+V: S2V1 clef=bass 
+%%MIDI beat 127 125 110 1
+V: S2V2 
+%%MIDI beat 127 125 110 1
+K: C % key signature
+%
+%%MIDI program 1 0 % Piano 1
+%%MIDI program 2 1 % Piano 2
+%%MIDI program 3 1 % Piano 2
+%%MIDI program 4 1 % Piano 2
+%%MIDI program 5 1 % Piano 2
+%
+% 1
+[V: S0] [Q:1/4=110] C C | G c B/A//G//A/ A/ | G2 A A | B A G/A/G/ =F/ | E2
+w: 1.~At the Lamb's high feast * * * we sing, Praise to our vic- tor- * * ious King, 
+w: 2.~Praise we Him, whose love * * * di- vine Gives His sac- red blood * * for wine, 
+w: 3.~Where the Pas- chal blood * * * is poured, Death's dark an- gel sheathes * * his sword; 
+w: 4.~Praise we Christ, whose blood * * * was shed, Pas- chal Vic- tim, Pas- * * chal Bread; 
+w: 5.~Might- y Vic- tim from * * * the sky, Hell's fierce pow'rs be- neath * * Thee lie; 
+[V: S1V1] [Q:1/4=110] C2 | G c B/A//G//A/ A/ | G2 A A | B A G/A/G/ =F/ | E2
+[V: S1V2]  C2 | E C F3/2 E/ | E2 F C | E F E2 | C2
+[V: S2V1]  E,2 | G, G, D2 | C, D,/E,/ F,2 | A, F, G,3/2 G,/ | C, D,/E,/
+[V: S2V2]  C,2 | C, E, D,2 | C,2 C,2 | B,, C, E,3/2 E,/ | G,,2
+% 5
+[V: S0]  E/ D/ E/ F/ | G/ G/ C E/ D/ E/ C/ | B,/ C/ D/ !sintro!F/ E D | C2 !eintro!|]
+w: Who has washed us in the tide Flow- ing from his pierc- èd side; A- lle- lu- ia! 
+w: Gives His bo- dy for the feast, Christ the Vic- tim, Christ the Priest. A- lle- lu- ia! 
+w: Is- rael's hosts tri- um- phant go Through the wave that drowns the foe. A- lle- lu- ia! 
+w: With sin- cer- i- ty and love Eat we Ma- nna from a- bove. A- lle- lu- ia! 
+w: Thou hast con- quered in the fight, Thou hast brought us life and light; A- lle- lu- ia! 
+[V: S1V1]  E/ D/ E/ F/ | G/ G/ C E/ D/ E/ C/ | B,/ C/ D/ F/ E D | C2 |]
+[V: S1V2]  C2 | E/ E/ C C/ B,/ C/ C/ | G,/ G,/ B,/ C/ C3/2 A,/ | C2 |]
+[V: S2V1]  E, G, | G,/ G,/ E, G,/ G,/ G, | D,/ E,/ G,/ A,/ G, F, | G,2 |]
+[V: S2V2]  C, E, | E,/ G,/ C, E,/ D,/ E, | B,,/ C,/ D,/ F,/ C,3/2 D,/ | C,2 |]
+% 10
+W: 6.Now no more can death appall,
+W: Now no more the grave enthrall;
+W: Thou hast opened Paradise,
+W: And in Thee Thy saints shall rise.
+W: 
+W: 7.Paschal triumph, Easter joy,
+W: This alone can sin destroy;
+W: From sin's death do Thou set free
+W: Souls reborn, O Lord, in Thee.
+W: 
+W: 8.Hymns of glory and of praise,
+W: Father, to Thee we raise;
+W: Risen Lord, all praise to Thee,
+W: Ever with the Spirit be.
+
+%%newpage
+
+% PAGE LAYOUT
+%
+%%pagewidth	21.6000cm
+%%pageheight	27.9000cm
+%%scale		0.700000
+%%staffsep	0.0000cm
+%%exprabove	false
+%%measurebox	false
+%%header "147		LORD'S SUPPER"
+%%footer 1Cor 11:23-29, Lk 22:17-20, 7:6, Mk 14:22-25, Mt 26:26-28, Ps 130		9 8 9 8 8 8
+%OHSCRIP 1Cor 11:23-29, Lk 22:17-20, 7:6, Mk 14:22-25, Mt 26:26-28, Ps 130
+%OHTOPICS {Angels [10]}, {Assurance [12-15]}, {Atonement [11]}, {Blood}, {Bread (of Life/Daily Bread)}, {Brevity of Life [14]}, {Comfort}, {Contrition [1-7]}, {Eternal Life [13-15]}, {Faith [5,8,9]}, {Faithfulness [3]}, {Forgiveness}, {God, Faithfulness of}, {God, Mercy of}, {Grace}, {Gratitude [9-15]}, {Heaven [13]}, {Humility}, {Jesus}, {Joy [10-15]}, {Lord's Supper}, {Repentance [1-7]}, {Reverence}, {Salvation [5]}, {Sinners [1-7]}, {Trinity [15]}
+%OHCATEGORY LORD'S SUPPER
+%OHMETRICAL 9 8 9 8 8 8
+%OHCOMPLEXITY 3
+%OHCOMPOSER from Emskirchner Choralbuch, 1756
+%OHARRANGER unknown
+%OHAUTHOR Heyder, Friedrich Christian (1677-1754)
+%OHTRANSLATOR composite
+%%postscript /st { moveto -8 0 rmoveto 0 8 rlineto 4 0 rlineto stroke } def
+%%postscript /nd { moveto -8 0 rmoveto 0 8 rlineto -4 0 rlineto stroke } def
+%%deco sintro 6 st 6 0 0 
+%%deco eintro 6 nd 6 0 0 
+

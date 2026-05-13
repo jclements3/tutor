@@ -1,0 +1,129 @@
+
+% PAGE LAYOUT
+%
+%%pagewidth	21.6000cm
+%%pageheight	27.9000cm
+%%scale		0.750000
+%%staffsep	1.600000cm
+%%sysstaffsep	0.00000cm
+%%exprabove	false
+%%measurebox	false
+%%header "22		OPENING SONGS"
+%%footer Jn 6:67-68, 8:31-32, Heb 4:12, Jn 1:1-5, 8:12, 1Cor 2:14		7 8 7 8 8 8
+%OHSCRIP Jn 6:67-68, 8:31-32, Heb 4:12, Jn 1:1-5, 8:12, 1Cor 2:14
+%OHTOPICS {Church on Earth (Church Militant)}, {Consolation [4]}, {Darkness, Spiritual [2]}, {Education [2]}, {Father [4]}, {Guidance}, {Holiness}, {Holy Spirit [2-4]}, {Invitation (Faithful's to God)}, {Invitation (God's to Us)}, {Jesus [1,4]}, {Knowledge [2]}, {Light [2,3]}, {Love}, {Opening Songs}, {Presence}, {Trinity}
+%OHCATEGORY OPENING SONGS
+%OHMETRICAL 7 8 7 8 8 8
+%OHCOMPLEXITY 2
+%OHCOMPOSER Ahle, Johann Rudolph (1625-1673)
+%OHARRANGER Layriz, Fridrich (1808-1859)
+%OHAUTHOR Clausnitzer, Tobias (1619-1684)
+%OHTRANSLATOR Winkworth, Catherine (1827-1878)
+%%postscript /st { moveto -8 0 rmoveto 0 8 rlineto 4 0 rlineto stroke } def
+%%postscript /nd { moveto -8 0 rmoveto 0 8 rlineto -4 0 rlineto stroke } def
+%%deco sintro 6 st 6 0 0 
+%%deco eintro 6 nd 6 0 0 
+
+X: 290
+T: Though in the Midst of Life We Be
+%%combinevoices 1
+T: (also known as In the Midst of Earthly Life or In the Very
+T: Midst of Life or In the Midst of Life We Are)
+C: Words: v.1 Medieval sequence, vs 2,3 Martin Luther, 1524.  Translated by Richard Massie, 1854, alt. 
+C: Music: 'Mitten wir im Leben Sind' Medieval sequence altered by Martin Luther. 
+C: Found in Walter's Geistliche Gesangbüchlein, 1524.  Setting: Erythraeus, 1608.
+C: copyright: public domain.  This score is a part of the Open Hymnal Project, 2009 Revision.
+M: 4/4 % time signature
+L: 1/4 % default length
+%%staves (S1V1 S1V2) | (S2V1 S2V2) 
+V: S1V1 clef=treble 
+%%MIDI beat 127 125 110 1
+V: S1V2 
+%%MIDI beat 127 125 110 1
+V: S2V1 clef=bass 
+%%MIDI beat 127 125 110 1
+V: S2V2 
+%%MIDI beat 127 125 110 1
+K: C % key signature
+%
+%%MIDI program 1 0 % Piano 1
+%%MIDI program 2 0 % Piano 1
+%%MIDI program 3 0 % Piano 1
+%%MIDI program 4 0 % Piano 1
+%
+% 1
+[V: S1V1] [Q:1/4=110] G G A B | c c (B A) | B c d A | (G/E/ F) E2 | G G A B |
+w: 1.~Though in midst of life we be, * Snares of death sur- round * * us; Where shall we for 
+w: 2.~Whilst in midst of death we be, * Hell's grim jaws o'er- take * * us; Who from such dis- 
+w: 3.~In- to hell's fierce a- go- ny * Sin doth head- long drive * * us: Where shall we for 
+[V: S1V2]  E E F F | E ^F (G ^F) | G G A F | (E D) ^C2 | E E F F |
+[V: S2V1]  B, C C D | G, A, D2 | D E F C | (C3/4B,// A,) A,2 | B, C C D |
+[V: S2V2]  E, C, F, D, | C,3/4B,,// A,, (G,, D,) | G, E, D, F, | (C, D,) A,,2 | E, C, F, D, |
+% 5
+[V: S1V1]  c c (B A) | B c d A | (G/E/ F) E z/ D/ | E E G F | (E D) C
+w: suc- cor flee, * Lest our foes con- found * * us? To Thee a- lone, our Sa- * vior. 
+w: tress will free. * Who se- cure will make * * us? Thou on- ly, Lord, canst do * it! 
+w: suc- cor flee, * Who, O, who will hide * * us? Thou on- ly, bless- ed Sa- * viour. 
+[V: S1V2]  E ^F (G ^F) | G G A F | E D ^C x/ A,/ | C C D C | (C B,) C
+[V: S2V1]  G, A, D2 | D E F C | (C3/4B,// A,) A, z/ F,/ | G, A, B, A, | G,2 E,
+[V: S2V2]  C,3/4B,,// A,, (G,, D,) | G, E, D, F, | (C, D,) A,, x/ D,/ | C, A,, G,, A,, | (C, G,,) C,
+% 9
+[V: S1V1]  z/ C/ | G G A B | c c (B A) | B c d A | G/E/ F E2 |
+w: We mourn our grie- vous sin which hath * Stirr'd the fire of Thy * fierce wrath. 
+w: It moves Thy ten- der heart to see * Our great sin and mis- * er- y. 
+w: Thy pre- cious blood was shed to win * Peace and par- don for * our sin. 
+[V: S1V2]  x/ C/ | E G F D | A A (G F) | D G A F | E D B,2 |
+[V: S2V1]  z/ E,/ | C C C B, | E E (D3/4B,// C) | B, E F C | C A, ^G,2 |
+[V: S2V2]  x/ C,/ | C, E, F, G, | A, A,, (E, F,) | G, E, D, F, | C, D, E,2 |
+% 17
+[V: S1V1]  A2 G E | F G E2 | G2 G E | F G E2 | A2 G A | B2 B2 | B A
+w:  Ho- ly and gra- cious God! Ho- ly and might- y God! Ho- ly and all\- mer- ci- ful 
+[V: S1V2]  C2 D C | A, D ^C2 | E2 D C | A, D ^C2 | E2 E C | (G F) (E3/2 F/) | G E
+[V: S2V1]  z E, G, G, | D _B, A,2 | C2 G, G, | D _B, A,2 | C2 B, A, | G,2 G,2 | D C
+[V: S2V2]  A,,2 B,, C, | D, G,, A,,2 | A,,2 B,, C, | D, G,, A,,2 | A,2 E, F, | (E, D,) D,2 | G,, A,,3/4B,,//
+% 21
+%%newpage
+%%header "FUNERAL		290(2)"
+[V: S1V1]  (G F) | E2 D A | G F E2 | A G A B | (c A) G2 |
+w: Sa- * vior! Thou e- ter- nal God! Save us, Lord, from sink- * ing 
+w: Sa- * vior! Thou e- ter- nal God! Let not hell dis- may * us 
+w: Sa- * vior! Let us not, we pray, From the true faith's com- * fort 
+[V: S1V2]  (E D) | G,2 D E | E D ^C2 | E E C F | (E ^F) G2 |
+[V: S2V1]  (C3/4B,// A,) | C2 F, C | C A, A,2 | C B, A, D | (G, D) B,2 |
+[V: S2V2]  (C, D,) | C,2 D, A,, | C, D, A,,2 | A,, E, F, D, | (C, D,) G,2 |
+% 25
+[V: S1V1]  c B d A | G F E2 | !sintro!D A G F | E2 E2 !eintro!|]
+w: In the deep and bit- ter flood. Ky- ri- e e- lei- son. 
+w: With its deep and burn- ing flood. Ky- ri- e e- lei- son. 
+w: Fall in our last need a- way. Ky- ri- e e- lei- son. 
+[V: S1V2]  E E F C | E D ^C2 | A, C E D | (C/B,/ C) B,2 |]
+[V: S2V1]  A, G, A,3/2 B,/ | C A, A,2 | F, E, C A, | (A,/E,/ A,) ^G,2 |]
+[V: S2V2]  A,, E, D, F, | C, D, A,,2 | D, A,, C, D, | (A,,/^G,,/ A,,) E,2 |]
+% 31
+
+%%newpage
+
+% PAGE LAYOUT
+%
+%%pagewidth	21.6000cm
+%%pageheight	27.9000cm
+%%scale		0.750000
+%%staffsep	1.60000cm
+%%exprabove	false
+%%measurebox	false
+%%header "291		MISSIONS"
+%%footer Mt 4:16, Mt 10:26-27, Jn 1:4-5, Jn 8:12, Jn 15:26-27, Mt 11:4-6, Lk 7:18-22		6 6 4 6 6 6 4
+%OHSCRIP Mt 4:16, Mt 10:26-27, Jn 1:4-5, Jn 8:12, Jn 15:26-27, Mt 11:4-6, Lk 7:18-22
+%OHTOPICS {Darkness, Spiritual}, {Father}, {God, Creator [1]}, {God, Eternity of [1]}, {God, Majesty &amp; Power of [1]}, {God's Children - the Faithful (see also Saints, People of the World)}, {Gospel}, {Healing [2]}, {Holiness [4]}, {Holy Spirit [2]}, {Jesus [2]}, {Light}, {People of the World}, {Pride (see also Humility) [4]}, {Speech}, {Trinity}, {Truth [3]}, {Wisdom [4]}
+%OHCATEGORY MISSIONS
+%OHMETRICAL 6 6 4 6 6 6 4
+%OHCOMPLEXITY 1
+%OHCOMPOSER Giardini, Felice de (1716-1796)
+%OHARRANGER unknown
+%OHAUTHOR Marriott, John (1780-1825)
+%OHTRANSLATOR none
+%%postscript /st { moveto -8 0 rmoveto 0 8 rlineto 4 0 rlineto stroke } def
+%%postscript /nd { moveto -8 0 rmoveto 0 8 rlineto -4 0 rlineto stroke } def
+%%deco sintro 6 st 6 0 0 
+%%deco eintro 6 nd 6 0 0 
+

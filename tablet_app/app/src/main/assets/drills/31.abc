@@ -1,0 +1,10 @@
+X:1
+T:6.3 Pedal + Alberti
+M:4/4
+L:1/8
+K:C
+%%score (RH) (LH)
+V:RH clef=treble
+V:LH clef=bass
+[V:RH] "C" cgeg cgeg | "F" fc'a c' fc'a c' | "G" GdBd GdBd | "C" cgeg cgeg |
+[V:LH] C,,8 |  |  |  |

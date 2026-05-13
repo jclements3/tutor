@@ -1,0 +1,6 @@
+X:1
+T:3.6 Reverse triple arpeggio
+M:3/4
+L:1/8
+K:C
+"C" G,E,C, G,E,C, | "F" cA,F, cA,F, | "G" DB,,G,, DB,,G,, | "C" G,E,C, G,E,C, |

@@ -1,0 +1,108 @@
+
+% PAGE LAYOUT
+%
+%%pagewidth	21.6000cm
+%%pageheight	27.9000cm
+%%scale		0.750000
+%%staffsep	1.600000cm
+%%sysstaffsep	0.00000cm
+%%exprabove	false
+%%measurebox	false
+%%header "22		OPENING SONGS"
+%%footer Jn 6:67-68, 8:31-32, Heb 4:12, Jn 1:1-5, 8:12, 1Cor 2:14		7 8 7 8 8 8
+%OHSCRIP Jn 6:67-68, 8:31-32, Heb 4:12, Jn 1:1-5, 8:12, 1Cor 2:14
+%OHTOPICS {Church on Earth (Church Militant)}, {Consolation [4]}, {Darkness, Spiritual [2]}, {Education [2]}, {Father [4]}, {Guidance}, {Holiness}, {Holy Spirit [2-4]}, {Invitation (Faithful's to God)}, {Invitation (God's to Us)}, {Jesus [1,4]}, {Knowledge [2]}, {Light [2,3]}, {Love}, {Opening Songs}, {Presence}, {Trinity}
+%OHCATEGORY OPENING SONGS
+%OHMETRICAL 7 8 7 8 8 8
+%OHCOMPLEXITY 2
+%OHCOMPOSER Ahle, Johann Rudolph (1625-1673)
+%OHARRANGER Layriz, Fridrich (1808-1859)
+%OHAUTHOR Clausnitzer, Tobias (1619-1684)
+%OHTRANSLATOR Winkworth, Catherine (1827-1878)
+%%postscript /st { moveto -8 0 rmoveto 0 8 rlineto 4 0 rlineto stroke } def
+%%postscript /nd { moveto -8 0 rmoveto 0 8 rlineto -4 0 rlineto stroke } def
+%%deco sintro 6 st 6 0 0 
+%%deco eintro 6 nd 6 0 0 
+
+X: 226
+T: He Leadeth Me
+%%combinevoices 1
+C: Words: Joseph H. Gilmore, 1862.
+C: Music and Setting: 'He Leadeth Me' William B. Bradbury, 1864.
+C: copyright: public domain.  This score is a part of the Open Hymnal Project, 2007 Revision.
+S: Music source: "The Golden Censer", 1864 Hymn 105.  Ed. William B. Bradbury
+M: 4/4 % time signature
+L: 1/4 % default length
+%%staves (S1V1 S1V2) | (S2V1 S2V2) 
+V: S1V1 clef=treble 
+%%MIDI beat 127 125 110 1
+V: S1V2 
+%%MIDI beat 127 125 110 1
+V: S2V1 clef=bass 
+%%MIDI beat 127 125 110 1
+V: S2V2 
+%%MIDI beat 127 125 110 1
+K: D % key signature
+%
+%%MIDI program 1 0 % Piano 1
+%%MIDI program 2 0 % Piano 1
+%%MIDI program 3 0 % Piano 1
+%%MIDI program 4 0 % Piano 1
+%
+% 1
+[V: S1V1] [Q:1/4=100] A | F3/2 E/ D A | B G G B | A3/2 F/ F E/D/ | F F E
+w: 1.~He lead- eth me, O bless- èd thought! O words with heav'n- ly * com- fort fraught! 
+w: 2.~Some- times mid scenes of deep- est gloom, Some- times where E- den's * bow- ers bloom, 
+w: 3.~Lord, I would place my hand in Thine, Nor e- ver mur- mur * nor re- pine; 
+w: 4.~And when my task on earth is done, When by Thy grace the * vic- t'ry's won, 
+[V: S1V2]  F | D3/2 A,/ A, D | D D D G | F3/2 D/ D D | D D C
+[V: S2V1]  A, | A,3/2 G,/ F, F, | G, B, B, D | D3/2 A,/ A, G,/F,/ | A, A, A,
+[V: S2V2]  D, | D,3/2 D,/ D, D, | G, G, G, G, | D,3/2 D,/ D, D, | A,, A,, A,,
+% 5
+[V: S1V1]  A | F3/2 E/ D A | B G d c/B/ | A F F/E/ D/E/ | F3/2 E/ !fermata!D
+w: What- e'er I do, wher- e'er I be Still * 'tis God's hand * that * lead- eth me. 
+w: By wa- ters still, ov'r troub- led sea, Still * 'tis His hand * that * lead- eth me. 
+w: Con- tent, what- e- ver lot I see, Since * 'tis my God * that * lead- eth me. 
+w: E'en death's cold wave I will not flee, Since * God through Jor- * dan * lead- eth me. 
+[V: S1V2]  C | D3/2 A,/ A, D | D G G G | F D D/C/ B,/C/ | D3/2 C/ D
+[V: S2V1]  A, | A,3/2 G,/ F, F, | G, B, B, D | D A, B, F, | A,3/2 G,/ !invertedfermata!F,
+[V: S2V2]  A,, | D,3/2 D,/ D, D, | G, G, G, G, | D, D, B,, B,, | A,,3/2 A,,/ D,
+% 9
+[V: S1V1]  A | A d c d | d c/B/ A B | A F F/E/ D/E/ | F F E
+w: He lead- eth me, He lead- eth * me, By His own hand * He * lead- eth me; 
+[V: S1V2]  F | F F E A | A G F G | F D D/C/ B,/C/ | D D C
+[V: S2V1]  A, | D A, A, C | D D D D | D A, B, F, | A, A, A,
+[V: S2V2]  D, | D, F, A, G, | F, G, D, D, | D, D, B,, B,, | A,, A,, A,,
+% 13
+[V: S1V1]  A | A d c e | d c/B/ A !sintro!B | A F F/E/ D/E/ | F3/2 E/ !fermata!D !eintro!|]
+w: His faith- ful fol- low'r I would * be, For by His hand * He * lead- eth me. 
+[V: S1V2]  C | D D E A | A G F G | F D D/C/ B,/C/ | D3/2 C/ D |]
+[V: S2V1]  G, | F, A, A, C | D D D D | D A, B, F, | A,3/2 G,/ !invertedfermata!F, |]
+[V: S2V2]  A,, | D, F, A, G, | F, G, D, D, | D, D, B,, B,, | A,,3/2 A,,/ D, |]
+% 19
+
+%%newpage
+
+% PAGE LAYOUT
+%
+%%pagewidth	21.6000cm
+%%pageheight	27.9000cm
+%%scale		0.7500000
+%%exprabove	false
+%%measurebox	false
+%%header "227		CONSECRATION"
+%%footer Mt 22:37, 28:20, 1Jn 4:18-21, 1Pt 1:17-19, 1Thess 4:16-17, 1Kgs 8:22-24		8 8 7 8 8 7 8 8 8 8 8 4 8
+%OHSCRIP Mt 22:37, 28:20, 1Jn 4:18-21, 1Pt 1:17-19, 1Thess 4:16-17, 1Kgs 8:22-24
+%OHTOPICS {Angels [3]}, {Anticipation [3]}, {Atonement [1]}, {Blood [1]}, {Following Jesus, In Faith}, {Following Jesus, In Action [2]}, {Following Jesus, Sanctification [2]}, {God, Care of [2,3]}, {God, Goodness of}, {God, Mercy of}, {God, Providence of}, {Gratitude}, {Guidance}, {Jesus}, {Peace [3]}, {Presence}, {Trust [1]}
+%OHCATEGORY CONSECRATION
+%OHMETRICAL 8 8 7 8 8 7 8 8 8 8 8 4 8
+%OHCOMPLEXITY 3
+%OHCOMPOSER from Strassburg, 1577
+%OHARRANGER unknown
+%OHAUTHOR Schalling, Martin (1532-1608)
+%OHTRANSLATOR Winkworth, Catherine (1827-1878)
+%%postscript /st { moveto -8 0 rmoveto 0 8 rlineto 4 0 rlineto stroke } def
+%%postscript /nd { moveto -8 0 rmoveto 0 8 rlineto -4 0 rlineto stroke } def
+%%deco sintro 6 st 6 0 0 
+%%deco eintro 6 nd 6 0 0 
+

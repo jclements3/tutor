@@ -1,0 +1,105 @@
+
+% PAGE LAYOUT
+%
+%%pagewidth	21.6000cm
+%%pageheight	27.9000cm
+%%scale		0.750000
+%%staffsep	1.600000cm
+%%sysstaffsep	0.00000cm
+%%exprabove	false
+%%measurebox	false
+%%header "22		OPENING SONGS"
+%%footer Jn 6:67-68, 8:31-32, Heb 4:12, Jn 1:1-5, 8:12, 1Cor 2:14		7 8 7 8 8 8
+%OHSCRIP Jn 6:67-68, 8:31-32, Heb 4:12, Jn 1:1-5, 8:12, 1Cor 2:14
+%OHTOPICS {Church on Earth (Church Militant)}, {Consolation [4]}, {Darkness, Spiritual [2]}, {Education [2]}, {Father [4]}, {Guidance}, {Holiness}, {Holy Spirit [2-4]}, {Invitation (Faithful's to God)}, {Invitation (God's to Us)}, {Jesus [1,4]}, {Knowledge [2]}, {Light [2,3]}, {Love}, {Opening Songs}, {Presence}, {Trinity}
+%OHCATEGORY OPENING SONGS
+%OHMETRICAL 7 8 7 8 8 8
+%OHCOMPLEXITY 2
+%OHCOMPOSER Ahle, Johann Rudolph (1625-1673)
+%OHARRANGER Layriz, Fridrich (1808-1859)
+%OHAUTHOR Clausnitzer, Tobias (1619-1684)
+%OHTRANSLATOR Winkworth, Catherine (1827-1878)
+%%postscript /st { moveto -8 0 rmoveto 0 8 rlineto 4 0 rlineto stroke } def
+%%postscript /nd { moveto -8 0 rmoveto 0 8 rlineto -4 0 rlineto stroke } def
+%%deco sintro 6 st 6 0 0 
+%%deco eintro 6 nd 6 0 0 
+
+X: 154
+T: Almighty God Your Word Is Cast
+%%combinevoices 1
+C: Words: John Cawood, 1816.  Music: 'St. Anne' William Croft, 1708. 
+C: Setting: composite found in "The Lutheran Hymnary", 1913.
+C: copyright: public domain.  This score is a part of the Open Hymnal Project, 2007 Revision.
+S: Music source: 'The Lutheran Hymnary', 1913, Hymn 261.
+S: Arrangement is composite, first half from "Hymns Ancient and Modern", 1869, Hymn 231. ed  William Henry Monk
+S: Second half is from "The Hymnal Companion to the Book of Common Prayer", 1890, Hymn 279. ed. Charles Vincent, D.J. Wood, John Stainer
+M: 4/4 % time signature
+L: 1/4 % default length
+%%staves (S1V1 S1V2) | (S2V1 S2V2) 
+V: S1V1 clef=treble 
+%%MIDI beat 127 125 110 1
+V: S1V2 
+%%MIDI beat 127 125 110 1
+V: S2V1 clef=bass 
+%%MIDI beat 127 125 110 1
+V: S2V2 
+%%MIDI beat 127 125 110 1
+K: C % key signature
+%
+%%MIDI program 1 0 % Piano 1
+%%MIDI program 2 0 % Piano 1
+%%MIDI program 3 0 % Piano 1
+%%MIDI program 4 0 % Piano 1
+%
+% 1
+[V: S1V1] [Q:1/4=100] G | E A G c | c B c G | c G A ^F | G3
+w: 1.~Al- might- y God, Your Word is cast Like seed in- to the ground; 
+w: 2.~Let not the foe of Christ and man This ho- ly seed re- move, 
+w: 3.~Let not the world's de- ceit- ful cares The ris- ing plant de- stroy. 
+w: 4.~Nor let Your Word so kind- ly sent To raise us to Your throne 
+w: 5.~Oft as the prec- ious seed is sown, Your quick- 'ning grace be- stow, 
+[V: S1V2]  C | C C C E | D D E E | E E E D | D3
+[V: S2V1]  E, | G, A, C C | A, G, G, C | C B, A, A, | B,3
+[V: S2V2]  C, | C, F, E, A, | F, G, C, C, | A,, E, C, D, | G,,3
+% 6
+[V: S1V1]  B | c A d B | c A B !sintro!G | A c d B | c3 !eintro!|]
+w: Now let the dew of Heav'n de- scend, And right- eous fruits a- bound. 
+w: But give it root in ev- 'ry heart To bring forth fruits of love. 
+w: But let it yield a hun- dred- fold The fruits of peace and joy. 
+w: Re- turn to You, and sad- ly tell That we re- ject Your Son. 
+w: That all whose souls the truth re- ceive, Its sa- ving power may know. 
+[V: S1V2]  D | E C F D | E3/2 D/ B, C | F E D D | E3 |]
+[V: S2V1]  G, | G, A, A, G, | G, A, ^G, =G, | F, G, A, G, | G,3 |]
+[V: S2V2]  G, | C, F, D, G, | C, F, E, E, | D, C, F, G, | C,3 |]
+% 11
+W: 6.Great God, come down and on Your Word
+W: Your mighty power bestow,
+W: That all who hear the joyful sound,
+W: Your saving grace may know.
+
+%%newpage
+
+% PAGE LAYOUT
+%
+%%pagewidth	21.6000cm
+%%pageheight	27.9000cm
+%%scale		0.750000
+%%staffsep	1.60000cm
+%%exprabove	false
+%%measurebox	false
+%%header "155		WORD OF GOD"
+%%footer Eph 3:17-18, Jn 15:12-13		7 7 7 7 10 11
+%OHSCRIP Eph 3:17-18, Jn 15:12-13
+%OHTOPICS {Assurance}, {Atonement [2]}, {Children (see also God's Children - the Faithful) [1,2]}, {Eternal Life [2]}, {God, Love of}, {Jesus}, {Knowledge [1]}, {Love}, {Scripture}, {Testimony}, {Trust}
+%OHCATEGORY WORD OF GOD
+%OHMETRICAL 7 7 7 7 10 11
+%OHCOMPLEXITY 1
+%OHCOMPOSER Bradbury, William Batchelder (1816-1868)
+%OHARRANGER Bradbury, William Batchelder (1816-1868)
+%OHAUTHOR Warner, Anna B. (1827-1915)
+%OHTRANSLATOR none
+%%postscript /st { moveto -8 0 rmoveto 0 8 rlineto 4 0 rlineto stroke } def
+%%postscript /nd { moveto -8 0 rmoveto 0 8 rlineto -4 0 rlineto stroke } def
+%%deco sintro 6 st 6 0 0 
+%%deco eintro 6 nd 6 0 0 
+

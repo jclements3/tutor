@@ -1,0 +1,99 @@
+
+% PAGE LAYOUT
+%
+%%pagewidth	21.6000cm
+%%pageheight	27.9000cm
+%%scale		0.750000
+%%staffsep	1.600000cm
+%%sysstaffsep	0.00000cm
+%%exprabove	false
+%%measurebox	false
+%%header "22		OPENING SONGS"
+%%footer Jn 6:67-68, 8:31-32, Heb 4:12, Jn 1:1-5, 8:12, 1Cor 2:14		7 8 7 8 8 8
+%OHSCRIP Jn 6:67-68, 8:31-32, Heb 4:12, Jn 1:1-5, 8:12, 1Cor 2:14
+%OHTOPICS {Church on Earth (Church Militant)}, {Consolation [4]}, {Darkness, Spiritual [2]}, {Education [2]}, {Father [4]}, {Guidance}, {Holiness}, {Holy Spirit [2-4]}, {Invitation (Faithful's to God)}, {Invitation (God's to Us)}, {Jesus [1,4]}, {Knowledge [2]}, {Light [2,3]}, {Love}, {Opening Songs}, {Presence}, {Trinity}
+%OHCATEGORY OPENING SONGS
+%OHMETRICAL 7 8 7 8 8 8
+%OHCOMPLEXITY 2
+%OHCOMPOSER Ahle, Johann Rudolph (1625-1673)
+%OHARRANGER Layriz, Fridrich (1808-1859)
+%OHAUTHOR Clausnitzer, Tobias (1619-1684)
+%OHTRANSLATOR Winkworth, Catherine (1827-1878)
+%%postscript /st { moveto -8 0 rmoveto 0 8 rlineto 4 0 rlineto stroke } def
+%%postscript /nd { moveto -8 0 rmoveto 0 8 rlineto -4 0 rlineto stroke } def
+%%deco sintro 6 st 6 0 0 
+%%deco eintro 6 nd 6 0 0 
+
+X: 166
+T: Hallelujah, What a Savior!
+%%combinevoices 1
+T: (also known as Man of Sorrows)
+C: Words: Philip Paul Bliss, 1875. Music and Setting: 'Hallelujah What a Savior' Philip Paul Bliss, 1875.
+C: copyright: public domain.  This score is a part of the Open Hymnal Project, 2011 Revision.
+S: Music source: "Songs of Praise, number One" (Presbyterian), 1904 page 39.  Words same source.
+M: 4/4 % time signature
+L: 1/4 % default length
+%%staves (S1V1 S1V2) | (S2V1 S2V2) 
+V: S1V1 clef=treble 
+%%MIDI beat 127 125 110 1
+V: S1V2 
+%%MIDI beat 127 125 110 1
+V: S2V1 clef=bass 
+%%MIDI beat 127 125 110 1
+V: S2V2 
+%%MIDI beat 127 125 110 1
+K: C % key signature
+%
+%%MIDI program 1 0 % Piano 1
+%%MIDI program 2 0 % Piano 1
+%%MIDI program 3 0 % Piano 1
+%%MIDI program 4 0 % Piano 1
+%
+% 1
+[V: S1V1] [Q:1/4=110] G G G E | c c B2 | A A G c | B A G2 |
+w: 1.~Man of Sor- rows! what a name For the Son of God, who came
+w: 2.~Bear- ing shame and scof- fing rude, In my place con- demned He stood;
+w: 3.~Guilt- y, vile, and help- less we; Spot- less Lamb of God was He;
+w: 4.~Lift- ed up was He to die; "It is fin- ished!" was His cry;
+w: 5.~When He comes, our glor- ious King, All His ran- somed home to bring,
+[V: S1V2] E E E C | E E (E D) | C C G A |G ^F G2 |
+[V: S2V1] C C C G, | A, A, ^G,2 | A, C C E | D C B,2 |
+[V: S2V2] C, C, C, C, | A, A, E,2 | F, F, E, C, | D, D, G,,2 |
+% 5
+[V: S1V1] G G G E | c c c !sintro!c3/4 d/4 | e2 d c3/4 A/4 | A2 G2 !eintro!|]
+w: Ru- ined sin- ners to re- claim. Hal- le- lu- jah! What a Sa- vior!
+w: Sealed my par- don with His blood. * * * * * * * * 
+w: "Full a- tone- ment!" can it be? * * * * * * * * 
+w: Now in Heav'n ex- al- ted high. * * * * * * * * 
+w: Then a- new His song we'll sing: * * * * * * * * 
+[V: S1V2] E E E C | E F E G3/4 G/4 | G2 F E3/4 E/4 | F2 E2 |]
+[V: S2V1] C C C G, | G, A, G, C3/4 B,/4 | C2 B, C3/4 C/4 | C2 C2 |]
+[V: S2V2] C, C, C, C, | C, C, C, E,3/4 G,/4 | C2 G, A,3/4 A,/4 | F,2 C,2 |]
+
+%%newpage
+l
+% PAGE LAYOUT
+%
+%%pagewidth	21.6000cm
+%%pageheight	27.9000cm
+%%scale		0.750000
+%%staffsep	1.600000cm
+%%sysstaffsep	0.00000cm
+%%exprabove	false
+%%measurebox	false
+%%header "167		REDEEMER"
+%%footer Heb 4:16, Phil 4:6		10 10 7 6 11
+%OHSCRIP Heb 4:16, Phil 4:6
+%OHTOPICS {God, Goodness of}, {Jesus}, {Peace [1]}, {Presence}, {Trust}
+%OHCATEGORY REDEEMER
+%OHMETRICAL 10 10 7 6 11
+%OHCOMPLEXITY 2
+%OHCOMPOSER Lowry, Robert (1826-1899)
+%OHARRANGER unknown
+%OHAUTHOR Hawks, Annie Sherwood (1836-1918)
+%OHTRANSLATOR none
+%%postscript /st { moveto -8 0 rmoveto 0 8 rlineto 4 0 rlineto stroke } def
+%%postscript /nd { moveto -8 0 rmoveto 0 8 rlineto -4 0 rlineto stroke } def
+%%deco sintro 6 st 6 0 0 
+%%deco eintro 6 nd 6 0 0 
+

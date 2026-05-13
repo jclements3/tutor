@@ -1,0 +1,141 @@
+
+% PAGE LAYOUT
+%
+%%pagewidth	21.6000cm
+%%pageheight	27.9000cm
+%%scale		0.750000
+%%staffsep	1.600000cm
+%%sysstaffsep	0.00000cm
+%%exprabove	false
+%%measurebox	false
+%%header "22		OPENING SONGS"
+%%footer Jn 6:67-68, 8:31-32, Heb 4:12, Jn 1:1-5, 8:12, 1Cor 2:14		7 8 7 8 8 8
+%OHSCRIP Jn 6:67-68, 8:31-32, Heb 4:12, Jn 1:1-5, 8:12, 1Cor 2:14
+%OHTOPICS {Church on Earth (Church Militant)}, {Consolation [4]}, {Darkness, Spiritual [2]}, {Education [2]}, {Father [4]}, {Guidance}, {Holiness}, {Holy Spirit [2-4]}, {Invitation (Faithful's to God)}, {Invitation (God's to Us)}, {Jesus [1,4]}, {Knowledge [2]}, {Light [2,3]}, {Love}, {Opening Songs}, {Presence}, {Trinity}
+%OHCATEGORY OPENING SONGS
+%OHMETRICAL 7 8 7 8 8 8
+%OHCOMPLEXITY 2
+%OHCOMPOSER Ahle, Johann Rudolph (1625-1673)
+%OHARRANGER Layriz, Fridrich (1808-1859)
+%OHAUTHOR Clausnitzer, Tobias (1619-1684)
+%OHTRANSLATOR Winkworth, Catherine (1827-1878)
+%%postscript /st { moveto -8 0 rmoveto 0 8 rlineto 4 0 rlineto stroke } def
+%%postscript /nd { moveto -8 0 rmoveto 0 8 rlineto -4 0 rlineto stroke } def
+%%deco sintro 6 st 6 0 0 
+%%deco eintro 6 nd 6 0 0 
+
+X: 119
+T: Holy Ghost, with Light Divine
+%%combinevoices 1
+C: Words: verses 1-6 Andrew Reed, 1817.  verses 7-13 Samuel Longfellow, 1864.  
+C: Music: 'Canterbury' or 'Song 13' Orlando Gibbons, 1623.  Setting: "Common Service Book" (ULCA), 1917.
+C: copyright: public domain.  This score is a part of the Open Hymnal Project, 2006 Revision.
+S: Music source: 'Common Service Book With Hymnal' ULCA, 1917 Hymn 156.
+M: 4/4 % time signature
+L: 1/4 % default length
+%%staves (S1V1 S1V2) | (S2V1 S2V2) 
+V: S1V1 clef=treble 
+%%MIDI beat 127 125 110 1
+V: S1V2 
+%%MIDI beat 127 125 110 1
+V: S2V1 clef=bass 
+%%MIDI beat 127 125 110 1
+V: S2V2 
+%%MIDI beat 127 125 110 1
+K: Eb % key signature
+%
+%%MIDI program 1 0 % Piano 1
+%%MIDI program 2 0 % Piano 1
+%%MIDI program 3 0 % Piano 1
+%%MIDI program 4 0 % Piano 1
+%
+% 1
+[V: S1V1] [Q:1/4=100] G A B c | F F G2 | B c d e | c c B2 |
+w: 1.~Ho- ly Ghost, with light di- vine Shine up- on this heart of mine; 
+w: 2.~Let me see my Sa- vior's face, Let me all His beau- ties trace; 
+w: 3.~Ho- ly Ghost, with pow'r di- vine Cleanse this guil- ty heart of mine; 
+w: 4.~Ho- ly Ghost, with joy di- vine Cheer this sad- dened heart of mine; 
+w: 5.~Ho- ly Spir- it, all di- vine, Dwell with- in this heart of mine; 
+[V: S1V2]  E E E E | E D E2 | F F F E | G F/E/ D2 |
+[V: S2V1]  B, C B, A,/G,/ | F, B, B,2 | B, =A, B, B, | B, =A, B,2 |
+[V: S2V2]  E, C, G,, A,, | B,, B,, E,2 | D, F, B, G, | E, F, B,,2 |
+% 5
+[V: S1V1]  G A B c | A G F2 | !sintro!B A/G/ F E | F F E2 !eintro!|]
+w: Chase the shades of night a- way, Turn the * dark- ness in- to day. 
+w: Show those glo- rious truths to me Which are * on- ly known to Thee. 
+w: In Thy mer- cy pit- y me, From sin's * bon- dage set me free. 
+w: Yield a sac- red, set- tled peace, Let it * grow and still in- crease. 
+w: Cast down ev- ery i- dol\- throne, Reign su- * preme, and reign a- lone. 
+[V: S1V2]  E E E E | F =E F2 | F3/2 E/ D E | E D E2 |]
+[V: S2V1]  B, A, G, E, | C C/B,/ A,2 | B, B, A, G, | C B,/A,/ G,2 |]
+[V: S2V2]  E, C, B,, A,, | C, C, F,2 | D,3/2 E,/ B,, C, | A,, B,, E,2 |]
+% 9
+W: 6. See, to Thee I yield my heart,
+W: Shed Thy life through every part;
+W: A pure temple I would be,
+W: Wholly dedicate to Thee.
+W: 	
+W: 7.Holy Spirit, Truth divine,
+W: Dawn upon this soul of mine;
+W: Word of God and inward light
+W: Wake my spirit, clear my sight.
+W: 
+W: 8.Holy Spirit, Love divine,
+W: Glow within this heart of mine;
+W: Kindle every high desire;
+W: Perish self in Thy pure fire.
+W: 
+W: 9.Holy Spirit, Power divine
+W: Fill and nerve this will of mine;
+W: Grant that I may strongly live,
+W: Bravely bear, and nobly strive.
+W: 
+W: 10.Holy Spirit, Right divine,
+W: King within my conscience reign;
+W: Be my Lord, and I shall be
+W: Firmly bound, forever free.
+W: 
+W: 11.Holy Spirit, Peace divine,
+W: Still this restless heart of mine;
+W: Speak to calm this tossing sea,
+W: Stayed in Thy tranquility.
+W: 
+W: 12.Holy Spirit, Joy divine,
+W: Gladden Thou this heart of mine;
+W: In the desert ways I sing,
+W: "Spring, O Well, forever spring."
+W: 
+W: 13.Now incline me to repent,
+W: Let me now my sins lament,
+W: Now my foul revolt deplore,
+W: Weep, believe, and sin no more.
+
+
+
+%%newpage
+
+% PAGE LAYOUT
+%
+%%pagewidth	21.6000cm
+%%pageheight	27.9000cm
+%%scale		0.750000
+%%staffsep	1.60000cm
+%%exprabove	false
+%%measurebox	false
+%%combinevoices 0
+%%header "PENTECOST		120"
+%%footer Gen 1:1-2, 1Cor 12:12-14, Eph 3:7-9		8 7 8 7 8 7 8 7
+%OHSCRIP Gen 1:1-2, 1Cor 12:12-14, Eph 3:7-9
+%OHTOPICS {Church on Earth (Church Militant) [2,3]}, {Consecration}, {Eternal Life [1]}, {Forgiveness [3]}, {God, Providence of}, {Guidance}, {Holy Spirit}, {Inspiration}, {Leadership}, {Light [1]}, {Praise, Holy Spirit}
+%OHCATEGORY PENTECOST
+%OHMETRICAL 8 7 8 7 8 7 8 7
+%OHCOMPLEXITY 4
+%OHCOMPOSER Williams, Thomas J. (1869-1944)
+%OHARRANGER unknown
+%OHAUTHOR Rees, Timothy (1874-1939)
+%OHTRANSLATOR none
+%%postscript /st { moveto -8 0 rmoveto 0 8 rlineto 4 0 rlineto stroke } def
+%%postscript /nd { moveto -8 0 rmoveto 0 8 rlineto -4 0 rlineto stroke } def
+%%deco sintro 6 st 6 0 0 
+%%deco eintro 6 nd 6 0 0 
+

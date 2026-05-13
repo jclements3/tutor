@@ -1,0 +1,104 @@
+
+% PAGE LAYOUT
+%
+%%pagewidth	21.6000cm
+%%pageheight	27.9000cm
+%%scale		0.750000
+%%staffsep	1.600000cm
+%%sysstaffsep	0.00000cm
+%%exprabove	false
+%%measurebox	false
+%%header "22		OPENING SONGS"
+%%footer Jn 6:67-68, 8:31-32, Heb 4:12, Jn 1:1-5, 8:12, 1Cor 2:14		7 8 7 8 8 8
+%OHSCRIP Jn 6:67-68, 8:31-32, Heb 4:12, Jn 1:1-5, 8:12, 1Cor 2:14
+%OHTOPICS {Church on Earth (Church Militant)}, {Consolation [4]}, {Darkness, Spiritual [2]}, {Education [2]}, {Father [4]}, {Guidance}, {Holiness}, {Holy Spirit [2-4]}, {Invitation (Faithful's to God)}, {Invitation (God's to Us)}, {Jesus [1,4]}, {Knowledge [2]}, {Light [2,3]}, {Love}, {Opening Songs}, {Presence}, {Trinity}
+%OHCATEGORY OPENING SONGS
+%OHMETRICAL 7 8 7 8 8 8
+%OHCOMPLEXITY 2
+%OHCOMPOSER Ahle, Johann Rudolph (1625-1673)
+%OHARRANGER Layriz, Fridrich (1808-1859)
+%OHAUTHOR Clausnitzer, Tobias (1619-1684)
+%OHTRANSLATOR Winkworth, Catherine (1827-1878)
+%%postscript /st { moveto -8 0 rmoveto 0 8 rlineto 4 0 rlineto stroke } def
+%%postscript /nd { moveto -8 0 rmoveto 0 8 rlineto -4 0 rlineto stroke } def
+%%deco sintro 6 st 6 0 0 
+%%deco eintro 6 nd 6 0 0 
+
+X: 158
+T: The Gospel Shows The Father's Grace
+%%combinevoices 1
+C: Words: Matthias Loy, 1863. 
+C: Music: 'Herr Jesu Christ, Dict Zu Uns Wend' from Cantionale Germanicum, Dresden, 1628. 
+C: Setting: "Mehrstimmiges ChoralBuch", 1906, alt.
+C: copyright: public domain.  This score is a part of the Open Hymnal Project, 2008 Revision.
+S: Music source: "Mehrstimmiges ChoralBuch", 1906 Hymn #74, page 57 Ed. Karl Brauer. slightly altered.
+M: 6/4 % time signature
+L: 1/4 % default length
+%%staves (S1V1 S1V2) | (S2V1 S2V2) 
+V: S1V1 clef=treble 
+%%MIDI beat 127 125 110 1
+V: S1V2 
+%%MIDI beat 127 125 110 1
+V: S2V1 clef=bass 
+%%MIDI beat 127 125 110 1
+V: S2V2 
+%%MIDI beat 127 125 110 1
+K: F % key signature
+%
+%%MIDI program 1 0 % Piano 1
+%%MIDI program 2 0 % Piano 1
+%%MIDI program 3 0 % Piano 1
+%%MIDI program 4 0 % Piano 1
+%
+% 1
+[V: S1V1] [Q:1/4=140] F2 | A2 c A2 G | A =B c2 d2 | c2 A G2 F | F E F2
+w: 1.~The Gos- pel shows the Fa- ther's grace, Who sent his Son to save our race, 
+w: 2.~It sets the Lamb be- fore our eyes, Who made th'a- ton- ing sac- ri- fice, 
+w: 3.~It brings the Sa- vior's right- eous- ness Our souls to robe in ro- yal dress; 
+w: 4.~It is the pow'r of God to save From sin and Sa- tan and the grave; 
+w: 5.~It bears to all the ti- dings glad And bids their hearts no more be sad; 
+[V: S1V2]  C2 | F2 G F2 E | F F E2 F2 | F2 F E2 C | D C C2 
+[V: S2V1]  A,2 | C2 C C2 C | C F, G,2 B,2 | A,2 C C2 F, | B, G, A,2
+[V: S2V2]  F,2 | F,2 E, F,2 C, | F, D, C,2 B,,2 | F,2 F, C,2 A,, | B,, C, F,,2
+% 5
+[V: S1V1]  G2 | A2 A G2 c | c =B c2 !sintro!A2 | B2 A G2 F | F E F2 !eintro!|]
+w: Pro- claims how Je- sus lived and died That man might thus be jus- ti- fied. 
+w: And calls the souls with guilt opp- ressed To come and find e- ter- nal rest. 
+w: From all our guilt it brings re- lease And gives the trou- bled con- science peace. 
+w: It works the faith, which firm- ly clings To all the trea- sures which it brings. 
+w: The hea- vy la- den souls it cheers And ba- nish- es their guilt- y fears. 
+[V: S1V2]  E2 | F2 F E2 E | D D E2 C2 | D2 F E2 D | D C C2 |]
+[V: S2V1]  C2 | C2 C C2 G, | G, G, G,2 F,2 | F,2 C C2 A, | B, G, A,2 |]
+[V: S2V2]  C,2 | F,2 F, C,2 C, | G, G,, C,2 F,2 | B,,2 F,, C,2 D, | B,, C, F,,2 |]
+% 11
+W: 6.May we in faith its tidings learn
+W: Nor thanklessly its blessings spurn;
+W: May we in faith its truth confess
+W: And praise the Lord our Righteousness!
+
+%%newpage
+
+% PAGE LAYOUT
+%
+%%pagewidth	21.6000cm
+%%pageheight	27.9000cm
+%%scale		0.750000
+%%staffsep	1.60000cm
+%%exprabove	false
+%%measurebox	false
+%%header "159		WORD OF GOD"
+%%footer Ps 19:8, Rom 3:19-26, Rom 2:12, Ex 18:20		8 8 8 8
+%OHSCRIP Ps 19:8, Rom 3:19-26, Rom 2:12, Ex 18:20
+%OHTOPICS {Atonement [6]}, {Contrition [2]}, {Faith [6]}, {Following Jesus, Sanctification [3,6]}, {God, As King [6]}, {Grace [6]}, {Jesus [3,6]}, {Judgment}, {Knowledge [2]}, {Law}, {Light [2]}, {Obedience [1,3,4]}, {Repentance [2]}, {Self Control (see also Law)}, {Sinners}, {Throne (also see God - As King) [6]}
+%OHCATEGORY WORD OF GOD
+%OHMETRICAL 8 8 8 8
+%OHCOMPLEXITY 1
+%OHCOMPOSER from Klug's Geistliche Lieder auffs new gebessert, Wittenberg, 1543
+%OHARRANGER unknown
+%OHAUTHOR Loy, Matthias (1828-1915)
+%OHTRANSLATOR none
+%%postscript /st { moveto -8 0 rmoveto 0 8 rlineto 4 0 rlineto stroke } def
+%%postscript /nd { moveto -8 0 rmoveto 0 8 rlineto -4 0 rlineto stroke } def
+%%deco sintro 6 st 6 0 0 
+%%deco eintro 6 nd 6 0 0 
+

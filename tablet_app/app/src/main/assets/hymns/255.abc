@@ -1,0 +1,111 @@
+
+% PAGE LAYOUT
+%
+%%pagewidth	21.6000cm
+%%pageheight	27.9000cm
+%%scale		0.750000
+%%staffsep	1.600000cm
+%%sysstaffsep	0.00000cm
+%%exprabove	false
+%%measurebox	false
+%%header "22		OPENING SONGS"
+%%footer Jn 6:67-68, 8:31-32, Heb 4:12, Jn 1:1-5, 8:12, 1Cor 2:14		7 8 7 8 8 8
+%OHSCRIP Jn 6:67-68, 8:31-32, Heb 4:12, Jn 1:1-5, 8:12, 1Cor 2:14
+%OHTOPICS {Church on Earth (Church Militant)}, {Consolation [4]}, {Darkness, Spiritual [2]}, {Education [2]}, {Father [4]}, {Guidance}, {Holiness}, {Holy Spirit [2-4]}, {Invitation (Faithful's to God)}, {Invitation (God's to Us)}, {Jesus [1,4]}, {Knowledge [2]}, {Light [2,3]}, {Love}, {Opening Songs}, {Presence}, {Trinity}
+%OHCATEGORY OPENING SONGS
+%OHMETRICAL 7 8 7 8 8 8
+%OHCOMPLEXITY 2
+%OHCOMPOSER Ahle, Johann Rudolph (1625-1673)
+%OHARRANGER Layriz, Fridrich (1808-1859)
+%OHAUTHOR Clausnitzer, Tobias (1619-1684)
+%OHTRANSLATOR Winkworth, Catherine (1827-1878)
+%%postscript /st { moveto -8 0 rmoveto 0 8 rlineto 4 0 rlineto stroke } def
+%%postscript /nd { moveto -8 0 rmoveto 0 8 rlineto -4 0 rlineto stroke } def
+%%deco sintro 6 st 6 0 0 
+%%deco eintro 6 nd 6 0 0 
+
+X: 278
+T: I Know Whom I Have Believed
+%%combinevoices 1
+C: Words: Daniel Webster Whittle (a.k.a. Elias Nathan), 1883. 
+C: Music and Setting: 'I Know Whom I Have Believed' James McGranahan, 1892.
+C: copyright: public domain.  This score is a part of the Open Hymnal Project, 2010 Revision.
+S: Music source: Gospel Hymns, nos. 5 and 6 combined, 1892, Hymn 5.
+M: 4/4 % time signature
+L: 1/4 % default length
+%%staves (S1V1 S1V2) | (S2V1 S2V2) 
+V: S1V1 clef=treble 
+%%MIDI beat 127 125 110 1
+V: S1V2 
+%%MIDI beat 127 125 110 1
+V: S2V1 clef=bass 
+%%MIDI beat 127 125 110 1
+V: S2V2 
+%%MIDI beat 127 125 110 1
+K: Eb % key signature
+%
+%%MIDI program 1 0 % Piano 1
+%%MIDI program 2 0 % Piano 1
+%%MIDI program 3 0 % Piano 1
+%%MIDI program 4 0 % Piano 1
+%
+% 1
+[V: S1V1] [Q:1/4=100] E | G3/2 G/ A/G/ F/E/ | c B B G | B3/2 B/ c/B/ A/G/ | F3
+w: 1.~I know not why * God's * won- drous grace To me He hath * made * known, 
+w: 2.~I know not how * this * sa- ving faith To me He did * im- * part, 
+w: 3.~I know not how * the * Spi- rit moves, Con- vin- cing us * of * sin, 
+w: 4.~I know not what * of * good or ill May be re- served * for * me, 
+w: 5.~I know not when * my * Lord may come, At night or noon- * day * fair, 
+[V: S1V2]  E | E3/2 E/ E B, | E E E E | G3/2 G/ A/G/ F/E/ | D3
+[V: S2V1]  G, | B,3/2 B,/ C/B,/ A,/G,/ | A, G, G, B, | E3/2 E/ E B, | B,3
+[V: S2V2]  E, | E,3/2 E,/ E, E, | E, E, E, E, | E,3/2 E,/ E, D,/E,/ | B,,3
+% 5
+[V: S1V1]  A | G3/2 G/ A/G/ F/E/ | c B B G | B3/2 B/ c/B/ A/F/ | E3
+w: Nor why, un- wor- * thy, * Christ in love Re- deemed me for * His * own. 
+w: Nor how be- liev- * ing * in His Word Wrought peace with- in * my * heart. 
+w: Re- veal- ing Je- * sus * through the Word, Cre- a- ting faith * in * Him. 
+w: Of wea- ry ways * or * gol- den days, Be- fore His face * I * see. 
+w: Nor if I walk * the * vale with Him, Or meet Him in * the * air. 
+[V: S1V2]  F | E3/2 E/ E B, | E E E E | D3/2 D/ D D | E3
+[V: S2V1]  B, | B,3/2 B,/ C/B,/ A,/G,/ | A, G, G, B, | B,3/2 F,/ F, F,/A,/ | G,3
+[V: S2V2]  B,, | E,3/2 E,/ E, E, | E, E, E, E, | B,,3/2 B,,/ B,, B,, | E,3
+% 9
+[V: S1V1]  E/ E/ | e !accent!e3/2 e/ d/ c/ | c !accent!B3/2 B/ c/ B/ | B !accent!A3/2 A/ B/ A/ | A !accent!G2
+w: But I know Whom I have be- liev- èd, And am per- sua- ded that He is ab- le 
+[V: S1V2]  E/ E/ | c !accent!c3/2 c/ B/ A/ | A !accent!G3/2 G/ A/ G/ | G !accent!F3/2 F/ G/ F/ | F !accent!E2
+[V: S2V1]  E,/ E,/ | E !accent!E3/2 E/ E/ E/ | E !accent!E3/2 E/ E/ E/ | D !accent!D3/2 D/ D/ D/ | E !accent!B,2
+[V: S2V2]  E,/ E,/ | A,, !accent!A,3/2 A,/ A,/ A,/ | E, !accent!E,3/2 E,/ E,/ E,/ | B,, !accent!B,,3/2 B,,/ B,,/ B,,/ | E, !accent!E,2
+% 13
+[V: S1V1]  E | e !accent!e3/2 e/ d/ c/ | c !accent!B2 !sintro!B/ B/ | d3/2 c/ d B | e3 !eintro!|]
+w: To keep that which I've com- mit- ted Un- to Him a- gainst that day. 
+[V: S1V2]  E | c !accent!c3/2 c/ B/ A/ | A !accent!G2 G/ G/ | F3/2 A/ A A | G3 |]
+[V: S2V1]  E, | E !accent!E3/2 E/ E/ E/ | E !accent!E2 B,/ B,/ | B,3/2 B,/ B, B, | B,3 |]
+[V: S2V2]  E, | A,, !accent!A,3/2 A,/ A,/ A,/ | E, !accent!E,2 E,/ E,/ | B,,3/2 B,,/ B,,/C,/ D, | E,3 |]
+% 19
+
+%%newpage
+
+% PAGE LAYOUT
+%
+%%pagewidth	21.6000cm
+%%pageheight	27.9000cm
+%%scale		0.750000
+%%staffsep	1.60000cm
+%%exprabove	false
+%%measurebox	false
+%%header "279		TRUST"
+%%footer Rom 8:31-39, 8:1-11, Ps 27:1-3, Is 50:7-9, Jn 10:28-30, Gal 6:14, Jn 15:20, Ps 46:1-11, Lk 6:47-49		7 6 7 6 7 6 7 6
+%OHSCRIP Rom 8:31-39, 8:1-11, Ps 27:1-3, Is 50:7-9, Jn 10:28-30, Gal 6:14, Jn 15:20, Ps 46:1-11, Lk 6:47-49
+%OHTOPICS {Angels [14]}, {Assurance}, {Atonement}, {Blood [3]}, {Bread (of Life/Daily Bread) [11]}, {Calmness}, {Christian Life}, {Comfort}, {Courage in Affliction}, {Crown [7]}, {Faith [5,9]}, {Father [2,7]}, {God, As King [15]}, {God, Love of}, {God, Majesty &amp; Power of}, {Grace [6]}, {Heaven [10]}, {Holy Spirit [7-9]}, {Hope}, {Jesus}, {Joy}, {Judgment [5]}, {Light [4,10]}, {Love [1-3,6,14]}, {Peace [6]}, {Throne (also see God - As King) [4]}, {Trust}
+%OHCATEGORY TRUST
+%OHMETRICAL 7 6 7 6 7 6 7 6
+%OHCOMPLEXITY 2
+%OHCOMPOSER German
+%OHARRANGER Woodward, George Ratcliffe (1848-1934)
+%OHAUTHOR Gerhardt, Paul (1607-1676)
+%OHTRANSLATOR Massie, Richard (1800-1887)
+%%postscript /st { moveto -8 0 rmoveto 0 8 rlineto 4 0 rlineto stroke } def
+%%postscript /nd { moveto -8 0 rmoveto 0 8 rlineto -4 0 rlineto stroke } def
+%%deco sintro 6 st 6 0 0 
+%%deco eintro 6 nd 6 0 0 
+

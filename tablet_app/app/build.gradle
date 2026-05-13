@@ -1,0 +1,65 @@
+apply plugin: 'com.android.application'
+
+android {
+    namespace 'com.tutor.musictutor'
+    compileSdk 35
+    ndkVersion '27.2.12479018'
+
+    defaultConfig {
+        applicationId "com.tutor.musictutor"
+        minSdk 24
+        targetSdk 34
+        versionCode 1
+        versionName "0.1.0"
+
+        // Build only for arm64 (the P90's actual architecture). Skipping
+        // armeabi-v7a / x86 / x86_64 makes the APK smaller and the build
+        // ~3x faster, since we'd otherwise compile the native synth four
+        // times for archs we never deploy to.
+        ndk {
+            abiFilters 'arm64-v8a'
+        }
+
+        externalNativeBuild {
+            cmake {
+                cppFlags '-std=c++17', '-O3', '-fno-exceptions', '-fno-rtti'
+                // Oboe ships only the c++_shared variant of its prefab .so,
+                // so the host app must use the same STL or prefab refuses
+                // to match. Without this Gradle defaults to c++_static and
+                // the link step explodes.
+                arguments '-DANDROID_STL=c++_shared'
+            }
+        }
+    }
+
+    externalNativeBuild {
+        cmake {
+            path 'src/main/cpp/CMakeLists.txt'
+            version '3.22.1'
+        }
+    }
+
+    // Required so find_package(oboe) resolves against the prebuilt
+    // headers/.so that the Oboe AAR ships under prefab/.
+    buildFeatures {
+        prefab true
+    }
+
+    buildTypes {
+        debug {
+            debuggable true
+        }
+        release {
+            minifyEnabled false
+        }
+    }
+
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_17
+        targetCompatibility JavaVersion.VERSION_17
+    }
+}
+
+dependencies {
+    implementation 'com.google.oboe:oboe:1.9.3'
+}

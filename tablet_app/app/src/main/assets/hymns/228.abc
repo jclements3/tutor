@@ -1,0 +1,120 @@
+
+% PAGE LAYOUT
+%
+%%pagewidth	21.6000cm
+%%pageheight	27.9000cm
+%%scale		0.750000
+%%staffsep	1.600000cm
+%%sysstaffsep	0.00000cm
+%%exprabove	false
+%%measurebox	false
+%%header "22		OPENING SONGS"
+%%footer Jn 6:67-68, 8:31-32, Heb 4:12, Jn 1:1-5, 8:12, 1Cor 2:14		7 8 7 8 8 8
+%OHSCRIP Jn 6:67-68, 8:31-32, Heb 4:12, Jn 1:1-5, 8:12, 1Cor 2:14
+%OHTOPICS {Church on Earth (Church Militant)}, {Consolation [4]}, {Darkness, Spiritual [2]}, {Education [2]}, {Father [4]}, {Guidance}, {Holiness}, {Holy Spirit [2-4]}, {Invitation (Faithful's to God)}, {Invitation (God's to Us)}, {Jesus [1,4]}, {Knowledge [2]}, {Light [2,3]}, {Love}, {Opening Songs}, {Presence}, {Trinity}
+%OHCATEGORY OPENING SONGS
+%OHMETRICAL 7 8 7 8 8 8
+%OHCOMPLEXITY 2
+%OHCOMPOSER Ahle, Johann Rudolph (1625-1673)
+%OHARRANGER Layriz, Fridrich (1808-1859)
+%OHAUTHOR Clausnitzer, Tobias (1619-1684)
+%OHTRANSLATOR Winkworth, Catherine (1827-1878)
+%%postscript /st { moveto -8 0 rmoveto 0 8 rlineto 4 0 rlineto stroke } def
+%%postscript /nd { moveto -8 0 rmoveto 0 8 rlineto -4 0 rlineto stroke } def
+%%deco sintro 6 st 6 0 0 
+%%deco eintro 6 nd 6 0 0 
+
+X: 251
+T: Alleluia, Alleluia! Hearts to Heaven and Voices Raise
+%%combinevoices 1
+C: Words: Christopher Wordsworth, 1865.
+C: Music: 'Ode to Joy' Ludwig van Beethoven; Adapted by Edward Hodges, 1824. 
+C: Setting: "The Methodist Hymnal", 1905.
+C: copyright: public domain.  This score is a part of the Open Hymnal Project, 2011 Revision.
+S: Music source: The Methodist Hymnal, 1905 Hymn 160.
+M: 4/4 % time signature
+L: 1/4 % default length
+%%staves (S1V1 S1V2) | (S2V1 S2V2) 
+V: S1V1 clef=treble 
+%%MIDI beat 127 125 110 1
+V: S1V2 
+%%MIDI beat 127 125 110 1
+V: S2V1 clef=bass 
+%%MIDI beat 127 125 110 1
+V: S2V2 
+%%MIDI beat 127 125 110 1
+K: G % key signature
+%
+%%MIDI program 1 0 % Piano 1
+%%MIDI program 2 0 % Piano 1
+%%MIDI program 3 0 % Piano 1
+%%MIDI program 4 0 % Piano 1
+%
+% 1
+[V: S1V1] [Q:1/4=115] B B c d | d c B A | G G A B | B3/2 A/ A2 |
+w: 1.~Al- le- lu- ia, al- le- lu- ia! Hearts to Heav'n and voi- ces raise: 
+w: 2.~Now the i- ron bars are bro- ken, Christ from death to life is born, 
+w: 3.~Christ is ri- sen, Christ, the first fruits of the ho- ly har- vest field, 
+w: 4.~Christ is ri- sen, we are ri- sen! Shed up- on us heav'n- ly grace, 
+w: 5.~Al- le- lu- ia, al- le- lu- ia! Glo- ry be to God on high; 
+[V: S1V2]  D D D D | D E/F/ G D | D D F G | G3/2 F/ F2 |
+[V: S2V1]  G, G, A, B, | B, A, G, F, | G, B, C D | D3/2 D/ D2 |
+[V: S2V2]  G, G, G, G, | D, D, D, C, | B,, B,, A,, G,, | D,3/2 D,/ D,2 |
+% 5
+[V: S1V1]  B B c d | d c B A | G G A B | A3/2 G/ G2 |
+w: Sing to God a hymn of glad- ness, sing to God a hymn of praise. 
+w: Glor- ious life, and life im- mor- tal, on the ho- ly Ea- ster morn. 
+w: Which will all its full a- bun- dance at His se- cond com- ing yield: 
+w: Rain and dew and gleams of glo- ry from the bright- ness of Thy face; 
+w: Al- le- lu- ia! to the Sa- vior who has gained the vic- to- ry; 
+[V: S1V2]  G D E =F | =F E D E | D D F G | F3/2 G/ G2 |
+[V: S2V1]  D D C B, | G, A, B, C | B, B, C D | C3/2 B,/ B,2 |
+[V: S2V2]  G, G, G, G, | C, C, C, C, | D, D, D, D, | D,3/2 G,/ G,2 |
+% 9
+[V: S1V1]  A A B G | A B/c/ B G | A B/c/ B A | G A D2 |
+w: He, who on the cross a * Vic- tim, for the * world's sal- va- tion bled, 
+w: Christ has tri- umphed, and we * con- quer by His * might- y en- ter- prise: 
+w: Then the gol- den ears of * har- vest will their * heads be- fore Him wave, 
+w: That we, with our hearts in * Hea- ven, here on * earth may fruit- ful be, 
+w: Al- le- lu- ia! to the * Spir- it, fount of * love and sanc- ti- ty: 
+[V: S1V2]  F D D G | F G/F/ G G | F F F ^D | E/=D/ ^C D2 |
+[V: S2V1]  D F, G, B, | C B,/A,/ G, B, | C B,/A,/ B, B, | B, A,/G,/ F,2 |
+[V: S2V2]  D, D, D, D, | D, D, D, D, | D, D, ^D, B,, | E, A,, D,2 |
+% 13
+[V: S1V1]  B B c d | d c B A | !sintro!G G A B | A3/2 G/ G2 !eintro!|]
+w: Je- sus Christ, the King of glo- ry, now is ri- sen from the dead. 
+w: We with Him to life e- ter- nal by His res- ur- rec- tion rise. 
+w: Rip- ened by His glor- ious sun- shine from the fur- rows of the grave. 
+w: And by an- gel hands be ga- thered, and be ev- er, Lord, with Thee. 
+w: Al- le- lu- ia, al- le- lu- ia! to the Tri- une Ma- jes- ty. 
+[V: S1V2]  D D E =F | =F E D E | D D F G | F3/2 G/ G2 |]
+[V: S2V1]  G, D C B, | G, A, B, C | B, B, C D | C3/2 B,/ B,2 |]
+[V: S2V2]  G, G, G, G, | C, C, C, C, | D, D, D, D, | D,3/2 G,/ G,2 |]
+% 18
+
+%%newpage
+
+% PAGE LAYOUT
+%
+%%pagewidth	21.6000cm
+%%pageheight	27.9000cm
+%%scale		0.750000
+%%staffsep	1.60000cm
+%%exprabove	false
+%%measurebox	false
+%%header "252		PRAISE"
+%%footer Rev 5:8-14, Ps 148:1-2		8 5 8 5 8 7
+%OHSCRIP Rev 5:8-14, Ps 148:1-2
+%OHTOPICS {Angels [1]}, {Art and Music [1-4]}, {Day [1]}, {Evening [1]}, {God, Eternity of [1,2,5]}, {God, Love of [3]}, {Humility [2-4]}, {Light [1]}, {Love [3]}, {Praise, Father [5]}, {Praise, Son [5]}, {Praise, Holy Spirit [5]}, {Sinners [2]}, {Trinity [5]}, {Worship}
+%OHCATEGORY PRAISE
+%OHMETRICAL 8 5 8 5 8 7
+%OHCOMPLEXITY 2
+%OHCOMPOSER Monk, Edwin George (1819-1900)
+%OHARRANGER Monk, Edwin George (1819-1900)
+%OHAUTHOR Pott, Francis (1832-1909)
+%OHTRANSLATOR none
+%%postscript /st { moveto -8 0 rmoveto 0 8 rlineto 4 0 rlineto stroke } def
+%%postscript /nd { moveto -8 0 rmoveto 0 8 rlineto -4 0 rlineto stroke } def
+%%deco sintro 6 st 6 0 0 
+%%deco eintro 6 nd 6 0 0 
+

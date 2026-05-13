@@ -1,0 +1,128 @@
+
+% PAGE LAYOUT
+%
+%%pagewidth	21.6000cm
+%%pageheight	27.9000cm
+%%scale		0.750000
+%%staffsep	1.600000cm
+%%sysstaffsep	0.00000cm
+%%exprabove	false
+%%measurebox	false
+%%header "22		OPENING SONGS"
+%%footer Jn 6:67-68, 8:31-32, Heb 4:12, Jn 1:1-5, 8:12, 1Cor 2:14		7 8 7 8 8 8
+%OHSCRIP Jn 6:67-68, 8:31-32, Heb 4:12, Jn 1:1-5, 8:12, 1Cor 2:14
+%OHTOPICS {Church on Earth (Church Militant)}, {Consolation [4]}, {Darkness, Spiritual [2]}, {Education [2]}, {Father [4]}, {Guidance}, {Holiness}, {Holy Spirit [2-4]}, {Invitation (Faithful's to God)}, {Invitation (God's to Us)}, {Jesus [1,4]}, {Knowledge [2]}, {Light [2,3]}, {Love}, {Opening Songs}, {Presence}, {Trinity}
+%OHCATEGORY OPENING SONGS
+%OHMETRICAL 7 8 7 8 8 8
+%OHCOMPLEXITY 2
+%OHCOMPOSER Ahle, Johann Rudolph (1625-1673)
+%OHARRANGER Layriz, Fridrich (1808-1859)
+%OHAUTHOR Clausnitzer, Tobias (1619-1684)
+%OHTRANSLATOR Winkworth, Catherine (1827-1878)
+%%postscript /st { moveto -8 0 rmoveto 0 8 rlineto 4 0 rlineto stroke } def
+%%postscript /nd { moveto -8 0 rmoveto 0 8 rlineto -4 0 rlineto stroke } def
+%%deco sintro 6 st 6 0 0 
+%%deco eintro 6 nd 6 0 0 
+
+X: 156
+T: Lamp of Our Feet
+%%combinevoices 1
+C: Words: Bernard Barton, 1826.  Music: 'St. Agnes' John B. Dykes, 1866. 
+C: Setting: "Hymnal and Canticles of the Protestant Episcopal Church", 1875.
+C: copyright: public domain.  This score is a part of the Open Hymnal Project, 2012 Revision.
+S: Music source: Hymnal and Canticles of the Protestant Episcopal Church, 1875, Hymn 69, first tune
+S: Lyrics from : Eclectic Review, 1836, p.478-479.  All but last two verses found in Museum of foreign literature, science and art, Volumes 29-30, E. Littell, 1836, p.554 or The Penny Protestant operative, 1840, p.95
+M: 3/4 % time signature
+L: 1/4 % default length
+%%staves (S1V1 S1V2) | (S2V1 S2V2) 
+V: S1V1 clef=treble 
+%%MIDI beat 127 125 110 1
+V: S1V2 
+%%MIDI beat 127 125 110 1
+V: S2V1 clef=bass 
+%%MIDI beat 127 125 110 1
+V: S2V2 
+%%MIDI beat 127 125 110 1
+K: G % key signature
+%
+%%MIDI program 1 0 % Piano 1
+%%MIDI program 2 0 % Piano 1
+%%MIDI program 3 0 % Piano 1
+%%MIDI program 4 0 % Piano 1
+%
+% 1
+[V: S1V1] [Q:1/4=140] B B B | A2 B | c2 F | G3 | D D D | B2 A | A3 |
+w: 1.~Lamp of our feet! where- by we trace Our path, when wont to stray;
+w: 2.~Bread of our souls! where- on we feed; True man- na from on high!
+w: 3.~Pil- lar of fire\- through watch- es dark! Or ra- diant cloud by day!
+w: 4.~Pole\- star on life's tem- pest- uous deep! Bea- con! when doubts sur- round;
+w: 5.~Rich- es in pov- er- ty! our aid In ev- ery need- ful hour!
+[V: S1V2] D D D | E2 D | (C E) D | D3 | D D D | D2 ^C | D3 |
+[V: S2V1] B, B, G,  | C2 G, | A,2 A, | B,3 | C B, A,  | G,2 G, | F,3 |
+[V: S2V2] G, G, B,, | C,2 B,, | A,,2 D, | G,3 | A, G, F, | G,2 E, | D,3 |
+% 2
+[V: S1V1] c c B | A2 G | F2 E | D3 | !sintro!D E G | B2 A | G3 !eintro!|]
+w: Stream from the fount of heav'n- ly grace! Brook by the trav- 'ler's way!
+w: Our guide, and chart where- in we read Of realms be- yond the sky.
+w: When waves would whelm our toss- ing bark\- Our an- chor and our stay!
+w: Com- pass! by which our course we keep; Our deep sea\- lead, to sound!
+w: Un- sha- ken rock! the pil- grim's shade; The sol- dier's for- tress tow'r.
+[V: S1V2] E E D | C2 ^C | D2 ^C | D3 | D D C | B,2 C | B,3 |]
+[V: S2V1] E, F, ^G, | A,2 A, | A,2 G, | F,3 | G, G, G, | G,2 F, | G,3 |]
+[V: S2V2] A,, A,, A,, | A,,2 A,, | D,2 D, | (D,2 =C,) | B,, C, E, | D,2 D, | G,,3 |]
+W: 6. Our shield and buckler in the fight!
+W: Vict'ry's triumphant palm!
+W: Comfort in grief! in weakness, might!
+W: In sickness, Gilead's balm.
+W: 
+W: 7. Childhood's preceptor! manhood's trust!
+W: Old age's firm ally!
+W: Our hope\-when we go down to dust,
+W: Of immortality.
+W: 
+W: 8. Pure oracles of truth divine!
+W: Unlike each fabled dream
+W: Given forth from Delphos' mystic shrine
+W: Or groves of Academe!
+W: 
+W: 9. Word of the ever-living God!
+W: Will of His glorious Son!
+W: Without Thee, how could earth be trod?
+W: Or Heaven itself be won?
+W: 
+W: 10. Yet to unfold thy hidden worth,
+W: Thy mysteries to reveal,
+W: That Spirit which first gave thee forth,
+W: Thy volume must unseal!
+W: 
+W: 11. And we, if we aright would learn
+W: The wisdom it imparts,
+W: Must to its heavenly teaching turn
+W: With simple, child-like hearts!
+
+%%newpage
+
+% PAGE LAYOUT
+%
+%%pagewidth	21.6000cm
+%%pageheight	27.9000cm
+%%scale		0.7300000
+%%staffsep	0.60000cm
+%%exprabove	false
+%%measurebox	false
+%%header "157		WORD OF GOD"
+%%footer Ex 20:1-17, Deut 5:6-21, 1Tim 2:5-6, Ps 60:11-12		8 8 8 7 4
+%OHSCRIP Ex 20:1-17, Deut 5:6-21, 1Tim 2:5-6, Ps 60:11-12
+%OHTOPICS {Charity (see also Tithing) [8]}, {Christian Home/Family [5]}, {Christmas/Advent}, {God, Justness of}, {Guidance}, {Jesus [12]}, {Law}, {Morality (see also Law)}, {Obedience}, {Priest/Priestly Roles [12]}, {Rest [4]}, {Social Justice [6-10]}, {Speech [9]}, {Submission (see also Following Jesus, God - Providence of, Trust)}, {Temperance &amp; Moral Reform (see also Law)}
+%OHCATEGORY WORD OF GOD
+%OHMETRICAL 8 8 8 7 4
+%OHCOMPLEXITY 2
+%OHCOMPOSER from Erfurt Enchiridion, 1524
+%OHARRANGER Praetorius, Michael (1571-1621)
+%OHAUTHOR Luther, Martin (1483-1546)
+%OHTRANSLATOR Massie, Richard (1800-1887)
+%%postscript /st { moveto -8 0 rmoveto 0 8 rlineto 4 0 rlineto stroke } def
+%%postscript /nd { moveto -8 0 rmoveto 0 8 rlineto -4 0 rlineto stroke } def
+%%deco sintro 6 st 6 0 0 
+%%deco eintro 6 nd 6 0 0 
+

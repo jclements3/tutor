@@ -1,0 +1,117 @@
+
+% PAGE LAYOUT
+%
+%%pagewidth	21.6000cm
+%%pageheight	27.9000cm
+%%scale		0.750000
+%%staffsep	1.600000cm
+%%sysstaffsep	0.00000cm
+%%exprabove	false
+%%measurebox	false
+%%header "22		OPENING SONGS"
+%%footer Jn 6:67-68, 8:31-32, Heb 4:12, Jn 1:1-5, 8:12, 1Cor 2:14		7 8 7 8 8 8
+%OHSCRIP Jn 6:67-68, 8:31-32, Heb 4:12, Jn 1:1-5, 8:12, 1Cor 2:14
+%OHTOPICS {Church on Earth (Church Militant)}, {Consolation [4]}, {Darkness, Spiritual [2]}, {Education [2]}, {Father [4]}, {Guidance}, {Holiness}, {Holy Spirit [2-4]}, {Invitation (Faithful's to God)}, {Invitation (God's to Us)}, {Jesus [1,4]}, {Knowledge [2]}, {Light [2,3]}, {Love}, {Opening Songs}, {Presence}, {Trinity}
+%OHCATEGORY OPENING SONGS
+%OHMETRICAL 7 8 7 8 8 8
+%OHCOMPLEXITY 2
+%OHCOMPOSER Ahle, Johann Rudolph (1625-1673)
+%OHARRANGER Layriz, Fridrich (1808-1859)
+%OHAUTHOR Clausnitzer, Tobias (1619-1684)
+%OHTRANSLATOR Winkworth, Catherine (1827-1878)
+%%postscript /st { moveto -8 0 rmoveto 0 8 rlineto 4 0 rlineto stroke } def
+%%postscript /nd { moveto -8 0 rmoveto 0 8 rlineto -4 0 rlineto stroke } def
+%%deco sintro 6 st 6 0 0 
+%%deco eintro 6 nd 6 0 0 
+
+X: 203
+T: Christ Returneth
+%%combinevoices 1
+C: Words: H. L. Turner, 1878.  Music and Setting: 'Christ Returneth' James McGranahan, 1891. 
+C: copyright: public domain.  This score is a part of the Open Hymnal Project, 2011 Revision.
+S: Music source: Gospel hymns no. 6: For use in gospel meetings and other religious services  By James McGranahan, Ira David Sankey, George Coles Stebbins 1891 Hymn 185
+S: text checked against the same source
+M: none % time signature
+L: 1/4 % default length
+%%staves (S1V1 S1V2) | (S2V1 S2V2) 
+V: S1V1 clef=treble 
+%%MIDI beat 127 125 110 1
+V: S1V2 
+%%MIDI beat 127 125 110 1
+V: S2V1 clef=bass 
+%%MIDI beat 127 125 110 1
+V: S2V2 
+%%MIDI beat 127 125 110 1
+K: D % key signature
+%
+%%MIDI program 1 0 % Piano 1
+%%MIDI program 2 0 % Piano 1
+%%MIDI program 3 0 % Piano 1
+%%MIDI program 4 0 % Piano 1
+%
+% 1
+[V: S1V1] [Q:1/4=120] D | F E D | A2 B3/4 A/4 | F E D | !accent!F !accent!E z E | F F A |
+w: 1.~It may be at morn, when the day is a- wak- ing, When sun- light through 
+w: 2.~It may be at mid- day, it may be at twi- light, It may be, per- 
+w: 3.~While hosts cry Ho- san- na, from hea- ven de- scen- ding, With glo- ri- fied 
+w: 4.~Oh, joy! oh, de- light! should we go with- out dy- ing, No sick- ness, no 
+[V: S1V2] D | D D D | D2 D3/4 D/4 | D D D | !accent!D !accent!C x C | D D E |
+[V: S2V1] F, | A, G, F, | F,2 G,3/4 F,/4 | A, G, F, | !accent!A, !accent!A, z A, | A, A, A, |
+[V: S2V2] D, | D, D, D, | D,2 D,3/4 D,/4 | D, D, D, | !accent!A,, !accent!A,, x A,, | D, D, C, |
+% 7
+[V: S1V1] d3/2 e/ d | c d B | !accent!B !accent!A z A | A B c | d2 c3/4 d/4 |
+w: dark- ness and sha- dow is break- ing That Je- sus will come in the 
+w: chance, that the black- ness of mid- night Will burst in- to light in the 
+w: saints and the an- gels at- tend- ing, With grace on His brow, like a 
+w: sad- ness, no dread and no cry- ing. Caught up through the clouds with our 
+[V: S1V2] F3/2 G/ F | E ^G G | !accent!A !accent!A z G | F G G | F2 E3/4 F/4 |
+[V: S2V1] B,3/2 A,/ A, | A, B, D | !accent!D !accent!C z C | D D A, | A,2 A,3/4 A,/4 |
+[V: S2V2] B,,3/2 C,/ D, | E, E, E, | !accent!A,, !accent!A,, x A,, | A, G, E, | D,2 E,3/4 D,/4 |
+% 12
+[V: S1V1] e3/2 d/ e | f d d3/4.- d/4 | d3/2 c/ B | (A d) c | d3 ||
+w: full- ness of glo- ry To re- ceive from the world * "His own." 
+w: blaze of His glo- ry, When * Je- sus re- ceives * "His own."
+w: ha- lo of glo- ry, Will * Je- sus re- ceive * "His own."
+w: Lord in- to glo- ry, When * Je- sus re- ceives * "His own."
+[V: S1V2] G3/2 F/ G | A F A3/4.- A/4 | B3/2 A/ G | F2 G | F3 ||
+[V: S2V1] C3/2 D/ C | D D D3/4.- D/4 | D3/2 D/ D | (D A,) A, | A,3 ||
+[V: S2V2] A,,3/2 A,,/ A,, | D, D, F,3/4.- F,/4 | G,3/2 G,/ G, | A,2 A,, | D,3 ||
+% 17
+[V: S1V1] A2 F | F G A | B2 B | d2 d3/4 d/4 | d c B | A2 c3/4 c/4 |
+w: O Lord Je- sus, how long, how long Ere we shout the glad song, Christ re- 
+[V: S1V2] F2 D | D C D | D2 D | G2 G3/4 G/4 | B A G | F2 E3/4 E/4 |
+[V: S2V1] D2 A, | A, A, A, | D2 D | B,2 B,3/4 B,/4 | B, C D | D2 A,3/4 A,/4 |
+[V: S2V2] D,2 D, | D, E, F, | G,2 G, | G,2 G,3/4 G,/4 | G, G, G, | D,2 A,3/4 A,/4 |
+% 2
+[V: S1V1] d d c3/4 c/4 | d d e3/4 e/4 | f d c | d2 !sintro!F3/4 F/4 | A G E | D2 !eintro!|]
+w: turn- eth! Hal- le- lu- jah! Hal- le- lu- jah! A- men. Hal- le- lu- jah! A- men. 
+[V: S1V2] F F G3/4 G/4 | F F  A3/4 A/4 | A F G | F2 D3/4 D/4 | D E C | D2 |]
+[V: S2V1] A, A, A,3/4 A,/4 | A, A, C3/4 C/4 | D A, A, | A,2 A,3/4 A,/4 | F, A, G, | F,2 |]
+[V: S2V2] D, D, A,,3/4 A,,/4 | D, D, A,3/4 A,/4 | D, D, A,, | D,2 D,3/4 D,/4 | A,, A,, A,, | D,2 |]
+
+%%newpage
+
+% PAGE LAYOUT
+%
+%%pagewidth	21.6000cm
+%%pageheight	27.9000cm
+%%scale		0.7300000
+%%staffsep	0.0000cm
+%%exprabove	false
+%%measurebox	false
+%%header "204		END TIMES"
+%%footer Rev 6:12-17, Rev 20:11-15,  Mt 24:15-28, Mt 25:31-46, Ps 49:1-20		8 8 8 8 8 8
+%OHSCRIP Rev 6:12-17, Rev 20:11-15,  Mt 24:15-28, Mt 25:31-46, Ps 49:1-20
+%OHTOPICS {Anticipation}, {Atonement [8-11]}, {Brevity of Life}, {Conscience}, {Contrition}, {Cross [10]}, {Fear of the Lord}, {Forgiveness}, {God, Justness of}, {God, Majesty &amp; Power of}, {Grace [7-17]}, {Humility}, {Jesus [9]}, {Judgment}, {Law}, {Presence}, {Repentance}, {Shepard/Lamb [15]}
+%OHCATEGORY END TIMES
+%OHMETRICAL 8 8 8 8 8 8
+%OHCOMPLEXITY 2
+%OHCOMPOSER Dykes, John Bacchus (1823-1876)
+%OHARRANGER unknown
+%OHAUTHOR Thomas of Celano (13th Century)
+%OHTRANSLATOR Irons, William Josiah (1812-1883)
+%%postscript /st { moveto -8 0 rmoveto 0 8 rlineto 4 0 rlineto stroke } def
+%%postscript /nd { moveto -8 0 rmoveto 0 8 rlineto -4 0 rlineto stroke } def
+%%deco sintro 6 st 6 0 0 
+%%deco eintro 6 nd 6 0 0 
+

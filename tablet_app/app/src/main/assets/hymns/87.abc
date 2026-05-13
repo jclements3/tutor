@@ -1,0 +1,118 @@
+
+% PAGE LAYOUT
+%
+%%pagewidth	21.6000cm
+%%pageheight	27.9000cm
+%%scale		0.750000
+%%staffsep	1.600000cm
+%%sysstaffsep	0.00000cm
+%%exprabove	false
+%%measurebox	false
+%%header "22		OPENING SONGS"
+%%footer Jn 6:67-68, 8:31-32, Heb 4:12, Jn 1:1-5, 8:12, 1Cor 2:14		7 8 7 8 8 8
+%OHSCRIP Jn 6:67-68, 8:31-32, Heb 4:12, Jn 1:1-5, 8:12, 1Cor 2:14
+%OHTOPICS {Church on Earth (Church Militant)}, {Consolation [4]}, {Darkness, Spiritual [2]}, {Education [2]}, {Father [4]}, {Guidance}, {Holiness}, {Holy Spirit [2-4]}, {Invitation (Faithful's to God)}, {Invitation (God's to Us)}, {Jesus [1,4]}, {Knowledge [2]}, {Light [2,3]}, {Love}, {Opening Songs}, {Presence}, {Trinity}
+%OHCATEGORY OPENING SONGS
+%OHMETRICAL 7 8 7 8 8 8
+%OHCOMPLEXITY 2
+%OHCOMPOSER Ahle, Johann Rudolph (1625-1673)
+%OHARRANGER Layriz, Fridrich (1808-1859)
+%OHAUTHOR Clausnitzer, Tobias (1619-1684)
+%OHTRANSLATOR Winkworth, Catherine (1827-1878)
+%%postscript /st { moveto -8 0 rmoveto 0 8 rlineto 4 0 rlineto stroke } def
+%%postscript /nd { moveto -8 0 rmoveto 0 8 rlineto -4 0 rlineto stroke } def
+%%deco sintro 6 st 6 0 0 
+%%deco eintro 6 nd 6 0 0 
+
+X: 109
+T: Jesus Christ Is Risen Today
+%%combinevoices 1
+C: Words: 14th Century Bohemian Latin carol. Stanzas 1-3 translated in John Arnold's Compleat Psalmist, 1749.
+C: Stanza 4 Charles Wesley, 1740, alt. 
+C: Music: 'Easter Hymn' from Lyra Davidica, 1708.  Setting: composite found in "Church Praise: with tunes", 1885.
+C: copyright: public domain.  This score is a part of the Open Hymnal Project, 2005 Revision.
+S: Music source: almost exactly like "Church praise: with tunes", 1885 Hymn 91 page 74
+S: also look at "Congregational church hymnal", 1887 Hymn 151 page 120
+S: and "Hymnal of the Protestant Episcopal Church: with music", 1872 hymn 99 page 84 - mostly the same but not quite
+M: 4/4 % time signature
+L: 1/4 % default length
+%%staves (S1V1 S1V2) | (S2V1 S2V2) 
+V: S1V1 clef=treble 
+%%MIDI beat 127 125 110 1
+V: S1V2 
+%%MIDI beat 127 125 110 1
+V: S2V1 clef=bass 
+%%MIDI beat 127 125 110 1
+V: S2V2 
+%%MIDI beat 127 125 110 1
+K: C % key signature
+%
+%%MIDI program 1 0 % Piano 1
+%%MIDI program 2 0 % Piano 1
+%%MIDI program 3 0 % Piano 1
+%%MIDI program 4 0 % Piano 1
+%
+% 1
+[V: S1V1] [Q:1/4=120] C E G C | F A (A G) | (E/F/G/C/ F) E/F/ | (E D) C2 |
+w: 1.~Je- sus Christ is ris'n to- day, * Al- * * * * le- * lu- * ia! 
+w: 2.~Hymns of praise then let us sing, * Al- * * * * le- * lu- * ia! 
+w: 3.~But the pain which He en- dured, * Al- * * * * le- * lu- * ia! 
+w: 4.~Sing we to our God a- bove, * Al- * * * * le- * lu- * ia! 
+[V: S1V2]  C C D C | C F (F E) | (C2 C/B,/) C | (C B,) C2 |
+[V: S2V1]  E, G, G, E, | F, C C2 | (G,2 A,/F,/) G,/A,/ | (G,3/2 F,/) E,2 |
+[V: S2V2]  C, C, B,, C, | A,, F,, C,2 | (C,/D,/ E, D,) C,/F,,/ | G,,2 C,2 |
+% 5
+[V: S1V1]  F G A G | F E (E D) | (E/F/G/C/ F) E/F/ | (E D) C2 |
+w: Our tri- um- phant ho- ly day, * Al- * * * * le- * lu- * ia! 
+w: Un- to Christ, our heav'n- ly King, * Al- * * * * le- * lu- * ia! 
+w: Our sal- va- tion hath pro- cured, * Al- * * * * le- * lu- * ia! 
+w: Praise e- ter- nal as His love, * Al- * * * * le- * lu- * ia! 
+[V: S1V2]  C C C C | C/B,/ C (C B,) | (C2 C/B,/) C | (C B,) C2 |
+[V: S2V1]  F, E, F, G, | A,/F,/ G, G,2 | (G,2 A,/F,/) G,/A,/ | (G,3/2 F,/) E,2 |
+[V: S2V2]  A,, C, F, E, | D, C, G,,2 | (C,/D,/ E, D,) C,/F,,/ | G,,2 C,2 |
+% 9
+[V: S1V1]  B c d G | c d e2 | (B/c/d/G/ c) B/c/ | (B A) G2 |
+w: Who did once, up- on the cross, Al- * * * * le- * lu- * ia! 
+w: Who en- dured the cross and grave, Al- * * * * le- * lu- * ia! 
+w: Now a- bove the sky He's king, Al- * * * * le- * lu- * ia! 
+w: Praise Him, all you heav'n- ly host, Al- * * * * le- * lu- * ia! 
+[V: S1V2]  G3/2 ^F/ G G | G F E2 | (G2 G/^F/) G | (G ^F) G2 |
+[V: S2V1]  D C B, B, | C3/2 B,/ C2 | (D2 D) D/C/ | (D3/2 C/) B,2 |
+[V: S2V2]  G,, A,, B,, G,/=F,/ | E, D, [C,2C2] | (G,/A,/ B, A,) G,/E,/ | D,2 G,,2 |
+% 13
+[V: S1V1]  G/A/ B/G/ c E | F A (A G) | !sintro!(c/B/c/G/ A/B/) c/d/ | (c B) c2 !eintro!|]
+w: Suf- * fer * to re- deem our loss, * Al- * * * * * le- * lu- * ia! 
+w: Sin- * ners * to re- deem and save, * Al- * * * * * le- * lu- * ia! 
+w: Where * the * an- gels ev- er sing, * Al- * * * * * le- * lu- * ia! 
+w: Fa- * ther, * Son, and Ho- ly Ghost, * Al- * * * * * le- * lu- * ia! 
+[V: S1V2]  B,/C/ D/B,/ C C | C F (F E) | (E/F/G/E/ F) E/D/ | (E G/F/) E2 |]
+[V: S2V1]  G, G, G, G, | F, C C2 | (G,3/2 C/ C/D/) G,/A,/ | G,2 G,2 |]
+[V: S2V2]  G,3/2 F,/ E, C,/B,,/ | A,, F,, C,2 | (C,/D,/E,/C,/ F,/D,/) E,/F,/ | (G, G,,) C,2 |]
+% 18
+
+%%newpage
+
+% PAGE LAYOUT
+%
+%%pagewidth	21.6000cm
+%%pageheight	27.9000cm
+%%scale		0.7500000
+%%staffsep	1.60000cm
+%%exprabove	false
+%%measurebox	false
+%%header "EASTER		110"
+%%footer 1Cor 15:25-26, Rom 6:4-11, Heb 4:15-16		7 6 5 7 5
+%OHSCRIP 1Cor 15:25-26, Rom 6:4-11, Heb 4:15-16
+%OHTOPICS {Assurance}, {Atonement}, {God, Mercy of}, {Jesus}, {Resurrection}, {Salvation}, {Sinners}, {Victory}
+%OHCATEGORY EASTER
+%OHMETRICAL 7 6 5 7 5
+%OHCOMPLEXITY 2
+%OHCOMPOSER from Klug's Geistliche Lieder, Wittenberg, 1533
+%OHARRANGER Bach, Johann Sebastian (1685-1750)
+%OHAUTHOR Luther, Martin (1483-1546)
+%OHTRANSLATOR Bacon, Leonard Woolsey (1830-1907)
+%%postscript /st { moveto -8 0 rmoveto 0 8 rlineto 4 0 rlineto stroke } def
+%%postscript /nd { moveto -8 0 rmoveto 0 8 rlineto -4 0 rlineto stroke } def
+%%deco sintro 6 st 6 0 0 
+%%deco eintro 6 nd 6 0 0 
+

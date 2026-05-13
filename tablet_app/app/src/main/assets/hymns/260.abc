@@ -1,0 +1,122 @@
+
+% PAGE LAYOUT
+%
+%%pagewidth	21.6000cm
+%%pageheight	27.9000cm
+%%scale		0.750000
+%%staffsep	1.600000cm
+%%sysstaffsep	0.00000cm
+%%exprabove	false
+%%measurebox	false
+%%header "22		OPENING SONGS"
+%%footer Jn 6:67-68, 8:31-32, Heb 4:12, Jn 1:1-5, 8:12, 1Cor 2:14		7 8 7 8 8 8
+%OHSCRIP Jn 6:67-68, 8:31-32, Heb 4:12, Jn 1:1-5, 8:12, 1Cor 2:14
+%OHTOPICS {Church on Earth (Church Militant)}, {Consolation [4]}, {Darkness, Spiritual [2]}, {Education [2]}, {Father [4]}, {Guidance}, {Holiness}, {Holy Spirit [2-4]}, {Invitation (Faithful's to God)}, {Invitation (God's to Us)}, {Jesus [1,4]}, {Knowledge [2]}, {Light [2,3]}, {Love}, {Opening Songs}, {Presence}, {Trinity}
+%OHCATEGORY OPENING SONGS
+%OHMETRICAL 7 8 7 8 8 8
+%OHCOMPLEXITY 2
+%OHCOMPOSER Ahle, Johann Rudolph (1625-1673)
+%OHARRANGER Layriz, Fridrich (1808-1859)
+%OHAUTHOR Clausnitzer, Tobias (1619-1684)
+%OHTRANSLATOR Winkworth, Catherine (1827-1878)
+%%postscript /st { moveto -8 0 rmoveto 0 8 rlineto 4 0 rlineto stroke } def
+%%postscript /nd { moveto -8 0 rmoveto 0 8 rlineto -4 0 rlineto stroke } def
+%%deco sintro 6 st 6 0 0 
+%%deco eintro 6 nd 6 0 0 
+
+X: 283
+T: Our God, Our Help In Ages Past
+%%combinevoices 1
+C: Words: Isaac Watts, 1719.  Music: 'St. Anne' William Croft, 1708.
+C: Setting: composite found in "The Lutheran Hymnary", 1913.
+C: copyright: public domain.  This score is a part of the Open Hymnal Project, 2005 Revision.
+S: Music source: 'The Lutheran Hymnary', 1913, Hymn 261.
+S: Arrangement is composite, first half from "Hymns Ancient and Modern", 1869, Hymn 231. ed  William Henry Monk
+S: Second half is from "The Hymnal Companion to the Book of Common Prayer", 1890, Hymn 279. ed. Charles Vincent, D.J. Wood, John Stainer
+M: 4/4 % time signature
+L: 1/4 % default length
+%%staves (S1V1 S1V2) | (S2V1 S2V2) 
+V: S1V1 clef=treble 
+%%MIDI beat 127 125 110 1
+V: S1V2 
+%%MIDI beat 127 125 110 1
+V: S2V1 clef=bass 
+%%MIDI beat 127 125 110 1
+V: S2V2 
+%%MIDI beat 127 125 110 1
+K: C % key signature
+%
+%%MIDI program 1 0 % Piano 1
+%%MIDI program 2 0 % Piano 1
+%%MIDI program 3 0 % Piano 1
+%%MIDI program 4 0 % Piano 1
+%
+% 1
+[V: S1V1] [Q:1/4=100] G | E A G c | c B c G | c G A ^F | G3
+w: 1.~Our God, our help in a- ges past, Our hope for years to come, 
+w: 2.~Un- der the sha- dow of Thy throne Thy saints have dwelt se- cure; 
+w: 3.~Be- fore the hills in or- der stood, Or earth re- ceived her frame, 
+w: 4.~Thy Word com- mands our flesh to dust, 'Re- turn, ye sons of men:' 
+w: 5.~A thou- sand a- ges in Thy sight Are like an eve- ning gone; 
+[V: S1V2]  C | C C C E | D D E E | E E E D | D3
+[V: S2V1]  E, | G, A, C C | A, G, G, C | C B, A, A, | B,3
+[V: S2V2]  C, | C, F, E, A, | F, G, C, C, | A,, E, C, D, | G,,3
+% 5
+[V: S1V1]  B | c A d B | c A B !sintro!G | A c d B | c3 !eintro!|]
+w: Our shel- ter from the storm- y blast, And our e- ter- nal home. 
+w: Suf- fic- ient is Thine arm a- lone, And our de- fense is sure. 
+w: From ev- er- last- ing Thou art God, To end- less years the same. 
+w: All na- tions rose from earth at first, And turn to earth a- gain. 
+w: Short as the watch that ends the night Be- fore the ris- ing sun. 
+[V: S1V2]  D | E C F D | E3/2 D/ B, C | F E D D | E3 |]
+[V: S2V1]  G, | G, A, A, G, | G, A, ^G, =G, | F, G, A, G, | G,3 |]
+[V: S2V2]  G, | C, F, D, G, | C, F, E, E, | D, C, F, G, | C,3 |]
+% 11
+W: 6.The busy tribes of flesh and blood,
+W: With all their lives and cares,
+W: Are carried downwards by the flood,
+W: And lost in following years.
+W:  
+W: 7.Time, like an ever rolling stream,
+W: Bears all its sons away;
+W: They fly, forgotten, as a dream
+W: Dies at the opening day.
+W:  
+W: 8.Like flowery fields the nations stand
+W: Pleased with the morning light;
+W: The flowers beneath the mower's hand
+W: Lie withering ere 'tis night.
+W:  
+W: 9.Our God, our help in ages past,
+W: Our hope for years to come,
+W: Be Thou our guard while troubles last,
+W: And our eternal home.
+
+
+%%newpage
+
+% PAGE LAYOUT
+%
+%%pagewidth	21.6000cm
+%%pageheight	27.9000cm
+%%scale		0.750000
+%%staffsep	1.600000cm
+%%sysstaffsep	0.00000cm
+%%exprabove	false
+%%measurebox	false
+%%header "284		TRUST"
+%%footer Ps 103:1-22, Ps 23:1-6, Zech 13:7-9		8 7 8 7 8 7 8 7
+%OHSCRIP Ps 103:1-22, Ps 23:1-6, Zech 13:7-9
+%OHTOPICS {Assurance}, {Blood [3,5]}, {Christian Life}, {Comfort}, {Compassion}, {Faith}, {Faithfulness}, {God, Care of}, {God, Goodness of}, {God, Mercy of}, {Grace}, {Jesus}, {Love}, {Shepard/Lamb}, {Trust}
+%OHCATEGORY TRUST
+%OHMETRICAL 8 7 8 7 8 7 8 7
+%OHCOMPLEXITY 2
+%OHCOMPOSER Dutch
+%OHARRANGER Röntgen, Julius (1855-1932)
+%OHAUTHOR Faber, Frederick William (1814-1863)
+%OHTRANSLATOR none
+%%postscript /st { moveto -8 0 rmoveto 0 8 rlineto 4 0 rlineto stroke } def
+%%postscript /nd { moveto -8 0 rmoveto 0 8 rlineto -4 0 rlineto stroke } def
+%%deco sintro 6 st 6 0 0 
+%%deco eintro 6 nd 6 0 0 
+

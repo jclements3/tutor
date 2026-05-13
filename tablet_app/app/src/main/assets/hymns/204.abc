@@ -1,0 +1,130 @@
+
+% PAGE LAYOUT
+%
+%%pagewidth	21.6000cm
+%%pageheight	27.9000cm
+%%scale		0.750000
+%%staffsep	1.600000cm
+%%sysstaffsep	0.00000cm
+%%exprabove	false
+%%measurebox	false
+%%header "22		OPENING SONGS"
+%%footer Jn 6:67-68, 8:31-32, Heb 4:12, Jn 1:1-5, 8:12, 1Cor 2:14		7 8 7 8 8 8
+%OHSCRIP Jn 6:67-68, 8:31-32, Heb 4:12, Jn 1:1-5, 8:12, 1Cor 2:14
+%OHTOPICS {Church on Earth (Church Militant)}, {Consolation [4]}, {Darkness, Spiritual [2]}, {Education [2]}, {Father [4]}, {Guidance}, {Holiness}, {Holy Spirit [2-4]}, {Invitation (Faithful's to God)}, {Invitation (God's to Us)}, {Jesus [1,4]}, {Knowledge [2]}, {Light [2,3]}, {Love}, {Opening Songs}, {Presence}, {Trinity}
+%OHCATEGORY OPENING SONGS
+%OHMETRICAL 7 8 7 8 8 8
+%OHCOMPLEXITY 2
+%OHCOMPOSER Ahle, Johann Rudolph (1625-1673)
+%OHARRANGER Layriz, Fridrich (1808-1859)
+%OHAUTHOR Clausnitzer, Tobias (1619-1684)
+%OHTRANSLATOR Winkworth, Catherine (1827-1878)
+%%postscript /st { moveto -8 0 rmoveto 0 8 rlineto 4 0 rlineto stroke } def
+%%postscript /nd { moveto -8 0 rmoveto 0 8 rlineto -4 0 rlineto stroke } def
+%%deco sintro 6 st 6 0 0 
+%%deco eintro 6 nd 6 0 0 
+
+X: 227
+T: Lord, Thee I Love with All My Heart
+%%combinevoices 1
+C: Words: Martin Schalling, circa 1571.  Translated by Catherine Winkworth, 1858. 
+C: Music: 'Herzlich Lieb hab ich Dich O Herr' Strassburg, 1577.  Setting: "Evangelical Lutheran Hymn-Book", 1931.
+C: copyright: public domain.  This score is a part of the Open Hymnal Project, 2009 Revision.
+S: Music source: Evangelical Lutheran Hymn Book, 1931, Hymn 366.
+M: 4/4 % time signature
+L: 1/4 % default length
+%%staves (S1V1 S1V2) | (S2V1 S2V2) 
+V: S1V1 clef=treble 
+%%MIDI beat 127 125 110 1
+V: S1V2 
+%%MIDI beat 127 125 110 1
+V: S2V1 clef=bass 
+%%MIDI beat 127 125 110 1
+V: S2V2 
+%%MIDI beat 127 125 110 1
+K: Bb % key signature
+%
+%%MIDI program 1 0 % Piano 1
+%%MIDI program 2 0 % Piano 1
+%%MIDI program 3 0 % Piano 1
+%%MIDI program 4 0 % Piano 1
+%
+% 1
+[V: S1V1] [Q:1/4=120] B2 A G | F E/D/ G G | F2 B2 | A G F E/D/ | G G F
+w: 1.~Lord, Thee I love with * all my heart; I pray Thee, ne'er from * me de- part; 
+w: 2.~Yea, Lord, 'twas Thy rich * bount- y gave My bo- dy, soul, and * all I have 
+w: 3.~Lord, let at last Thine * an- gels come, To A- br'am's bo- som * bear me home, 
+[V: S1V2]  F2 F E | C B, B, E | D2 G2 | F E C B, | B, C D
+[V: S2V1]  D2 C B, | F, F, G, B, | B,2 D2 | D B, A, F, | G, G, A,
+[V: S2V2]  B,,2 F,, G,, | A,, B,, E, E, | B,,2 G,,2 | D, E, F, B,, | E, E, D,
+% 9
+[V: S1V1]  F | G A (B d) | c (B2 A) | B4 | B2 A G | F E/D/ G G | F2 B2 |
+w: With ten- der mer- * cy cheer * me. Earth has no plea- sure * I would share, Yea, 
+w: In this poor life * of la- * bor. Lord, grant that I in * eve- ry place May 
+w: That I may die * un- fear- * ing; And in its nar- row * cham- ber keep My 
+[V: S1V2]  D | E E F2 | F (D E F) | F4 | F2 F E | C B, B, E | D2 G2 |
+[V: S2V1]  B, | B, C B,2 | A, (B,2 C) | D4 | D2 C B, | F, F, G, B, | B,2 D2 |
+[V: S2V2]  B,, | E, C, (D, B,,) | F, (G,2 F,) | B,,4 | B,,2 F,, G,, | A,, B,, E, E, | B,,2 G,,2 |
+% 13
+[V: S1V1]  A G F E/D/ | G G F F | G A (B d) | c (B2 A) | B3 B | B c
+w: Heav'n it- self were * void and bare If Thou, Lord, wert * not near * me. And should my 
+w: glor- i- fy Thy * la- vish grace And serve and help * my neigh- * bor. Let no false 
+w: bo- dy safe in * peace- ful sleep Un- til Thy re- * ap- pear- * ing. And then from 
+[V: S1V2]  F E C B, | B, C D D | E E F2 | F (D E F) | F3 D | F F
+[V: S2V1]  D B, A, F, | G, G, A, B, | B, C B,2 | A, (B,2 C) | B,3 B, | D C
+[V: S2V2]  D, E, F, B,, | E, E, D, B,, | E, C, (D, B,,) | F, (G,2 F,) | B,,3 B,, | B,, A,,
+% 17
+[V: S1V1]  B G | B B A A | B c B G | B B A2 | B d/ d/
+w: heart for sor- row break, My trust in Thee can no- thing shake. Thou art the 
+w: doc- trine me be- guile, Let Sa- tan not my soul de- file. Give strength and 
+w: death a- wa- ken me, That these mine eyes with joy may see, O Son of 
+[V: S1V2]  F E | D =E F F | F F F E | F G F2 | F F/ F/
+[V: S2V1]  D B, | B, B, C C | D C D B, | D C C2 | B, B,/ B,/
+[V: S2V2]  B,, E, | G, G, F, F, | B,, A,, B,, E, | D, =E, F,2 | D, B,,/ B,,/
+% 21
+%%newpage
+%%header "CONSECRATION		227(2)"
+[V: S1V1]  c/ B/ B/ A/ | B A B2- | B A G F | F =E F2 | z2 d2 | c2 B2 |
+w: por- tion I have sought; Thy pre- * cious blood my soul has bought. Lord Je- sus 
+w: pa- tience un- to me To bear  * my cross and fol- low Thee. Lord Je- sus 
+w: God, Thy glor- ious face, My Sa- * vior and my fount of grace. Lord Je- sus 
+[V: S1V2]  F/ D/ G/ F/ | F F F2- | F F D D | D C C2 | x2 F2 | F2 D =E |
+[V: S2V1]  A,/ B,/ C/ C/ | D C D2- | D C B, A, | G, G, A,2 | z2 B,2 | A,2 B,2 |
+[V: S2V2]  F,/ G,/ E,/ F,/ | B,, F, B,,2- | B,, F, G, D, | B,, C, F,2 | x2 B,,2 | F,2 G,2 |
+% 25
+[V: S1V1]  A d e c | B c B A | B3/2 !sintro!B/ B B | c B B A | B4 !eintro!|]
+w: Christ, My God and Lord, my God and Lord, For- sake me not! I trust Thy Word. 
+w: Christ, My God and Lord, my God and Lord, In death Thy com- fort still a- fford. 
+w: Christ, My prayer at- tend, my prayer at- tend, And I will praise Thee with- out end! 
+[V: S1V2]  F F G F | D G F F | F3/2 F/ G F | F F G F | F4 |]
+[V: S2V1]  C B, B, A, | B, E D C | D3/2 D/ E D | C D C C | D4 |]
+[V: S2V2]  F, B, E, F, | G, C, D, F, | B,,3/2 B,,/ E, B,, | A,, B,, E, F, | B,,4 |]
+% 33
+
+%%newpage
+
+% PAGE LAYOUT
+%
+%%pagewidth	21.6000cm
+%%pageheight	27.9000cm
+%%scale		0.750000
+%%staffsep	1.600000cm
+%%sysstaffsep	0.00000cm
+%%exprabove	false
+%%measurebox	false
+%%header "228		CONSECRATION"
+%%footer Eph 6:24, 1Jn 4:16-21, 2Thess 3:5, Mt 22:37-40		10 10 12 8
+%OHSCRIP Eph 6:24, 1Jn 4:16-21, 2Thess 3:5, Mt 22:37-40
+%OHTOPICS {Consecration}, {Invitation (Faithful's to God)}, {Love}, {Prayer}
+%OHCATEGORY CONSECRATION
+%OHMETRICAL 10 10 12 8
+%OHCOMPLEXITY 1
+%OHCOMPOSER Doane, William Howard (1832-1915)
+%OHARRANGER Doane, William Howard (1832-1915)
+%OHAUTHOR Prentis, Elizabeth Payson (1818-1878)
+%OHTRANSLATOR none
+%%postscript /st { moveto -8 0 rmoveto 0 8 rlineto 4 0 rlineto stroke } def
+%%postscript /nd { moveto -8 0 rmoveto 0 8 rlineto -4 0 rlineto stroke } def
+%%deco sintro 6 st 6 0 0 
+%%deco eintro 6 nd 6 0 0 
+

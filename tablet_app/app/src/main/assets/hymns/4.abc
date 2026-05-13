@@ -1,0 +1,111 @@
+
+% PAGE LAYOUT
+%
+%%pagewidth	21.6000cm
+%%pageheight	27.9000cm
+%%scale		0.750000
+%%staffsep	1.600000cm
+%%sysstaffsep	0.00000cm
+%%exprabove	false
+%%measurebox	false
+%%header "22		OPENING SONGS"
+%%footer Jn 6:67-68, 8:31-32, Heb 4:12, Jn 1:1-5, 8:12, 1Cor 2:14		7 8 7 8 8 8
+%OHSCRIP Jn 6:67-68, 8:31-32, Heb 4:12, Jn 1:1-5, 8:12, 1Cor 2:14
+%OHTOPICS {Church on Earth (Church Militant)}, {Consolation [4]}, {Darkness, Spiritual [2]}, {Education [2]}, {Father [4]}, {Guidance}, {Holiness}, {Holy Spirit [2-4]}, {Invitation (Faithful's to God)}, {Invitation (God's to Us)}, {Jesus [1,4]}, {Knowledge [2]}, {Light [2,3]}, {Love}, {Opening Songs}, {Presence}, {Trinity}
+%OHCATEGORY OPENING SONGS
+%OHMETRICAL 7 8 7 8 8 8
+%OHCOMPLEXITY 2
+%OHCOMPOSER Ahle, Johann Rudolph (1625-1673)
+%OHARRANGER Layriz, Fridrich (1808-1859)
+%OHAUTHOR Clausnitzer, Tobias (1619-1684)
+%OHTRANSLATOR Winkworth, Catherine (1827-1878)
+%%postscript /st { moveto -8 0 rmoveto 0 8 rlineto 4 0 rlineto stroke } def
+%%postscript /nd { moveto -8 0 rmoveto 0 8 rlineto -4 0 rlineto stroke } def
+%%deco sintro 6 st 6 0 0 
+%%deco eintro 6 nd 6 0 0 
+
+X: 26
+T: We Gather Together
+%%combinevoices 1
+C: Words: Anonymous circa 1597. Translated Theodore Baker, 1894.
+C: Music: 'Kremser' Traditional Dutch circa 1597.  Setting: Eduard Kremser, 1877.
+C: copyright: public domain.  This score is a part of the Open Hymnal Project, 2006 Revision.
+S: Music source: 'The Hymnal of the Protestant Episcopal Church', 1940 Hymn 315.
+M: 3/4 % time signature
+L: 1/4 % default length
+%%staves (S1V1 S1V2) | (S2V1 S2V2) 
+V: S1V1 clef=treble 
+%%MIDI beat 127 125 110 1
+V: S1V2 
+%%MIDI beat 127 125 110 1
+V: S2V1 clef=bass 
+%%MIDI beat 127 125 110 1
+V: S2V2 
+%%MIDI beat 127 125 110 1
+K: D % key signature
+%
+%%MIDI program 1 0 % Piano 1
+%%MIDI program 2 0 % Piano 1
+%%MIDI program 3 0 % Piano 1
+%%MIDI program 4 0 % Piano 1
+%
+% 1
+[V: S1V1] [Q:1/4=100] A | A3/2 B/ A | F G A | G3/2 F/ E | F D
+w: 1.~We ga- ther to- ge- ther to ask the Lord's bless- ing; 
+w: 2.~Be- side us to guide us, our God with us join- ing, 
+w: 3.~We all do ex- tol Thee, Thou Lea- der tri- um- phant, 
+[V: S1V2]  D | D3/2 D/ D | D D D | D3/2 D/ C | D D
+[V: S2V1]  F, | F,3/2 G,/ F, | A, A, A, | B,3/2 B,/ C | A, F,
+[V: S2V2]  D, | D,3/2 D,/ D, | D, E, F, | E,3/2 E,/ A, | D, D,
+% 5
+[V: S1V1]  A | A3/2 B/ c | d3/2 e/ c | B3/2 A/ B | A2
+w: He cha- stens and ha- stens His will to make known. 
+w: Or- dain- ing, main- tain- ing His king- dom di- vine; 
+w: And pray that Thou still our De- fen- der will be. 
+[V: S1V2]  F | E3/2 E/ E | F E E | F3/2 F/ ^G | E2
+[V: S2V1]  A, | A,3/2 A,/ A, | A, ^G, A, | A,3/2 D/ D | C2
+[V: S2V2]  D, | C,3/2 C,/ C, | B,, E, A,, | D,3/2 B,,/ E, | A,,2
+% 9
+[V: S1V1]  A | A3/2 B/ c | d A A | (A3/2 B/) G/A/ | F D
+w: The wi- cked op- pres- sing now cease * from dis- tres- sing. 
+w: So from the be- gin- ning the fight * we were win- ning; 
+w: Let Thy con- gre- ga- tion es- cape * trib- u- la- tion; 
+[V: S1V2]  E | E3/2 E/ E | D D D | D2 C/C/ | D D
+[V: S2V1]  C | C3/2 B,/ A, | A, A, A, | B,2 A,/A,/ | A, F,
+[V: S2V2]  A, | G,3/2 G,/ G, | F, F, F, | E,2 A,/A,/ | D, D,
+% 13
+[V: S1V1]  D | G3/2 A/ B/G/ | (A3/2 G/) !sintro!F/F/ | G E3/2 D/ | D2 !eintro!|]
+w: Sing prai- ses to His Name; * He for- gets not His own. 
+w: Thou, Lord, were at our side, * all * glo- ry be Thine! 
+w: Thy Name be ev- er praised! * O * Lord, make us free! 
+[V: S1V2]  D | D3/2 D/ D/D/ | E2 D/D/ | D C3/2 D/ | D2 |]
+[V: S2V1]  F, | G,3/2 F,/ G,/G,/ | (E, A,) A,/A,/ | G, G,3/2 F,/ | F,2 |]
+[V: S2V2]  D, | B,,3/2 A,,/ G,,/B,,/ | C,2 D,/D,/ | E, A,,3/2 D,/ | D,2 |]
+% 18
+
+%%newpage
+% PAGE LAYOUT
+%
+%%pagewidth	21.6000cm
+%%pageheight	27.9000cm
+%%scale		0.750000
+%%staffsep	1.600000cm
+%%sysstaffsep	0.00000cm
+%%exprabove	false
+%%measurebox	false
+%%header "27		CLOSING SONGS"
+%%footer 1Jn 4:13-16, Mt 28:20, Jn 1:1-14, Phil 4:13, Col 1:11-12		7 6 7 6
+%OHSCRIP 1Jn 4:13-16, Mt 28:20, Jn 1:1-14, Phil 4:13, Col 1:11-12
+%OHTOPICS {Closing Songs}, {Darkness, Spiritual [3]}, {Following Jesus, Sanctification}, {God, Care of}, {Grace [1]}, {Invitation (Faithful's to God)}, {Jesus}, {Joy [2]}, {Light [3]}, {Love [6]}, {Peace [2]}, {Presence}, {Security [5]}, {Wisdom [4]}
+%OHCATEGORY CLOSING SONGS
+%OHMETRICAL 7 6 7 6
+%OHCOMPLEXITY 1
+%OHCOMPOSER Vulpius, Melchior (1560-1615)
+%OHARRANGER unknown
+%OHAUTHOR Stegmann, Joshua (1588-1632)
+%OHTRANSLATOR Crull, August (1845-1923)
+%%postscript /st { moveto -8 0 rmoveto 0 8 rlineto 4 0 rlineto stroke } def
+%%postscript /nd { moveto -8 0 rmoveto 0 8 rlineto -4 0 rlineto stroke } def
+%%deco sintro 6 st 6 0 0 
+%%deco eintro 6 nd 6 0 0 
+
