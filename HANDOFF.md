@@ -7,26 +7,34 @@ project, what it does, how it's built, and what's open.
 
 An Android tablet WebView app that turns a USB-MIDI keyboard into a
 sight-reading and chord drill machine for a 33-string lever harp
-student. Four drill modes accessible from the home screen:
+student. All notation renders on a **single soprano-clef staff** (C
+clef on the bottom line, so middle C = bottom line) — matches the
+harp's "everything on one staff" sight-reading idiom rather than a
+piano grand staff. Four drill modes accessible from the home screen:
 
-1. **Note Reading** — random natural note (MIDI 36-72, C2-C5) on a grand
-   staff; play the exact note to advance. Tracks correct / attempts /
-   median ms-to-correct / current streak.
-2. **Chord Recognition** — random chord shown as engraved notation on a
-   grand staff. Filter chips above the staff toggle which chord families
-   appear (Triads, 7ths, 9ths, 13ths), which inversions (Root, 1st, 2nd,
-   3rd), and whether polychords are included. LH and RH are always on
-   opposite sides of middle C; LH biased low and RH biased high so
-   polychords have a wide gap and don't sound muddy. 9ths and 13ths use
-   a spread voicing (root + 5th in LH, upper structure in RH).
-3. **Hymn Practice** — pick any of 292 OpenHymnal hymns; renders one
-   "system" (one staff line) at a time as a flashcard. Tap the left
-   half of the stage to go back, right half to advance. Also
-   auto-advances 1.5 s after the last MIDI note-on.
+1. **Note Reading** — random natural note (MIDI 36-72, C2-C5) on a
+   soprano-clef staff; play the exact note to advance. Tracks correct /
+   attempts / median ms-to-correct / current streak.
+2. **Chord Recognition** — random chord shown as one stacked chord on a
+   soprano-clef staff. Filter chips above the staff toggle which chord
+   families appear (Triads, 7ths, 9ths, 13ths), which inversions
+   (Root, 1st, 2nd, 3rd), and whether polychords are included. LH and
+   RH are always on opposite sides of middle C; LH biased low and RH
+   biased high so polychords have a wide gap and don't sound muddy.
+   9ths and 13ths use a spread voicing (root + 5th in LH, upper
+   structure in RH). Both voices stack into a single chord token —
+   the soprano clef carries them all on one staff.
+3. **Hymn Practice** — pick any of 287 OpenHymnal hymns, pre-converted
+   to single-staff soprano-clef chord notation with Roman numeral
+   analysis above each chord change. Renders one "system" at a time as
+   a flashcard. Tap left to go back, right to advance. Also
+   auto-advances 1.5 s after the last MIDI note-on. The 27 hymns that
+   `convert.py` failed on are simply omitted from the manifest.
 4. **Drill Book** — pick any of 65 drills from the harp-drill-book
    curriculum (`harp-drill-book-handoff.tar.gz`); same flashcard UI.
    Tap-left/right navigates between *drills* (not pages within a
-   drill), since most drills are a single system.
+   drill), since most drills are a single system. (Drill Book content
+   renders as authored — these are NOT soprano-clef converted.)
 
 ## Target hardware
 
@@ -57,8 +65,9 @@ tablet_app/                       Android Gradle project
 │       ├── index.html            *the whole UI* (HTML + CSS + JS)
 │       ├── abc2svg-1.js          ABC -> SVG engraving (309 KB, from HarpHymnal)
 │       ├── soundfont/gm.sf2      General MIDI SoundFont (5.9 MB)
-│       ├── hymns/0.abc .. 291.abc  one file per OpenHymnal tune
-│       └── drills/0.abc .. 64.abc  one file per drill-book exercise
+│       ├── hymns/0.abc .. 286.abc  one file per OpenHymnal tune
+│       │                            (soprano-clef converted, see below)
+│       └── drills/0.abc .. 64.abc   one file per drill-book exercise
 ```
 
 The whole UI lives in `index.html`. The Android side just provides:
@@ -75,19 +84,35 @@ The whole UI lives in `index.html`. The Android side just provides:
 ## How the UI is structured
 
 ```
-[topbar: Back | Prompt (e.g. "Play: C#m7") | MIDI status]
+[topbar: Back · (Recent ▾, hymn-practice only) | Prompt | MIDI status]
 [chord-filter chips, chord screen only — Triads · 7ths · 9ths · 13ths · Root · 1st · 2nd · 3rd · Polychord]
-[stage: abc2svg-rendered grand staff, fills most of the screen]
+[stage: abc2svg-rendered soprano-clef staff, fills most of the screen]
 [held-keys pill strip, hidden when nothing is pressed]
 [toolbar: inline stats (correct / attempts / median ms / streak) ........ Skip · Reset stats]
 ```
 
-The grand staff stays vertically centred via `centerBraceCusp()` in JS:
-finds the leftmost long vertical path (the system's joining bar),
-treats its midpoint as the brace cusp, and applies a per-render
-`translateY` so the cusp sits at the stage's vertical centre. Works
-for single-staff drills (falls back to the SVG content bbox) and
-multi-system hymns alike.
+Sizing: drills use `fitSvgToStage()`, which measures the rendered SVG and
+applies a CSS `transform: scale(N)` so the staff fills ~98% × 95% of the
+stage. The transform is composed with `centerBraceCusp()`'s `translateY`
+so the staff midline lands on the stage midline.
+
+Hymn practice renders ALL systems on one page (stacked in an
+`.abc-stack` wrapper) and uses CSS `zoom` (which, unlike
+`transform: scale`, expands the layout box and prevents the stacked SVGs
+from overlapping) to scale the stack to fit the stage. The page indicator
+disappears when the full hymn fits in one screen.
+
+Roman-numeral chord annotations in the soprano hymnal would otherwise
+bob up and down at the top of each chord stem (since abc2svg places
+`"^text"` annotations above the topmost note of each chord stack);
+`alignChordAnnotations()` post-processes each system's SVG to move every
+above-staff letter-bearing text element to the same Y so they form a
+clean horizontal row. Pure-digit texts (time signature numerals) are
+filtered out so they're not also pulled up.
+
+Hymn TOC: 4-column grid with tight padding. A `Recent ▾` button next to
+`← Back` lists up to 10 recently-opened hymns (stored in
+`localStorage["harpTutorRecentHymns"]`).
 
 ## Build + install
 
@@ -121,43 +146,48 @@ adb exec-out screencap -p > /tmp/shot.png
 
 ## Regenerating bundled data
 
-If `OpenHymnal.abc` or the drill book changes, regenerate the per-tune
-asset files:
+### Hymns (soprano-clef conversion)
 
-```bash
-# Hymns: 292 .abc files into assets/hymns/ + an inlined window.HYMNS
-# manifest baked into index.html. The python block that does this is
-# in HANDOFF history; rerun on changes.
-python3 - <<'PY'
-import json, re, os
-src = "OpenHymnal.abc"
-dst = "tablet_app/app/src/main/assets/hymns"
-os.makedirs(dst, exist_ok=True)
-with open(src, encoding="utf-8", errors="replace") as f: text = f.read()
-parts  = re.split(r"(?m)^(?=X:\s*\d)", text)
-header = parts[0]
-for fn in os.listdir(dst): os.remove(os.path.join(dst, fn))
-hymns = []
-for idx, body in enumerate(parts[1:]):
-    open(f"{dst}/{idx}.abc", "w").write(header + body)
-    m = re.search(r"^X:\s*(\d+)", body, re.M)
-    t = re.search(r"^T:\s*(.+?)\s*$", body, re.M)
-    if m and t: hymns.append({"n": int(m.group(1)), "idx": idx, "title": t.group(1).strip()})
-json.dump(hymns, open("tablet_app/app/src/main/assets/hymns.json","w"), ensure_ascii=True)
-PY
-```
+The bundled hymns come from a separate **soprano-clef conversion
+pipeline** that takes OpenHymnal's four-voice SATB ABCs and collapses
+each event into one stacked chord on a single soprano-clef staff,
+transposed so the highest pitch lands on C6 (notes below C3 fold up
+an octave). The conversion source lives in the `files (4).zip` handoff
+bundle and unpacks to a `soprano_hymnal/` tree containing:
+
+- `convert.py` — the conversion script; reads `OpenHymnal.abc`,
+  writes 287 numbered ABCs (some hymns fail to convert) into
+  `soprano_hymnal/abc/NNN.abc`, plus Roman-numeral analysis above
+  each chord change via `chord_id_v2.py`.
+- `render.py` — runs `abcm2ps -g` on each ABC; not needed for the
+  tablet build (the WebView renders with abc2svg directly).
+- `build_html.py` / `hymnal.html` — companion print-format hymnal,
+  not used by the tablet.
+
+To rebundle into the tablet, copy the 287 ABCs out of
+`soprano_hymnal/abc/` into `tablet_app/app/src/main/assets/hymns/`,
+renaming each from `NNN.abc` (hymn number) to `<idx>.abc` (0-based
+position in ascending hymn-number order), and rewrite the inlined
+`window.HYMNS = [...]` array in `index.html` to match. The XHR loader
+uses `hymns/${state.hymnIdx}.abc` so file names must be the 0-based
+index, not the hymn number.
+
+### Drill book
 
 Drill book extraction lives in `harp-drill-book-handoff.tar.gz` — its
 own `build_book.py` is the source of truth for the 65 drill ABCs that
-get extracted into `assets/drills/0.abc..64.abc`.
+get extracted into `assets/drills/0.abc..64.abc`. These are NOT
+soprano-clef converted — they render as authored.
 
-After regenerating, the inlined `window.HYMNS = [...]` / `window.DRILLS = [...]`
-blocks in `index.html` also need updating (search for "window.HYMNS =").
+After regenerating either set, the inlined `window.HYMNS = [...]` /
+`window.DRILLS = [...]` blocks in `index.html` also need updating
+(search for "window.HYMNS =").
 
 ## Status
 
 **Working:**
-- All four drill modes render via abc2svg, correctly centred.
+- All four drill modes render via abc2svg on a single soprano-clef
+  staff, correctly centred.
 - Chord drill filters persist (localStorage `harpTutorChordFilters`).
 - Hymn / drill book flashcard navigation: tap, auto-advance, back-button
   return to picker.
@@ -165,6 +195,9 @@ blocks in `index.html` also need updating (search for "window.HYMNS =").
   to the highest, with the keyboard range constraint (MIDI 36..72).
 - 9th and 13th chord voicings spread across both hands with span <= 10
   per hand.
+- Soprano hymnal renders Roman numeral analysis above each chord change
+  (the converter labels `"^I"`, `"^V7"`, etc., and the WebView keeps
+  those annotations).
 - MIDI auto-launch on USB-attach via `UsbMidiAttachActivity` (need to
   accept the Android prompt the first time the SMK is plugged in,
   since `com.tutor.musictutor` is a separate package from HarpHymnal).
@@ -175,7 +208,12 @@ blocks in `index.html` also need updating (search for "window.HYMNS =").
   fires 1.5 s after the last note-on, but doesn't verify the user
   played the right notes.
 - The Hymn Practice UX is the same: render + auto-advance, no
-  correctness check.
+  correctness check. To score hymns/drills properly we'd need an
+  ABC-to-MIDI-sequence parser and a play-cursor that compares each
+  user note against the next expected onset (with tolerance for
+  octave-shifted plays since the SMK doesn't reach the full hymn
+  range). Hymn/drill screens currently omit the bottom stats toolbar
+  for that reason — would clutter without meaningful numbers.
 - Stats are tracked only for Note Reading + Chord Recognition (the
   generative drills with a known correct answer).
 - abc2svg renders music glyphs via an embedded music font baked into
@@ -183,6 +221,13 @@ blocks in `index.html` also need updating (search for "window.HYMNS =").
   `<style>` blocks into subsequent systems via `normalizeAbcSystems`
   so the staff lines don't vanish on later systems of multi-page
   hymns. Watch for regressions if abc2svg is updated.
+- Soprano-clef converter (`convert.py`) absorbs the pickup
+  (anacrusis) into bar 1 of each hymn — so hymns with a pickup in the
+  source appear as N-1 measures instead of N. The musical content is
+  all present; the bar count is off by one. Could be fixed by
+  teaching the converter to emit a partial first measure when the
+  source starts on a non-downbeat. Affects hymns like 029
+  ("Lord, Dismiss Us With Thy Blessing").
 
 ## Useful files
 
