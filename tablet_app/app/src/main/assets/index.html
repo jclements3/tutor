@@ -38,7 +38,7 @@
     z-index: 10;
     gap: 12px;
   }
-  #backbtn {
+  #backbtn, #homebtn {
     min-width: 80px; min-height: 44px;
     background: transparent; color: var(--fg);
     border: 1px solid #30363D; border-radius: 8px;
@@ -46,7 +46,7 @@
     display: none;
     flex-shrink: 0;
   }
-  #backbtn:active { background: #21262D; }
+  #backbtn:active, #homebtn:active { background: #21262D; }
   #prompt {
     flex: 1;
     text-align: center;
@@ -449,6 +449,7 @@
 <body>
 
 <div id="topbar">
+  <button id="homebtn">&#x2302; Home</button>
   <button id="backbtn">&larr; Back</button>
   <div id="prompt"></div>
   <div id="status">waiting for MIDI...</div>
@@ -619,15 +620,12 @@ function flashStage(kind) {
 // ----- Drill: next target -----
 const NOTE_MIN = 36, NOTE_MAX = 72;   // SMK-37 PRO keyboard range
 function pickRandomNaturalMidi() {
-  // Naturals only, constrained to what reads sensibly on a soprano clef.
-  // Soprano clef: middle C (MIDI 60) sits on the BOTTOM line; the top line
-  // is D5 (MIDI 74). Pick notes that fall within roughly 2 ledger lines of
-  // either edge of the staff -> MIDI 55 (G3, one ledger below) up to MIDI
-  // 79 (G5, two ledger lines above), then clamp to SMK keyboard range.
-  const SOPRANO_MIN = Math.max(55, NOTE_MIN);  // G3, ~1 ledger below staff
-  const SOPRANO_MAX = Math.min(79, NOTE_MAX);  // ceiling at SMK top = 72
+  // Naturals across the full SMK-37 PRO keybed (MIDI 36..72, C2..C5).
+  // Baritone C clef balances this range symmetrically around the staff
+  // (C2 = 3 ledger lines below, C5 = 3 ledger lines above) so the whole
+  // keyboard reads sensibly.
   while (true) {
-    const m = SOPRANO_MIN + Math.floor(Math.random() * (SOPRANO_MAX - SOPRANO_MIN + 1));
+    const m = NOTE_MIN + Math.floor(Math.random() * (NOTE_MAX - NOTE_MIN + 1));
     if (NATURAL_PCS.includes(((m%12)+12)%12)) return m;
   }
 }
@@ -1038,6 +1036,7 @@ function centerBraceCusp(container) {
 function renderHome() {
   const s = state.stats;
   document.getElementById("backbtn").style.display = "none";
+  document.getElementById("homebtn").style.display = "none";
   const prompt = document.getElementById("prompt");
   prompt.classList.remove("picker-mode");
   prompt.textContent = "";
@@ -1166,7 +1165,7 @@ function renderKeyboardReference() {
 }
 function enterHymnsPicker() {
   state.screen = "hymns-picker";
-  document.getElementById("backbtn").style.display = "inline-block";
+  showNavButtons();
   renderHymnsPicker();
 }
 function renderHymnsPicker() {
@@ -1602,7 +1601,7 @@ function drillsByGroup() {
 }
 function enterBookPicker() {
   state.screen = "book-picker";
-  document.getElementById("backbtn").style.display = "inline-block";
+  showNavButtons();
   renderBookPicker();
 }
 function renderBookPicker() {
@@ -1823,8 +1822,14 @@ function escapeHtml(s) {
 function enterDrill(which) {
   state.screen = which;
   state.streak = 0;
-  document.getElementById("backbtn").style.display = "inline-block";
+  showNavButtons();
   nextTarget();
+}
+// Reveal Home + Back buttons in the topbar (everywhere except the
+// Home screen itself, where they're hidden by renderHome()).
+function showNavButtons() {
+  document.getElementById("homebtn").style.display = "inline-block";
+  document.getElementById("backbtn").style.display = "inline-block";
 }
 function renderDrill() {
   const bucket = state.screen === "notes" ? state.stats.notes : state.stats.chords;
@@ -1914,6 +1919,13 @@ document.getElementById("backbtn").addEventListener("click", () => {
     renderBookPicker();
     return;
   }
+  state.screen = "home";
+  state.target = null;
+  renderHome();
+});
+// ----- Home button: jump straight to the home screen from anywhere. -----
+document.getElementById("homebtn").addEventListener("click", () => {
+  unmountRecentDropdown();
   state.screen = "home";
   state.target = null;
   renderHome();

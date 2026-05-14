@@ -19,10 +19,10 @@ The home page is split into two columns: vertical drill-mode buttons
 on the left, and a permanent reference staff on the right showing the
 22 naturals C2..C5 with each labeled. Four drill modes:
 
-1. **Note Reading** — random natural note (MIDI 55-72) on the
-   baritone-C staff; play the exact note to advance. Tracks correct /
-   attempts / median ms-to-correct / current streak (when scoring is
-   on; see the stats toggle).
+1. **Note Reading** — random natural note across the full SMK-37
+   keybed (MIDI 36–72, C2–C5) on the baritone C staff; play the exact
+   note to advance. Tracks correct / attempts / median ms-to-correct /
+   current streak (when scoring is on; see the stats toggle).
 2. **Chord Recognition** — random chord shown as one stacked chord on
    the baritone-C staff. Filter chips above the staff toggle which
    chord families appear (Triads, 7ths, 9ths, 13ths), which inversions
@@ -99,7 +99,7 @@ The whole UI lives in `index.html`. The Android side just provides:
 ## How the UI is structured
 
 ```
-[topbar: Back · (Recent ▾, practice only) | Prompt-or-Picker-header | MIDI status]
+[topbar: Home · Back · (Recent ▾, practice only) | Prompt-or-Picker-header | MIDI status]
 [chord-filter chips, chord screen only — Triads · 7ths · 9ths · 13ths · Root · 1st · 2nd · 3rd · Polychord]
 [stage: abc2svg-rendered baritone-C-clef staff(s), fills most of the screen]
 [held-keys pill strip, hidden when nothing is pressed]
@@ -111,6 +111,9 @@ the contents of each slot vary. The picker screens (Hymn / Drill Book)
 inject their title + search input directly into the prompt slot via the
 `#prompt.picker-mode` class — no separate "header row" inside the picker
 body.
+
+`Home` (always visible off-home) jumps straight to the home screen from
+anywhere. `Back` steps one level (practice → picker → home).
 
 Sizing:
 - **Drills** (Note Reading, Chord Recognition) — `fitSvgToStage()`
