@@ -4,4 +4,4 @@ T:Let Children Hear The Mighty Deeds
 M:4/4
 L:1/4
 K:F clef=C1
-"^I"[F,FAc] [F,Fca] "^I¹"[A,Fcf] "^IV"[B,FBd] | "^I¹"[A,Fc] "^vi"[DFAf] "^V"[CEcg] "^I"[Fca] | "^V¹"[EGcc'] "^I"[Fca] "^vi7"[DAcf] "^v"[Gcd] | "^II"[G,G=Bd]/ "^II7"[G,F=Bd]/ "^V"[CEc]3 | [CEcg]/ "^iii¹"[CEca]/ "^IV¹"[DFBb] "^V7¹"[EGcb] "^I"[Fca] | "^I¹"[A,Fcf] "^IV"[B,FBd] "^ii¹"[B,Bdg] "^V"[CGce] | "^V¹"[EGcc']/ "^V7¹"[EGcb]/ "^I"[Fca] "^vi"[DFfa] "^ii¹"[B,Bdg] | "^V"[CGce]/ "^V7"[CGBe]/ "^I"[F,FAf]3 |]
+"^I"[F,,F,A,C] [F,,F,CA] "^I¹"[A,,F,CF] "^IV"[B,,F,B,D] | "^I¹"[A,,F,C] "^vi"[D,F,A,F] "^V"[C,E,CG] "^I"[F,CA] | "^V¹"[E,G,Cc] "^I"[F,CA] "^vi7"[D,A,CF] "^v"[G,CD] | "^II"[G,,G,=B,D]/ "^II7"[G,,F,=B,D]/ "^V"[C,E,C]3 | [C,E,CG]/ "^iii¹"[C,E,CA]/ "^IV¹"[D,F,B,B] "^V7¹"[E,G,CB] "^I"[F,CA] | "^I¹"[A,,F,CF] "^IV"[B,,F,B,D] "^ii¹"[B,,B,DG] "^V"[C,G,CE] | "^V¹"[E,G,Cc]/ "^V7¹"[E,G,CB]/ "^I"[F,CA] "^vi"[D,F,FA] "^ii¹"[B,,B,DG] | "^V"[C,G,CE]/ "^V7"[C,G,B,E]/ "^I"[F,,F,A,F]3 |]

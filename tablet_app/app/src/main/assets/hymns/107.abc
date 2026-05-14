@@ -4,4 +4,4 @@ T:Lord, Keep Us Steadfast in Thy Word
 M:none
 L:1/4
 K:F clef=C1
-"^vi"[DFAd]2 [DAf] "^ii¹"[B,DGd] | "^iii"[A,EAc] "^ii"[G,GBd] "^vi¹"[F,Adf]/ "^vi"[G,Adf]/ "^V/vi"[A,A_de] | "^vi"[D,FAd]2 "^IV"[B,Bdf]2 | "^ii"[G,Bdg] "^V"[Cceg] "^I"[F,cfa] "^IV"[B,Bdf] | "^ii"[G,Bdg] "^V"[Cceg] "^I"[F,cfa]2 | [F,Fca]2 "^IV"[B,Fdb] "^I"[F,Fca] | "^V"[CGec'] "^vi"[DFfa] "^ii¹"[B,Bdg] "^V"[CGeg] | "^I"[F,Acf]2 [F,Fca]2 | "^IV"[B,Fdf] "^ii"[G,Bdg] "^I¹"[A,Acf] "^V"[CGce] | "^vi"[DFAd] "^V/vi"[A,EA_d] "^vi"[D,FAd]2 |]
+"^vi"[D,F,A,D]2 [D,A,F] "^ii¹"[B,,D,G,D] | "^iii"[A,,E,A,C] "^ii"[G,,G,B,D] "^vi¹"[F,,A,DF]/ "^vi"[G,,A,DF]/ "^V/vi"[A,,A,_DE] | "^vi"[D,,F,A,D]2 "^IV"[B,,B,DF]2 | "^ii"[G,,B,DG] "^V"[C,CEG] "^I"[F,,CFA] "^IV"[B,,B,DF] | "^ii"[G,,B,DG] "^V"[C,CEG] "^I"[F,,CFA]2 | [F,,F,CA]2 "^IV"[B,,F,DB] "^I"[F,,F,CA] | "^V"[C,G,Ec] "^vi"[D,F,FA] "^ii¹"[B,,B,DG] "^V"[C,G,EG] | "^I"[F,,A,CF]2 [F,,F,CA]2 | "^IV"[B,,F,DF] "^ii"[G,,B,DG] "^I¹"[A,,A,CF] "^V"[C,G,CE] | "^vi"[D,F,A,D] "^V/vi"[A,,E,A,_D] "^vi"[D,,F,A,D]2 |]

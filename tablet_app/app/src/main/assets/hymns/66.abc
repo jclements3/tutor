@@ -4,4 +4,4 @@ T:Lord Who Throughout These Forty Days
 M:4/4
 L:1/4
 K:F clef=C1
-"^I"[FAcf] [CGcf] "^V"[CGce] "^I"[FAcf] | "^vi"[DAfa] "^ii7¹"[B,dfg] "^V"[Cceg] "^I"[FAf] | [FAf] "^IV¹"[DBfb] "^I"[Fcfa] "^IV"[Bdf] | "^ii¹"[Bdg] "^III"[A_dea]3 | "^I"[Fcfa] [Fcfa] "^IV¹"[DBfb] "^V"[CGec'] | "^iii¹"[CAea] "^vi"[DAdf] "^V"[Cceg] "^I"[Fcfa] | [Fcfa] "^V"[Cceg] "^vi"[DAdf] "^ii7¹"[B,Gdf] | "^V"[CGce] "^I"[FAcf]3 |]
+"^I"[F,A,CF] [C,G,CF] "^V"[C,G,CE] "^I"[F,A,CF] | "^vi"[D,A,FA] "^ii7¹"[B,,DFG] "^V"[C,CEG] "^I"[F,A,F] | [F,A,F] "^IV¹"[D,B,FB] "^I"[F,CFA] "^IV"[B,DF] | "^ii¹"[B,DG] "^III"[A,_DEA]3 | "^I"[F,CFA] [F,CFA] "^IV¹"[D,B,FB] "^V"[C,G,Ec] | "^iii¹"[C,A,EA] "^vi"[D,A,DF] "^V"[C,CEG] "^I"[F,CFA] | [F,CFA] "^V"[C,CEG] "^vi"[D,A,DF] "^ii7¹"[B,,G,DF] | "^V"[C,G,CE] "^I"[F,A,CF]3 |]

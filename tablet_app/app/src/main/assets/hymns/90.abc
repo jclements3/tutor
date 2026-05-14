@@ -4,4 +4,4 @@ T:Breathe on Me, Breath of God
 M:4/4
 L:1/4
 K:F clef=C1
-"^vi"[DFAd]2 "^vi¹"[F,Ada] "^vii°¹"[G,Beg] | "^vi²"[A,Adf] "^V/vi"[A,A_de] "^vi"[DFd]2 | "^I"[F,Fca]2 "^I¹"[A,Fcc'] "^IV"[B,Fdb] | "^I²"[CFca] "^V"[CEcg] "^I"[F,Fca]2 | "^vi"[Dd] "^I¹"[A,Acf] "^iii"[B,ABe] "^vi7¹"[F,Fcd] | "^IVmaj7"[B,Fda] [G,Fdf] "^ii²"[DBdg] "^III+"[A,A_df] | "^IV"[B,Ade] "^vi¹"[F,Fd] "^iii"[G,Aea] "^ii"[A,Bdg] | "^vi²"[A,Adf] "^III+"[A,A_df] "^III"[A,A_de] "^vii7³"[D,Gde] | "^vi"[D,Fd]4 |]
+"^vi"[D,F,A,D]2 "^vi¹"[F,,A,DA] "^vii°¹"[G,,B,EG] | "^vi²"[A,,A,DF] "^V/vi"[A,,A,_DE] "^vi"[D,F,D]2 | "^I"[F,,F,CA]2 "^I¹"[A,,F,Cc] "^IV"[B,,F,DB] | "^I²"[C,F,CA] "^V"[C,E,CG] "^I"[F,,F,CA]2 | "^vi"[D,D] "^I¹"[A,,A,CF] "^iii"[B,,A,B,E] "^vi7¹"[F,,F,CD] | "^IVmaj7"[B,,F,DA] [G,,F,DF] "^ii²"[D,B,DG] "^III+"[A,,A,_DF] | "^IV"[B,,A,DE] "^vi¹"[F,,F,D] "^iii"[G,,A,EA] "^ii"[A,,B,DG] | "^vi²"[A,,A,DF] "^III+"[A,,A,_DF] "^III"[A,,A,_DE] "^vii7³"[D,,G,DE] | "^vi"[D,,F,D]4 |]

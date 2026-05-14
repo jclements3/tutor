@@ -4,4 +4,4 @@ T:Amazing Grace
 M:3/4
 L:1/4
 K:F clef=C1
-"^I"[F,FAc] [F,CAf]2 | [F,Fca]/ "^I¹"[A,Fcf]/ "^I²"[CFca]2 | "^V7"[CEBg] "^vi"[DFAf]2 | "^IV"[B,FBd] "^I"[F,FAc]2 | [F,FAc] [F,CAf]2 | [F,Fca]/ "^I¹"[A,Fcf]/ "^I²"[CFca]2 | "^V7³"[B,Ecg] "^I¹"[A,Fcc']3 | [A,Fcc']2 | "^I"[F,Fca] [FAcc']3/2 [Fca]/ | [FAcc']/ [Fca]/ "^I¹"[A,Fcf]2 | [A,Fc] "^IV"[B,FBd]3/2 "^I¹"[A,Fcf]/ | "^IV"[B,DBf]/ [B,FBd]/ "^I"[F,FAc]2 | "^I¹"[A,Fc] "^vi"[DFAf]2 | "^I²"[CFca]/ [CAcf]/ [Ccfa]2 | "^V7"[CBeg] "^I"[FAcf]3 | [FAcf]2 |]
+"^I"[F,,F,A,C] [F,,C,A,F]2 | [F,,F,CA]/ "^I¹"[A,,F,CF]/ "^I²"[C,F,CA]2 | "^V7"[C,E,B,G] "^vi"[D,F,A,F]2 | "^IV"[B,,F,B,D] "^I"[F,,F,A,C]2 | [F,,F,A,C] [F,,C,A,F]2 | [F,,F,CA]/ "^I¹"[A,,F,CF]/ "^I²"[C,F,CA]2 | "^V7³"[B,,E,CG] "^I¹"[A,,F,Cc]3 | [A,,F,Cc]2 | "^I"[F,,F,CA] [F,A,Cc]3/2 [F,CA]/ | [F,A,Cc]/ [F,CA]/ "^I¹"[A,,F,CF]2 | [A,,F,C] "^IV"[B,,F,B,D]3/2 "^I¹"[A,,F,CF]/ | "^IV"[B,,D,B,F]/ [B,,F,B,D]/ "^I"[F,,F,A,C]2 | "^I¹"[A,,F,C] "^vi"[D,F,A,F]2 | "^I²"[C,F,CA]/ [C,A,CF]/ [C,CFA]2 | "^V7"[C,B,EG] "^I"[F,A,CF]3 | [F,A,CF]2 |]

@@ -4,4 +4,4 @@ T:The Law Of God Is Good And Wise
 M:4/4
 L:1/4
 K:F clef=C1
-"^vi"[DFd]2 [Df] "^IV"[B,Dd] | "^iii"[A,Ec] "^ii"[G,Gd] "^I"[F,Af]/ [G,Af]/ "^iii"[A,Ae] | "^vi"[D,Fd]2 "^iv"[B,Bf]2 | "^ii"[G,Bg] "^v"[Ccg] "^I"[F,ca] "^iv"[B,Bf] | "^ii"[G,Bg] "^v"[Ccg] "^I"[F,ca]2 | [F,Fa]2 "^iv"[B,Fb] "^I"[F,Fa] | "^v"[CGc'] "^vi"[DFa] "^ii¹"[B,Bg] "^v"[CGg] | "^I"[F,Af]2 [F,Fa]2 | "^iv"[B,Ff] "^ii"[G,Bg] "^I¹"[A,Af] "^V"[CGe] | "^vi"[DFd] "^V/vi"[A,E_d] "^vi"[D,Fd]2 |]
+"^vi"[D,F,D]2 [D,F] "^IV"[B,,D,D] | "^iii"[A,,E,C] "^ii"[G,,G,D] "^I"[F,,A,F]/ [G,,A,F]/ "^iii"[A,,A,E] | "^vi"[D,,F,D]2 "^iv"[B,,B,F]2 | "^ii"[G,,B,G] "^v"[C,CG] "^I"[F,,CA] "^iv"[B,,B,F] | "^ii"[G,,B,G] "^v"[C,CG] "^I"[F,,CA]2 | [F,,F,A]2 "^iv"[B,,F,B] "^I"[F,,F,A] | "^v"[C,G,c] "^vi"[D,F,A] "^ii¹"[B,,B,G] "^v"[C,G,G] | "^I"[F,,A,F]2 [F,,F,A]2 | "^iv"[B,,F,F] "^ii"[G,,B,G] "^I¹"[A,,A,F] "^V"[C,G,E] | "^vi"[D,F,D] "^V/vi"[A,,E,_D] "^vi"[D,,F,D]2 |]

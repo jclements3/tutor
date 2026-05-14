@@ -4,4 +4,4 @@ T:Rejoice, My Heart, Be Glad and Sing
 M:4/4
 L:1/4
 K:G clef=C1
-"^I"[G,GBd] [G,GBd] "^V"[DFAd] "^I¹"[B,DGd] | "^vi"[EBg] "^ii¹"[CEAa] "^V"[DAf] "^I"[G,DBg] | "^V¹"[F,Ada] "^V/V"[A,A^ce] "^V"[DAdf] "^vi7¹"[G,Bde] | "^V/V"[A,A^ce] "^V"[D,FAd]3 | [DFd] "^vi"[EGBg] "^V"[DFda] "^I"[G,Gdb] | "^IV"[CEeg] "^ii"[A,Ecc']/ [A,Fcc']/ "^I¹"[B,Gdb]/ "^I"[CGdb]/ "^V"[DFda] | "^vi"[EBg] "^V"[DFda] "^I¹"[B,Gdb] "^ii7¹"[CGea] | "^V"[DFda]/ "^V7"[DFca]/ "^I"[G,GBg]3 |]
+"^I"[G,,G,B,D] [G,,G,B,D] "^V"[D,F,A,D] "^I¹"[B,,D,G,D] | "^vi"[E,B,G] "^ii¹"[C,E,A,A] "^V"[D,A,F] "^I"[G,,D,B,G] | "^V¹"[F,,A,DA] "^V/V"[A,,A,^CE] "^V"[D,A,DF] "^vi7¹"[G,,B,DE] | "^V/V"[A,,A,^CE] "^V"[D,,F,A,D]3 | [D,F,D] "^vi"[E,G,B,G] "^V"[D,F,DA] "^I"[G,,G,DB] | "^IV"[C,E,EG] "^ii"[A,,E,Cc]/ [A,,F,Cc]/ "^I¹"[B,,G,DB]/ "^I"[C,G,DB]/ "^V"[D,F,DA] | "^vi"[E,B,G] "^V"[D,F,DA] "^I¹"[B,,G,DB] "^ii7¹"[C,G,EA] | "^V"[D,F,DA]/ "^V7"[D,F,CA]/ "^I"[G,,G,B,G]3 |]

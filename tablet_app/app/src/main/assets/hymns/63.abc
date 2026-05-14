@@ -4,4 +4,4 @@ T:Tis Good, Lord, To Be Here
 M:2/4
 L:1/4
 K:C clef=C1
-"^I"[CEGc] "^V¹"[B,DGd] | "^IV¹"[A,Ccf]/ "^ii7²"[A,Dcf]/ "^I²"[G,Ece]/ [G,Fce]/ | "^V"[G,GBd]/ "^V7"[G,FBd]/ "^I"[CEc] | "^V¹"[B,Ddg] "^vi¹"[CEca] | "^vi"[A,Eec']/ [A,^Fec']/ "^V¹"[B,Gdb]/ "^V"[CGdb]/ | "^II"[D^Fda]/ "^II7"[D^Fca]/ "^V"[G,GBg] | "^I"[CGce] "^IV²"[CAcf] | [CFca]/ "^vi¹"[CEca]/ "^V¹"[B,Ddg] | "^V7"[G,GBf] "^I"[CGce]/ "^vi"[A,Ace]/ | "^II7"[DAc^f] "^V"[G,GBg] | "^I¹"[E,Gc] "^ii¹"[F,FAd] | "^ii"[D,FAf]/ [D,FBf]/ "^I¹"[E,Gce]/ "^I"[F,Gce]/ | "^V"[G,GBd]/ "^V7"[G,FBd]/ "^I"[CEc] |]
+"^I"[C,E,G,C] "^V¹"[B,,D,G,D] | "^IV¹"[A,,C,CF]/ "^ii7²"[A,,D,CF]/ "^I²"[G,,E,CE]/ [G,,F,CE]/ | "^V"[G,,G,B,D]/ "^V7"[G,,F,B,D]/ "^I"[C,E,C] | "^V¹"[B,,D,DG] "^vi¹"[C,E,CA] | "^vi"[A,,E,Ec]/ [A,,^F,Ec]/ "^V¹"[B,,G,DB]/ "^V"[C,G,DB]/ | "^II"[D,^F,DA]/ "^II7"[D,^F,CA]/ "^V"[G,,G,B,G] | "^I"[C,G,CE] "^IV²"[C,A,CF] | [C,F,CA]/ "^vi¹"[C,E,CA]/ "^V¹"[B,,D,DG] | "^V7"[G,,G,B,F] "^I"[C,G,CE]/ "^vi"[A,,A,CE]/ | "^II7"[D,A,C^F] "^V"[G,,G,B,G] | "^I¹"[E,,G,C] "^ii¹"[F,,F,A,D] | "^ii"[D,,F,A,F]/ [D,,F,B,F]/ "^I¹"[E,,G,CE]/ "^I"[F,,G,CE]/ | "^V"[G,,G,B,D]/ "^V7"[G,,F,B,D]/ "^I"[C,E,C] |]

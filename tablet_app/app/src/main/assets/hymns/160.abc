@@ -4,4 +4,4 @@ T:My Neighbor
 M:4/4
 L:1/4
 K:F clef=C1
-"^I"[FAcf] [CGcf] "^V"[CGce] "^vi"[DFAf] | "^I¹"[A,Fcf] "^ii7¹"[B,Fdg] "^V"[CEcg] "^I"[F,Fca] | "^I¹"[A,Ff] "^ii"[G,Gdb] [G,Geb] "^I"[F,Afa] | [Fca] "^ii7³"[FBdg] "^V7¹"[EBcg] "^I"[FAcf] | [FAfc'] "^ii"[Gdb] "^V¹"[EGcg] "^I"[Fca] | [F,ca] "^ii¹"[B,Bdg] "^V"[CGeg] "^I"[F,Af] | "^I¹"[A,FAc] "^ii¹"[B,Gd] "^V"[CGce] "^vi"[DFAf] | "^iii"[A,Cca] "^ii¹"[B,DBg] "^V"[CEGg] "^I"[F,FAf] |]
+"^I"[F,A,CF] [C,G,CF] "^V"[C,G,CE] "^vi"[D,F,A,F] | "^I¹"[A,,F,CF] "^ii7¹"[B,,F,DG] "^V"[C,E,CG] "^I"[F,,F,CA] | "^I¹"[A,,F,F] "^ii"[G,,G,DB] [G,,G,EB] "^I"[F,,A,FA] | [F,CA] "^ii7³"[F,B,DG] "^V7¹"[E,B,CG] "^I"[F,A,CF] | [F,A,Fc] "^ii"[G,DB] "^V¹"[E,G,CG] "^I"[F,CA] | [F,,CA] "^ii¹"[B,,B,DG] "^V"[C,G,EG] "^I"[F,,A,F] | "^I¹"[A,,F,A,C] "^ii¹"[B,,G,D] "^V"[C,G,CE] "^vi"[D,F,A,F] | "^iii"[A,,C,CA] "^ii¹"[B,,D,B,G] "^V"[C,E,G,G] "^I"[F,,F,A,F] |]

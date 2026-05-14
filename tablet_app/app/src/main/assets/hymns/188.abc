@@ -4,4 +4,4 @@ T:Blest Be The Tie That Binds
 M:3/4
 L:1/4
 K:C clef=C1
-"^I"[CGeg] [CGce]/ "^ii"[CGdf]/ "^I"[CGeg]/ [Cceg]/ | "^IV"[Fcfa] "^I"[Cceg]2 | [Ccec'] "^vi"[A,cec']/4 "^♭v°¹"[A,c^fc']/4 "^V¹"[B,dgb]/ "^vi7¹"[Cega] | "^ii"[Ddfa]/ "^ii7"[Dcfa]/ "^V"[G,Bg]2 | "^I"[Cceg] [CGce]/ "^V7²"[DGBf]/ "^I¹"[EGcg] | "^I"[Cceg] "^IV"[Fcfa]/ "^V7²"[DGfb]/ "^I"[CGec'] | "^V7²"[DGfb] "^I¹"[EGgc']/ "^IV"[FAfa]/ "^V"[GBdg]/ "^I²"[Gceg]/ | "^v7"[G,dfg] "^I"[Cceg]2 |]
+"^I"[C,G,EG] [C,G,CE]/ "^ii"[C,G,DF]/ "^I"[C,G,EG]/ [C,CEG]/ | "^IV"[F,CFA] "^I"[C,CEG]2 | [C,CEc] "^vi"[A,,CEc]/4 "^♭v°¹"[A,,C^Fc]/4 "^V¹"[B,,DGB]/ "^vi7¹"[C,EGA] | "^ii"[D,DFA]/ "^ii7"[D,CFA]/ "^V"[G,,B,G]2 | "^I"[C,CEG] [C,G,CE]/ "^V7²"[D,G,B,F]/ "^I¹"[E,G,CG] | "^I"[C,CEG] "^IV"[F,CFA]/ "^V7²"[D,G,FB]/ "^I"[C,G,Ec] | "^V7²"[D,G,FB] "^I¹"[E,G,Gc]/ "^IV"[F,A,FA]/ "^V"[G,B,DG]/ "^I²"[G,CEG]/ | "^v7"[G,,DFG] "^I"[C,CEG]2 |]

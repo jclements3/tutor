@@ -4,4 +4,4 @@ T:None Other Lamb
 M:3/2
 L:1/4
 K:C clef=C1
-"^I¹"[EGcg] "^ii7"[DAcf] "^V7"[G,Bdf] "^I"[CGde]2 [CGce] | "^I¹"[EGcg] "^ii7"[DAcf] "^V7"[G,Bdf] "^I"[CGde]2 [CGce] | [CGce] [CGce] "^V¹"[B,Gdg] "^vi7"[A,Gec']3/2 "^V"[A,Gdb]/ "^II7"[D^Fca] | "^V²"[DGBg] "^vi"[DAce] "^II"[Dcd^f] "^i"[G,cdg]2 "^V"[G,Bdg] | [Gdb] [FGBa] "^V7³"[FGBg] "^vi7²"[EGca]3/2 "^I¹"[EGcg]/ [EGcg] | "^IV"[Fcfa] "^iii¹"[GBeg] "^V7"[GBdf] "^III7¹"[^GBde]2 "^vi"[Ace]2 | "^vi7³"[GAce]2 "^ii7¹"[FAcd]2 "^I²"[Gce]2 | "^V7"[G,GBf]2 "^I"[CGce]3 |]
+"^I¹"[E,G,CG] "^ii7"[D,A,CF] "^V7"[G,,B,DF] "^I"[C,G,DE]2 [C,G,CE] | "^I¹"[E,G,CG] "^ii7"[D,A,CF] "^V7"[G,,B,DF] "^I"[C,G,DE]2 [C,G,CE] | [C,G,CE] [C,G,CE] "^V¹"[B,,G,DG] "^vi7"[A,,G,Ec]3/2 "^V"[A,,G,DB]/ "^II7"[D,^F,CA] | "^V²"[D,G,B,G] "^vi"[D,A,CE] "^II"[D,CD^F] "^i"[G,,CDG]2 "^V"[G,,B,DG] | [G,DB] [F,G,B,A] "^V7³"[F,G,B,G] "^vi7²"[E,G,CA]3/2 "^I¹"[E,G,CG]/ [E,G,CG] | "^IV"[F,CFA] "^iii¹"[G,B,EG] "^V7"[G,B,DF] "^III7¹"[^G,B,DE]2 "^vi"[A,CE]2 | "^vi7³"[G,A,CE]2 "^ii7¹"[F,A,CD]2 "^I²"[G,CE]2 | "^V7"[G,,G,B,F]2 "^I"[C,G,CE]3 |]

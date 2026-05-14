@@ -4,4 +4,4 @@ T:O For A Thousand Tongues
 M:3/2
 L:1/4
 K:F clef=C1
-"^v"[Cc]2 "^I¹"[A,Ccf] "^I"[F,FAf] "^V"[CEcg]2 | [CEcg]2 "^I"[Fca] "^V7"[CEBg] "^vi"[DFAf]2 | "^V"[CEcg]2 "^I"[Fca] [Fca] "^V7¹"[EGcb]2 | "^I"[Fca]2 "^V"[CEcg]4 | [CGec']2 "^I"[FAfc'] [Fca] [Fca]2 | "^I¹"[A,Fcf]2 "^IV"[B,Fdf] [B,FBd] [B,FBd]2 | [B,Fdf] [B,FBd] "^I²"[CFAc] [CFAf] [CFAf]2 | "^V7"[CEBg]2 "^I"[F,FAf]4 |]
+"^v"[C,C]2 "^I¹"[A,,C,CF] "^I"[F,,F,A,F] "^V"[C,E,CG]2 | [C,E,CG]2 "^I"[F,CA] "^V7"[C,E,B,G] "^vi"[D,F,A,F]2 | "^V"[C,E,CG]2 "^I"[F,CA] [F,CA] "^V7¹"[E,G,CB]2 | "^I"[F,CA]2 "^V"[C,E,CG]4 | [C,G,Ec]2 "^I"[F,A,Fc] [F,CA] [F,CA]2 | "^I¹"[A,,F,CF]2 "^IV"[B,,F,DF] [B,,F,B,D] [B,,F,B,D]2 | [B,,F,DF] [B,,F,B,D] "^I²"[C,F,A,C] [C,F,A,F] [C,F,A,F]2 | "^V7"[C,E,B,G]2 "^I"[F,,F,A,F]4 |]

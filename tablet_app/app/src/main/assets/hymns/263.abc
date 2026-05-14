@@ -4,4 +4,4 @@ T:God, Whose Almighty Word
 M:3/4
 L:1/4
 K:Eb clef=C1
-"^I"[EGeb] [EBg] "^I¹"[G,Be] | "^ii¹"[A,Acf] "^I²"[B,GBe] "^V"[B,FBd] | "^I"[E,GBe]3 | [EGBe] "^V¹"[DBf] "^I"[EBeg] | "^V7²"[FBda]/ "^V²"[FBdb]/ "^V7¹"[DBfa] "^I"[EBeg] | "^V"[B,Bdf]3 | "^v"[Bb] "^iii"[Gg] "^i"[Ee] | "^v"[B,B]3 | "^V"[B,Bdf] "^I²"[B,Beg] "^♯iii"[B,Bfa] | "^I"[EBeg]3/2 "^i"[EAdf]/ "^I"[EGe] | "^V"[B,Bdf] "^I²"[B,Beg] "^♯iii"[B,Bfa] | "^I"[EBeg]3/2 "^i"[EAdf]/ "^I"[EGe] | "^i"[Ee] "^iii"[Gg] "^v"[Bb] | "^I"[EGeb]3/2 "^IV²"[EAec']/ "^I"[EGeb] | "^ii¹"[A,cfa] "^I²"[B,Beg] "^V7"[B,Adf] | "^I"[EGe]3 |]
+"^I"[E,G,EB] [E,B,G] "^I¹"[G,,B,E] | "^ii¹"[A,,A,CF] "^I²"[B,,G,B,E] "^V"[B,,F,B,D] | "^I"[E,,G,B,E]3 | [E,G,B,E] "^V¹"[D,B,F] "^I"[E,B,EG] | "^V7²"[F,B,DA]/ "^V²"[F,B,DB]/ "^V7¹"[D,B,FA] "^I"[E,B,EG] | "^V"[B,,B,DF]3 | "^v"[B,B] "^iii"[G,G] "^i"[E,E] | "^v"[B,,B,]3 | "^V"[B,,B,DF] "^I²"[B,,B,EG] "^♯iii"[B,,B,FA] | "^I"[E,B,EG]3/2 "^i"[E,A,DF]/ "^I"[E,G,E] | "^V"[B,,B,DF] "^I²"[B,,B,EG] "^♯iii"[B,,B,FA] | "^I"[E,B,EG]3/2 "^i"[E,A,DF]/ "^I"[E,G,E] | "^i"[E,E] "^iii"[G,G] "^v"[B,B] | "^I"[E,G,EB]3/2 "^IV²"[E,A,Ec]/ "^I"[E,G,EB] | "^ii¹"[A,,CFA] "^I²"[B,,B,EG] "^V7"[B,,A,DF] | "^I"[E,G,E]3 |]

@@ -4,4 +4,4 @@ T:Hallelujah, What a Savior!
 M:4/4
 L:1/4
 K:Ab clef=C1
-"^I"[A,Ace] [A,Ace] [A,Ace] [A,EAc] | "^vi"[Fca] [Fca] "^III"[C=Ecg] "^III7"[C=EBg] | "^IV"[DFAf] [DAf] "^I¹"[CAe] "^vi¹"[A,cfa] | "^V²"[B,Beg] "^II7"[B,A=df] "^V"[E,Ge]2 | "^I"[A,Ace] [A,Ace] [A,Ace] [A,EAc] | [A,Eca] "^IV²"[A,Fda] "^I"[A,Eca] "^I¹"[CAea]3/4 "^V"[EGeb]/4 | "^I"[Aec']2 "^V7"[EGdb] "^vi"[FAca]3/4 [FAcf]/4 | "^IV"[DAdf]2 "^I"[A,Ace]2 |]
+"^I"[A,,A,CE] [A,,A,CE] [A,,A,CE] [A,,E,A,C] | "^vi"[F,CA] [F,CA] "^III"[C,=E,CG] "^III7"[C,=E,B,G] | "^IV"[D,F,A,F] [D,A,F] "^I¹"[C,A,E] "^vi¹"[A,,CFA] | "^V²"[B,,B,EG] "^II7"[B,,A,=DF] "^V"[E,,G,E]2 | "^I"[A,,A,CE] [A,,A,CE] [A,,A,CE] [A,,E,A,C] | [A,,E,CA] "^IV²"[A,,F,DA] "^I"[A,,E,CA] "^I¹"[C,A,EA]3/4 "^V"[E,G,EB]/4 | "^I"[A,Ec]2 "^V7"[E,G,DB] "^vi"[F,A,CA]3/4 [F,A,CF]/4 | "^IV"[D,A,DF]2 "^I"[A,,A,CE]2 |]

@@ -4,4 +4,4 @@ T:The Winds and Billows Loudly Roar
 M:4/4
 L:1/4
 K:G clef=C1
-"^iii"[B,B] "^vi¹"[GBe] "^iii7²"[FABf] "^vi"[EGBg] | "^ii"[A,Eca]/ "^ii7"[A,Ecg]/ "^iii"[B,Ddf] [B,FBe]/ [B,FBd]/ "^vi"[EGB] | "^iii¹"[DFB] "^ii¹"[CEAe] "^iii"[B,Bdf] "^vi"[EGBg] | "^V"[DFda] "^I"[G,Gdb]3 | "^I¹"[B,Gdg]/ "^i"[A,Gda]/ "^I"[G,Gdb] "^ii"[A,Ecc']/ "^IV7³"[B,Ecb]/ "^ii¹"[CEea] | "^ii7"[A,Ecg] "^V"[DAf]/ [DEAf]/ "^vi"[B,FBe]/ "^iii"[B,FBd]/ "^vi"[EGB] | [EGB]/ "^iii7²"[FAB]/ "^vi¹"[GBe] "^V"[DAdf] "^I"[G,GBg]/ "^vi¹"[G,GBe]/ | "^iii"[B,DBf] "^vi"[E,EGe]3 |]
+"^iii"[B,,B,] "^vi¹"[G,B,E] "^iii7²"[F,A,B,F] "^vi"[E,G,B,G] | "^ii"[A,,E,CA]/ "^ii7"[A,,E,CG]/ "^iii"[B,,D,DF] [B,,F,B,E]/ [B,,F,B,D]/ "^vi"[E,G,B,] | "^iii¹"[D,F,B,] "^ii¹"[C,E,A,E] "^iii"[B,,B,DF] "^vi"[E,G,B,G] | "^V"[D,F,DA] "^I"[G,,G,DB]3 | "^I¹"[B,,G,DG]/ "^i"[A,,G,DA]/ "^I"[G,,G,DB] "^ii"[A,,E,Cc]/ "^IV7³"[B,,E,CB]/ "^ii¹"[C,E,EA] | "^ii7"[A,,E,CG] "^V"[D,A,F]/ [D,E,A,F]/ "^vi"[B,,F,B,E]/ "^iii"[B,,F,B,D]/ "^vi"[E,G,B,] | [E,G,B,]/ "^iii7²"[F,A,B,]/ "^vi¹"[G,B,E] "^V"[D,A,DF] "^I"[G,,G,B,G]/ "^vi¹"[G,,G,B,E]/ | "^iii"[B,,D,B,F] "^vi"[E,,E,G,E]3 |]

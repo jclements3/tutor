@@ -4,4 +4,4 @@ T:Savior, Who Thy Flock Art Feeding
 M:none
 L:1/4
 K:Eb clef=C1
-"^I"[EGBe] "^V¹"[DFBf] "^I"[EBeg] "^vii°¹"[FAdf] | "^I"[EBeg] "^IV¹"[CEea] "^V"[B,Fdb]2 | "^I"[EGBg]2 "^IV"[A,Aec'] "^I"[E,Geb] | "^ii"[F,Aca] "^I¹"[G,Beg] "^ii¹"[A,cf] [A,cf] | "^III"[G,=Bdg]4 | "^iii"[G,Gdb] "^V7²"[F,Adb] "^I"[E,Geb] [EBg]/ "^i"[EAfa]/ | "^I"[EGgb] "^V¹"[DBfb]/ "^V7¹"[DBfa]/ "^I"[EBfg] [EBeg] | "^V"[B,Bdf]2 "^vi"[CGce] "^V"[B,Bdf] | "^I"[EBeg] "^IV"[A,cea] "^I²"[B,Beg] "^V7"[B,Adf] | "^I"[E,Ge]4 |]
+"^I"[E,G,B,E] "^V¹"[D,F,B,F] "^I"[E,B,EG] "^vii°¹"[F,A,DF] | "^I"[E,B,EG] "^IV¹"[C,E,EA] "^V"[B,,F,DB]2 | "^I"[E,G,B,G]2 "^IV"[A,,A,Ec] "^I"[E,,G,EB] | "^ii"[F,,A,CA] "^I¹"[G,,B,EG] "^ii¹"[A,,CF] [A,,CF] | "^III"[G,,=B,DG]4 | "^iii"[G,,G,DB] "^V7²"[F,,A,DB] "^I"[E,,G,EB] [E,B,G]/ "^i"[E,A,FA]/ | "^I"[E,G,GB] "^V¹"[D,B,FB]/ "^V7¹"[D,B,FA]/ "^I"[E,B,FG] [E,B,EG] | "^V"[B,,B,DF]2 "^vi"[C,G,CE] "^V"[B,,B,DF] | "^I"[E,B,EG] "^IV"[A,,CEA] "^I²"[B,,B,EG] "^V7"[B,,A,DF] | "^I"[E,,G,E]4 |]

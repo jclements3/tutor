@@ -4,4 +4,4 @@ T:Come, Your Heart and Voices Raising
 M:3/4
 L:1/4
 K:Eb clef=C1
-"^I"[EGe]2 [EBeg] | "^V¹"[DBfb]2 "^I"[EBeg] | "^IV¹"[CAea] [CAeb] "^IV"[A,Aec'] | "^i"[B,Feb] "^I²"[B,Geb] "^V7"[B,Adf] | "^I"[EGeg] [EGea] "^I¹"[Geb] | "^ii"[FAca] [FAcg] "^V7"[B,Adf] | "^vi"[CGce]2 "^V/V"[F=Ac] | "^V"[B,FBd]2 [B,DB] | "^I"[EBg]2 "^IV¹"[CEea] | "^I¹"[G,Eeb]2 "^IV"[A,Aec'] | "^i"[B,Feb] "^I²"[B,Geb] "^V7"[B,Adf] | "^V/vi¹"[=B,Gdg]2 "^vi"[CGce] | "^ii"[FAca]2 [F,cfa] | "^iii"[GBdg] "^iii7"[GBdf] "^vi"[CGce] | "^ii7"[F,Ace] "^ii"[F,Ac] "^♯iii°"[B,ABd] | "^I"[EGBe]3 |]
+"^I"[E,G,E]2 [E,B,EG] | "^V¹"[D,B,FB]2 "^I"[E,B,EG] | "^IV¹"[C,A,EA] [C,A,EB] "^IV"[A,,A,Ec] | "^i"[B,,F,EB] "^I²"[B,,G,EB] "^V7"[B,,A,DF] | "^I"[E,G,EG] [E,G,EA] "^I¹"[G,EB] | "^ii"[F,A,CA] [F,A,CG] "^V7"[B,,A,DF] | "^vi"[C,G,CE]2 "^V/V"[F,=A,C] | "^V"[B,,F,B,D]2 [B,,D,B,] | "^I"[E,B,G]2 "^IV¹"[C,E,EA] | "^I¹"[G,,E,EB]2 "^IV"[A,,A,Ec] | "^i"[B,,F,EB] "^I²"[B,,G,EB] "^V7"[B,,A,DF] | "^V/vi¹"[=B,,G,DG]2 "^vi"[C,G,CE] | "^ii"[F,A,CA]2 [F,,CFA] | "^iii"[G,B,DG] "^iii7"[G,B,DF] "^vi"[C,G,CE] | "^ii7"[F,,A,CE] "^ii"[F,,A,C] "^♯iii°"[B,,A,B,D] | "^I"[E,G,B,E]3 |]

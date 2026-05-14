@@ -4,4 +4,4 @@ T:O Lord, I Am Not Worthy
 M:4/4
 L:1/4
 K:Bb clef=C1
-"^I"[B,Bd]/ "^ii7"[CBe]/ "^I¹"[DBf] "^IV"[EBeg] "^I"[B,Bdf] | "^I¹"[DBfb] [Fcfb] "^V"[Fcfa]2 | [Fca]/ "^vi"[FGcb]/ "^V"[FAcc'] "^V7"[FAce] "^V¹"[A,Fcg] | [A,Fcf] "^I"[B,FBd]3 | [B,Bd]/ "^ii7"[CBe]/ "^I¹"[DBf] "^I"[B,df] "^vi"[G,dgb] | "^iii"[Ddfa] "^vii°"[EBea] "^IV"[EBeg]2 | [EBeg] "^I²"[FBdf] [Fdfb] "^V"[F,cfa] | "^V7"[F,Aec'] "^I"[B,Bdb]3 |]
+"^I"[B,,B,D]/ "^ii7"[C,B,E]/ "^I¹"[D,B,F] "^IV"[E,B,EG] "^I"[B,,B,DF] | "^I¹"[D,B,FB] [F,CFB] "^V"[F,CFA]2 | [F,CA]/ "^vi"[F,G,CB]/ "^V"[F,A,Cc] "^V7"[F,A,CE] "^V¹"[A,,F,CG] | [A,,F,CF] "^I"[B,,F,B,D]3 | [B,,B,D]/ "^ii7"[C,B,E]/ "^I¹"[D,B,F] "^I"[B,,DF] "^vi"[G,,DGB] | "^iii"[D,DFA] "^vii°"[E,B,EA] "^IV"[E,B,EG]2 | [E,B,EG] "^I²"[F,B,DF] [F,DFB] "^V"[F,,CFA] | "^V7"[F,,A,Ec] "^I"[B,,B,DB]3 |]

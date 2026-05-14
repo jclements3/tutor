@@ -4,4 +4,4 @@ T:I Heard The Bells On Christmas Day
 M:4/4
 L:1/4
 K:C clef=C1
-"^I"[CEc] [CGce] "^I²"[G,Gce]/ "^i²"[G,Gc^d]/ "^I"[CGce] | "^v°7²"[^CG^Ae] "^V7²"[DGBf] "^V7"[G,GBf]/ "^iii¹"[G,GBe]/ "^V7²"[DGBf] | "^i°7¹"[^DAc^f] "^I¹"[EGcg] "^I²"[G,Gec'] "^Imaj7"[CGeb] | "^vi²"[Eca] "^viiø7²"[FBda]3/2 "^V7³"[FBdg]/ [FBdg] | "^I¹"[Ecg] "^IV"[FAcg]3/2 [FAcf]/ "^I"[CGce] | "^iv"[Cfg] "^III²"[B,E^Ge]3/2 "^iii7²"[B,EGd]/ "^vi"[A,EAc] | "^ii7"[D,Fcd] "^I²"[G,Gce] "^IV"[F,Acf] "^I¹"[E,Gcg] | "^ii7¹"[F,Dca] "^V"[G,DB]3/2 "^V7"[G,FBd]/ "^I"[CEc] |]
+"^I"[C,E,C] [C,G,CE] "^I²"[G,,G,CE]/ "^i²"[G,,G,C^D]/ "^I"[C,G,CE] | "^v°7²"[^C,G,^A,E] "^V7²"[D,G,B,F] "^V7"[G,,G,B,F]/ "^iii¹"[G,,G,B,E]/ "^V7²"[D,G,B,F] | "^i°7¹"[^D,A,C^F] "^I¹"[E,G,CG] "^I²"[G,,G,Ec] "^Imaj7"[C,G,EB] | "^vi²"[E,CA] "^viiø7²"[F,B,DA]3/2 "^V7³"[F,B,DG]/ [F,B,DG] | "^I¹"[E,CG] "^IV"[F,A,CG]3/2 [F,A,CF]/ "^I"[C,G,CE] | "^iv"[C,FG] "^III²"[B,,E,^G,E]3/2 "^iii7²"[B,,E,G,D]/ "^vi"[A,,E,A,C] | "^ii7"[D,,F,CD] "^I²"[G,,G,CE] "^IV"[F,,A,CF] "^I¹"[E,,G,CG] | "^ii7¹"[F,,D,CA] "^V"[G,,D,B,]3/2 "^V7"[G,,F,B,D]/ "^I"[C,E,C] |]

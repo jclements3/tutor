@@ -4,4 +4,4 @@ T:We Give Thee But Thine Own
 M:4/4
 L:1/4
 K:F clef=C1
-"^I"[F,Afc'] "^vii°¹"[G,Beb] "^I¹"[A,cfa] "^ii7¹"[B,dfg] | "^iii¹"[Ccea]/ "^V7"[Cceb]/ "^I"[Fcfa]3 | [F,Fca] "^V"[CEcg] "^iii"[A,Ec] "^vi7¹"[F,Acd] | "^V/V"[G,G=Bd] "^V"[CEc]3 | [CEGc] "^IV"[B,FBd] "^vii°¹"[G,GBe] "^I¹"[A,Fcf] | "^I"[F,Fca] "^ii7¹"[B,Fdg]/ "^viiø7²"[B,Edg]/ "^ii¹"[B,Ddg] "^III"[A,E_da] | "^I"[F,Fca] "^ii"[G,DBb]/ [G,EBb]/ "^I¹"[A,Fca] "^ii7¹"[B,Fdg] | "^V"[CEcg]/ "^V7"[CEBg]/ "^I"[F,Af]3 |]
+"^I"[F,,A,Fc] "^vii°¹"[G,,B,EB] "^I¹"[A,,CFA] "^ii7¹"[B,,DFG] | "^iii¹"[C,CEA]/ "^V7"[C,CEB]/ "^I"[F,CFA]3 | [F,,F,CA] "^V"[C,E,CG] "^iii"[A,,E,C] "^vi7¹"[F,,A,CD] | "^V/V"[G,,G,=B,D] "^V"[C,E,C]3 | [C,E,G,C] "^IV"[B,,F,B,D] "^vii°¹"[G,,G,B,E] "^I¹"[A,,F,CF] | "^I"[F,,F,CA] "^ii7¹"[B,,F,DG]/ "^viiø7²"[B,,E,DG]/ "^ii¹"[B,,D,DG] "^III"[A,,E,_DA] | "^I"[F,,F,CA] "^ii"[G,,D,B,B]/ [G,,E,B,B]/ "^I¹"[A,,F,CA] "^ii7¹"[B,,F,DG] | "^V"[C,E,CG]/ "^V7"[C,E,B,G]/ "^I"[F,,A,F]3 |]

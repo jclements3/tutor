@@ -4,4 +4,4 @@ T:O Holy, Blessed Trinity
 M:4/4
 L:1/4
 K:C clef=C1
-"^I"[CEGc] [CGce] "^IV¹"[A,Ccf] "^V"[G,DBg] | "^I"[CEcg] "^IV"[F,Fca] "^IV¹"[A,Fca] "^I"[CEcg]2 | "^V"[G,B] "^i"[CDcg] "^vi7"[A,Ecg] | "^I"[B,Edc']/ "^vii"[B,^Fdc']/ "^iii"[EGBb] "^I"[CGeg] "^v"[DGda] | "^V"[G,^FBa] [G,GBg]2 "^i"[CGcg] | "^vi7"[A,Eeg] "^vi²"[EAec'] "^V"[FGcb] "^IV²"[CFca] | "^I¹"[EFcg] "^ii"[DFda] "^IV"[EABf] "^III"[E^GBe] | "^vimaj7"[A,^Gce] "^I"[Ce] "^ii"[DAde] [B,Ada] | "^IV²"[CFca] "^iv"[F,Gcg] "^I²"[G,Gce]/ "^iii¹"[G,GBe]/ "^IV²"[CAcf] | "^i"[CGcd] "^I"[CEc]3 |]
+"^I"[C,E,G,C] [C,G,CE] "^IV¹"[A,,C,CF] "^V"[G,,D,B,G] | "^I"[C,E,CG] "^IV"[F,,F,CA] "^IV¹"[A,,F,CA] "^I"[C,E,CG]2 | "^V"[G,,B,] "^i"[C,D,CG] "^vi7"[A,,E,CG] | "^I"[B,,E,Dc]/ "^vii"[B,,^F,Dc]/ "^iii"[E,G,B,B] "^I"[C,G,EG] "^v"[D,G,DA] | "^V"[G,,^F,B,A] [G,,G,B,G]2 "^i"[C,G,CG] | "^vi7"[A,,E,EG] "^vi²"[E,A,Ec] "^V"[F,G,CB] "^IV²"[C,F,CA] | "^I¹"[E,F,CG] "^ii"[D,F,DA] "^IV"[E,A,B,F] "^III"[E,^G,B,E] | "^vimaj7"[A,,^G,CE] "^I"[C,E] "^ii"[D,A,DE] [B,,A,DA] | "^IV²"[C,F,CA] "^iv"[F,,G,CG] "^I²"[G,,G,CE]/ "^iii¹"[G,,G,B,E]/ "^IV²"[C,A,CF] | "^i"[C,G,CD] "^I"[C,E,C]3 |]

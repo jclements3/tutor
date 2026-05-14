@@ -4,4 +4,4 @@ T:Lamp of Our Feet
 M:3/4
 L:1/4
 K:G clef=C1
-"^I"[GBdb] [GBdb] "^I¹"[B,Gdb] | "^ii¹"[Ccea]2 "^I¹"[B,Gdb] | "^ii"[A,Acc'] [A,Aec'] "^V"[DAdf] | "^I"[GBdg]3 | "^v7²"[Acd] "^I"[GBd] "^V¹"[FAd] | "^I"[Gdb]2 "^II7²"[EG^ca] | "^V"[DFda]3 | "^ii"[A,Eec'] "^viiø7¹"[A,Fec'] "^♯i°7"[A,^Gdb] | [A,Aca]2 "^V/V"[A,A^cg] | "^V"[DAdf]2 "^♯iv°7"[DG^ce] | "^V"[DFd]2 "^V7³"[CFd] | "^I¹"[B,Gd] "^IV"[CGde] "^IV¹"[EGcg] | "^I²"[DGBb]2 "^V7"[DFca] | "^I"[G,GBg]3 |]
+"^I"[G,B,DB] [G,B,DB] "^I¹"[B,,G,DB] | "^ii¹"[C,CEA]2 "^I¹"[B,,G,DB] | "^ii"[A,,A,Cc] [A,,A,Ec] "^V"[D,A,DF] | "^I"[G,B,DG]3 | "^v7²"[A,CD] "^I"[G,B,D] "^V¹"[F,A,D] | "^I"[G,DB]2 "^II7²"[E,G,^CA] | "^V"[D,F,DA]3 | "^ii"[A,,E,Ec] "^viiø7¹"[A,,F,Ec] "^♯i°7"[A,,^G,DB] | [A,,A,CA]2 "^V/V"[A,,A,^CG] | "^V"[D,A,DF]2 "^♯iv°7"[D,G,^CE] | "^V"[D,F,D]2 "^V7³"[C,F,D] | "^I¹"[B,,G,D] "^IV"[C,G,DE] "^IV¹"[E,G,CG] | "^I²"[D,G,B,B]2 "^V7"[D,F,CA] | "^I"[G,,G,B,G]3 |]

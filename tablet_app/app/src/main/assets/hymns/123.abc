@@ -4,4 +4,4 @@ T:Jesus Christ, Our Blessed Savior
 M:4/4
 L:1/4
 K:Eb clef=C1
-"^I"[EGBe]2 "^V"[B,Fdb]2 | "^I"[EBg] "^vi"[CGce] "^V7³"[A,Bdf] "^I"[EBg] | "^IV"[A,Eca]2 "^I"[EBg]2 | [EGBe] "^V"[B,Fdb] "^vi"[CEeg] "^IV"[A,Aec'] | "^I"[EGeb] "^ii"[Fca] "^V"[B,Fdb]2 | "^I"[EBg]4 | [EGeb] "^V¹"[DBfb] "^IV¹"[Ccea] "^I"[EBeg] | "^I¹"[G,Beg] "^V"[B,Bdf] "^vi"[CGce]2 | "^V"[B,Fdb]2 "^I"[E,EBg] "^I¹"[G,EBe] | "^V"[B,Fdb] "^ii"[F,Fca] "^vi"[CEcg] "^ii¹"[A,cf] | "^III"[G,=Bdg]4 |]
+"^I"[E,G,B,E]2 "^V"[B,,F,DB]2 | "^I"[E,B,G] "^vi"[C,G,CE] "^V7³"[A,,B,DF] "^I"[E,B,G] | "^IV"[A,,E,CA]2 "^I"[E,B,G]2 | [E,G,B,E] "^V"[B,,F,DB] "^vi"[C,E,EG] "^IV"[A,,A,Ec] | "^I"[E,G,EB] "^ii"[F,CA] "^V"[B,,F,DB]2 | "^I"[E,B,G]4 | [E,G,EB] "^V¹"[D,B,FB] "^IV¹"[C,CEA] "^I"[E,B,EG] | "^I¹"[G,,B,EG] "^V"[B,,B,DF] "^vi"[C,G,CE]2 | "^V"[B,,F,DB]2 "^I"[E,,E,B,G] "^I¹"[G,,E,B,E] | "^V"[B,,F,DB] "^ii"[F,,F,CA] "^vi"[C,E,CG] "^ii¹"[A,,CF] | "^III"[G,,=B,DG]4 |]

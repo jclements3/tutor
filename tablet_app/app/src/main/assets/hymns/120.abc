@@ -4,4 +4,4 @@ T:At The Lamb's High Feast
 M:4/4
 L:1/4
 K:C clef=C1
-"^I"[CEc] [CEc] [CGeg] "^I¹"[EGcc'] | "^vii°¹"[Ddfb]/ "^ii"[Ddfa]/4 [Ddfg]/4 [Ddfa]/ [Ddea]/ "^I"[Ceg] [CDeg]/ [CEeg]/ | "^IV²"[CFfa] [CFca] "^vi"[B,Aeb] "^IV²"[CFfa] | "^iii"[EGeg]/ [EGea]/ [EGeg]/ [EGef]/ "^I²"[G,Cce] [G,Dce]/ [G,Ece]/ | "^I"[CEce]/ [CEcd]/ "^I¹"[EGce]/ [EGcf]/ "^iii"[EGeg]/ "^iii¹"[Geg]/ "^I"[CEc] | "^I¹"[EGce]/ "^V²"[DGBd]/ "^I¹"[EGce]/ [EGc]/ "^V¹"[B,DGB]/ "^I"[CEGc]/ "^V²"[DGBd]/ "^IV"[FAcf]/ | "^I"[CGce] "^ii7³"[CFcd]/ "^ii"[DFAd]/ "^i"[CGc]2 |]
+"^I"[C,E,C] [C,E,C] [C,G,EG] "^I¹"[E,G,Cc] | "^vii°¹"[D,DFB]/ "^ii"[D,DFA]/4 [D,DFG]/4 [D,DFA]/ [D,DEA]/ "^I"[C,EG] [C,D,EG]/ [C,E,EG]/ | "^IV²"[C,F,FA] [C,F,CA] "^vi"[B,,A,EB] "^IV²"[C,F,FA] | "^iii"[E,G,EG]/ [E,G,EA]/ [E,G,EG]/ [E,G,EF]/ "^I²"[G,,C,CE] [G,,D,CE]/ [G,,E,CE]/ | "^I"[C,E,CE]/ [C,E,CD]/ "^I¹"[E,G,CE]/ [E,G,CF]/ "^iii"[E,G,EG]/ "^iii¹"[G,EG]/ "^I"[C,E,C] | "^I¹"[E,G,CE]/ "^V²"[D,G,B,D]/ "^I¹"[E,G,CE]/ [E,G,C]/ "^V¹"[B,,D,G,B,]/ "^I"[C,E,G,C]/ "^V²"[D,G,B,D]/ "^IV"[F,A,CF]/ | "^I"[C,G,CE] "^ii7³"[C,F,CD]/ "^ii"[D,F,A,D]/ "^i"[C,G,C]2 |]

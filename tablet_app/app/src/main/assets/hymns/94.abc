@@ -4,4 +4,4 @@ T:Holy Ghost, with Light Divine
 M:4/4
 L:1/4
 K:C clef=C1
-"^I"[CGce] "^IV¹"[A,Acf] "^I¹"[E,Gcg] "^IV"[F,Fca]/ "^IVmaj7"[F,Eca]/ | "^i"[G,Dcd] "^V"[G,GBd] "^I"[CGce]2 | "^V¹"[B,Gdg] "^V/V"[D^Fda] "^V"[Gdb] "^I¹"[EGcc'] | "^vi7¹"[CGea] "^II"[D^Fda]/ "^II7"[D^Fca]/ "^V"[G,GBg]2 | "^I"[CGce] "^IV¹"[A,Fcf] "^I²"[G,Ecg] "^IV"[F,Cca] | "^ii²"[A,Adf] "^VI"[A,A^ce]/ "^VI7"[A,G^ce]/ "^ii"[DFd]2 | "^V¹"[B,Gdg] "^V7¹"[B,Gdf]/ "^I"[CGce]/ "^V7"[G,FBd] "^vi"[A,Ec] | "^ii7¹"[F,Acd] "^V"[G,GBd]/ "^V7"[G,FBd]/ "^I"[CEc]2 |]
+"^I"[C,G,CE] "^IV¹"[A,,A,CF] "^I¹"[E,,G,CG] "^IV"[F,,F,CA]/ "^IVmaj7"[F,,E,CA]/ | "^i"[G,,D,CD] "^V"[G,,G,B,D] "^I"[C,G,CE]2 | "^V¹"[B,,G,DG] "^V/V"[D,^F,DA] "^V"[G,DB] "^I¹"[E,G,Cc] | "^vi7¹"[C,G,EA] "^II"[D,^F,DA]/ "^II7"[D,^F,CA]/ "^V"[G,,G,B,G]2 | "^I"[C,G,CE] "^IV¹"[A,,F,CF] "^I²"[G,,E,CG] "^IV"[F,,C,CA] | "^ii²"[A,,A,DF] "^VI"[A,,A,^CE]/ "^VI7"[A,,G,^CE]/ "^ii"[D,F,D]2 | "^V¹"[B,,G,DG] "^V7¹"[B,,G,DF]/ "^I"[C,G,CE]/ "^V7"[G,,F,B,D] "^vi"[A,,E,C] | "^ii7¹"[F,,A,CD] "^V"[G,,G,B,D]/ "^V7"[G,,F,B,D]/ "^I"[C,E,C]2 |]

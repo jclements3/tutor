@@ -4,4 +4,4 @@ T:We Know Thee Who Thou Art
 M:4/4
 L:1/4
 K:C clef=C1
-"^I"[Cceg] "^IV"[Fcfa] "^I¹"[Ecg] "^vii°¹"[DFfb] | "^I"[CGec'] "^V7¹"[B,Gdf]3 | "^I"[CGce] "^ii7¹"[FAcd] "^V"[FGBa] "^I¹"[Ecg] | "^IV"[FAca] "^V"[GBd]3 | "^I"[CGce] "^IVmaj7²"[CFAe] "^ii7³"[CFAd] "^I"[CEGc] | [CGec'] "^vii°¹"[DFdb]/ "^iii7"[EGdb]/ "^IV"[FAca]/ "^viiø7²"[FBda]/ "^I"[Cceg] | "^I¹"[EGc] "^ii7"[DFcf]/ [DFBf]/ "^I"[CGce] "^ii7¹"[F,Acd] | "^V"[G,GBd]/ "^V7"[G,FBd]/ "^I"[CEc]3 |]
+"^I"[C,CEG] "^IV"[F,CFA] "^I¹"[E,CG] "^vii°¹"[D,F,FB] | "^I"[C,G,Ec] "^V7¹"[B,,G,DF]3 | "^I"[C,G,CE] "^ii7¹"[F,A,CD] "^V"[F,G,B,A] "^I¹"[E,CG] | "^IV"[F,A,CA] "^V"[G,B,D]3 | "^I"[C,G,CE] "^IVmaj7²"[C,F,A,E] "^ii7³"[C,F,A,D] "^I"[C,E,G,C] | [C,G,Ec] "^vii°¹"[D,F,DB]/ "^iii7"[E,G,DB]/ "^IV"[F,A,CA]/ "^viiø7²"[F,B,DA]/ "^I"[C,CEG] | "^I¹"[E,G,C] "^ii7"[D,F,CF]/ [D,F,B,F]/ "^I"[C,G,CE] "^ii7¹"[F,,A,CD] | "^V"[G,,G,B,D]/ "^V7"[G,,F,B,D]/ "^I"[C,E,C]3 |]

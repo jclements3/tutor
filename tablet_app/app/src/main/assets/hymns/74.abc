@@ -4,4 +4,4 @@ T:Jesus, In Thy Dying Woes
 M:4/4
 L:1/4
 K:F clef=C1
-"^vi"[DAdf] [DAdf] "^ii"[G,Bdg] "^vi"[DAdf] | "^III7"[A,G_de]3/2 "^vi"[DFd]/ [DFd]2 | "^vi¹"[FAd] "^vi"[DAdf] "^III7³"[GA_de] "^vi¹"[FAd] | "^III7¹"[_DAeg] "^vi"[DAdf] "^III"[A,A_de]2 | "^iii"[Ace] [Acea] "^V¹"[EGcc'] "^I"[FAfa] | "^V"[CGec'] "^V7¹"[Ecgb] "^I"[Fcfa]2 | [FAca] "^III7²"[EG_da] "^vi"[DFda] [DAdf] | "^viiø7¹"[G,Bde] "^V/vi"[A,A_de] "^vi"[DFd]2 |]
+"^vi"[D,A,DF] [D,A,DF] "^ii"[G,,B,DG] "^vi"[D,A,DF] | "^III7"[A,,G,_DE]3/2 "^vi"[D,F,D]/ [D,F,D]2 | "^vi¹"[F,A,D] "^vi"[D,A,DF] "^III7³"[G,A,_DE] "^vi¹"[F,A,D] | "^III7¹"[_D,A,EG] "^vi"[D,A,DF] "^III"[A,,A,_DE]2 | "^iii"[A,CE] [A,CEA] "^V¹"[E,G,Cc] "^I"[F,A,FA] | "^V"[C,G,Ec] "^V7¹"[E,CGB] "^I"[F,CFA]2 | [F,A,CA] "^III7²"[E,G,_DA] "^vi"[D,F,DA] [D,A,DF] | "^viiø7¹"[G,,B,DE] "^V/vi"[A,,A,_DE] "^vi"[D,F,D]2 |]

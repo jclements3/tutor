@@ -4,4 +4,4 @@ T:The Star Proclaims the King is Here
 M:4/4
 L:1/4
 K:C clef=C1
-"^I"[CEGc]2 [CEcg] "^V¹"[B,Ddg] | "^I"[CGce] "^V"[G,GBd] "^I"[CEGe] "^♭v°¹"[A,CA^f] | "^V"[G,DBg]3/2 "^I"[CEcg]/ [CGce] "^V"[G,Bdg] | "^ii"[DAdf] "^V¹"[B,Gdg] "^I"[CGce] "^V"[G,GBd] | "^I"[CEc]3/2 [CEcg]/ "^IV"[F,Fca] "^IV¹"[A,Fca] | "^I"[CGce] "^V"[G,Bdg] "^ii"[DAdf] [D,Adf] | "^VI"[A,A^ce]3/2 "^vi"[A,Ecc']/ "^iii"[E,Geb] "^IV"[F,Fca] | "^I"[CEcg] "^vi"[A,Eca] "^ii"[DFAf]/ [DFAe]/ "^V"[G,GBd] | "^I"[CEc]4 |]
+"^I"[C,E,G,C]2 [C,E,CG] "^V¹"[B,,D,DG] | "^I"[C,G,CE] "^V"[G,,G,B,D] "^I"[C,E,G,E] "^♭v°¹"[A,,C,A,^F] | "^V"[G,,D,B,G]3/2 "^I"[C,E,CG]/ [C,G,CE] "^V"[G,,B,DG] | "^ii"[D,A,DF] "^V¹"[B,,G,DG] "^I"[C,G,CE] "^V"[G,,G,B,D] | "^I"[C,E,C]3/2 [C,E,CG]/ "^IV"[F,,F,CA] "^IV¹"[A,,F,CA] | "^I"[C,G,CE] "^V"[G,,B,DG] "^ii"[D,A,DF] [D,,A,DF] | "^VI"[A,,A,^CE]3/2 "^vi"[A,,E,Cc]/ "^iii"[E,,G,EB] "^IV"[F,,F,CA] | "^I"[C,E,CG] "^vi"[A,,E,CA] "^ii"[D,F,A,F]/ [D,F,A,E]/ "^V"[G,,G,B,D] | "^I"[C,E,C]4 |]

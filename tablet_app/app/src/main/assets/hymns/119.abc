@@ -4,4 +4,4 @@ T:While O'er Our Guilty Land, O Lord
 M:4/4
 L:1/4
 K:Eb clef=C1
-"^I"[EBeg]2 [EBeg] [EBeg] | "^IV²"[Ecea]2 "^I"[EBeg] [EGeb] | "^V¹"[DBfb]2 "^♯iii°"[B,Bda]2 | "^I"[EBeg]4 | "^V7"[B,Fda]2 "^V7¹"[DBfa] "^V7"[B,Fda] | "^I"[EBg]3 [EBg] | "^♭v°¹"[CEc=a]2 "^ii7²"[CFea]2 | "^V"[B,Fdb]4 | "^I"[EGeb]2 "^V¹"[DBfb] "^♯iii°"[B,Bda] | "^I"[EBeg]2 [E,GBe]2 | "^V"[B,FBd] "^I²"[B,GBe] "^V7"[B,Adf] "^I²"[B,Geg] | "^V7"[B,Fda]4 | "^I"[EBg]2 "^IV"[A,Aec'] "^IV¹"[CAec'] | "^I"[EGeb]2 [E,Beg]2 | "^I²"[B,Ge]2 "^V7"[B,Adf]2 | "^I"[E,Ge]4 |]
+"^I"[E,B,EG]2 [E,B,EG] [E,B,EG] | "^IV²"[E,CEA]2 "^I"[E,B,EG] [E,G,EB] | "^V¹"[D,B,FB]2 "^♯iii°"[B,,B,DA]2 | "^I"[E,B,EG]4 | "^V7"[B,,F,DA]2 "^V7¹"[D,B,FA] "^V7"[B,,F,DA] | "^I"[E,B,G]3 [E,B,G] | "^♭v°¹"[C,E,C=A]2 "^ii7²"[C,F,EA]2 | "^V"[B,,F,DB]4 | "^I"[E,G,EB]2 "^V¹"[D,B,FB] "^♯iii°"[B,,B,DA] | "^I"[E,B,EG]2 [E,,G,B,E]2 | "^V"[B,,F,B,D] "^I²"[B,,G,B,E] "^V7"[B,,A,DF] "^I²"[B,,G,EG] | "^V7"[B,,F,DA]4 | "^I"[E,B,G]2 "^IV"[A,,A,Ec] "^IV¹"[C,A,Ec] | "^I"[E,G,EB]2 [E,,B,EG]2 | "^I²"[B,,G,E]2 "^V7"[B,,A,DF]2 | "^I"[E,,G,E]4 |]

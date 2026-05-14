@@ -4,4 +4,4 @@ T:Away In A Manger
 M:3/4
 L:1/4
 K:F clef=C1
-"^i"[Fc'] [Fc']3/2 "^iv"[Fb]/ | "^I"[Fa] [Fa]3/2 "^ii"[Fg]/ | "^i"[Ff] "^iv"[B,f] "^vii°"[B,e] | "^IV"[B,d] "^i"[Fc]2 | [Fc] "^V¹"[Ec]3/2 "^vii7"[Ed]/ | "^V¹"[Ec] [Ec] "^vii"[Eg] | "^V"[Ce] "^vi¹"[Fd] "^i"[Fc] | [Ff] "^I"[Fa]2 | "^i"[Fc'] [Fc']3/2 "^iv"[Fb]/ | "^I"[Fa] [Fa]3/2 "^ii"[Fg]/ | "^i"[Ff] "^iv"[B,f] "^vii°"[B,e] | "^IV"[B,d] "^i"[Fc]2 | [Fc] "^v7"[Cb]3/2 "^iii¹"[Ca]/ | "^v"[Cg] "^I"[Fa] "^ii"[Fg] | "^i"[Ff] "^ii¹"[B,g] "^IV"[B,d] | "^V"[Ce] "^i"[Ff]2 |]
+"^i"[F,c] [F,c]3/2 "^iv"[F,B]/ | "^I"[F,A] [F,A]3/2 "^ii"[F,G]/ | "^i"[F,F] "^iv"[B,,F] "^vii°"[B,,E] | "^IV"[B,,D] "^i"[F,C]2 | [F,C] "^V¹"[E,C]3/2 "^vii7"[E,D]/ | "^V¹"[E,C] [E,C] "^vii"[E,G] | "^V"[C,E] "^vi¹"[F,D] "^i"[F,C] | [F,F] "^I"[F,A]2 | "^i"[F,c] [F,c]3/2 "^iv"[F,B]/ | "^I"[F,A] [F,A]3/2 "^ii"[F,G]/ | "^i"[F,F] "^iv"[B,,F] "^vii°"[B,,E] | "^IV"[B,,D] "^i"[F,C]2 | [F,C] "^v7"[C,B]3/2 "^iii¹"[C,A]/ | "^v"[C,G] "^I"[F,A] "^ii"[F,G] | "^i"[F,F] "^ii¹"[B,,G] "^IV"[B,,D] | "^V"[C,E] "^i"[F,F]2 |]

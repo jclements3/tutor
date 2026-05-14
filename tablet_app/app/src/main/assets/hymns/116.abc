@@ -4,4 +4,4 @@ T:O Lord My Soul Convicted
 M:4/4
 L:1/4
 K:G clef=C1
-"^I"[G,GBd] "^I¹"[B,Gdg] "^I"[G,GBd] "^IV"[CGce] | "^IV¹"[E,Gce]/ "^vi"[E,GBe]/ "^V¹"[F,DAd] "^V7"[D,DFc] "^I"[G,DGB] | [G,DGB] "^IV¹"[E,CGc] "^I"[G,DGB] "^V"[D,DFA] | "^iii"[B,Fd] "^vi7¹"[G,EBd] "^II"[A,EA^c]/ "^II7"[A,EG^c]/ "^V"[D,DFd] | [DFAd]/ "^V7³"[CFAd]/ "^I¹"[B,Gdg] "^vii°¹"[A,Fca] "^I"[G,GBb] | "^I¹"[B,Ddg] "^ii"[A,Ecc']/ [A,Fcc']/ "^I"[G,Gdb] "^V"[DFda] | "^I"[G,Gdb] "^I¹"[B,Gdg] "^IV"[CGce]/ "^IVmaj7"[CGBe]/ "^V"[DFAd] | "^vi"[EGg] "^ii7¹"[CEAg] "^V7"[Dcf] "^I"[G,DBg] |]
+"^I"[G,,G,B,D] "^I¹"[B,,G,DG] "^I"[G,,G,B,D] "^IV"[C,G,CE] | "^IV¹"[E,,G,CE]/ "^vi"[E,,G,B,E]/ "^V¹"[F,,D,A,D] "^V7"[D,,D,F,C] "^I"[G,,D,G,B,] | [G,,D,G,B,] "^IV¹"[E,,C,G,C] "^I"[G,,D,G,B,] "^V"[D,,D,F,A,] | "^iii"[B,,F,D] "^vi7¹"[G,,E,B,D] "^II"[A,,E,A,^C]/ "^II7"[A,,E,G,^C]/ "^V"[D,,D,F,D] | [D,F,A,D]/ "^V7³"[C,F,A,D]/ "^I¹"[B,,G,DG] "^vii°¹"[A,,F,CA] "^I"[G,,G,B,B] | "^I¹"[B,,D,DG] "^ii"[A,,E,Cc]/ [A,,F,Cc]/ "^I"[G,,G,DB] "^V"[D,F,DA] | "^I"[G,,G,DB] "^I¹"[B,,G,DG] "^IV"[C,G,CE]/ "^IVmaj7"[C,G,B,E]/ "^V"[D,F,A,D] | "^vi"[E,G,G] "^ii7¹"[C,E,A,G] "^V7"[D,CF] "^I"[G,,D,B,G] |]

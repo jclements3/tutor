@@ -4,4 +4,4 @@ T:Come, God Creator, Holy Ghost
 M:4/4
 L:1/4
 K:Ab clef=C1
-"^I"[A,Ace]2 "^IV"[DAdf] "^I"[A,Ace] | "^ii"[B,FBd] "^I"[A,Ace] "^vi"[F,Aca] "^V"[E,Geb] | "^I"[A,cea]2 "^v¹"[A,e] "^I¹"[Ccea] | "^♯iii"[DAde] "^vi7²"[CAef] [B,Aea] [A,Geb] | "^I"[A,Aec'] "^I²"[EAec'] "^V"[EGeb] [EGeb] | "^v¹"[A,e] "^iii7"[CGeb] "^♯iii"[DAdc'] "^I¹"[CAea] | "^ii7"[B,Adf] "^v¹"[A,Ae] "^V"[EBeg] "^I²"[Ecea] | "^V"[EGBb] "^iii"[CGAb] "^♯iii"[DA] "^V"[FGAe] | "^♯iii"[DAda] "^IV"[DAdf] [A,Acd] "^vii"[G,ABf] | "^vi¹"[A,Acf] "^v"[E,ABe] [E,Be] "^I"[A,Ace] | [A,Ace] "^V¹"[Ge] "^v¹"[Ae]2 |]
+"^I"[A,,A,CE]2 "^IV"[D,A,DF] "^I"[A,,A,CE] | "^ii"[B,,F,B,D] "^I"[A,,A,CE] "^vi"[F,,A,CA] "^V"[E,,G,EB] | "^I"[A,,CEA]2 "^v¹"[A,,E] "^I¹"[C,CEA] | "^♯iii"[D,A,DE] "^vi7²"[C,A,EF] [B,,A,EA] [A,,G,EB] | "^I"[A,,A,Ec] "^I²"[E,A,Ec] "^V"[E,G,EB] [E,G,EB] | "^v¹"[A,,E] "^iii7"[C,G,EB] "^♯iii"[D,A,Dc] "^I¹"[C,A,EA] | "^ii7"[B,,A,DF] "^v¹"[A,,A,E] "^V"[E,B,EG] "^I²"[E,CEA] | "^V"[E,G,B,B] "^iii"[C,G,A,B] "^♯iii"[D,A,] "^V"[F,G,A,E] | "^♯iii"[D,A,DA] "^IV"[D,A,DF] [A,,A,CD] "^vii"[G,,A,B,F] | "^vi¹"[A,,A,CF] "^v"[E,,A,B,E] [E,,B,E] "^I"[A,,A,CE] | [A,,A,CE] "^V¹"[G,E] "^v¹"[A,E]2 |]

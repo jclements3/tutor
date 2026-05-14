@@ -4,4 +4,4 @@ T:'Tis Midnight and On Olive's Brow
 M:4/4
 L:1/4
 K:Eb clef=C1
-"^vi"[CGce]2 [CGce] "^V"[B,Bdf] | "^I"[EBeg]3 "^IV"[A,Aec'] | "^I²"[B,Geb] "^iii¹"[B,GBb] "^vi"[B,Gca] "^V7"[B,Fda] | "^I"[EGeg]4 | "^vi"[CEeg]2 "^Imaj7²"[B,Edg] "^IV"[A,Eca] | "^I¹"[G,EBb] [G,FBb] "^vi"[CGe] "^IV¹"[CAe] | "^I²"[B,Beg]2 "^V"[B,Bdf] "^V7"[B,Adf] | "^I"[EGe]3 [EGBg] | [EGBe]3 "^vi¹"[EGcg] | "^viiø7"[DAcf]2 "^V/vi"[G,G=Bg]2 | "^vi"[CGce]2 "^vii°¹"[F,Adf] "^ii"[F,Acf] | "^V/vi"[G,G=Bd]4 | "^vi"[Cc]2 [Cc] [Cc] | "^iii"[Gg]3 "^ii"[F,Acf] | "^vi²"[G,Gce]2 "^I¹"[G,FBe]2 | "^vi"[CEc]4 |]
+"^vi"[C,G,CE]2 [C,G,CE] "^V"[B,,B,DF] | "^I"[E,B,EG]3 "^IV"[A,,A,Ec] | "^I²"[B,,G,EB] "^iii¹"[B,,G,B,B] "^vi"[B,,G,CA] "^V7"[B,,F,DA] | "^I"[E,G,EG]4 | "^vi"[C,E,EG]2 "^Imaj7²"[B,,E,DG] "^IV"[A,,E,CA] | "^I¹"[G,,E,B,B] [G,,F,B,B] "^vi"[C,G,E] "^IV¹"[C,A,E] | "^I²"[B,,B,EG]2 "^V"[B,,B,DF] "^V7"[B,,A,DF] | "^I"[E,G,E]3 [E,G,B,G] | [E,G,B,E]3 "^vi¹"[E,G,CG] | "^viiø7"[D,A,CF]2 "^V/vi"[G,,G,=B,G]2 | "^vi"[C,G,CE]2 "^vii°¹"[F,,A,DF] "^ii"[F,,A,CF] | "^V/vi"[G,,G,=B,D]4 | "^vi"[C,C]2 [C,C] [C,C] | "^iii"[G,G]3 "^ii"[F,,A,CF] | "^vi²"[G,,G,CE]2 "^I¹"[G,,F,B,E]2 | "^vi"[C,E,C]4 |]

@@ -4,4 +4,4 @@ T:Lord Jesus Think On Me
 M:4/4
 L:1/4
 K:F clef=C1
-"^vi"[DFAd] [DFAf] "^IV"[B,Fdf] "^viiø7¹"[G,Bde] | "^V/vi"[A,A_de] "^vi"[DFd]3 | [DFAf] [DFAf] "^I²"[CFAf] "^ii7¹"[B,Fdg] | "^V"[CEcg] "^I"[F,Fca]3 | [Fca] [FAfc'] "^V"[CGec'] "^IV¹"[DFdb] | "^V7¹"[EGcb] "^I"[Fca] "^I¹"[A,Fca] "^V"[CEcg] | "^III"[A,E_da] "^ii¹"[B,Gdg] "^vi²"[A,Adf] "^viiø7¹"[G,Bde] | "^III"[A,A_de]/ "^III7"[A,G_de]/ "^vi"[D,Fd]3 |]
+"^vi"[D,F,A,D] [D,F,A,F] "^IV"[B,,F,DF] "^viiø7¹"[G,,B,DE] | "^V/vi"[A,,A,_DE] "^vi"[D,F,D]3 | [D,F,A,F] [D,F,A,F] "^I²"[C,F,A,F] "^ii7¹"[B,,F,DG] | "^V"[C,E,CG] "^I"[F,,F,CA]3 | [F,CA] [F,A,Fc] "^V"[C,G,Ec] "^IV¹"[D,F,DB] | "^V7¹"[E,G,CB] "^I"[F,CA] "^I¹"[A,,F,CA] "^V"[C,E,CG] | "^III"[A,,E,_DA] "^ii¹"[B,,G,DG] "^vi²"[A,,A,DF] "^viiø7¹"[G,,B,DE] | "^III"[A,,A,_DE]/ "^III7"[A,,G,_DE]/ "^vi"[D,,F,D]3 |]

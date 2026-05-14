@@ -4,4 +4,4 @@ T:Abide, O Dearest Jesus
 M:4/4
 L:1/4
 K:C clef=C1
-"^I"[CEGc] [CGce] "^V"[G,GBd] "^I"[CGce] | "^IV¹"[A,Ccf] "^V"[G,DBg] [G,GBg] "^I"[CGce] | "^IV"[F,Fca] "^I"[CEcg]3/2 "^ii"[DFAf]/ "^I"[CGce] | "^V"[G,GBd] "^I"[CGce]2 "^i"[Cc] | "^I"[F,Ecg] "^IV¹"[A,Fca] "^iii"[G,Eda] "^Imaj7¹"[E,Gcb] | [F,Gcc'] "^IV"[F,Fca] "^IV²"[CFca] "^I"[C,Ecg] | "^iii"[D,GAe] [E,FGd] "^IVmaj7"[F,EAc] "^i"[G,DGc] | "^V"[C,DGB] "^I"[C,EGc]3 |]
+"^I"[C,E,G,C] [C,G,CE] "^V"[G,,G,B,D] "^I"[C,G,CE] | "^IV¹"[A,,C,CF] "^V"[G,,D,B,G] [G,,G,B,G] "^I"[C,G,CE] | "^IV"[F,,F,CA] "^I"[C,E,CG]3/2 "^ii"[D,F,A,F]/ "^I"[C,G,CE] | "^V"[G,,G,B,D] "^I"[C,G,CE]2 "^i"[C,C] | "^I"[F,,E,CG] "^IV¹"[A,,F,CA] "^iii"[G,,E,DA] "^Imaj7¹"[E,,G,CB] | [F,,G,Cc] "^IV"[F,,F,CA] "^IV²"[C,F,CA] "^I"[C,,E,CG] | "^iii"[D,,G,A,E] [E,,F,G,D] "^IVmaj7"[F,,E,A,C] "^i"[G,,D,G,C] | "^V"[C,,D,G,B,] "^I"[C,,E,G,C]3 |]

@@ -4,4 +4,4 @@ T:Savior Of The Nations Come
 M:4/4
 L:1/4
 K:Ab clef=C1
-"^vi"[F,Acf] "^ii"[B,Bdf] "^iii"[CGce] "^I"[A,cea] | "^vii°¹"[B,Bdg]/ "^♯vii"[F,Af]/ "^III"[CG=eg] "^♯vii"[F,Af]2 | "^vi"[FAcf] [FAca] "^ii"[B,Fdb]3/2 "^vi"[FAca]/ | "^V"[EGeb] "^I"[A,Aec'] [A,cea]2 | [A,Eca] "^V"[E,Geb] "^I"[A,Aec'] "^IV"[DAfa] | "^ii"[B,dfb]/ [B,dgb]/ "^vi²"[Ccfa]/ "^III"[Cc=eg]/ "^♯vii"[F,Af]2 | "^IV"[DAdf] "^ii"[B,Bdf] "^iii"[CGce] "^vi"[F,Aca] | "^V/vi"[Cc=eg]/ "^vi²"[CAf]/ "^iii"[CGeg] "^♯vii"[F,Af]2 |]
+"^vi"[F,,A,CF] "^ii"[B,,B,DF] "^iii"[C,G,CE] "^I"[A,,CEA] | "^vii°¹"[B,,B,DG]/ "^♯vii"[F,,A,F]/ "^III"[C,G,=EG] "^♯vii"[F,,A,F]2 | "^vi"[F,A,CF] [F,A,CA] "^ii"[B,,F,DB]3/2 "^vi"[F,A,CA]/ | "^V"[E,G,EB] "^I"[A,,A,Ec] [A,,CEA]2 | [A,,E,CA] "^V"[E,,G,EB] "^I"[A,,A,Ec] "^IV"[D,A,FA] | "^ii"[B,,DFB]/ [B,,DGB]/ "^vi²"[C,CFA]/ "^III"[C,C=EG]/ "^♯vii"[F,,A,F]2 | "^IV"[D,A,DF] "^ii"[B,,B,DF] "^iii"[C,G,CE] "^vi"[F,,A,CA] | "^V/vi"[C,C=EG]/ "^vi²"[C,A,F]/ "^iii"[C,G,EG] "^♯vii"[F,,A,F]2 |]

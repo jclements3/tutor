@@ -4,4 +4,4 @@ T:O That The Lord Would Guide My Ways
 M:3/2
 L:1/4
 K:G clef=C1
-"^I"[G,GBd]2 [G,GBd] [G,GBg] [G,Gdb]2 | "^V7"[DFca]2 "^vi"[EGBg] "^IV"[CGce] "^I"[G,GBd]2 | [G,GBd]2 [G,GBd] [GBg] "^vi"[EGBb]2 | [EGBg]2 "^V"[DFda]4 | [DAdc']2 "^I"[Gdb] "^V"[DFda] "^vi"[EGBg]2 | "^V"[DFda]2 "^I"[Gdb] "^I¹"[B,Gdg] "^IV"[CGce]2 | "^V"[DFAd]2 "^I"[G,GBd] "^vi"[EGBg] "^I²"[DGdb]2 | "^V7"[DFca]2 "^I"[G,GBg]4 |]
+"^I"[G,,G,B,D]2 [G,,G,B,D] [G,,G,B,G] [G,,G,DB]2 | "^V7"[D,F,CA]2 "^vi"[E,G,B,G] "^IV"[C,G,CE] "^I"[G,,G,B,D]2 | [G,,G,B,D]2 [G,,G,B,D] [G,B,G] "^vi"[E,G,B,B]2 | [E,G,B,G]2 "^V"[D,F,DA]4 | [D,A,Dc]2 "^I"[G,DB] "^V"[D,F,DA] "^vi"[E,G,B,G]2 | "^V"[D,F,DA]2 "^I"[G,DB] "^I¹"[B,,G,DG] "^IV"[C,G,CE]2 | "^V"[D,F,A,D]2 "^I"[G,,G,B,D] "^vi"[E,G,B,G] "^I²"[D,G,DB]2 | "^V7"[D,F,CA]2 "^I"[G,,G,B,G]4 |]

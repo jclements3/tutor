@@ -4,4 +4,4 @@ T:Praise God From Whom All Blessings Flow
 M:none
 L:1/4
 K:F clef=C1
-"^I"[FAcf]2 [FAcf] "^V"[CGce] | "^vi"[DFAd] "^iii"[A,EAc] "^vi"[DFAf]2 | "^V"[CEcg]2 "^I"[F,Fca]3 | [Fca]2 [FAca] | [Fcfa] "^V7"[CBeg] "^vi"[DAf] "^IV"[B,dfb]2 | "^I"[F,cfa]2 "^V"[Cceg]3 | "^vi"[DAf]2 | "^V"[Cceg] "^I"[Fcfa] "^V"[Cceg] "^I¹"[A,cf] | "^IV"[B,Bd] "^IV7"[B,Ad] "^V"[CGce]2 | "^I"[F,Acf]3 [FAcc']2 | [Fca] "^vi"[DAf] "^V"[Cceg] | "^ii"[G,db]/ "^viiø7¹"[G,deb]/ "^I¹"[A,cfa] "^I"[B,cfa] "^V"[Cceg] | "^V7"[CBeg] "^I"[F,Acf]3 |]
+"^I"[F,A,CF]2 [F,A,CF] "^V"[C,G,CE] | "^vi"[D,F,A,D] "^iii"[A,,E,A,C] "^vi"[D,F,A,F]2 | "^V"[C,E,CG]2 "^I"[F,,F,CA]3 | [F,CA]2 [F,A,CA] | [F,CFA] "^V7"[C,B,EG] "^vi"[D,A,F] "^IV"[B,,DFB]2 | "^I"[F,,CFA]2 "^V"[C,CEG]3 | "^vi"[D,A,F]2 | "^V"[C,CEG] "^I"[F,CFA] "^V"[C,CEG] "^I¹"[A,,CF] | "^IV"[B,,B,D] "^IV7"[B,,A,D] "^V"[C,G,CE]2 | "^I"[F,,A,CF]3 [F,A,Cc]2 | [F,CA] "^vi"[D,A,F] "^V"[C,CEG] | "^ii"[G,,DB]/ "^viiø7¹"[G,,DEB]/ "^I¹"[A,,CFA] "^I"[B,,CFA] "^V"[C,CEG] | "^V7"[C,B,EG] "^I"[F,,A,CF]3 |]

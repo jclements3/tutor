@@ -4,4 +4,4 @@ T:Within the Father's House
 M:4/4
 L:1/4
 K:C clef=C1
-"^I"[CEGc] "^V"[G,GBd] "^I"[CGce] "^IV¹"[A,Fcf] | "^V"[G,DBg] "^I"[CEce]3 | [CEcg] "^IV"[Fca] "^I¹"[EGcc'] "^vii°¹"[DFBf] | "^I"[CGce] "^V"[G,GBd]3 | [GBdg] "^I¹"[EGcc'] "^V"[Gdb] "^vi¹"[Ccea] | "^iii"[EGBg] "^v"[DGda] "^V/V"[D,^Fda] "^V"[G,GBg] | [G,GBg] "^vi"[A,Ec] "^I¹"[E,Gce] "^ii7¹"[F,Acd] | "^V"[G,GBd] "^I"[CEc]3 |]
+"^I"[C,E,G,C] "^V"[G,,G,B,D] "^I"[C,G,CE] "^IV¹"[A,,F,CF] | "^V"[G,,D,B,G] "^I"[C,E,CE]3 | [C,E,CG] "^IV"[F,CA] "^I¹"[E,G,Cc] "^vii°¹"[D,F,B,F] | "^I"[C,G,CE] "^V"[G,,G,B,D]3 | [G,B,DG] "^I¹"[E,G,Cc] "^V"[G,DB] "^vi¹"[C,CEA] | "^iii"[E,G,B,G] "^v"[D,G,DA] "^V/V"[D,,^F,DA] "^V"[G,,G,B,G] | [G,,G,B,G] "^vi"[A,,E,C] "^I¹"[E,,G,CE] "^ii7¹"[F,,A,CD] | "^V"[G,,G,B,D] "^I"[C,E,C]3 |]

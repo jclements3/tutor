@@ -4,4 +4,4 @@ T:Christ My King On High
 M:4/4
 L:1/4
 K:C clef=C1
-"^I"[Ceg]3 "^iii"[Eg] | "^I¹"[E,Egc']2 [E,Fgc'] "^vii°"[Fb] | "^V7³"[F,Fgb] [F,Fgb]2 "^iv"[Fc'] | "^IV"[F,Ffa] [F,Cfa]3 | "^vi7"[A,Ceg]3 "^vi"[A,e] | "^vi7³"[G,A,ce]2 "^v"[G,A,d] "^vi7³"[G,A,c] | "^I²"[G,ce]3 "^iv"[Cf] | "^V"[G,CBd]2 "^iii7¹"[G,EBd]2 | "^I"[CEeg] [CFeg]2 "^v"[Fg] | "^I¹"[E,Fgc']3 "^vii°"[Fb] | "^V"[F,Cgb]3 "^vi"[A,c'] | "^IV"[F,A,fa]3 [F,G,fa] | "^I²"[G,Ceg]2 "^I"[Ceg] [Ce] | "^vi"[A,Cce]2 "^ii"[A,d] "^vi"[A,c] | "^I²"[G,ce]3 d | "^i"[CGc]4 |]
+"^I"[C,EG]3 "^iii"[E,G] | "^I¹"[E,,E,Gc]2 [E,,F,Gc] "^vii°"[F,B] | "^V7³"[F,,F,GB] [F,,F,GB]2 "^iv"[F,c] | "^IV"[F,,F,FA] [F,,C,FA]3 | "^vi7"[A,,C,EG]3 "^vi"[A,,E] | "^vi7³"[G,,A,,CE]2 "^v"[G,,A,,D] "^vi7³"[G,,A,,C] | "^I²"[G,,CE]3 "^iv"[C,F] | "^V"[G,,C,B,D]2 "^iii7¹"[G,,E,B,D]2 | "^I"[C,E,EG] [C,F,EG]2 "^v"[F,G] | "^I¹"[E,,F,Gc]3 "^vii°"[F,B] | "^V"[F,,C,GB]3 "^vi"[A,,c] | "^IV"[F,,A,,FA]3 [F,,G,,FA] | "^I²"[G,,C,EG]2 "^I"[C,EG] [C,E] | "^vi"[A,,C,CE]2 "^ii"[A,,D] "^vi"[A,,C] | "^I²"[G,,CE]3 D | "^i"[C,G,C]4 |]

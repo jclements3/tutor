@@ -4,4 +4,4 @@ T:Now the Light Has Gone Away
 M:4/4
 L:1/4
 K:Eb clef=C1
-"^I"[EGBe]3/2 [EGBe]/ [EGBe] "^I¹"[GBe] | "^V7²"[FABd] "^I"[EGBe] "^V"[B,Bdf]2 | [B,Bdf] [B,Bdf] [B,Bdf] "^V7³"[ABdf] | "^I¹"[GBe] "^V²"[FBdf] "^I"[EBeg]2 | [EBeg] [EBeg]/ [EBeg]/ [EBeg] [EBeg] | "^i"[EAdf] "^♯vi°"[EG_de] "^vi+"[A,Acc']2 | "^I²"[B,Geb] [B,Beg] [B,Geb] "^vi+"[B,cea] | [B,Ac] "^♯iii°"[B,ABd] "^I"[E,GBe]2 |]
+"^I"[E,G,B,E]3/2 [E,G,B,E]/ [E,G,B,E] "^I¹"[G,B,E] | "^V7²"[F,A,B,D] "^I"[E,G,B,E] "^V"[B,,B,DF]2 | [B,,B,DF] [B,,B,DF] [B,,B,DF] "^V7³"[A,B,DF] | "^I¹"[G,B,E] "^V²"[F,B,DF] "^I"[E,B,EG]2 | [E,B,EG] [E,B,EG]/ [E,B,EG]/ [E,B,EG] [E,B,EG] | "^i"[E,A,DF] "^♯vi°"[E,G,_DE] "^vi+"[A,,A,Cc]2 | "^I²"[B,,G,EB] [B,,B,EG] [B,,G,EB] "^vi+"[B,,CEA] | [B,,A,C] "^♯iii°"[B,,A,B,D] "^I"[E,,G,B,E]2 |]

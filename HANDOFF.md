@@ -7,44 +7,59 @@ project, what it does, how it's built, and what's open.
 
 An Android tablet WebView app that turns a USB-MIDI keyboard into a
 sight-reading and chord drill machine for a 33-string lever harp
-student. All notation renders on a **single soprano-clef staff** (C
-clef on the bottom line, so middle C = bottom line) — matches the
-harp's "everything on one staff" sight-reading idiom rather than a
-piano grand staff. Four drill modes accessible from the home screen:
+student. All notation renders on a **single baritone C-clef staff**
+(C clef on line 5, so middle C = top line, F3 = middle line, B2 =
+bottom line). This puts the SMK-37 PRO keyboard range C2..C5 (MIDI
+36..72) symmetrically around the staff — C2 is at 3 ledger lines
+below, C5 is at 3 ledger lines above, with the middle of the range
+landing on the middle line. No more "million ledger lines below" that
+soprano clef produced for the keyboard's bass register.
 
-1. **Note Reading** — random natural note (MIDI 36-72, C2-C5) on a
-   soprano-clef staff; play the exact note to advance. Tracks correct /
-   attempts / median ms-to-correct / current streak.
-2. **Chord Recognition** — random chord shown as one stacked chord on a
-   soprano-clef staff. Filter chips above the staff toggle which chord
-   families appear (Triads, 7ths, 9ths, 13ths), which inversions
+The home page is split into two columns: vertical drill-mode buttons
+on the left, and a permanent reference staff on the right showing the
+22 naturals C2..C5 with each labeled. Four drill modes:
+
+1. **Note Reading** — random natural note (MIDI 55-72) on the
+   baritone-C staff; play the exact note to advance. Tracks correct /
+   attempts / median ms-to-correct / current streak (when scoring is
+   on; see the stats toggle).
+2. **Chord Recognition** — random chord shown as one stacked chord on
+   the baritone-C staff. Filter chips above the staff toggle which
+   chord families appear (Triads, 7ths, 9ths, 13ths), which inversions
    (Root, 1st, 2nd, 3rd), and whether polychords are included. LH and
    RH are always on opposite sides of middle C; LH biased low and RH
    biased high so polychords have a wide gap and don't sound muddy.
    9ths and 13ths use a spread voicing (root + 5th in LH, upper
-   structure in RH). Both voices stack into a single chord token —
-   the soprano clef carries them all on one staff.
+   structure in RH). Both voices stack into a single chord token.
 3. **Hymn Practice** — pick any of 287 OpenHymnal hymns, pre-converted
-   to single-staff soprano-clef chord notation with Roman numeral
-   analysis above each chord change. Renders one "system" at a time as
-   a flashcard. Tap left to go back, right to advance. Also
-   auto-advances 1.5 s after the last MIDI note-on. The 27 hymns that
-   `convert.py` failed on are simply omitted from the manifest.
-4. **Drill Book** — pick any of 65 drills from the harp-drill-book
-   curriculum (`harp-drill-book-handoff.tar.gz`); same flashcard UI.
-   Tap-left/right navigates between *drills* (not pages within a
-   drill), since most drills are a single system. (Drill Book content
-   renders as authored — these are NOT soprano-clef converted.)
+   to single-staff chord notation with Roman numeral analysis above
+   each chord change. Each hymn is transposed so its highest pitch
+   lands at C5 (MIDI 72), with low notes folded up an octave if they
+   drop below C2 — so every hymn fits the SMK-37 keybed exactly and
+   sits naturally on the baritone-C staff. The whole hymn renders on
+   one screen (all systems stacked + CSS-zoomed to fit). The bundled
+   ABCs include `clef=C1` but the WebView renderer rewrites that to
+   `clef=C5` at render time.
+4. **Drill Book** — 65 drills organized into 10 thematic groups (Bass
+   patterns, Alberti variants, Arpeggios, etc.). Picking a group
+   renders ALL its drills as a labeled 3-column grid on one screen.
+   Tap-left/right cycles between groups. Multi-voice drills were
+   merged via music21 into single-voice patterns so they read as one
+   musical line on the baritone-C staff.
 
 ## Target hardware
 
 - **Tablet:** Lenovo P90 (serial `P90YPDU16Y251200164`), Android.
   Currently the cable goes USB-C to either the laptop (for
   `installDebug`) or the MIDI keyboard (for play) — not both.
-- **MIDI keyboard:** SMK-37 PRO, 37 keys (assumed C2..C5 = MIDI 36..72).
-  All randomly-generated drills (Note Reading, Chord Recognition) stay
-  within this range. Hymns and Drill Book content render as authored
-  (which may exceed the keyboard range; user octave-shifts as needed).
+- **MIDI keyboard:** SMK-37 PRO, 37 keys (C2..C5 = MIDI 36..72). Every
+  rendered note in every mode is constrained to this range — drills
+  pick from it directly, hymns are transposed at conversion time to
+  fit (top = C5, with sub-C2 octave-folded).
+- **Note-only mode:** the app is also useful with no MIDI device
+  connected (e.g., when practicing on harp or piano). All drill modes
+  work as pure music stands; scoring is disabled by the user with a
+  toggle (see Stats / scoring below).
 
 ## Architecture
 
@@ -66,7 +81,7 @@ tablet_app/                       Android Gradle project
 │       ├── abc2svg-1.js          ABC -> SVG engraving (309 KB, from HarpHymnal)
 │       ├── soundfont/gm.sf2      General MIDI SoundFont (5.9 MB)
 │       ├── hymns/0.abc .. 286.abc  one file per OpenHymnal tune
-│       │                            (soprano-clef converted, see below)
+│       │                            (transposed for SMK keybed; see below)
 │       └── drills/0.abc .. 64.abc   one file per drill-book exercise
 ```
 
@@ -86,7 +101,7 @@ The whole UI lives in `index.html`. The Android side just provides:
 ```
 [topbar: Back · (Recent ▾, practice only) | Prompt-or-Picker-header | MIDI status]
 [chord-filter chips, chord screen only — Triads · 7ths · 9ths · 13ths · Root · 1st · 2nd · 3rd · Polychord]
-[stage: abc2svg-rendered soprano-clef staff(s), fills most of the screen]
+[stage: abc2svg-rendered baritone-C-clef staff(s), fills most of the screen]
 [held-keys pill strip, hidden when nothing is pressed]
 [toolbar (drills only): inline stats (correct / attempts / median ms / streak) · Stats: on/off · Skip · Reset stats]
 ```
@@ -111,7 +126,7 @@ Sizing:
   hierarchical prefix (`1.x` bass patterns, `2.x` Alberti variants,
   `3.x` arpeggios, etc., titled in `DRILL_GROUP_TITLES`). Picking a
   group loads ALL drills in it onto one screen as a 3-column grid of
-  `.drill-block` cells (label + soprano-clef staff per cell). The stage
+  `.drill-block` cells (label + baritone-C staff per cell). The stage
   CSS overrides `align-items: stretch` and `overflow: auto` for
   drill-group mode so cells layout from the top and scroll if needed.
   Tap left/right cycles to prev/next group.
@@ -182,19 +197,34 @@ adb exec-out screencap -p > /tmp/shot.png
 
 ## Regenerating bundled data
 
-### Hymns (soprano-clef conversion)
+### Hymns (single-voice transposed conversion)
 
-The bundled hymns come from a separate **soprano-clef conversion
-pipeline** that takes OpenHymnal's four-voice SATB ABCs and collapses
-each event into one stacked chord on a single soprano-clef staff,
-transposed so the highest pitch lands on C6 (notes below C3 fold up
-an octave). The conversion source lives in the `files (4).zip` handoff
-bundle and unpacks to a `soprano_hymnal/` tree containing:
+The bundled hymns come from a music21-based conversion pipeline that
+takes OpenHymnal's four-voice SATB ABCs and:
 
-- `convert.py` — the conversion script; reads `OpenHymnal.abc`,
-  writes 287 numbered ABCs (some hymns fail to convert) into
-  `soprano_hymnal/abc/NNN.abc`, plus Roman-numeral analysis above
-  each chord change via `chord_id_v2.py`.
+1. Collapses every onset across the four voices into one stacked chord.
+2. Transposes the result so the **highest pitch lands on C5
+   (MIDI 72)** — the top of the SMK-37 keybed.
+3. **Folds any pitch below C2 (MIDI 36) up an octave** until it sits
+   on the keybed.
+4. Emits a single-voice ABC with `K:<key> clef=C1` and Roman-numeral
+   chord analysis (`"^V7"`, `"^I6"`, etc.) over each chord change.
+
+The `clef=C1` in the source is a leftover — the WebView renderer
+**rewrites it to `clef=C5` (baritone C) at render time** so the music
+sits balanced around the staff (C2..C5 → ±3 ledger lines, see
+"How the UI is structured" above).
+
+The conversion source lives in the `files (4).zip` handoff bundle and
+unpacks to a `soprano_hymnal/` tree:
+
+- `convert.py` — reads `OpenHymnal.abc`, writes 287 numbered ABCs
+  (some hymns fail to convert) into `soprano_hymnal/abc/NNN.abc`,
+  plus Roman-numeral analysis above each chord change via
+  `chord_id_v2.py`. Two constants control the transpose anchor and
+  fold floor: `C5_MIDI = 72` (target ceiling) and `C2_MIDI = 36`
+  (octave-fold floor). The folder name `soprano_hymnal/` is historic;
+  what's bundled today is constrained-to-keybed single-voice ABC.
 - `render.py` — runs `abcm2ps -g` on each ABC; not needed for the
   tablet build (the WebView renders with abc2svg directly).
 - `build_html.py` / `hymnal.html` — companion print-format hymnal,
@@ -212,8 +242,11 @@ index, not the hymn number.
 
 Drill book extraction lives in `harp-drill-book-handoff.tar.gz` — its
 own `build_book.py` is the source of truth for the 65 drill ABCs that
-get extracted into `assets/drills/0.abc..64.abc`. These are NOT
-soprano-clef converted — they render as authored.
+get extracted into `assets/drills/0.abc..64.abc`. 24 of those were
+originally multi-voice (RH/LH split); `merge_drills.py` (in /tmp during
+the soprano pivot) used music21 to merge them into single-voice ABC
+patterns. The render pipeline rewrites their `clef=` (whatever's set
+in the source) to `clef=C5` so they match the rest of the app.
 
 After regenerating either set, the inlined `window.HYMNS = [...]` /
 `window.DRILLS = [...]` blocks in `index.html` also need updating

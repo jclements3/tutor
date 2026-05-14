@@ -4,4 +4,4 @@ T:The Advent of Our God
 M:4/4
 L:1/4
 K:Eb clef=C1
-"^I"[E,EGB] "^I¹"[G,EBe] "^I"[E,GBe] [EBg] | "^V¹"[DFBf]/ "^II7²"[CF=Ae]/ "^V"[B,DBf]3 | "^I"[EBeg]/ "^V7²"[FBda]/ "^I¹"[GBeb] "^V7²"[FBda]/ "^I"[EBeg]/ "^ii"[FAca]/ [FAda]/ | "^I"[EBeg] "^V"[B,Bdf]3 | "^V¹"[DFBb] "^I"[EBg] "^I¹"[G,EBe] "^V"[B,DBf] | "^V¹"[DFB] "^I"[EGBe]/ [EGBf]/ "^vi"[CEeg]/ "^♭v°¹"[CEe=a]/ "^V"[B,Fdb]3/2 | "^I"[EGeb]/ "^IV"[A,Aec'] "^I¹"[G,Beb]/ "^IV"[A,cea]/ "^I²"[B,Beg] | "^V7"[B,Adf] "^I"[E,GBe]3 |]
+"^I"[E,,E,G,B,] "^I¹"[G,,E,B,E] "^I"[E,,G,B,E] [E,B,G] | "^V¹"[D,F,B,F]/ "^II7²"[C,F,=A,E]/ "^V"[B,,D,B,F]3 | "^I"[E,B,EG]/ "^V7²"[F,B,DA]/ "^I¹"[G,B,EB] "^V7²"[F,B,DA]/ "^I"[E,B,EG]/ "^ii"[F,A,CA]/ [F,A,DA]/ | "^I"[E,B,EG] "^V"[B,,B,DF]3 | "^V¹"[D,F,B,B] "^I"[E,B,G] "^I¹"[G,,E,B,E] "^V"[B,,D,B,F] | "^V¹"[D,F,B,] "^I"[E,G,B,E]/ [E,G,B,F]/ "^vi"[C,E,EG]/ "^♭v°¹"[C,E,E=A]/ "^V"[B,,F,DB]3/2 | "^I"[E,G,EB]/ "^IV"[A,,A,Ec] "^I¹"[G,,B,EB]/ "^IV"[A,,CEA]/ "^I²"[B,,B,EG] | "^V7"[B,,A,DF] "^I"[E,,G,B,E]3 |]

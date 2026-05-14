@@ -4,4 +4,4 @@ T:All Depends On Our Possessing
 M:4/4
 L:1/4
 K:F clef=C1
-"^I"[FAcf] [FAcf] "^V¹"[EGcc'] "^I"[FAcc'] | "^IV¹"[DFfb] "^V¹"[EGcc'] "^I"[FAca] [FAcf] | [Fcfa] [Fcfa] "^V"[Cceg] "^iii7"[A,ceg] | "^vi"[DAdf] "^ii¹"[B,Gdg] "^V"[CGce] [CEc] | "^ii"[Gdg] [DGdg] "^I"[FAcf] "^V"[CGce] | "^vi¹"[FAd] [FAd] "^V¹"[EGc]2 | "^V"[Cceg] [Cceg] "^V¹"[EGcc'] "^vi¹"[FAda] | "^ii"[Gdb] "^V¹"[EGcc'] "^I"[FAca] [FAcf] | [Fcfa] [Fcfa] "^V¹"[Ecg] [Eceg] | "^vi"[DAdf] "^ii¹"[B,Gdg] "^V"[CGce] [CEc] | "^I¹"[Acf] [Acf] "^IV¹"[Ddfb] "^I"[Fcfa] | [Ccfg] "^V"[Cceg] "^I"[FAcf]2 |]
+"^I"[F,A,CF] [F,A,CF] "^V¹"[E,G,Cc] "^I"[F,A,Cc] | "^IV¹"[D,F,FB] "^V¹"[E,G,Cc] "^I"[F,A,CA] [F,A,CF] | [F,CFA] [F,CFA] "^V"[C,CEG] "^iii7"[A,,CEG] | "^vi"[D,A,DF] "^ii¹"[B,,G,DG] "^V"[C,G,CE] [C,E,C] | "^ii"[G,DG] [D,G,DG] "^I"[F,A,CF] "^V"[C,G,CE] | "^vi¹"[F,A,D] [F,A,D] "^V¹"[E,G,C]2 | "^V"[C,CEG] [C,CEG] "^V¹"[E,G,Cc] "^vi¹"[F,A,DA] | "^ii"[G,DB] "^V¹"[E,G,Cc] "^I"[F,A,CA] [F,A,CF] | [F,CFA] [F,CFA] "^V¹"[E,CG] [E,CEG] | "^vi"[D,A,DF] "^ii¹"[B,,G,DG] "^V"[C,G,CE] [C,E,C] | "^I¹"[A,CF] [A,CF] "^IV¹"[D,DFB] "^I"[F,CFA] | [C,CFG] "^V"[C,CEG] "^I"[F,A,CF]2 |]

@@ -4,4 +4,4 @@ T:'Take Up Thy Cross', the Savior Said
 M:4/4
 L:1/4
 K:G clef=C1
-"^I"[GBdg]2 "^V"[DFda] "^vi"[EGBg] | "^V"[DAdf] "^I¹"[B,Bdg] "^ii"[A,cea]/ [A,cfa]/ "^I"[G,dgb] | "^IV"[Cceg]3 "^vi"[EBeg] | "^V¹"[FAda] "^I"[Gdb] "^IV"[CGec'] "^I"[Gdb] | "^vi"[EBeg] "^V"[Ddfa] "^I"[Gdgb]2 | [GBdg]2 "^V¹"[FAda] "^V"[Ddfa] | "^I"[G,dgb] "^vii°¹"[A,cfa] "^vi²"[B,Beg] "^III"[B,B^df]/ "^III7"[B,A^df]/ | "^IV"[CGe]3 "^V"[Ddfa] | "^I"[G,dgb] "^ii"[A,cea] "^I¹"[B,Bdg] "^IV"[CGce] | "^vi"[EGBg] "^i"[DGda]/ "^V"[DFda]/ "^I"[G,GBg]2 |]
+"^I"[G,B,DG]2 "^V"[D,F,DA] "^vi"[E,G,B,G] | "^V"[D,A,DF] "^I¹"[B,,B,DG] "^ii"[A,,CEA]/ [A,,CFA]/ "^I"[G,,DGB] | "^IV"[C,CEG]3 "^vi"[E,B,EG] | "^V¹"[F,A,DA] "^I"[G,DB] "^IV"[C,G,Ec] "^I"[G,DB] | "^vi"[E,B,EG] "^V"[D,DFA] "^I"[G,DGB]2 | [G,B,DG]2 "^V¹"[F,A,DA] "^V"[D,DFA] | "^I"[G,,DGB] "^vii°¹"[A,,CFA] "^vi²"[B,,B,EG] "^III"[B,,B,^DF]/ "^III7"[B,,A,^DF]/ | "^IV"[C,G,E]3 "^V"[D,DFA] | "^I"[G,,DGB] "^ii"[A,,CEA] "^I¹"[B,,B,DG] "^IV"[C,G,CE] | "^vi"[E,G,B,G] "^i"[D,G,DA]/ "^V"[D,F,DA]/ "^I"[G,,G,B,G]2 |]

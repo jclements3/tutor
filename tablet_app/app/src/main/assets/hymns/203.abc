@@ -4,4 +4,4 @@ T:My Faith Looks Up To Thee
 M:4/4
 L:1/4
 K:C clef=C1
-"^I"[CEGc]2 [CGce] [CEcg] | "^V¹"[B,Gdg]3/2 "^V7¹"[B,Gdf]/ "^I"[CGce]2 | "^V"[G,GBd]2 [G,GBd] [G,Gdf] | "^V7¹"[B,Gdf]3/2 "^I"[CGce]/ "^V"[G,GBd]2 | "^I"[CGce]2 "^V²"[DGBd] "^II7"[D^Fca] | "^V7"[G,FBg]4 | "^I"[CEcg]2 [Cce] "^ii7³"[CDcf] | "^I"[CEcg]3/2 "^IV²"[CFca]/ "^I"[CEcg]2 | [CEcg]2 [Cce] "^ii7³"[CDcf] | "^I"[CEcg]3/2 "^IV²"[CFca]/ "^I"[CEcg] "^V¹"[B,Gdg] | "^vi"[A,Acc']2 "^V¹"[B,Gdb] "^viiø7"[B,Fda] | "^I"[CEeg]3/2 "^vii°¹"[DFBf]/ "^I¹"[EGce] [E,Gc] | "^ii7¹"[F,Acd]2 "^V"[G,GBg] "^V7"[G,FBg] | "^I"[CEc]4 |]
+"^I"[C,E,G,C]2 [C,G,CE] [C,E,CG] | "^V¹"[B,,G,DG]3/2 "^V7¹"[B,,G,DF]/ "^I"[C,G,CE]2 | "^V"[G,,G,B,D]2 [G,,G,B,D] [G,,G,DF] | "^V7¹"[B,,G,DF]3/2 "^I"[C,G,CE]/ "^V"[G,,G,B,D]2 | "^I"[C,G,CE]2 "^V²"[D,G,B,D] "^II7"[D,^F,CA] | "^V7"[G,,F,B,G]4 | "^I"[C,E,CG]2 [C,CE] "^ii7³"[C,D,CF] | "^I"[C,E,CG]3/2 "^IV²"[C,F,CA]/ "^I"[C,E,CG]2 | [C,E,CG]2 [C,CE] "^ii7³"[C,D,CF] | "^I"[C,E,CG]3/2 "^IV²"[C,F,CA]/ "^I"[C,E,CG] "^V¹"[B,,G,DG] | "^vi"[A,,A,Cc]2 "^V¹"[B,,G,DB] "^viiø7"[B,,F,DA] | "^I"[C,E,EG]3/2 "^vii°¹"[D,F,B,F]/ "^I¹"[E,G,CE] [E,,G,C] | "^ii7¹"[F,,A,CD]2 "^V"[G,,G,B,G] "^V7"[G,,F,B,G] | "^I"[C,E,C]4 |]
