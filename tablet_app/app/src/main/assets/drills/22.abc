@@ -2,9 +2,5 @@ X:1
 T:5.3 Slow roll
 M:4/4
 L:1/8
-K:C
-%%score (RH) (LH)
-V:RH clef=treble
-V:LH clef=bass
-[V:RH] cege z4 | dBdG, z4 | cege z4 | cege z4 |
-[V:LH] "C" C,E,G,c z4 | "G" G,,DGB z4 | "C" C,E,G,c z4 | "C" C,E,G,c z4 |
+K:C clef=C1
+[C,c] [E,e] [G,g] [ce] [G,,d] [DB] [Gd] [G,B] | [C,c] [E,e] [G,g] [ce] [C,c] [E,e] [G,g] [ce] |]

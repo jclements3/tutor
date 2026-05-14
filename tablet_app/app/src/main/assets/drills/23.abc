@@ -2,9 +2,5 @@ X:1
 T:5.4 Reverse roll
 M:4/4
 L:1/1
-K:C
-%%score (RH) (LH)
-V:RH clef=treble
-V:LH clef=bass
-[V:RH] (3gec z3/2 | (3dBG z3/2 | (3gec z3/2 | (3gec z3/2 |
-[V:LH] "C" (3G,E,C, z3/2 | "G" (3DB,,G,, z3/2 | "C" (3G,E,C, z3/2 | "C" (3G,E,C, z3/2 |
+K:C clef=C1
+[G,g]2/3 [E,e]/3 | [E,e]/3 [C,c]2/3 | [Dd]2/3 [B,,B]/3 | [B,,B]/3 [G,,G]2/3 | [G,g]2/3 [E,e]/3 | [E,e]/3 [C,c]2/3 | [G,g]2/3 [E,e]/3 | [E,e]/3 [C,c]2/3 |]

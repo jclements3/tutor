@@ -2,9 +2,5 @@ X:1
 T:5.8 Inward roll
 M:4/4
 L:1/8
-K:C
-%%score (RH) (LH)
-V:RH clef=treble
-V:LH clef=bass
-[V:RH] ge z6 | fd z6 | ge z6 | ge z6 |
-[V:LH] "C" G,,C, z6 | "G" B,,,G,, z6 | "C" G,,C, z6 | "C" G,,C, z6 |
+K:C clef=C1
+[G,,g] [C,e] [B,,,f] [G,,d] [G,,g] [C,e] [G,,g] [C,e] |]

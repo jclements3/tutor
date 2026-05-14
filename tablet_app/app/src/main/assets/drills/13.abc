@@ -2,9 +2,5 @@ X:1
 T:3.5 Octave climb
 M:4/4
 L:1/16
-K:C
-%%score (LH) (RH)
-V:LH clef=bass
-V:RH clef=treble
-[V:LH] "C" C,E,G, z3 C,E,G, z3 | "F" F,A,c z3 F,A,c z3 | "G" G,,B,,D z3 G,,B,,D z3 | "C" C,E,G, z3 C,E,G, z3 |
-[V:RH] z3 ceg z3 ceg | z3 fac' z3 fac' | z3 GBd z3 GBd | z3 ceg z3 ceg |
+K:C clef=C1
+C, E, G, c e g C, E, G, c e g F, A, c f | a c' F, A, c f a c' G,, B,, D G B d G,, B,, | D G B d C, E, G, c e g C, E, G, c e g |]

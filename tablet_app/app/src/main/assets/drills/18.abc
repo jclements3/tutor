@@ -2,9 +2,5 @@ X:1
 T:4.2 Waltz bass
 M:3/4
 L:1/4
-K:C
-%%score (RH) (LH)
-V:RH clef=treble
-V:LH clef=bass
-[V:RH] z [ceg] [ceg] | z [fac'] [fac'] | z [GBd] [GBd] | z [ceg] [ceg] |
-[V:LH] "C" C, z z | "F" F, z z | "G" G,, z z | "C" C, z z |
+K:C clef=C1
+C, [ceg] [ceg] | F, [fac'] [fac'] | G,, [GBd] [GBd] | C, [ceg] [ceg] |]

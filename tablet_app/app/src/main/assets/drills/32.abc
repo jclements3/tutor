@@ -2,9 +2,5 @@ X:1
 T:6.4 Pedal + arpeggio
 M:4/4
 L:1/16
-K:C
-%%score (RH) (LH)
-V:RH clef=treble
-V:LH clef=bass
-[V:RH] "C" cegceg cegceg cegceg cegceg | "F" fac'fac' fac'fac' fac'fac' fac'fac' | "G" GBdGBd GBdGBd GBdGBd GBdGBd | "C" cegceg cegceg cegceg cegceg |
-[V:LH] C,,16 |  |  |  |
+K:C clef=C1
+[C,,c] e g c e g c e g c e g c e g c | e g c e g c e g f a c' f a c' f a | c' f a c' f a c' f a c' f a c' f a c' | G B d G B d G B d G B d G B d G | B d G B d G B d c e g c e g c e | g c e g c e g c e g c e g c e g |]

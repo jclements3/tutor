@@ -2,9 +2,5 @@ X:1
 T:5.2 Standard rolled chord
 M:4/4
 L:1/1
-K:C
-%%score (RH) (LH)
-V:RH clef=treble
-V:LH clef=bass
-[V:RH] (3ceg z3/2 | (3fac' z3/2 | (3GBd z3/2 | (3ceg z3/2 |
-[V:LH] "C" (3C,E,G, z3/2 | "F" (3F,A,c z3/2 | "G" (3G,,B,,D z3/2 | "C" (3C,E,G, z3/2 |
+K:C clef=C1
+[C,c]2/3 [E,e]/3 | [E,e]/3 [G,g]2/3 | [F,f]2/3 [A,a]/3 | [A,a]/3 [cc']2/3 | [G,,G]2/3 [B,,B]/3 | [B,,B]/3 [Dd]2/3 | [C,c]2/3 [E,e]/3 | [E,e]/3 [G,g]2/3 |]

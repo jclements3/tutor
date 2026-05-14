@@ -2,9 +2,5 @@ X:1
 T:4.1 Oom-pah
 M:4/4
 L:1/4
-K:C
-%%score (RH) (LH)
-V:RH clef=treble
-V:LH clef=bass
-[V:RH] z [ceg] z [ceg] | z [fac'] z [fac'] | z [GBd] z [GBd] | z [ceg] z [ceg] |
-[V:LH] "C" C, z C, z | "F" F, z F, z | "G" G,, z G,, z | "C" C, z C, z |
+K:C clef=C1
+C, [ceg] C, [ceg] | F, [fac'] F, [fac'] | G,, [GBd] G,, [GBd] | C, [ceg] C, [ceg] |]

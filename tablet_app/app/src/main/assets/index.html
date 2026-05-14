@@ -60,6 +60,27 @@
     font-size: 14px;
     margin-left: 16px;
   }
+  /* Picker header inline in the topbar: title flexes naturally, search box
+     sits beside it with a fixed-ish width. Replaces the per-picker header
+     row so the list takes the whole content area. */
+  #prompt.picker-mode {
+    display: flex; align-items: center;
+    justify-content: flex-start;
+    gap: 16px;
+    text-align: left;
+  }
+  #prompt.picker-mode .title { white-space: nowrap; font-size: 20px; font-weight: 300; }
+  #prompt.picker-mode .count { color: var(--fg-dim); font-size: 14px; margin-left: 4px; }
+  #prompt.picker-mode .search { flex: 0 1 360px; min-width: 180px; }
+  #prompt.picker-mode .search input {
+    width: 100%; box-sizing: border-box;
+    padding: 6px 12px; min-height: 32px;
+    background: var(--bg);
+    color: var(--fg);
+    border: 1px solid #30363D; border-radius: 8px;
+    font-size: 14px; outline: none;
+  }
+  #prompt.picker-mode .search input:focus { border-color: var(--accent); }
   #status {
     font-size: 13px; color: var(--fg-dim);
     max-width: 30%; text-align: right;
@@ -83,6 +104,13 @@
   }
   .home h1 { margin: 0 0 8px; font-weight: 300; font-size: 36px; letter-spacing: 1px; }
   .home p  { margin: 0; color: var(--fg-dim); font-size: 16px; }
+  .home .home-stats-toggle { margin-top: 8px; font-size: 13px; }
+  .home .home-stats-toggle strong { color: var(--fg); font-weight: 500; }
+  .link-btn {
+    background: none; border: 0; padding: 0;
+    color: var(--accent); cursor: pointer;
+    font: inherit; text-decoration: underline;
+  }
   .menu {
     display: flex; flex-wrap: wrap; gap: 20px; justify-content: center;
     margin-top: 24px;
@@ -192,13 +220,20 @@
     display: flex; flex-direction: column;
     height: 100%; gap: 12px;
   }
-  .picker .title { font-size: 22px; font-weight: 300; color: var(--fg); }
+  /* Title row: title + count on the left, search input flexes to a sensible
+     inline width on the right. */
+  .picker .header {
+    display: flex; align-items: center;
+    gap: 16px;
+  }
+  .picker .title { font-size: 22px; font-weight: 300; color: var(--fg); white-space: nowrap; }
+  .picker .search { flex: 0 1 360px; min-width: 200px; }
   .picker .search input {
     width: 100%; box-sizing: border-box;
-    padding: 12px 16px; min-height: 48px;
+    padding: 8px 12px; min-height: 36px;
     background: var(--bg-2); color: var(--fg);
     border: 1px solid #30363D; border-radius: 8px;
-    font-size: 16px; outline: none;
+    font-size: 14px; outline: none;
   }
   .picker .search input:focus { border-color: var(--accent); }
   .picker .list {
@@ -207,11 +242,14 @@
     -webkit-overflow-scrolling: touch;
     padding: 6px;
   }
-  /* Hymn list: 4-column grid. Drill list keeps the original single-column. */
+  /* Compact grid layout used by Hymn (4 cols) and Drill Book (3 cols). */
   .picker .list.grid3 {
     display: grid;
     grid-template-columns: repeat(4, minmax(0, 1fr));
     gap: 0px 4px;
+  }
+  .picker .list.grid3.cols-3 {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
   }
   .picker .row {
     display: flex; align-items: center;
@@ -302,6 +340,47 @@
   }
   .hymn-stage .abc-stack .abc { display: block; }
   .hymn-stage .abc-stack .abc + .abc { margin-top: 4px; }
+  /* Drill-group layout: each .drill-block is a small card with its label
+     above its staff. Cards lay out in a 2-column grid so multiple short
+     drills fit per row instead of stacking vertically. */
+  .hymn-stage .abc-stack.drill-group {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 0px 18px;
+    align-items: start;
+    width: 100%;
+    align-self: stretch;          /* fill the flex parent vertically */
+  }
+  .hymn-stage:has(.abc-stack.drill-group) {
+    align-items: stretch;          /* don't vertical-centre and clip */
+    overflow: auto;                /* allow scroll if a tall group overflows */
+  }
+  .hymn-stage .abc-stack.drill-group .drill-block {
+    display: block;
+  }
+  .hymn-stage .abc-stack.drill-group .drill-block .abc svg {
+    width: 100%; height: auto;
+    display: block;
+    margin: 0;
+  }
+  .hymn-stage .abc-stack.drill-group .drill-block .abc {
+    margin: 0;
+  }
+  .hymn-stage .drill-block { min-width: 0; }
+  .hymn-stage .drill-block .abc svg { max-width: 100%; }
+  .hymn-stage .drill-label {
+    color: var(--accent); font-size: 14px;
+    font-weight: 500;
+    margin: 0;
+    padding: 0 2px;
+    line-height: 1.2;
+    white-space: nowrap;
+    overflow: hidden; text-overflow: ellipsis;
+  }
+  .hymn-stage .drill-label .num {
+    font-family: "SF Mono", Consolas, monospace;
+    margin-right: 6px;
+  }
 </style>
 </head>
 <body>
@@ -353,9 +432,11 @@ const state = {
   shownAt: 0,                // timestamp when target became visible
   held: new Set(),           // currently held MIDI notes
   stats: loadStats(),
+  statsEnabled: loadStatsEnabled(),  // false = no scoring; user practices on harp/piano too
   streak: 0,
   recentTimes: [],           // ms-to-correct for current session, for median
-  drillIdx: 0,               // currently selected drill from the Drill Book
+  drillIdx: 0,               // legacy: single-drill selection (kept for back-compat)
+  drillGroup: "1",           // currently selected drill GROUP ("1".."10")
   chordFilters: null,        // initialized below once loadChordFilters is defined
 };
 
@@ -368,6 +449,20 @@ function loadStats() {
 }
 function saveStats() {
   try { localStorage.setItem("harpTutorStats", JSON.stringify(state.stats)); } catch(_){}
+}
+// Stats/scoring toggle. The user often practices on harp or piano (no MIDI
+// input) where scoring is meaningless. Default ON for backward-compat with
+// existing users; persisted in localStorage so it survives restarts.
+function loadStatsEnabled() {
+  try {
+    const v = localStorage.getItem("harpTutorStatsEnabled");
+    if (v === "0") return false;
+    if (v === "1") return true;
+  } catch (_) {}
+  return true;
+}
+function saveStatsEnabled(b) {
+  try { localStorage.setItem("harpTutorStatsEnabled", b ? "1" : "0"); } catch (_) {}
 }
 function median(arr) {
   if (!arr.length) return 0;
@@ -428,22 +523,27 @@ function acceptCorrect() {
   // Debounce so a brief release-and-re-press doesn't double-count.
   if (Date.now() < lockUntil) return;
   lockUntil = Date.now() + 400;
-
-  const dt = Date.now() - state.shownAt;
-  const bucket = state.screen === "notes" ? state.stats.notes : state.stats.chords;
-  bucket.correct++; bucket.total++;
-  bucket.times.push(dt);
-  if (bucket.times.length > 50) bucket.times.shift();
-  state.streak++;
-  saveStats();
+  // Counters only update when stats are enabled. The drill still advances
+  // and shows the success flash so the practice flow is unchanged.
+  if (state.statsEnabled) {
+    const dt = Date.now() - state.shownAt;
+    const bucket = state.screen === "notes" ? state.stats.notes : state.stats.chords;
+    bucket.correct++; bucket.total++;
+    bucket.times.push(dt);
+    if (bucket.times.length > 50) bucket.times.shift();
+    state.streak++;
+    saveStats();
+  }
   flashStage("good");
   setTimeout(nextTarget, 350);
 }
 function recordWrong() {
-  const bucket = state.screen === "notes" ? state.stats.notes : state.stats.chords;
-  bucket.total++;
-  state.streak = 0;
-  saveStats();
+  if (state.statsEnabled) {
+    const bucket = state.screen === "notes" ? state.stats.notes : state.stats.chords;
+    bucket.total++;
+    state.streak = 0;
+    saveStats();
+  }
   flashStage("bad");
 }
 function flashStage(kind) {
@@ -875,21 +975,34 @@ function centerBraceCusp(container) {
 function renderHome() {
   const s = state.stats;
   document.getElementById("backbtn").style.display = "none";
-  document.getElementById("prompt").textContent = "";
+  const prompt = document.getElementById("prompt");
+  prompt.classList.remove("picker-mode");
+  prompt.textContent = "";
+  // Stats subtitle on drill cards is suppressed when scoring is disabled.
+  const notesSub = state.statsEnabled
+    ? `${s.notes.correct} / ${s.notes.total} &middot; med ${median(s.notes.times)}ms`
+    : "";
+  const chordsSub = state.statsEnabled
+    ? `${s.chords.correct} / ${s.chords.total} &middot; med ${median(s.chords.times)}ms`
+    : "";
   document.getElementById("main").innerHTML = `
     <div class="home">
       <div>
         <h1>Harp Tutor</h1>
         <p>Pick a drill to get started</p>
+        <p class="home-stats-toggle">
+          Scoring is <strong>${state.statsEnabled ? "on" : "off"}</strong> &middot;
+          <button id="home-stats-toggle" class="link-btn">turn ${state.statsEnabled ? "off" : "on"}</button>
+        </p>
       </div>
       <div class="menu">
         <button id="go-notes">
           Note Reading
-          <small>${s.notes.correct} / ${s.notes.total} &middot; med ${median(s.notes.times)}ms</small>
+          <small>${notesSub}</small>
         </button>
         <button id="go-chords">
           Chord Recognition
-          <small>${s.chords.correct} / ${s.chords.total} &middot; med ${median(s.chords.times)}ms</small>
+          <small>${chordsSub}</small>
         </button>
         <button id="go-hymns">
           Hymn Practice
@@ -905,6 +1018,11 @@ function renderHome() {
   document.getElementById("go-chords").onclick = () => enterDrill("chords");
   document.getElementById("go-hymns").onclick  = () => enterHymnsPicker();
   document.getElementById("go-book").onclick   = () => enterBookPicker();
+  document.getElementById("home-stats-toggle").onclick = () => {
+    state.statsEnabled = !state.statsEnabled;
+    saveStatsEnabled(state.statsEnabled);
+    renderHome();
+  };
 }
 function enterHymnsPicker() {
   state.screen = "hymns-picker";
@@ -913,11 +1031,15 @@ function enterHymnsPicker() {
 }
 function renderHymnsPicker() {
   const list = state.hymns || [];
-  document.getElementById("prompt").textContent = "";
+  // Title + search live in the topbar's prompt slot so the content area is
+  // just the list (no extra header row).
+  const prompt = document.getElementById("prompt");
+  prompt.classList.add("picker-mode");
+  prompt.innerHTML = `
+    <span class="title">Hymn Practice <span class="count">${list.length}</span></span>
+    <span class="search"><input id="hymn-search" type="text" placeholder="Search by number or title..." autocomplete="off"></span>`;
   document.getElementById("main").innerHTML = `
     <div class="picker">
-      <div class="title">Hymn Practice <span class="count">${list.length} hymns</span></div>
-      <div class="search"><input id="hymn-search" type="text" placeholder="Search by number or title..." autocomplete="off"></div>
       <div class="list grid3" id="hymn-list"></div>
     </div>`;
   const listEl = document.getElementById("hymn-list");
@@ -939,24 +1061,31 @@ function renderHymnsPicker() {
   render("");
   inputEl.oninput = () => render(inputEl.value);
 }
-// ----- Recent hymns -----
-const RECENT_HYMNS_KEY = "harpTutorRecentHymns";
-const RECENT_HYMNS_MAX = 10;
-function loadRecentHymns() {
+// ----- Recent items (hymns + drills) -----
+// Two separate localStorage keys so the two histories don't interleave;
+// the dropdown shows whichever list is appropriate for the current screen.
+const RECENT_MAX = 10;
+const RECENT_KEYS = {
+  hymn:          "harpTutorRecentHymns",
+  drill:         "harpTutorRecentDrills",        // legacy: individual drill idx
+  "drill-group": "harpTutorRecentDrillGroups",   // current: group number
+};
+function loadRecent(kind) {
   try {
-    const v = JSON.parse(localStorage.getItem(RECENT_HYMNS_KEY) || "[]");
+    const v = JSON.parse(localStorage.getItem(RECENT_KEYS[kind]) || "[]");
     return Array.isArray(v) ? v.filter(i => Number.isInteger(i)) : [];
   } catch (_) { return []; }
 }
-function pushRecentHymn(idx) {
-  const list = loadRecentHymns().filter(i => i !== idx);
+function pushRecent(kind, idx) {
+  const list = loadRecent(kind).filter(i => i !== idx);
   list.unshift(idx);
-  list.length = Math.min(list.length, RECENT_HYMNS_MAX);
-  try { localStorage.setItem(RECENT_HYMNS_KEY, JSON.stringify(list)); } catch (_) {}
+  list.length = Math.min(list.length, RECENT_MAX);
+  try { localStorage.setItem(RECENT_KEYS[kind], JSON.stringify(list)); } catch (_) {}
 }
-// Mount/refresh the "Recent ▾" button + popdown next to the Back button.
-// Removed by Back button's onclick handler when leaving practice mode.
-function mountRecentHymnsDropdown() {
+// Mount/refresh the "Recent v" button + popdown next to the Back button.
+// kind: "hymn" or "drill" -- decides which list and which navigation
+// handler to invoke when an entry is clicked.
+function mountRecentDropdown(kind) {
   const back = document.getElementById("backbtn");
   if (!back) return;
   let wrap = document.getElementById("recent-wrap");
@@ -971,22 +1100,41 @@ function mountRecentHymnsDropdown() {
   }
   const btn = document.getElementById("recent-btn");
   const menu = document.getElementById("recent-menu");
-  const recents = loadRecentHymns()
-    .map(i => ({ i, h: (state.hymns || [])[i] }))
-    .filter(x => x.h);
-  if (!recents.length) {
-    menu.innerHTML = `<div class="empty">no recent hymns yet</div>`;
+  let recents = [];
+  if (kind === "hymn") {
+    const source = state.hymns || [];
+    recents = loadRecent(kind).map(i => ({ i, item: source[i] })).filter(x => x.item);
   } else {
-    menu.innerHTML = recents.map(({ i, h }) =>
+    // kind === "drill-group" -- map group id -> count + title
+    const byGroup = drillsByGroup();
+    recents = loadRecent("drill-group")
+      .map(g => ({ g: String(g), item: byGroup.get(String(g)) }))
+      .filter(x => x.item);
+  }
+  if (!recents.length) {
+    menu.innerHTML = `<div class="empty">no recent ${kind === "hymn" ? "hymns" : "drill groups"} yet</div>`;
+  } else if (kind === "hymn") {
+    menu.innerHTML = recents.map(({ i, item }) =>
       `<div class="item" data-i="${i}">
-         <span class="num">${String(h.n).padStart(3,"0")}</span>
-         <span class="ttl">${escapeHtml(h.title)}</span>
-       </div>`
-    ).join("");
+         <span class="num">${escapeHtml(String(item.n).padStart(3, "0"))}</span>
+         <span class="ttl">${escapeHtml(item.title)}</span>
+       </div>`).join("");
     menu.querySelectorAll(".item").forEach(it => {
       it.onclick = () => {
         menu.classList.remove("open");
         enterHymnsPractice(parseInt(it.dataset.i, 10));
+      };
+    });
+  } else {
+    menu.innerHTML = recents.map(({ g, item }) =>
+      `<div class="item" data-g="${escapeHtml(g)}">
+         <span class="num">${escapeHtml(g)}</span>
+         <span class="ttl">${escapeHtml(DRILL_GROUP_TITLES[g] || "Group " + g)} <small style="color:var(--fg-dim)">(${item.length})</small></span>
+       </div>`).join("");
+    menu.querySelectorAll(".item").forEach(it => {
+      it.onclick = () => {
+        menu.classList.remove("open");
+        enterBookGroup(it.dataset.g);
       };
     });
   }
@@ -996,24 +1144,26 @@ function mountRecentHymnsDropdown() {
   };
   document.addEventListener("click", () => menu.classList.remove("open"), { once: true });
 }
-function unmountRecentHymnsDropdown() {
+function unmountRecentDropdown() {
   const wrap = document.getElementById("recent-wrap");
   if (wrap && wrap.parentNode) wrap.parentNode.removeChild(wrap);
 }
 function enterHymnsPractice(idx) {
   state.screen = "hymns-practice";
   state.hymnIdx = idx;
-  pushRecentHymn(idx);
+  pushRecent("hymn", idx);
   renderHymnsPractice();
 }
 function renderHymnsPractice() {
   const h = (state.hymns || [])[state.hymnIdx];
   if (!h) { renderHome(); return; }
   const label = `${String(h.n).padStart(3, "0")} ${h.title}`;
-  document.getElementById("prompt").innerHTML =
+  const prompt = document.getElementById("prompt");
+  prompt.classList.remove("picker-mode");
+  prompt.innerHTML =
     `<span>${escapeHtml(label)}</span>` +
     `<span id="hymn-progress" class="hymn-progress"></span>`;
-  mountRecentHymnsDropdown();
+  mountRecentDropdown("hymn");
   document.getElementById("main").innerHTML = `
     <div class="drill">
       <div class="hymn-stage tappable" id="hymn-stage">
@@ -1106,30 +1256,26 @@ function showHymnPage() {
     if (prog) prog.textContent = "";
     return;
   }
-  // Render ALL systems on a single page, stacked. fitStackToStage will
-  // resize the whole stack via CSS zoom (which affects layout box, unlike
-  // transform:scale, so the stacked SVGs don't overlap). For book-practice
-  // (drills), still one system per "page" since drills list paginates.
-  const which = state.screen === "book-practice"
-    ? [state.hymnPages[state.hymnPage]]
-    : state.hymnPages;
-  container.innerHTML =
-    `<div class="abc-stack">${which.map(s => `<div class="abc">${s}</div>`).join("")}</div>`;
+  // Render ALL pages on one stacked screen. For hymns, each "page" is a
+  // single system; for book-practice (group mode), each "page" is one
+  // drill's labeled block (already including its own .abc wrappers).
+  const isGroup = state.screen === "book-practice";
+  const inner = isGroup
+    ? state.hymnPages.join("")          // already wrapped as .drill-block
+    : state.hymnPages.map(s => `<div class="abc">${s}</div>`).join("");
+  const stackClass = isGroup ? "abc-stack drill-group" : "abc-stack";
+  container.innerHTML = `<div class="${stackClass}">${inner}</div>`;
   requestAnimationFrame(() => { fitStackToStage(container); });
-  // Reset auto-advance state for the new system.
   state.hymnAdvancing = false;
   if (state.hymnAdvanceTimer) { clearTimeout(state.hymnAdvanceTimer); state.hymnAdvanceTimer = null; }
-  // Hide the page indicator when the whole hymn is on one page.
-  if (prog) prog.textContent = (state.screen === "book-practice" && n > 1)
-    ? `${state.hymnPage + 1} / ${n}` : "";
-  // Tap navigation: in book-practice tap moves between drills.
-  // For hymn-practice with the full hymn rendered, taps do nothing.
+  if (prog) prog.textContent = "";
+  // Tap navigation: in group mode taps move to the previous/next group.
   container.onclick = (e) => {
-    if (state.screen !== "book-practice") return;
+    if (!isGroup) return;
     const rect = container.getBoundingClientRect();
     const left = (e.clientX - rect.left) < rect.width / 2;
-    if (left) prevDrill();
-    else      nextDrill();
+    if (left) prevDrillGroup();
+    else      nextDrillGroup();
   };
 }
 // Scale a stack of .abc systems via CSS `zoom` so the whole stack fits
@@ -1139,10 +1285,14 @@ function showHymnPage() {
 function fitStackToStage(container) {
   const stack = container.querySelector(".abc-stack");
   if (!stack) return;
-  // First, align Roman-numeral chord annotations to a single horizontal
-  // line above the staff in each SVG. Must run BEFORE zooming because
-  // getBBox returns SVG-user-space coords, unaffected by CSS zoom.
   stack.querySelectorAll("svg").forEach(alignChordAnnotations);
+  // For drill-group view, skip zoom-fitting entirely: CSS zoom shrinks the
+  // labels along with the SVGs, making them illegible. The grid layout
+  // already does horizontal layout; SVGs use width:100% to fill their cell.
+  if (stack.classList.contains("drill-group")) {
+    stack.style.zoom = "1";
+    return;
+  }
   stack.style.zoom = "1";
   const sRect = stack.getBoundingClientRect();
   if (!sRect.width || !sRect.height) return;
@@ -1150,7 +1300,7 @@ function fitStackToStage(container) {
   const sx = (cRect.width  * 0.98) / sRect.width;
   const sy = (cRect.height * 0.96) / sRect.height;
   const s  = Math.min(sx, sy);
-  if (s > 1.01) stack.style.zoom = s.toFixed(3);
+  if (s < 0.99 || s > 1.01) stack.style.zoom = s.toFixed(3);
 }
 // Move all annotation text elements above the staff to a single shared Y so
 // the Roman-numeral chord symbols form a horizontal row instead of bobbing
@@ -1193,14 +1343,20 @@ function alignChordAnnotations(svg) {
   });
   ann.forEach(t => t.setAttribute("y", topY.toFixed(2)));
 }
-function nextDrill() {
-  if (!state.drills || !state.drills.length) return;
-  state.drillIdx = (state.drillIdx + 1) % state.drills.length;
+function nextDrillGroup() {
+  const groups = [...drillsByGroup().keys()].sort((a, b) => Number(a) - Number(b));
+  if (!groups.length) return;
+  const i = groups.indexOf(state.drillGroup);
+  state.drillGroup = groups[(i + 1) % groups.length];
+  pushRecent("drill-group", Number(state.drillGroup));
   renderBookPractice();
 }
-function prevDrill() {
-  if (!state.drills || !state.drills.length) return;
-  state.drillIdx = (state.drillIdx - 1 + state.drills.length) % state.drills.length;
+function prevDrillGroup() {
+  const groups = [...drillsByGroup().keys()].sort((a, b) => Number(a) - Number(b));
+  if (!groups.length) return;
+  const i = groups.indexOf(state.drillGroup);
+  state.drillGroup = groups[(i - 1 + groups.length) % groups.length];
+  pushRecent("drill-group", Number(state.drillGroup));
   renderBookPractice();
 }
 function advanceHymnPage() {
@@ -1218,114 +1374,213 @@ function retreatHymnPage() {
   showHymnPage();
 }
 // ----- Drill Book screens -----
+// Drills are organized in 10 groups by their hierarchical number prefix.
+// The picker shows group cards; the practice screen renders ALL drills in
+// the picked group stacked on one screen so the user can see related
+// patterns side by side instead of one drill at a time.
+const DRILL_GROUP_TITLES = {
+  "1":  "Bass patterns",
+  "2":  "Alberti & murky variants",
+  "3":  "Arpeggios",
+  "4":  "Oom-pah / waltz",
+  "5":  "Block & rolled chords",
+  "6":  "Pedal point",
+  "7":  "Wide reach & bell tones",
+  "8":  "Non-harmonic tones",
+  "9":  "Glissandi & harmonics",
+  "10": "Chord progressions",
+};
+function drillGroupId(d) {
+  const m = String(d.n).match(/^(\d+)\./);
+  return m ? m[1] : "?";
+}
+function drillsByGroup() {
+  const map = new Map();
+  for (const d of (state.drills || [])) {
+    const g = drillGroupId(d);
+    if (!map.has(g)) map.set(g, []);
+    map.get(g).push(d);
+  }
+  return map;
+}
 function enterBookPicker() {
   state.screen = "book-picker";
   document.getElementById("backbtn").style.display = "inline-block";
   renderBookPicker();
 }
 function renderBookPicker() {
-  const list = state.drills || [];
-  document.getElementById("prompt").textContent = "";
+  const groups = drillsByGroup();
+  const prompt = document.getElementById("prompt");
+  prompt.classList.add("picker-mode");
+  prompt.innerHTML = `
+    <span class="title">Drill Book <span class="count">${groups.size} groups</span></span>
+    <span class="search"><input id="drill-search" type="text" placeholder="Search by number or title..." autocomplete="off"></span>`;
   document.getElementById("main").innerHTML = `
     <div class="picker">
-      <div class="title">Drill Book <span class="count">${list.length} drills</span></div>
-      <div class="search"><input id="drill-search" type="text" placeholder="Search by number or title..." autocomplete="off"></div>
-      <div class="list" id="drill-list"></div>
+      <div class="list grid3" id="drill-list"></div>
     </div>`;
   const listEl = document.getElementById("drill-list");
   const inputEl = document.getElementById("drill-search");
   function render(filter) {
     const q = (filter || "").trim().toLowerCase();
-    listEl.innerHTML = list
-      .filter(d => !q || d.title.toLowerCase().includes(q)
-                       || String(d.n).toLowerCase().includes(q))
-      .map(d => `<div class="row" data-i="${list.indexOf(d)}">
-        <span class="num">${escapeHtml(String(d.n))}</span>
-        <span class="ttl">${escapeHtml(d.title)}</span>
-      </div>`)
-      .join("");
+    const entries = [...groups.entries()].sort((a, b) => Number(a[0]) - Number(b[0]));
+    const matched = entries.filter(([g, ds]) => {
+      if (!q) return true;
+      if (g === q) return true;
+      if ((DRILL_GROUP_TITLES[g] || "").toLowerCase().includes(q)) return true;
+      return ds.some(d => d.title.toLowerCase().includes(q) || String(d.n).toLowerCase().includes(q));
+    });
+    listEl.innerHTML = matched.map(([g, ds]) => `
+      <div class="row" data-g="${escapeHtml(g)}">
+        <span class="num">${escapeHtml(g)}</span>
+        <span class="ttl">${escapeHtml(DRILL_GROUP_TITLES[g] || "Group " + g)}
+          <small style="color:var(--fg-dim); margin-left:6px;">${ds.length} drills</small>
+        </span>
+      </div>`).join("");
     listEl.querySelectorAll(".row").forEach(row => {
-      row.onclick = () => enterBookPractice(parseInt(row.dataset.i, 10));
+      row.onclick = () => enterBookGroup(row.dataset.g);
     });
   }
   render("");
   inputEl.oninput = () => render(inputEl.value);
 }
-function enterBookPractice(idx) {
+function enterBookGroup(groupId) {
   state.screen = "book-practice";
-  state.drillIdx = idx;
+  state.drillGroup = groupId;
+  pushRecent("drill-group", Number(groupId));
   renderBookPractice();
 }
-function renderBookPractice() {
-  const d = (state.drills || [])[state.drillIdx];
+// Backward compat: single-drill entry still supported (from Recent dropdown
+// pre-refactor); it now picks the whole group of the chosen drill.
+function enterBookPractice(idx) {
+  const d = (state.drills || [])[idx];
   if (!d) { renderHome(); return; }
-  const label = `${d.n} ${d.title}`;
-  document.getElementById("prompt").innerHTML =
-    `<span>${escapeHtml(label)}</span>` +
-    `<span id="hymn-progress" class="hymn-progress"></span>`;
+  enterBookGroup(drillGroupId(d));
+}
+// Prepare a raw drill ABC for soprano-clef single-staff rendering. Returns
+// the transformed ABC string ready to feed to abc2svg.
+function prepareDrillAbc(raw, scale) {
+  const stripped = raw.split("\n").filter(line => {
+    const lt = line.trim();
+    if (/^[TCSwWHNAGORBDQ]:/.test(lt)) return false;
+    if (/^%%(header|footer|info|postscript|titlefont|composerfont|leftmargin|rightmargin|topmargin|botmargin|vocalfont|wordsfont|infofont|footerfont|headerfont|partsfont)/.test(lt)) return false;
+    if (/^%OH/.test(lt)) return false;
+    return true;
+  }).join("\n");
+  const hasScale = /^%%scale\s/m.test(stripped);
+  let txt = stripped
+    .replace(/^%%pagewidth.*$/gm, "%%pagewidth 28cm")
+    .replace(/^%%pageheight.*$/gm, "")
+    .replace(/^%%scale\s.*$/gm, `%%scale ${scale}`)
+    .replace(/\[[QI]:[^\]]*\]/g, "")
+    .replace(/"\^[^"]*"/g, "")
+    .replace(/clef=\S+/g, "clef=C1")
+    .replace(/^(K:[^\n]*?)$/gm, (line) =>
+      /\bclef=/.test(line) ? line : line.trim() + " clef=C1")
+    .replace(/^(V:[^\n]*?)$/gm, (line) =>
+      /\bclef=/.test(line) ? line : line.trim() + " clef=C1")
+    .replace(/^%%score\s+.*$/gm, (line) =>
+      line.replace(/\)\s*\(/g, " ").replace(/\}\s*\{/g, " "))
+    .replace(/^%%staves\s+.*$/gm, (line) =>
+      line.replace(/\}\s*\{/g, " ").replace(/\)\s*\(/g, " "));
+  if (!hasScale) txt = `%%scale ${scale}\n` + txt;
+  return txt;
+}
+function renderBookPractice() {
+  const groupId = state.drillGroup;
+  const drillsInGroup = (state.drills || []).filter(d => drillGroupId(d) === groupId);
+  if (!drillsInGroup.length) { renderHome(); return; }
+  mountRecentDropdown("drill-group");
+  const prompt = document.getElementById("prompt");
+  prompt.classList.remove("picker-mode");
+  prompt.innerHTML =
+    `<span>${escapeHtml(groupId + " " + (DRILL_GROUP_TITLES[groupId] || "Drills"))}</span>` +
+    `<span class="hymn-progress">${drillsInGroup.length} drills</span>`;
   document.getElementById("main").innerHTML = `
     <div class="drill">
       <div class="hymn-stage tappable" id="hymn-stage">
-        <div style="color:var(--fg-dim);text-align:center;padding:24px">loading drill...</div>
+        <div style="color:var(--fg-dim);text-align:center;padding:24px">loading group...</div>
       </div>
       <div class="held" id="held"></div>
     </div>`;
   renderHeld();
-  // XHR rather than fetch: Android WebView blocks fetch() on file://
-  // even with allowFileAccessFromFileURLs set.
-  const xhr = new XMLHttpRequest();
-  xhr.open("GET", `drills/${state.drillIdx}.abc`);
-  xhr.onload = () => {
+  // Fetch every drill's ABC in parallel, render each, collect SVG chunks
+  // tagged with the drill label, then stack them.
+  const requests = drillsInGroup.map(d => new Promise((resolve) => {
+    const xhr = new XMLHttpRequest();
+    xhr.open("GET", `drills/${d.idx}.abc`);
+    xhr.onload = () => resolve({ d, raw: xhr.responseText });
+    xhr.onerror = () => resolve({ d, raw: null });
+    xhr.send();
+  }));
+  Promise.all(requests).then(results => {
     const container = document.getElementById("hymn-stage");
     if (!container) return;
-    if (xhr.status !== 0 && xhr.status !== 200) {
-      container.textContent = "Failed to load drill: HTTP " + xhr.status;
-      return;
-    }
-    const stripped = xhr.responseText.split("\n").filter(line => {
-      const lt = line.trim();
-      if (/^[TCSwWHNAGORBDQ]:/.test(lt)) return false;
-      if (/^%%(header|footer|info|postscript|titlefont|composerfont|leftmargin|rightmargin|topmargin|botmargin|vocalfont|wordsfont|infofont|footerfont|headerfont|partsfont)/.test(lt)) return false;
-      if (/^%OH/.test(lt)) return false;
-      return true;
-    }).join("\n");
-    // Match the hymn renderer's pagewidth + scale so the bass clef glyph
-    // is the same visual size in both. The drill's source ABC usually has
-    // no %%scale, so inject one if missing.
-    const hasScale = /^%%scale\s/m.test(stripped);
-    let txt = stripped
-      .replace(/^%%pagewidth.*$/gm, "%%pagewidth 28cm")
-      .replace(/^%%pageheight.*$/gm, "")
-      .replace(/^%%scale\s.*$/gm, "%%scale 4")
-      .replace(/\[[QI]:[^\]]*\]/g, "")
-      .replace(/"\^[^"]*"/g, "");
-    if (!hasScale) txt = "%%scale 4\n" + txt;
-    const chunks = [];
     if (typeof Abc !== "function") {
       container.textContent = "(abc2svg not loaded)";
       return;
     }
+    // Concatenate all drills into one ABC document with sequential X-numbers
+    // and feed to a single Abc instance. abc2svg tags each emitted SVG with
+    // a `data-tune` attribute or includes the X-number in the SVG content,
+    // but the simplest reliable mapping uses a unique HTML comment marker
+    // we inject before each tune; abc2svg passes comments through.
+    const labels = [];
+    const tunes = [];
+    results.forEach(({ d, raw }, i) => {
+      if (!raw) return;
+      let txt = prepareDrillAbc(raw, 3);
+      txt = txt.replace(/^X:\s*\d+\s*$/m, `X:${i + 1}`);
+      labels.push(d);
+      tunes.push(txt);
+    });
+    if (!tunes.length) { container.textContent = "(no drills loaded)"; return; }
+    // Track tune index alongside each emitted chunk. abc2svg may not give us
+    // a hook, but it produces SVGs in document order, so we keep a sentinel
+    // by rendering tunes one at a time inside a SAME Abc instance.
+    const chunkBatches = []; // chunkBatches[i] = chunks for tune i
     try {
       const abc = new Abc({
-        img_out(s)   { chunks.push(s); },
+        img_out(s)   {
+          if (!chunkBatches.length) chunkBatches.push([]);
+          chunkBatches[chunkBatches.length - 1].push(s);
+        },
         errmsg(m,l,c){ console.warn("abc2svg:", m, l, c); },
         read_file()  { return ""; },
         anno_stop()  {},
       });
-      abc.tosvg("drill.abc", txt);
+      for (let i = 0; i < tunes.length; i++) {
+        chunkBatches.push([]);  // start a fresh batch BEFORE rendering each tune
+        abc.tosvg(`drill-${i}.abc`, tunes[i]);
+        // Drop the empty batch if this tune produced nothing.
+        if (!chunkBatches[chunkBatches.length - 1].length) chunkBatches.pop();
+      }
     } catch (e) {
       container.textContent = "render error: " + e.message;
       return;
     }
-    state.hymnPages = normalizeAbcSystems(chunks);
+    console.warn(`drill group ${groupId}: ${labels.length} drills, ${chunkBatches.length} batches, sizes=${chunkBatches.map(b => b.length).join(",")}`);
+    // Build a single flat list of all chunks for normalization, then split
+    // back into batches so we know which chunks belong to which drill.
+    const flat = chunkBatches.flat();
+    const normalized = normalizeAbcSystems(flat);
+    let cursor = 0;
+    const blocks = [];
+    for (let i = 0; i < chunkBatches.length; i++) {
+      const count = chunkBatches[i].length;
+      const drillChunks = normalized.slice(cursor, cursor + count);
+      cursor += count;
+      const d = labels[i];
+      if (!d || !drillChunks.length) continue;
+      const labelHtml =
+        `<div class="drill-label"><span class="num">${escapeHtml(d.n)}</span>${escapeHtml(d.title)}</div>`;
+      const svgs = drillChunks.map(s => `<div class="abc">${s}</div>`).join("");
+      blocks.push(`<div class="drill-block">${labelHtml}${svgs}</div>`);
+    }
+    state.hymnPages = blocks;
     state.hymnPage  = 0;
     showHymnPage();
-  };
-  xhr.onerror = () => {
-    const container = document.getElementById("hymn-stage");
-    if (container) container.textContent = "Failed to load drill";
-  };
-  xhr.send();
+  });
 }
 // Split abc2svg output into per-system SVG blocks and normalize them so
 // each block has the SAME viewBox dimensions. abc2svg emits the first
@@ -1382,7 +1637,9 @@ function renderDrill() {
     : `Play: ${t.name}`;
 
   // Prompt goes into the topbar.
-  document.getElementById("prompt").textContent = promptText;
+  const prompt = document.getElementById("prompt");
+  prompt.classList.remove("picker-mode");
+  prompt.textContent = promptText;
 
   // Chord-only filter row.
   let filterRow = "";
@@ -1407,15 +1664,16 @@ function renderDrill() {
       <div class="stage" id="stage"></div>
       <div class="held" id="held"></div>
       <div class="toolbar">
-        <div class="stats-inline">
+        <div class="stats-inline" style="${state.statsEnabled ? '' : 'visibility:hidden'}">
           <div class="item"><span class="num">${bucket.correct}</span><span class="lbl">correct</span></div>
           <div class="item"><span class="num">${bucket.total}</span><span class="lbl">attempts</span></div>
           <div class="item"><span class="num">${median(bucket.times)||0}</span><span class="lbl">median ms</span></div>
           <div class="item"><span class="num">${state.streak}</span><span class="lbl">streak</span></div>
         </div>
         <div class="toolbar-buttons">
+          <button id="statstogglebtn" title="Toggle scoring">${state.statsEnabled ? "Stats: on" : "Stats: off"}</button>
           <button id="skipbtn">Skip</button>
-          <button id="resetbtn">Reset stats</button>
+          <button id="resetbtn" style="${state.statsEnabled ? '' : 'display:none'}">Reset stats</button>
         </div>
       </div>
     </div>`;
@@ -1437,12 +1695,17 @@ function renderDrill() {
     else state.stats.chords = {correct:0,total:0,times:[]};
     state.streak = 0; saveStats(); renderDrill();
   };
+  document.getElementById("statstogglebtn").onclick = () => {
+    state.statsEnabled = !state.statsEnabled;
+    saveStatsEnabled(state.statsEnabled);
+    renderDrill();
+  };
   renderHeld();
 }
 
 // ----- Back button -----
 document.getElementById("backbtn").addEventListener("click", () => {
-  unmountRecentHymnsDropdown();
+  unmountRecentDropdown();
   // From hymns-practice -> back to picker; from anywhere else -> home.
   if (state.screen === "hymns-practice") {
     state.screen = "hymns-picker";

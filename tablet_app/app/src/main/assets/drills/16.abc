@@ -2,9 +2,5 @@ X:1
 T:3.8 Octave descent
 M:4/4
 L:1/16
-K:C
-%%score (RH) (LH)
-V:RH clef=treble
-V:LH clef=bass
-[V:RH] "C" gec z3 gec z3 | "G" dBG, z3 dBG, z3 | "C" gec z3 gec z3 | "C" gec z3 gec z3 |
-[V:LH] z3 G,E,C, z3 G,E,C, | z3 DB,,G,, z3 DB,,G,, | z3 G,E,C, z3 G,E,C, | z3 G,E,C, z3 G,E,C, |
+K:C clef=C1
+g e c G, E, C, g e c G, E, C, d B G, D | B,, G,, d B G, D B,, G,, g e c G, E, C, g e | c G, E, C, g e c G, E, C, g e c G, E, C, |]

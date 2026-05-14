@@ -2,9 +2,5 @@ X:1
 T:6.2 Pedal + chord pulse
 M:4/4
 L:1/4
-K:C
-%%score (RH) (LH)
-V:RH clef=treble
-V:LH clef=bass
-[V:RH] "C" [ceg][ceg][ceg][ceg] | "F" [fac'][fac'][fac'][fac'] | "G" [GBd][GBd][GBd][GBd] | "C" [ceg][ceg][ceg][ceg] |
-[V:LH] C,,16 |  |  |  |
+K:C clef=C1
+[C,,ceg] [ceg] [ceg] [ceg] | [fac'] [fac'] [fac'] [fac'] | [GBd] [GBd] [GBd] [GBd] | [ceg] [ceg] [ceg] [ceg] |]

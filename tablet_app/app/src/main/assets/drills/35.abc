@@ -2,9 +2,5 @@ X:1
 T:7.3 Cross-hand cascade
 M:4/4
 L:1/8
-K:C
-%%score (RH) (LH)
-V:RH clef=treble
-V:LH clef=bass
-[V:RH] zc'ze' zc'ze' | zc"zf" zc"zf" | zd'zg' zd'zg' | zc'ze' zc'ze' |
-[V:LH] "C" C,zE,z C,zE,z | "F" F,zA,z F,zA,z | "G" G,,zB,,z G,,zB,,z | "C" C,zE,z C,zE,z |
+K:C clef=C1
+C, c' E, e' C, c' E, e' | F, c A, c F, d' A, g' | G,, d' B,, g' G,, c' B,, e' | C, c' E, e' C, E, |]

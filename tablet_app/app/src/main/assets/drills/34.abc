@@ -2,9 +2,5 @@ X:1
 T:7.2 Bell tones
 M:4/4
 L:1/2
-K:C
-%%score (RH) (LH)
-V:RH clef=treble
-V:LH clef=bass
-[V:RH] c'2 c'2 | c''2 c''2 | d'2 d'2 | c'2 c'2 |
-[V:LH] "C" C,2 C,2 | "F" F,2 F,2 | "G" G,,2 G,,2 | "C" C,2 C,2 |
+K:C clef=C1
+[C,c']2 | [C,c']2 | [F,c'']2 | [F,c'']2 | [G,,d']2 | [G,,d']2 | [C,c']2 | [C,c']2 |]

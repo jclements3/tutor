@@ -84,23 +84,44 @@ The whole UI lives in `index.html`. The Android side just provides:
 ## How the UI is structured
 
 ```
-[topbar: Back · (Recent ▾, hymn-practice only) | Prompt | MIDI status]
+[topbar: Back · (Recent ▾, practice only) | Prompt-or-Picker-header | MIDI status]
 [chord-filter chips, chord screen only — Triads · 7ths · 9ths · 13ths · Root · 1st · 2nd · 3rd · Polychord]
-[stage: abc2svg-rendered soprano-clef staff, fills most of the screen]
+[stage: abc2svg-rendered soprano-clef staff(s), fills most of the screen]
 [held-keys pill strip, hidden when nothing is pressed]
-[toolbar: inline stats (correct / attempts / median ms / streak) ........ Skip · Reset stats]
+[toolbar (drills only): inline stats (correct / attempts / median ms / streak) · Stats: on/off · Skip · Reset stats]
 ```
 
-Sizing: drills use `fitSvgToStage()`, which measures the rendered SVG and
-applies a CSS `transform: scale(N)` so the staff fills ~98% × 95% of the
-stage. The transform is composed with `centerBraceCusp()`'s `translateY`
-so the staff midline lands on the stage midline.
+The topbar is consistent across all screens (same skeleton always); only
+the contents of each slot vary. The picker screens (Hymn / Drill Book)
+inject their title + search input directly into the prompt slot via the
+`#prompt.picker-mode` class — no separate "header row" inside the picker
+body.
 
-Hymn practice renders ALL systems on one page (stacked in an
-`.abc-stack` wrapper) and uses CSS `zoom` (which, unlike
-`transform: scale`, expands the layout box and prevents the stacked SVGs
-from overlapping) to scale the stack to fit the stage. The page indicator
-disappears when the full hymn fits in one screen.
+Sizing:
+- **Drills** (Note Reading, Chord Recognition) — `fitSvgToStage()`
+  measures the rendered SVG and applies a CSS `transform: scale(N)` so
+  the staff fills ~98% × 95% of the stage. The transform is composed
+  with `centerBraceCusp()`'s `translateY` so the staff midline lands on
+  the stage midline.
+- **Hymn practice** — renders ALL systems on one page (stacked in an
+  `.abc-stack` wrapper) and uses CSS `zoom` (which, unlike
+  `transform: scale`, expands the layout box and prevents stacked SVGs
+  from overlapping). No page indicator when the full hymn fits.
+- **Drill Book** — drills are organized in 10 groups by their
+  hierarchical prefix (`1.x` bass patterns, `2.x` Alberti variants,
+  `3.x` arpeggios, etc., titled in `DRILL_GROUP_TITLES`). Picking a
+  group loads ALL drills in it onto one screen as a 3-column grid of
+  `.drill-block` cells (label + soprano-clef staff per cell). The stage
+  CSS overrides `align-items: stretch` and `overflow: auto` for
+  drill-group mode so cells layout from the top and scroll if needed.
+  Tap left/right cycles to prev/next group.
+
+Multi-tune rendering: a drill group's 8+ ABCs are concatenated into one
+ABC document with sequential `X:1, X:2, ...` numbers, fed to a single
+`Abc` instance via successive `tosvg()` calls. We push a fresh batch into
+`chunkBatches` before each `tosvg` so each emitted chunk lands in the
+correct batch — this is what lets us map chunks back to drills for
+labeling (per-drill counts vary).
 
 Roman-numeral chord annotations in the soprano hymnal would otherwise
 bob up and down at the top of each chord stem (since abc2svg places
@@ -110,9 +131,24 @@ above-staff letter-bearing text element to the same Y so they form a
 clean horizontal row. Pure-digit texts (time signature numerals) are
 filtered out so they're not also pulled up.
 
-Hymn TOC: 4-column grid with tight padding. A `Recent ▾` button next to
-`← Back` lists up to 10 recently-opened hymns (stored in
-`localStorage["harpTutorRecentHymns"]`).
+Recent-items dropdown: the `Recent ▾` button mounts beside `← Back` on
+the hymn-practice and drill-practice screens. Persisted as two separate
+localStorage histories:
+- `harpTutorRecentHymns` — up to 10 hymn indexes
+- `harpTutorRecentDrillGroups` — up to 10 drill group ids
+
+Stats / scoring toggle: persisted in
+`localStorage["harpTutorStatsEnabled"]`. When off, the inline stats are
+hidden from the toolbar, the home-screen subtitle stats disappear, and
+`acceptCorrect()` / `recordWrong()` skip counter updates so the user can
+practice on harp or piano (no MIDI input) without polluting their
+scores. The Stats: on/off toggle appears on the home screen
+("Scoring is on · turn off") and on each drill's bottom toolbar.
+
+TOCs:
+- Hymn TOC — 4-column grid (287 hymns).
+- Drill Book TOC — group cards in a 4-column grid (10 groups). Each
+  group card shows the group id, title, and drill count.
 
 ## Build + install
 

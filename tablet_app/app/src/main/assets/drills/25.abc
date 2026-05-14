@@ -2,9 +2,5 @@ X:1
 T:5.6 Staggered roll
 M:4/4
 L:1/8
-K:C
-%%score (RH) (LH)
-V:RH clef=treble
-V:LH clef=bass
-[V:RH] z(3ceg z5 | z(3GBd z5 | z(3ceg z5 | z(3ceg z5 |
-[V:LH] "C" (3C,E,G, z6 | "G" (3G,,DB,, z6 | "C" (3C,E,G, z6 | "C" (3C,E,G, z6 |
+K:C clef=C1
+C,2/3 E,/3 c/3 G,/3 e2/3 g2/3 G,,2/3 D/3 G/3 B,,/3 B2/3 d2/3 C,2/3 E,/3 c/3 G,/3 e2/3 | g2/3 C,2/3 E,/3 c/3 G,/3 e2/3 g2/3 |]
